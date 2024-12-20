@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+
+<!-- Mirrored from amirtttk.ir/category.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 09 Dec 2024 19:47:50 GMT -->
+
+<head>
+  <?php require_once "masterPage/head.php" ?>
+
+  <title><?= testSecurity($setting["site_name"])?>-دسته بندی</title>
+</head>
+
+<body class="bg-gray-50">
+  <!-- NAVBAR -->
+  <?php require_once "masterPage/header.php" ?>
+  <!-- MAIN -->
+  <div class="max-w-[1440px] mx-auto px-3">
+    <div class="bg-white shadow-xl my-5 lg:my-10 rounded-xl md:rounded-2xl p-3 md:p-5">
+      <div class="bg-white mx-5 rounded-2xl mb-4">
+        <div class="py-3">
+          <h3 class="text-xl font-semibold text-gray-800">لپ تاپ و کامپیوتر</h3>
+        </div>
+      </div>
+      <div class="md:flex">
+        <div class="md:w-4/12 lg:w-3/12">
+          <div class="bg-white mx-5 mb-4 px-3 py-3 border rounded-xl">
+            <div>
+              <div class="opacity-80 mb-1">
+                برند:
+              </div>
+              <div class="space-y-1">
+                <div class="flex items-center rounded-lg hover:bg-gray-100 opacity-80">
+                  <input id="checkbox-item-21" type="checkbox" value="" class="w-4 h-4 bg-gray-100 border-gray-300 mr-3">
+                  <label for="checkbox-item-21" class="w-full text-xs text-gray-900 rounded pr-1 py-2">ایسر</label>
+                </div>
+                <div class="flex items-center rounded-lg hover:bg-gray-100 opacity-80">
+                  <input id="checkbox-item-22" type="checkbox" value="" class="w-4 h-4 bg-gray-100 border-gray-300 mr-3">
+                  <label for="checkbox-item-22" class="w-full text-xs text-gray-900 rounded pr-1 py-2">هوآوی</label>
+                </div>
+                <div class="flex items-center rounded-lg hover:bg-gray-100 opacity-80">
+                  <input id="checkbox-item-23" type="checkbox" value="" class="w-4 h-4 bg-gray-100 border-gray-300 mr-3">
+                  <label for="checkbox-item-23" class="w-full text-xs text-gray-900 rounded pr-1 py-2">ایسوس</label>
+                </div>
+                <div class="flex items-center rounded-lg hover:bg-gray-100 opacity-80">
+                  <input id="checkbox-item-24" type="checkbox" value="" class="w-4 h-4 bg-gray-100 border-gray-300 mr-3">
+                  <label for="checkbox-item-24" class="w-full text-xs text-gray-900 rounded pr-1 py-2">لنوو</label>
+                </div>
+                <div class="flex items-center rounded-lg hover:bg-gray-100 opacity-80">
+                  <input id="checkbox-item-25" type="checkbox" value="" class="w-4 h-4 bg-gray-100 border-gray-300 mr-3">
+                  <label for="checkbox-item-25" class="w-full text-xs text-gray-900 rounded pr-1 py-2">سونی</label>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="bg-white mx-5 mb-4 px-3 py-3 border rounded-xl">
+            <div>
+              <div class="opacity-80 mb-1">
+                رنگ:
+              </div>
+              <div class="space-y-1 grid grid-cols-1 sm:grid-cols-2 gap-3">
+                <div class="flex items-center rounded-lg opacity-80 bg-black text-white">
+                  <input id="checkbox-item-1" type="checkbox" value="" class="w-4 h-4 bg-gray-100 border-gray-300 mr-3">
+                  <label for="checkbox-item-1" class="w-full text-xs rounded pr-1 py-2">مشکی</label>
+                </div>
+                <div class="flex items-center rounded-lg opacity-80 bg-white border">
+                  <input id="checkbox-item-2" type="checkbox" value="" class="w-4 h-4 bg-gray-100 border-gray-300 mr-3">
+                  <label for="checkbox-item-2" class="w-full text-xs text-gray-900 rounded pr-1 py-2">سفید</label>
+                </div>
+                <div class="flex items-center rounded-lg opacity-80 bg-green-600 text-white">
+                  <input id="checkbox-item-3" type="checkbox" value="" class="w-4 h-4 border-gray-300 mr-3">
+                  <label for="checkbox-item-3" class="w-full text-xs rounded pr-1 py-2">سبز</label>
+                </div>
+                <div class="flex items-center rounded-lg opacity-80 bg-gray-400 text-white">
+                  <input id="checkbox-item-4" type="checkbox" value="" class="w-4 h-4 border-gray-300 mr-3">
+                  <label for="checkbox-item-4" class="w-full text-xs rounded pr-1 py-2">خاکستری</label>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="bg-white mx-5 mb-4 px-3 py-3 border rounded-xl">
+            <div class="wrapper">
+              <div class="price-input flex flex-col-reverse gap-y-3 text-sm opacity-80">
+                <div class="field">
+                  <span>تا</span>
+                  <input type="number" value="1000000">
+                  <span>تومان</span>
+                </div>
+                <div class="field">
+                  <span>از</span>
+                  <input type="number" value="0">
+                  <span>تومان</span>
+                </div>
+              </div>
+              <div class="slider">
+                <!-- <div class="progress"></div> -->
+              </div>
+              <div class="range-input">
+                <input type="range" class="range-min" min="0" max="1000000" value="0" step="100">
+                <input type="range" class="range-max" min="0" max="1000000" value="1000000" step="100">
+              </div>
+              <div class="flex justify-between opacity-70 text-xs my-3">
+                <span>
+                  ارزان ترین
+                </span>
+                <span>
+                  گران ترین
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="md:w-8/12 lg:w-9/12">
+          <div class="bg-white mx-1 rounded-2xl grid place-items-center">
+            <div class="w-full">
+              <div class="py-3 border-b">
+                <div class="opacity-80 text-sm mb-2">
+                  مرتب سازی:
+                </div>
+                <div class="flex flex-wrap gap-5 justify-start items-center">
+                  <div class="opacity-70 text-xs hover:text-red-500 transition cursor-pointer text-red-600">
+                    محبوب ترین
+                  </div>
+                  <div class="opacity-70 text-xs hover:text-red-500 transition cursor-pointer">
+                    پرفروش ترین
+                  </div>
+                  <div class="opacity-70 text-xs hover:text-red-500 transition cursor-pointer">
+                    ارزان ترین
+                  </div>
+                  <div class="opacity-70 text-xs hover:text-red-500 transition cursor-pointer">
+                    گران ترین
+                  </div>
+                  <div class="opacity-70 text-xs hover:text-red-500 transition cursor-pointer">
+                    جدیدترین
+                  </div>
+                  <div class="opacity-70 text-xs hover:text-red-500 transition cursor-pointer">
+                    پربازدیدترین
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="bg-white rounded-2xl">
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-x-5 px-1 rounded-2xl py-5">
+              <a href="single-product.html" class="my-2 py-2 md:p-3 border rounded-xl flex items-center sm:inline hover:shadow-lg transition">
+                <div class="image-box sm:mb-6">
+                  <div>
+                    <img class="hover:scale-105 transition rounded-md sm:rounded-3xl w-24 sm:w-full mx-auto" src="attachment/image/productSlider/1.jpg" alt="" />
+                  </div>
+                </div>
+                <div class="flex flex-col w-full">
+                  <span class="text-xs sm:text-sm opacity-90 mb-5">
+                    <div class="leading-7 h-auto">
+                      گوشی شیائومی مدل POCO x14 Pro با تجهیزات
+                    </div>
+                  </span>
+                  <div class="flex justify-end mb-2 text-sm opacity-80 pl-3 md:pl-0">
+                    <div>1.100.000</div>
+                    <div>تومان</div>
+                  </div>
+                  <div class="flex justify-end text-xs opacity-75 pl-3 md:pl-0">
+                    <div class="line-through">1.350.000</div>
+                    <div class="line-through">تومان</div>
+                  </div>
+                </div>
+              </a>
+              <a href="single-product.html" class="my-2 py-2 md:p-3 border rounded-xl flex items-center sm:inline hover:shadow-lg transition">
+                <div class="image-box sm:mb-6">
+                  <div>
+                    <img class="hover:scale-105 transition rounded-md sm:rounded-3xl w-24 sm:w-full mx-auto" src="attachment/image/productSlider/2.jpg" alt="" />
+                  </div>
+                </div>
+                <div class="flex flex-col w-full">
+                  <span class="text-xs sm:text-sm opacity-90 mb-5">
+                    <div class="leading-7 h-auto">
+                      اپل واچ m32
+                    </div>
+                  </span>
+                  <div class="flex justify-end mb-2 text-sm opacity-80 pl-3 md:pl-0">
+                    <div>1.100.000</div>
+                    <div>تومان</div>
+                  </div>
+                  <div class="flex justify-end text-xs opacity-75 pl-3 md:pl-0">
+                    <div class="line-through">1.350.000</div>
+                    <div class="line-through">تومان</div>
+                  </div>
+                </div>
+              </a>
+              <a href="single-product.html" class="my-2 py-2 md:p-3 border rounded-xl flex items-center sm:inline hover:shadow-lg transition">
+                <div class="image-box sm:mb-6">
+                  <div>
+                    <img class="hover:scale-105 transition rounded-md sm:rounded-3xl w-24 sm:w-full mx-auto" src="attachment/image/productSlider/4.jpg" alt="" />
+                  </div>
+                </div>
+                <div class="flex flex-col w-full">
+                  <span class="text-xs sm:text-sm opacity-90 mb-5">
+                    <div class="leading-7 h-auto">
+                      تلویزیون 40 اینچ سامسونگ
+                    </div>
+                  </span>
+                  <div class="flex justify-end mb-2 text-sm opacity-80 pl-3 md:pl-0">
+                    <div>1.100.000</div>
+                    <div>تومان</div>
+                  </div>
+                  <div class="flex justify-end text-xs opacity-75 pl-3 md:pl-0">
+                    <div class="line-through">1.350.000</div>
+                    <div class="line-through">تومان</div>
+                  </div>
+                </div>
+              </a>
+              <a href="single-product.html" class="my-2 py-2 md:p-3 border rounded-xl flex items-center sm:inline hover:shadow-lg transition">
+                <div class="image-box sm:mb-6">
+                  <div>
+                    <img class="hover:scale-105 transition rounded-md sm:rounded-3xl w-24 sm:w-full mx-auto" src="attachment/image/productSlider/3.jpg" alt="" />
+                  </div>
+                </div>
+                <div class="flex flex-col w-full">
+                  <span class="text-xs sm:text-sm opacity-90 mb-5">
+                    <div class="leading-7 h-auto">
+                      ریش تراش دایاک
+                    </div>
+                  </span>
+                  <div class="flex justify-end mb-2 text-sm opacity-80 pl-3 md:pl-0">
+                    <div>1.100.000</div>
+                    <div>تومان</div>
+                  </div>
+                  <div class="flex justify-end text-xs opacity-75 pl-3 md:pl-0">
+                    <div class="line-through">1.350.000</div>
+                    <div class="line-through">تومان</div>
+                  </div>
+                </div>
+              </a>
+              <a href="single-product.html" class="my-2 py-2 md:p-3 border rounded-xl flex items-center sm:inline hover:shadow-lg transition">
+                <div class="image-box sm:mb-6">
+                  <div>
+                    <img class="hover:scale-105 transition rounded-md sm:rounded-3xl w-24 sm:w-full mx-auto" src="attachment/image/productSlider/6.jpg" alt="" />
+                  </div>
+                </div>
+                <div class="flex flex-col w-full">
+                  <span class="text-xs sm:text-sm opacity-90 mb-5">
+                    <div class="leading-7 h-auto">
+                      هنذفری بلوتوثی شیائومی
+                    </div>
+                  </span>
+                  <div class="flex justify-end mb-2 text-sm opacity-80 pl-3 md:pl-0">
+                    <div>1.100.000</div>
+                    <div>تومان</div>
+                  </div>
+                  <div class="flex justify-end text-xs opacity-75 pl-3 md:pl-0">
+                    <div class="line-through">1.350.000</div>
+                    <div class="line-through">تومان</div>
+                  </div>
+                </div>
+              </a>
+              <a href="single-product.html" class="my-2 py-2 md:p-3 border rounded-xl flex items-center sm:inline hover:shadow-lg transition">
+                <div class="image-box sm:mb-6">
+                  <div>
+                    <img class="hover:scale-105 transition rounded-md sm:rounded-3xl w-24 sm:w-full mx-auto" src="attachment/image/productSlider/1.jpg" alt="" />
+                  </div>
+                </div>
+                <div class="flex flex-col w-full">
+                  <span class="text-xs sm:text-sm opacity-90 mb-5">
+                    <div class="leading-7 h-auto">
+                      گوشی شیائومی مدل POCO x14 Pro با تجهیزات
+                    </div>
+                  </span>
+                  <div class="flex justify-end mb-2 text-sm opacity-80 pl-3 md:pl-0">
+                    <div>1.100.000</div>
+                    <div>تومان</div>
+                  </div>
+                  <div class="flex justify-end text-xs opacity-75 pl-3 md:pl-0">
+                    <div class="line-through">1.350.000</div>
+                    <div class="line-through">تومان</div>
+                  </div>
+                </div>
+              </a>
+              <a href="single-product.html" class="my-2 py-2 md:p-3 border rounded-xl flex items-center sm:inline hover:shadow-lg transition">
+                <div class="image-box sm:mb-6">
+                  <div>
+                    <img class="hover:scale-105 transition rounded-md sm:rounded-3xl w-24 sm:w-full mx-auto" src="attachment/image/productSlider/2.jpg" alt="" />
+                  </div>
+                </div>
+                <div class="flex flex-col w-full">
+                  <span class="text-xs sm:text-sm opacity-90 mb-5">
+                    <div class="leading-7 h-auto">
+                      اپل واچ m32
+                    </div>
+                  </span>
+                  <div class="flex justify-end mb-2 text-sm opacity-80 pl-3 md:pl-0">
+                    <div>1.100.000</div>
+                    <div>تومان</div>
+                  </div>
+                  <div class="flex justify-end text-xs opacity-75 pl-3 md:pl-0">
+                    <div class="line-through">1.350.000</div>
+                    <div class="line-through">تومان</div>
+                  </div>
+                </div>
+              </a>
+              <a href="single-product.html" class="my-2 py-2 md:p-3 border rounded-xl flex items-center sm:inline hover:shadow-lg transition">
+                <div class="image-box sm:mb-6">
+                  <div>
+                    <img class="hover:scale-105 transition rounded-md sm:rounded-3xl w-24 sm:w-full mx-auto" src="attachment/image/productSlider/4.jpg" alt="" />
+                  </div>
+                </div>
+                <div class="flex flex-col w-full">
+                  <span class="text-xs sm:text-sm opacity-90 mb-5">
+                    <div class="leading-7 h-auto">
+                      تلویزیون 40 اینچ سامسونگ
+                    </div>
+                  </span>
+                  <div class="flex justify-end mb-2 text-sm opacity-80 pl-3 md:pl-0">
+                    <div>1.100.000</div>
+                    <div>تومان</div>
+                  </div>
+                  <div class="flex justify-end text-xs opacity-75 pl-3 md:pl-0">
+                    <div class="line-through">1.350.000</div>
+                    <div class="line-through">تومان</div>
+                  </div>
+                </div>
+              </a>
+              <a href="single-product.html" class="my-2 py-2 md:p-3 border rounded-xl flex items-center sm:inline hover:shadow-lg transition">
+                <div class="image-box sm:mb-6">
+                  <div>
+                    <img class="hover:scale-105 transition rounded-md sm:rounded-3xl w-24 sm:w-full mx-auto" src="attachment/image/productSlider/3.jpg" alt="" />
+                  </div>
+                </div>
+                <div class="flex flex-col w-full">
+                  <span class="text-xs sm:text-sm opacity-90 mb-5">
+                    <div class="leading-7 h-auto">
+                      ریش تراش دایاک
+                    </div>
+                  </span>
+                  <div class="flex justify-end mb-2 text-sm opacity-80 pl-3 md:pl-0">
+                    <div>1.100.000</div>
+                    <div>تومان</div>
+                  </div>
+                  <div class="flex justify-end text-xs opacity-75 pl-3 md:pl-0">
+                    <div class="line-through">1.350.000</div>
+                    <div class="line-through">تومان</div>
+                  </div>
+                </div>
+              </a>
+              <a href="single-product.html" class="my-2 py-2 md:p-3 border rounded-xl flex items-center sm:inline hover:shadow-lg transition">
+                <div class="image-box sm:mb-6">
+                  <div>
+                    <img class="hover:scale-105 transition rounded-md sm:rounded-3xl w-24 sm:w-full mx-auto" src="attachment/image/productSlider/6.jpg" alt="" />
+                  </div>
+                </div>
+                <div class="flex flex-col w-full">
+                  <span class="text-xs sm:text-sm opacity-90 mb-5">
+                    <div class="leading-7 h-auto">
+                      هنذفری بلوتوثی شیائومی
+                    </div>
+                  </span>
+                  <div class="flex justify-end mb-2 text-sm opacity-80 pl-3 md:pl-0">
+                    <div>1.100.000</div>
+                    <div>تومان</div>
+                  </div>
+                  <div class="flex justify-end text-xs opacity-75 pl-3 md:pl-0">
+                    <div class="line-through">1.350.000</div>
+                    <div class="line-through">تومان</div>
+                  </div>
+                </div>
+              </a>
+              <a href="single-product.html" class="my-2 py-2 md:p-3 border rounded-xl flex items-center sm:inline hover:shadow-lg transition">
+                <div class="image-box sm:mb-6">
+                  <div>
+                    <img class="hover:scale-105 transition rounded-md sm:rounded-3xl w-24 sm:w-full mx-auto" src="attachment/image/productSlider/1.jpg" alt="" />
+                  </div>
+                </div>
+                <div class="flex flex-col w-full">
+                  <span class="text-xs sm:text-sm opacity-90 mb-5">
+                    <div class="leading-7 h-auto">
+                      گوشی شیائومی مدل POCO x14 Pro با تجهیزات
+                    </div>
+                  </span>
+                  <div class="flex justify-end mb-2 text-sm opacity-80 pl-3 md:pl-0">
+                    <div>1.100.000</div>
+                    <div>تومان</div>
+                  </div>
+                  <div class="flex justify-end text-xs opacity-75 pl-3 md:pl-0">
+                    <div class="line-through">1.350.000</div>
+                    <div class="line-through">تومان</div>
+                  </div>
+                </div>
+              </a>
+              <a href="single-product.html" class="my-2 py-2 md:p-3 border rounded-xl flex items-center sm:inline hover:shadow-lg transition">
+                <div class="image-box sm:mb-6">
+                  <div>
+                    <img class="hover:scale-105 transition rounded-md sm:rounded-3xl w-24 sm:w-full mx-auto" src="attachment/image/productSlider/2.jpg" alt="" />
+                  </div>
+                </div>
+                <div class="flex flex-col w-full">
+                  <span class="text-xs sm:text-sm opacity-90 mb-5">
+                    <div class="leading-7 h-auto">
+                      اپل واچ m32
+                    </div>
+                  </span>
+                  <div class="flex justify-end mb-2 text-sm opacity-80 pl-3 md:pl-0">
+                    <div>1.100.000</div>
+                    <div>تومان</div>
+                  </div>
+                  <div class="flex justify-end text-xs opacity-75 pl-3 md:pl-0">
+                    <div class="line-through">1.350.000</div>
+                    <div class="line-through">تومان</div>
+                  </div>
+                </div>
+              </a>
+              <a href="single-product.html" class="my-2 py-2 md:p-3 border rounded-xl flex items-center sm:inline hover:shadow-lg transition">
+                <div class="image-box sm:mb-6">
+                  <div>
+                    <img class="hover:scale-105 transition rounded-md sm:rounded-3xl w-24 sm:w-full mx-auto" src="attachment/image/productSlider/4.jpg" alt="" />
+                  </div>
+                </div>
+                <div class="flex flex-col w-full">
+                  <span class="text-xs sm:text-sm opacity-90 mb-5">
+                    <div class="leading-7 h-auto">
+                      تلویزیون 40 اینچ سامسونگ
+                    </div>
+                  </span>
+                  <div class="flex justify-end mb-2 text-sm opacity-80 pl-3 md:pl-0">
+                    <div>1.100.000</div>
+                    <div>تومان</div>
+                  </div>
+                  <div class="flex justify-end text-xs opacity-75 pl-3 md:pl-0">
+                    <div class="line-through">1.350.000</div>
+                    <div class="line-through">تومان</div>
+                  </div>
+                </div>
+              </a>
+              <a href="single-product.html" class="my-2 py-2 md:p-3 border rounded-xl flex items-center sm:inline hover:shadow-lg transition">
+                <div class="image-box sm:mb-6">
+                  <div>
+                    <img class="hover:scale-105 transition rounded-md sm:rounded-3xl w-24 sm:w-full mx-auto" src="attachment/image/productSlider/3.jpg" alt="" />
+                  </div>
+                </div>
+                <div class="flex flex-col w-full">
+                  <span class="text-xs sm:text-sm opacity-90 mb-5">
+                    <div class="leading-7 h-auto">
+                      ریش تراش دایاک
+                    </div>
+                  </span>
+                  <div class="flex justify-end mb-2 text-sm opacity-80 pl-3 md:pl-0">
+                    <div>1.100.000</div>
+                    <div>تومان</div>
+                  </div>
+                  <div class="flex justify-end text-xs opacity-75 pl-3 md:pl-0">
+                    <div class="line-through">1.350.000</div>
+                    <div class="line-through">تومان</div>
+                  </div>
+                </div>
+              </a>
+              <a href="single-product.html" class="my-2 py-2 md:p-3 border rounded-xl flex items-center sm:inline hover:shadow-lg transition">
+                <div class="image-box sm:mb-6">
+                  <div>
+                    <img class="hover:scale-105 transition rounded-md sm:rounded-3xl w-24 sm:w-full mx-auto" src="attachment/image/productSlider/6.jpg" alt="" />
+                  </div>
+                </div>
+                <div class="flex flex-col w-full">
+                  <span class="text-xs sm:text-sm opacity-90 mb-5">
+                    <div class="leading-7 h-auto">
+                      هنذفری بلوتوثی شیائومی
+                    </div>
+                  </span>
+                  <div class="flex justify-end mb-2 text-sm opacity-80 pl-3 md:pl-0">
+                    <div>1.100.000</div>
+                    <div>تومان</div>
+                  </div>
+                  <div class="flex justify-end text-xs opacity-75 pl-3 md:pl-0">
+                    <div class="line-through">1.350.000</div>
+                    <div class="line-through">تومان</div>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- FOOTER -->
+  <?php require_once "masterPage/footer.php" ?>
+</body>
+<!--DROPDOWNS FOR NAVBAR-->
+<script src="assets/js/flowbite.bundle.js"></script>
+<script src="assets/js/alpine.js" defer>
+</script>
+<!--MOBILE NAVBAR-->
+<script src="assets/js/navbar.js"></script>
+<!-- SHOW MODAL SEARCH -->
+<script src="assets/js/searchBox.js"></script>
+<!-- RANGE INPUT -->
+<script src="assets/js/rangeinput.js"></script>
+
+<!-- Mirrored from amirtttk.ir/category.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 09 Dec 2024 19:47:51 GMT -->
+
+</html>
