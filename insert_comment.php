@@ -1,7 +1,5 @@
 <?php
 
-require_once "../../shop1/amirtttk.ir/functions/functionQuery.php";
-
 $db = connectDb();
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
@@ -10,6 +8,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $name = (isset($_POST["name"])) ? testSecurity($_POST["name"]) : '';
     $content = (isset($_POST["content"])) ? testSecurity($_POST["content"]) : '';
 
+    
     $error = "";
 
 
@@ -32,7 +31,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         "blog_id" => $blog_id,
         "name" => $name,
         "content" => $content,
-        "parent_id" => $parent_id,
         "ip" => $_SERVER["REMOTE_ADDR"]
     );
     $result = $db->insert('comment_blog', $data);
