@@ -240,6 +240,9 @@
   $("#send_comment").on("submit", function(e) {
     e.preventDefault();
 
+    $("#errorN").text("");
+    $("#errorC").text("");
+
     const formData = {
       blog_id: <?= $id ?>,
       name: $("#name").val(),
@@ -254,9 +257,20 @@
       data: formData,
       success: function(response) {
 
+        if (response.indexOf("ثبت شد") !== -1) {
+          $("#errorN").text(response).css("color", "green");
+          $("#name").val("");
+          $("#content").val("");
+        } else {
 
-        $("#errorN").html(response).css("color", "red");
-
+          const errors = JSON.parse(response);
+          if (errors.errorN) {
+            $("#errorN").text(errors.errorN).css("color", "red");
+          }
+          if (errors.errorC) {
+            $("#errorC").text(errors.errorC).css("color", "red");
+          }
+        }
 
       },
       error: function() {

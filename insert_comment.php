@@ -4,28 +4,38 @@ require_once "../iranshop_dornica/functions/functionQuery.php";
 
 $db = connectDb();
 
+$errorN = $errorC = "";
+
+
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     $blog_id = (isset($_POST["blog_id"])) ? testSecurity($_POST["blog_id"]) : '';
     $parent_id = (isset($_POST["parent_id"])) ? testSecurity($_POST["parent_id"]) : 0;
     $name = (isset($_POST["name"])) ? testSecurity($_POST["name"]) : '';
     $content = (isset($_POST["content"])) ? testSecurity($_POST["content"]) : '';
-    $error = "";
 
 
+
+    if (empty($name)) {
+        $errorN = 'نام خالی است';
+    }
 
     if (empty($content)) {
-        $error = 'متن مورد نظر خود را بنوسید';
-    }
-    if (empty($name)) {
-        $error = 'نام خالی است';
+        $errorC = 'متن مورد نظر خود را بنویسید';
+    }elseif(strlen($content) < 50 ){
+        $errorC = "متن  مورد نظر باید بشتر از 50 تا باشد ";
     }
 
 
-    if (!empty($error)) {
-        echo $error;
+    if (!empty($errorN) || !empty($errorC)) {
+        
+        echo json_encode([
+            'errorN' => $errorN,
+            'errorC' => $errorC
+        ]);
         die;
     }
+
 
 
     $data = array(
