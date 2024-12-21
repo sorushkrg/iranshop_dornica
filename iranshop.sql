@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1:3306
--- Generation Time: Dec 20, 2024 at 02:13 PM
+-- Generation Time: Dec 21, 2024 at 10:43 AM
 -- Server version: 8.3.0
 -- PHP Version: 8.2.18
 
@@ -255,17 +255,18 @@ CREATE TABLE IF NOT EXISTS `comment_blog` (
   `status` tinyint(1) NOT NULL DEFAULT '0' COMMENT 'وضعیت',
   PRIMARY KEY (`id`),
   KEY `blog_id` (`blog_id`)
-) ENGINE=InnoDB AUTO_INCREMENT=6 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_persian_ci COMMENT='کامنت های بلاگ';
+) ENGINE=InnoDB AUTO_INCREMENT=13 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_persian_ci COMMENT='کامنت های بلاگ';
 
 --
 -- Dumping data for table `comment_blog`
 --
 
 INSERT INTO `comment_blog` (`id`, `blog_id`, `parent_id`, `user_id`, `name`, `subject`, `content`, `email`, `ip`, `created_at`, `Approveed_by`, `status`) VALUES
-(1, 1, 0, 0, 'Sorushkg', NULL, 'عالی و زیبا', NULL, '::1', '2024-12-20 11:47:47', NULL, 1),
-(2, 1, 1, 0, 'علی احمدی', NULL, 'موافق نستم', NULL, '::1', '2024-12-20 11:49:27', NULL, 1),
-(3, 1, 0, 0, 'سامان کارگشا', NULL, 'شیک و با دوام', NULL, '::1', '2024-12-20 11:57:29', NULL, 1),
-(4, 1, 2, 0, 'ایلیا', NULL, 'موافقم', NULL, '::1', '2024-12-20 12:02:24', NULL, 1);
+(8, 1, 0, 0, 'Sorushkg', NULL, 'عالی و شیک', NULL, '::1', '2024-12-21 10:16:24', NULL, 1),
+(9, 1, 8, 0, 'سامان', NULL, 'بسیار موافقم', NULL, '::1', '2024-12-21 10:17:41', NULL, 1),
+(10, 1, 0, 0, 'سروش کارگشا', NULL, 'بادوام و کاربردی', NULL, '::1', '2024-12-21 10:19:57', NULL, 1),
+(11, 1, 10, 0, 'امیر فلاحتی', NULL, 'موافق نیستم', NULL, '::1', '2024-12-21 10:20:56', NULL, 1),
+(12, 1, 9, 0, 'علی احمدی', NULL, 'درسته', NULL, '::1', '2024-12-21 10:37:05', NULL, 1);
 
 -- --------------------------------------------------------
 
@@ -618,11 +619,11 @@ CREATE TABLE IF NOT EXISTS `useful_links` (
 --
 
 INSERT INTO `useful_links` (`id`, `name`, `link`, `status`) VALUES
-(1, 'خانه', '../../../shop1/amirtttk.ir/index .php', 1),
-(2, 'درباره ما', '../../../shop1/amirtttk.ir/aboute-me.php', 1),
-(3, 'پیگیری سفارش', '../../../shop1/amirtttk.ir/index .php', 1),
-(4, 'سوالات متداول', '../../../shop1/amirtttk.ir/faq.php', 1),
-(5, 'بلاگ', '../../../shop1/amirtttk.ir/blog.php', 1);
+(1, 'خانه', '../../../iranshop_dornica/index .php', 1),
+(2, 'درباره ما', '../../../iranshop_dornica/aboute-me.php', 1),
+(3, 'پیگیری سفارش', '../../../iranshop_dornica/index .php', 1),
+(4, 'سوالات متداول', '../../../iranshop_dornica/faq.php', 1),
+(5, 'بلاگ', '../../../iranshop_dornica/blog.php', 1);
 
 --
 -- Constraints for dumped tables
