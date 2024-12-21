@@ -7,7 +7,6 @@ $db = connectDb();
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     $blog_id = (isset($_POST["blog_id"])) ? testSecurity($_POST["blog_id"]) : '';
-    $parent_id = (isset($_POST["parent_id"])) ? testSecurity($_POST["parent_id"]) : 0;
     $name = (isset($_POST["name"])) ? testSecurity($_POST["name"]) : '';
     $content = (isset($_POST["content"])) ? testSecurity($_POST["content"]) : '';
 
