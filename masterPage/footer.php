@@ -20,7 +20,7 @@
   </div>
   <!-- MAIN -->
   <div class="flex items-center justify-between my-4 px-5">
-    <a href="index.html" class="inline-block">
+    <a href="../../iranshop_dornica/index .php" class="inline-block">
       <img
         src="attachment/image/site_logo/<?= testSecurity($setting["site_logo"]) ?>"
         alt="logo"

@@ -136,10 +136,10 @@
 
     <!-- SECTION IMAGE -->
     <div>
-      <a href="../../shop1/amirtttk.ir/search.php">
+      <a href="../../../iranshop_dornica/search.php">
         <img class="rounded-2xl hidden md:block" src="attachment/image/sectionImage/<?= testSecurity($image_single[0]["image"]) ?>"  alt="<?= testSecurity($image_single[0]["name"]) ?>">
       </a>
-      <a href="../../shop1/amirtttk.ir/search.php"></a>
+      <a href="../../../iranshop_dornica/search.php"></a>
       <img class="rounded-2xl md:hidden" src="attachment/image/sectionImage/<?= testSecurity($image_single[1]["image"]) ?>"    alt="<?= testSecurity($image_single[1]["name"]) ?>">
       </a>
     </div>
@@ -230,7 +230,7 @@
       <!-- TOP SLIDER -->
       <div class="flex justify-between px-5 md:px-10 items-center">
         <div class="border-b-2 border-red-500 pb-1">پرتخفیف ترین ها</div>
-        <a href="../../shop1/amirtttk.ir/search.php">
+        <a href="../../../iranshop_dornica/search.php">
           <div class="transition px-4 py-2 rounded-xl flex justify-center items-center text-red-500 hover:text-red-600">دیدن همه<img class="w-4" src="attachment/image/arrow-left.png" alt=""></div>
         </a>
       </div>
@@ -242,7 +242,7 @@
             <?php
             foreach ($discount_index as $value) {
             ?>
-              <a href="../../shop1/amirtttk.ir/single-product.php" class="card swiper-slide my-2 p-2 md:p-3">
+              <a href="../../../iranshop_dornica/single-product.php" class="card swiper-slide my-2 p-2 md:p-3">
                 <div class="image-box mb-6">
                   <div>
                     <img class="hover:scale-105 transition rounded-3xl w-full mx-auto" src="attachment/image/productSlider/<?= testSecurity($value['image']) ?>" alt="<?= testSecurity($value['model_name']) ?>" />
@@ -282,7 +282,7 @@
         <?php
         foreach ($best_suggest as $value) {
         ?>
-          <a href="../../shop1/amirtttk.ir/single-product.php" class="card swiper-slide my-2 p-2 md:p-3 bg-white rounded-xl">
+          <a href="../../../iranshop_dornica/single-product.php" class="card swiper-slide my-2 p-2 md:p-3 bg-white rounded-xl">
             <div class="image-box mb-6">
               <div>
                 <img class="hover:scale-105 transition rounded-3xl w-full mx-auto" src="attachment/image/productSlider/<?= testSecurity($value['image']) ?>" alt="<?= $value['model_name'] ?>" />
@@ -323,7 +323,7 @@
     <div class="bg-white rounded-2xl py-6 shadow-xl my-10">
       <div class="flex justify-between px-5 pb-5 md:px-10 items-center">
         <div class="border-b-2 border-red-500 pb-1">دسته بندی های محبوب</div>
-        <a href="../../shop1/amirtttk.ir/search.php">
+        <a href="../../../iranshop_dornica/search.php">
           <div class="transition px-4 py-2 rounded-xl flex justify-center items-center text-red-500 hover:text-red-600">دیدن همه<img class="w-4" src="attachment/image/arrow-left.png" alt=""></div>
         </a>
       </div>
@@ -347,7 +347,7 @@
       <!-- TOP SLIDER -->
       <div class="flex justify-between px-5 md:px-10 items-center">
         <div class="border-b-2 border-red-500 pb-1">کالای دیجیتال</div>
-        <a href="../../shop1/amirtttk.ir/search.php">
+        <a href="../../../iranshop_dornica/search.php">
           <div class="transition px-4 py-2 rounded-xl flex justify-center items-center text-red-500 hover:text-red-600">دیدن همه<img class="w-4" src="attachment/image/arrow-left.png" alt=""></div>
         </a>
       </div>
@@ -359,7 +359,7 @@
             <?php
             foreach ($digital_product as $value) {
             ?>
-              <a href="../../shop1/amirtttk.ir/single-product.php" class="card swiper-slide my-2 p-2 md:p-3">
+              <a href="../../../iranshop_dornica/single-product.php" class="card swiper-slide my-2 p-2 md:p-3">
                 <div class="image-box mb-6">
                   <div>
                     <img class="hover:scale-105 transition rounded-3xl w-full mx-auto" src="attachment/image/productSlider/<?= testSecurity($value['image']) ?>" alt="<?= testSecurity($value['name']) ?>" />
@@ -394,10 +394,10 @@
     </div>
 
     <div class="grid grid-cols-1 sm:grid-cols-2 gap-5">
-      <a href="../../shop1/amirtttk.ir/search.php">
+      <a href="../../../iranshop_dornica/search.php">
         <img class="rounded-xl" src="attachment/image/twoImage/<?= testSecurity($image_single[4]["image"]) ?>" alt="">
       </a>
-      <a href="../../shop1/amirtttk.ir/search.php">
+      <a href="../../../iranshop_dornica/search.php">
         <img class="rounded-xl" src="attachment/image/twoImage/<?= testSecurity($image_single[5]["image"]) ?>" alt="">
       </a>
     </div>
@@ -408,7 +408,7 @@
         <div class="text-red-500">خواندنی ها</div>
 
 
-        <a href="../../shop1/amirtttk.ir/blog.php">
+        <a href="../../../iranshop_dornica/blog.php">
           <div class="transition px-4 py-2 rounded-xl flex justify-center items-center text-red-500 hover:text-red-600">مطالب بیشتر
             <img class="w-4" src="attachment/image/arrow-left.png" alt="">
           </div>
@@ -419,7 +419,7 @@
         <?php
         foreach ($blog_index as $value) {
         ?>
-          <a href="../../shop1/amirtttk.ir/blog(single).php" class="shadow-lg rounded-3xl p-4 hover:text-red-600 transition">
+          <a href="../../../iranshop_dornica/blog(single).php" class="shadow-lg rounded-3xl p-4 hover:text-red-600 transition">
             <div>
               <img class="rounded-xl hover:scale-105 transition" src="attachment/image/blog/<?= testSecurity($value['image']) ?>" alt="<?= testSecurity($value['name'])?>">
             </div>

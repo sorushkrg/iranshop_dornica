@@ -2,7 +2,7 @@
     <!-- TOP -->
     <nav
         class="relative px-5 py-2 flex flex-wrap justify-between items-start pt-5 bg-white">
-        <a class="order-2" href="../../../shop1/amirtttk.ir/index .php">
+        <a class="order-2" href="../../../iranshop_dornica/index .php">
             <img class="w-36" src="attachment/image/site_logo/<?= testSecurity($setting["site_logo"]) ?>" alt="" />
         </a>
         <div class="order-3 w-full mt-3 lg:mt-0 lg:w-5/12 lg:mr-[10%]">
@@ -126,7 +126,7 @@
                 @mouseenter="showChildren=true"
                 @mouseleave="showChildren=false">
                 <a
-                    href="../../../shop1/amirtttk.ir/login.php"
+                    href="../../../iranshop_dornica/login.php"
                     class="flex items-center h-10 leading-10 px-3 mx-1 transition rounded-xl hover:bg-red-50">
                     <img class="ml-1 w-6" src="attachment/image/user.png" alt="" />
                     <span
@@ -157,7 +157,7 @@
                                 @mouseleave="showChildren=false"
                                 @mouseenter="showChildren=true">
                                 <a
-                                    href="../../../shop1/amirtttk.ir/profile.php"
+                                    href="../../../iranshop_dornica/profile.php"
                                     class="px-2 py-2 flex w-full items-start hover:bg-red-50 rounded-xl">
                                     <span
                                         class="flex justify-center items-center opacity-90"><img
@@ -172,7 +172,7 @@
                                 @mouseleave="showChildren=false"
                                 @mouseenter="showChildren=true">
                                 <a
-                                    href="../../../shop1/amirtttk.ir/profile-order.php"
+                                    href="../../../iranshop_dornica/profile-order.php"
                                     class="px-4 py-2 flex w-full items-start hover:bg-red-50 rounded-xl">
                                     <span class="flex justify-center items-center text-sm opacity-90"><img
                                             class="w-5 ml-1"
@@ -186,7 +186,7 @@
                                 @mouseleave="showChildren=false"
                                 @mouseenter="showChildren=true">
                                 <a
-                                    href="../../../shop1/amirtttk.ir/profile-favorites.php"
+                                    href="../../../iranshop_dornica/profile-favorites.php"
                                     class="px-4 py-2 flex w-full items-start hover:bg-red-50 rounded-xl">
                                     <span class="flex justify-center items-center text-sm opacity-90"><img
                                             class="w-5 ml-1"
@@ -217,7 +217,7 @@
                 @mouseenter="showChildren=true"
                 @mouseleave="showChildren=false">
                 <a
-                    href="../../../shop1/amirtttk.ir/cart.php"
+                    href="../../../iranshop_dornica/cart.php"
                     class="flex items-center h-10 leading-10 px-3 cursor-pointer no-underline hover:no-underline duration-100 mx-1 transition rounded-xl hover:bg-red-100">
                     <img
                         class="inline ml-1 w-5"
@@ -248,7 +248,7 @@
                             <li
                                 class="relative">
                                 <a
-                                    href="../../../shop1/amirtttk.ir/single-product.php"
+                                    href="../../../iranshop_dornica/single-product.php"
                                     class="px-2 py-2 flex w-full items-start hover:bg-red-50 rounded-xl">
                                     <span class="flex justify-center items-center opacity-90">
                                         <div class="flex">
@@ -282,7 +282,7 @@
                             <li
                                 class="relative">
                                 <a
-                                    href="../../../shop1/amirtttk.ir/single-product.php"
+                                    href="../../../iranshop_dornica/single-product.php"
                                     class="px-2 py-2 flex w-full items-start hover:bg-red-50 rounded-xl">
                                     <span class="flex justify-center items-center opacity-90">
                                         <div class="flex">
@@ -316,7 +316,7 @@
                             <li
                                 class="relative">
                                 <a
-                                    href="../../../shop1/amirtttk.ir/checkout.php"
+                                    href="../../../iranshop_dornica/checkout.php"
                                     class="px-2 py-2 flex w-full items-start justify-center">
                                     <span class="flex justify-center items-center opacity-90">
                                         <button class="px-7 py-2 text-center text-white bg-red-500 align-middle border-0 rounded-lg shadow-md text-xs">تسویه حساب</button>
@@ -346,7 +346,7 @@
                 <ul class="flex w-full flex-wrap items-center h-10">
                     <li class="block relative">
                         <a
-                            href="../../../shop1/amirtttk.ir/index .php"
+                            href="../../../iranshop_dornica/index .php"
                             class="flex items-center h-10 text-sm leading-10 px-4 mx-1 transition text-gray-700 hover:text-red-500">
                             <span class=" border-b-2 border-red-600">صفحه اصلی</span>
                         </a>
@@ -355,7 +355,7 @@
                         class="block relative"
                         x-data="{showChildren:false}">
                         <a
-                            href="../../../shop1/amirtttk.ir/category-index.php"
+                            href="../../../iranshop_dornica/category-index.php"
                             class="flex items-center h-10 leading-10 px-3 text-sm mx-1 transition text-gray-700 hover:text-red-500"
                             @click.prevent="showChildren=!showChildren"
                             @mouseenter="showChildren=true"
@@ -383,7 +383,7 @@
                                     <li
                                         class="relative">
                                         <a
-                                            href="../../../shop1/amirtttk.ir/category.php"
+                                            href="../../../iranshop_dornica/category.php"
                                             class="px-4 py-2 flex w-full items-start hover:bg-red-100 rounded-lg transition no-underline hover:no-underline duration-100 cursor-pointer">
                                             <span class="flex-1">مردانه</span>
                                         </a>
@@ -391,7 +391,7 @@
                                     <li
                                         class="relative">
                                         <a
-                                            href="../../../shop1/amirtttk.ir/category.php"
+                                            href="../../../iranshop_dornica/category.php"
                                             class="px-4 py-2 flex w-full items-start hover:bg-red-100 rounded-lg transition no-underline hover:no-underline duration-100 cursor-pointer">
                                             <span class="flex-1">زنانه</span>
                                         </a>
@@ -399,7 +399,7 @@
                                     <li
                                         class="relative">
                                         <a
-                                            href="../../../shop1/amirtttk.ir/category.php"
+                                            href="../../../iranshop_dornica/category.php"
                                             class="px-4 py-2 flex w-full items-start hover:bg-red-100 rounded-lg transition no-underline hover:no-underline duration-100 cursor-pointer">
                                             <span class="flex-1">بچگانه</span>
                                         </a>
@@ -413,7 +413,7 @@
                         x-data="{showChildren:false}"
                         @click.away="showChildren=false">
                         <a
-                            href="../../../shop1/amirtttk.ir/category-index.php"
+                            href="../../../iranshop_dornica/category-index.php"
                             class="flex items-center h-10 leading-10 px-3 cursor-pointer text-sm no-underline hover:no-underline duration-100 mx-1 transition text-gray-700 hover:text-red-500"
                             @click.prevent="showChildren=!showChildren"
                             @mouseenter="showChildren=true"
@@ -441,7 +441,7 @@
                                     <li
                                         class="relative">
                                         <a
-                                            href="../../../shop1/amirtttk.ir/category.php"
+                                            href="../../../iranshop_dornica/category.php"
                                             class="px-4 py-2 flex w-full items-start hover:bg-red-100 rounded-lg transition no-underline hover:no-underline duration-100 cursor-pointer">
                                             <span class="flex-1">لپ تاپ و کامپیوتر</span>
                                         </a>
@@ -449,7 +449,7 @@
                                     <li
                                         class="relative">
                                         <a
-                                            href="../../../shop1/amirtttk.ir/category.php"
+                                            href="../../../iranshop_dornica/category.php"
                                             class="px-4 py-2 flex w-full items-start hover:bg-red-100 rounded-lg transition no-underline hover:no-underline duration-100 cursor-pointer">
                                             <span class="flex-1">موبایل</span>
                                         </a>
@@ -457,7 +457,7 @@
                                     <li
                                         class="relative">
                                         <a
-                                            href="../../../shop1/amirtttk.ir/category.php"
+                                            href="../../../iranshop_dornica/category.php"
                                             class="px-4 py-2 flex w-full items-start hover:bg-red-100 rounded-lg transition no-underline hover:no-underline duration-100 cursor-pointer">
                                             <span class="flex-1">تبلت</span>
                                         </a>
@@ -465,7 +465,7 @@
                                     <li
                                         class="relative">
                                         <a
-                                            href="../../../shop1/amirtttk.ir/category.php"
+                                            href="../../../iranshop_dornica/category.php"
                                             class="px-4 py-2 flex w-full items-start hover:bg-red-100 rounded-lg transition no-underline hover:no-underline duration-100 cursor-pointer">
                                             <span class="flex-1">وسایل جانبی</span>
                                         </a>
@@ -479,7 +479,7 @@
                         x-data="{showChildren:false}"
                         @click.away="showChildren=false">
                         <a
-                            href="../../../shop1/amirtttk.ir/category-index.php"
+                            href="../../../iranshop_dornica/category-index.php"
                             class="flex items-center h-10 leading-10 px-3 cursor-pointer text-sm no-underline hover:no-underline duration-100 mx-1 transition text-gray-700 hover:text-red-500"
                             @click.prevent="showChildren=!showChildren"
                             @mouseenter="showChildren=true"
@@ -507,7 +507,7 @@
                                     <li
                                         class="relative">
                                         <a
-                                            href="../../../shop1/amirtttk.ir/category.php"
+                                            href="../../../iranshop_dornica/category.php"
                                             class="px-4 py-2 flex w-full items-start hover:bg-red-100 rounded-lg transition no-underline hover:no-underline duration-100 cursor-pointer">
                                             <span class="flex-1">یخچال و فریزر</span>
                                         </a>
@@ -515,7 +515,7 @@
                                     <li
                                         class="relative">
                                         <a
-                                            href="../../../shop1/amirtttk.ir/category.php"
+                                            href="../../../iranshop_dornica/category.php"
                                             class="px-4 py-2 flex w-full items-start hover:bg-red-100 rounded-lg transition no-underline hover:no-underline duration-100 cursor-pointer">
                                             <span class="flex-1">ماشین لباسشویی</span>
                                         </a>
@@ -523,7 +523,7 @@
                                     <li
                                         class="relative">
                                         <a
-                                            href="../../../shop1/amirtttk.ir/category.php"
+                                            href="../../../iranshop_dornica/category.php"
                                             class="px-4 py-2 flex w-full items-start hover:bg-red-100 rounded-lg transition no-underline hover:no-underline duration-100 cursor-pointer">
                                             <span class="flex-1">ماشین ظرف شویی</span>
                                         </a>
@@ -531,7 +531,7 @@
                                     <li
                                         class="relative">
                                         <a
-                                            href="../../../shop1/amirtttk.ir/category.php"
+                                            href="../../../iranshop_dornica/category.php"
                                             class="px-4 py-2 flex w-full items-start hover:bg-red-100 rounded-lg transition no-underline hover:no-underline duration-100 cursor-pointer">
                                             <span class="flex-1">اجاق گاز</span>
                                         </a>
@@ -539,7 +539,7 @@
                                     <li
                                         class="relative">
                                         <a
-                                            href="../../../shop1/amirtttk.ir/category.php"
+                                            href="../../../iranshop_dornica/category.php"
                                             class="px-4 py-2 flex w-full items-start hover:bg-red-100 rounded-lg transition no-underline hover:no-underline duration-100 cursor-pointer">
                                             <span class="flex-1">هود و سینک</span>
                                         </a>
@@ -553,7 +553,7 @@
                         x-data="{showChildren:false}"
                         @click.away="showChildren=false">
                         <a
-                            href="../../../shop1/amirtttk.ir/category-index.php"
+                            href="../../../iranshop_dornica/category-index.php"
                             class="flex items-center h-10 leading-10 px-3 cursor-pointer text-sm no-underline hover:no-underline duration-100 mx-1 transition text-gray-700 hover:text-red-500"
                             @click.prevent="showChildren=!showChildren"
                             @mouseenter="showChildren=true"
@@ -581,7 +581,7 @@
                                     <li
                                         class="relative">
                                         <a
-                                            href="../../../shop1/amirtttk.ir/category.php"
+                                            href="../../../iranshop_dornica/category.php"
                                             class="px-4 py-2 flex w-full items-start hover:bg-red-100 rounded-lg transition no-underline hover:no-underline duration-100 cursor-pointer">
                                             <span class="flex-1">لوازم آرایشی</span>
                                         </a>
@@ -589,7 +589,7 @@
                                     <li
                                         class="relative">
                                         <a
-                                            href="../../../shop1/amirtttk.ir/category.php"
+                                            href="../../../iranshop_dornica/category.php"
                                             class="px-4 py-2 flex w-full items-start hover:bg-red-100 rounded-lg transition no-underline hover:no-underline duration-100 cursor-pointer">
                                             <span class="flex-1">عطر و ادکلن</span>
                                         </a>
@@ -597,7 +597,7 @@
                                     <li
                                         class="relative">
                                         <a
-                                            href="../../../shop1/amirtttk.ir/category.php"
+                                            href="../../../iranshop_dornica/category.php"
                                             class="px-4 py-2 flex w-full items-start hover:bg-red-100 rounded-lg transition no-underline hover:no-underline duration-100 cursor-pointer">
                                             <span class="flex-1">لوازم بهداشتی</span>
                                         </a>
@@ -611,7 +611,7 @@
                         x-data="{showChildren:false}"
                         @click.away="showChildren=false">
                         <a
-                            href="../../../shop1/amirtttk.ir/category-index.php"
+                            href="../../../iranshop_dornica/category-index.php"
                             class="flex items-center h-10 leading-10 px-3 cursor-pointer text-sm no-underline hover:no-underline duration-100 mx-1 transition text-gray-700 hover:text-red-500"
                             @click.prevent="showChildren=!showChildren"
                             @mouseenter="showChildren=true"
@@ -639,7 +639,7 @@
                                     <li
                                         class="relative">
                                         <a
-                                            href="../../../shop1/amirtttk.ir/category.php"
+                                            href="../../../iranshop_dornica/category.php"
                                             class="px-4 py-2 flex w-full items-start hover:bg-red-100 rounded-lg transition no-underline hover:no-underline duration-100 cursor-pointer">
                                             <span class="flex-1">سشوار</span>
                                         </a>
@@ -647,7 +647,7 @@
                                     <li
                                         class="relative">
                                         <a
-                                            href="../../../shop1/amirtttk.ir/category.php"
+                                            href="../../../iranshop_dornica/category.php"
                                             class="px-4 py-2 flex w-full items-start hover:bg-red-100 rounded-lg transition no-underline hover:no-underline duration-100 cursor-pointer">
                                             <span class="flex-1">اتو</span>
                                         </a>
@@ -655,7 +655,7 @@
                                     <li
                                         class="relative">
                                         <a
-                                            href="../../../shop1/amirtttk.ir/category.php"
+                                            href="../../../iranshop_dornica/category.php"
                                             class="px-4 py-2 flex w-full items-start hover:bg-red-100 rounded-lg transition no-underline hover:no-underline duration-100 cursor-pointer">
                                             <span class="flex-1">ریش تراش</span>
                                         </a>
@@ -663,7 +663,7 @@
                                     <li
                                         class="relative">
                                         <a
-                                            href="../../../shop1/amirtttk.ir/category.php"
+                                            href="../../../iranshop_dornica/category.php"
                                             class="px-4 py-2 flex w-full items-start hover:bg-red-100 rounded-lg transition no-underline hover:no-underline duration-100 cursor-pointer">
                                             <span class="flex-1">ساعت دیجیتال</span>
                                         </a>
@@ -671,7 +671,7 @@
                                     <li
                                         class="relative">
                                         <a
-                                            href="../../../shop1/amirtttk.ir/category.php"
+                                            href="../../../iranshop_dornica/category.php"
                                             class="px-4 py-2 flex w-full items-start hover:bg-red-100 rounded-lg transition no-underline hover:no-underline duration-100 cursor-pointer">
                                             <span class="flex-1">هم زن و آبمیوه گیر</span>
                                         </a>
@@ -679,7 +679,7 @@
                                     <li
                                         class="relative">
                                         <a
-                                            href="../../../shop1/amirtttk.ir/category.php"
+                                            href="../../../iranshop_dornica/category.php"
                                             class="px-4 py-2 flex w-full items-start hover:bg-red-100 rounded-lg transition no-underline hover:no-underline duration-100 cursor-pointer">
                                             <span class="flex-1">ترازو دیجیتال و چرخ کن</span>
                                         </a>
@@ -693,7 +693,7 @@
                         x-data="{showChildren:false}"
                         @click.away="showChildren=false">
                         <a
-                            href="../../../shop1/amirtttk.ir/category-index.php"
+                            href="../../../iranshop_dornica/category-index.php"
                             class="flex items-center h-10 leading-10 px-3 cursor-pointer text-sm no-underline hover:no-underline duration-100 mx-1 transition text-gray-700 hover:text-red-500"
                             @click.prevent="showChildren=!showChildren"
                             @mouseenter="showChildren=true"
@@ -721,7 +721,7 @@
                                     <li
                                         class="relative">
                                         <a
-                                            href="../../../shop1/amirtttk.ir/category.php"
+                                            href="../../../iranshop_dornica/category.php"
                                             class="px-4 py-2 flex w-full items-start hover:bg-red-100 rounded-lg transition no-underline hover:no-underline duration-100 cursor-pointer">
                                             <span class="flex-1">صبحانه</span>
                                         </a>
@@ -729,7 +729,7 @@
                                     <li
                                         class="relative">
                                         <a
-                                            href="../../../shop1/amirtttk.ir/category.php"
+                                            href="../../../iranshop_dornica/category.php"
                                             class="px-4 py-2 flex w-full items-start hover:bg-red-100 rounded-lg transition no-underline hover:no-underline duration-100 cursor-pointer">
                                             <span class="flex-1">تنقلات</span>
                                         </a>
@@ -737,7 +737,7 @@
                                     <li
                                         class="relative">
                                         <a
-                                            href="../../../shop1/amirtttk.ir/category.php"
+                                            href="../../../iranshop_dornica/category.php"
                                             class="px-4 py-2 flex w-full items-start hover:bg-red-100 rounded-lg transition no-underline hover:no-underline duration-100 cursor-pointer">
                                             <span class="flex-1">خشکبار</span>
                                         </a>
@@ -745,7 +745,7 @@
                                     <li
                                         class="relative">
                                         <a
-                                            href="../../../shop1/amirtttk.ir/category.php"
+                                            href="../../../iranshop_dornica/category.php"
                                             class="px-4 py-2 flex w-full items-start hover:bg-red-100 rounded-lg transition no-underline hover:no-underline duration-100 cursor-pointer">
                                             <span class="flex-1">حبوبات و کنسرو</span>
                                         </a>
@@ -753,7 +753,7 @@
                                     <li
                                         class="relative">
                                         <a
-                                            href="../../../shop1/amirtttk.ir/category.php"
+                                            href="../../../iranshop_dornica/category.php"
                                             class="px-4 py-2 flex w-full items-start hover:bg-red-100 rounded-lg transition no-underline hover:no-underline duration-100 cursor-pointer">
                                             <span class="flex-1">میوه و سبزیجات</span>
                                         </a>
@@ -761,7 +761,7 @@
                                     <li
                                         class="relative">
                                         <a
-                                            href="../../../shop1/amirtttk.ir/category.php"
+                                            href="../../../iranshop_dornica/category.php"
                                             class="px-4 py-2 flex w-full items-start hover:bg-red-100 rounded-lg transition no-underline hover:no-underline duration-100 cursor-pointer">
                                             <span class="flex-1">سوسیس و کالباس</span>
                                         </a>
@@ -769,7 +769,7 @@
                                     <li
                                         class="relative">
                                         <a
-                                            href="../../../shop1/amirtttk.ir/category.php"
+                                            href="../../../iranshop_dornica/category.php"
                                             class="px-4 py-2 flex w-full items-start hover:bg-red-100 rounded-lg transition no-underline hover:no-underline duration-100 cursor-pointer">
                                             <span class="flex-1">گوشت</span>
                                         </a>
@@ -777,7 +777,7 @@
                                     <li
                                         class="relative">
                                         <a
-                                            href="../../../shop1/amirtttk.ir/category.php"
+                                            href="../../../iranshop_dornica/category.php"
                                             class="px-4 py-2 flex w-full items-start hover:bg-red-100 rounded-lg transition no-underline hover:no-underline duration-100 cursor-pointer">
                                             <span class="flex-1">لبنیات</span>
                                         </a>
@@ -791,7 +791,7 @@
                         x-data="{showChildren:false}"
                         @click.away="showChildren=false">
                         <a
-                            href="../../../shop1/amirtttk.ir/category-index.php"
+                            href="../../../iranshop_dornica/category-index.php"
                             class="flex items-center h-10 leading-10 px-3 cursor-pointer text-sm no-underline hover:no-underline duration-100 mx-1 transition text-gray-700 hover:text-red-500"
                             @click.prevent="showChildren=!showChildren"
                             @mouseenter="showChildren=true"
@@ -819,7 +819,7 @@
                                     <li
                                         class="relative">
                                         <a
-                                            href="../../../shop1/amirtttk.ir/category.php"
+                                            href="../../../iranshop_dornica/category.php"
                                             class="px-4 py-2 flex w-full items-start hover:bg-red-100 rounded-lg transition no-underline hover:no-underline duration-100 cursor-pointer">
                                             <span class="flex-1">پوشک</span>
                                         </a>
@@ -827,7 +827,7 @@
                                     <li
                                         class="relative">
                                         <a
-                                            href="../../../shop1/amirtttk.ir/category.php"
+                                            href="../../../iranshop_dornica/category.php"
                                             class="px-4 py-2 flex w-full items-start hover:bg-red-100 rounded-lg transition no-underline hover:no-underline duration-100 cursor-pointer">
                                             <span class="flex-1">بهداشت و حمام</span>
                                         </a>
@@ -835,7 +835,7 @@
                                     <li
                                         class="relative">
                                         <a
-                                            href="../../../shop1/amirtttk.ir/category.php"
+                                            href="../../../iranshop_dornica/category.php"
                                             class="px-4 py-2 flex w-full items-start hover:bg-red-100 rounded-lg transition no-underline hover:no-underline duration-100 cursor-pointer">
                                             <span class="flex-1">سرگرمی و غذاخوری</span>
                                         </a>
@@ -843,7 +843,7 @@
                                     <li
                                         class="relative">
                                         <a
-                                            href="../../../shop1/amirtttk.ir/category.php"
+                                            href="../../../iranshop_dornica/category.php"
                                             class="px-4 py-2 flex w-full items-start hover:bg-red-100 rounded-lg transition no-underline hover:no-underline duration-100 cursor-pointer">
                                             <span class="flex-1">کالای خواب</span>
                                         </a>
@@ -885,7 +885,7 @@
                                     <li
                                         class="relative">
                                         <a
-                                            href="../../../shop1/amirtttk.ir/404.php"
+                                            href="../../../iranshop_dornica/404.php"
                                             class="px-4 py-2 flex w-full items-start hover:bg-red-100 rounded-lg transition no-underline hover:no-underline duration-100 cursor-pointer">
                                             <span class="flex-1">404</span>
                                         </a>
@@ -893,7 +893,7 @@
                                     <li
                                         class="relative">
                                         <a
-                                            href="../../../shop1/amirtttk.ir/aboute-me.php"
+                                            href="../../../iranshop_dornica/aboute-me.php"
                                             class="px-4 py-2 flex w-full items-start hover:bg-red-100 rounded-lg transition no-underline hover:no-underline duration-100 cursor-pointer">
                                             <span class="flex-1">درباره ما</span>
                                         </a>
@@ -901,7 +901,7 @@
                                     <li
                                         class="relative">
                                         <a
-                                            href="../../../shop1/amirtttk.ir/blog.php"
+                                            href="../../../iranshop_dornica/blog.php"
                                             class="px-4 py-2 flex w-full items-start hover:bg-red-100 rounded-lg transition no-underline hover:no-underline duration-100 cursor-pointer">
                                             <span class="flex-1">بلاگ</span>
                                         </a>
@@ -909,7 +909,7 @@
                                     <li
                                         class="relative">
                                         <a
-                                            href="../../../shop1/amirtttk.ir/cart.php"
+                                            href="../../../iranshop_dornica/cart.php"
                                             class="px-4 py-2 flex w-full items-start hover:bg-red-100 rounded-lg transition no-underline hover:no-underline duration-100 cursor-pointer">
                                             <span class="flex-1">سبد خرید</span>
                                         </a>
@@ -917,7 +917,7 @@
                                     <li
                                         class="relative">
                                         <a
-                                            href="../../../shop1/amirtttk.ir/checkout.php"
+                                            href="../../../iranshop_dornica/checkout.php"
                                             class="px-4 py-2 flex w-full items-start hover:bg-red-100 rounded-lg transition no-underline hover:no-underline duration-100 cursor-pointer">
                                             <span class="flex-1">تسویه حساب</span>
                                         </a>
@@ -925,7 +925,7 @@
                                     <li
                                         class="relative">
                                         <a
-                                            href="../../../shop1/amirtttk.ir/faq.php"
+                                            href="../../../iranshop_dornica/faq.php"
                                             class="px-4 py-2 flex w-full items-start hover:bg-red-100 rounded-lg transition no-underline hover:no-underline duration-100 cursor-pointer">
                                             <span class="flex-1">سوالات متداول</span>
                                         </a>
@@ -933,7 +933,7 @@
                                     <li
                                         class="relative">
                                         <a
-                                            href="../../../shop1/amirtttk.ir/login.php"
+                                            href="../../../iranshop_dornica/login.php"
                                             class="px-4 py-2 flex w-full items-start hover:bg-red-100 rounded-lg transition no-underline hover:no-underline duration-100 cursor-pointer">
                                             <span class="flex-1">ورود</span>
                                         </a>
@@ -941,7 +941,7 @@
                                     <li
                                         class="relative">
                                         <a
-                                            href="../../../shop1/amirtttk.ir/verify.php"
+                                            href="../../../iranshop_dornica/verify.php"
                                             class="px-4 py-2 flex w-full items-start hover:bg-red-100 rounded-lg transition no-underline hover:no-underline duration-100 cursor-pointer">
                                             <span class="flex-1">ارسال کد 4 رقمی</span>
                                         </a>
@@ -949,7 +949,7 @@
                                     <li
                                         class="relative">
                                         <a
-                                            href="../../../shop1/amirtttk.ir/profile.php"
+                                            href="../../../iranshop_dornica/profile.php"
                                             class="px-4 py-2 flex w-full items-start hover:bg-red-100 rounded-lg transition no-underline hover:no-underline duration-100 cursor-pointer">
                                             <span class="flex-1">پروفایل</span>
                                         </a>
@@ -957,7 +957,7 @@
                                     <li
                                         class="relative">
                                         <a
-                                            href="../../../shop1/amirtttk.ir/search.php"
+                                            href="../../../iranshop_dornica/search.php"
                                             class="px-4 py-2 flex w-full items-start hover:bg-red-100 rounded-lg transition no-underline hover:no-underline duration-100 cursor-pointer">
                                             <span class="flex-1">جستجو محصول</span>
                                         </a>
@@ -965,7 +965,7 @@
                                     <li
                                         class="relative">
                                         <a
-                                            href="../../../shop1/amirtttk.ir/single-product.php"
+                                            href="../../../iranshop_dornica/single-product.php"
                                             class="px-4 py-2 flex w-full items-start hover:bg-red-100 rounded-lg transition no-underline hover:no-underline duration-100 cursor-pointer">
                                             <span class="flex-1">صفحه محصول</span>
                                         </a>
@@ -973,7 +973,7 @@
                                     <li
                                         class="relative">
                                         <a
-                                            href="../../../shop1/amirtttk.ir/category.php"
+                                            href="../../../iranshop_dornica/category.php"
                                             class="px-4 py-2 flex w-full items-start hover:bg-red-100 rounded-lg transition no-underline hover:no-underline duration-100 cursor-pointer">
                                             <span class="flex-1">دسته بندی</span>
                                         </a>
@@ -981,7 +981,7 @@
                                     <li
                                         class="relative">
                                         <a
-                                            href="../../../shop1/amirtttk.ir/category-index.php"
+                                            href="../../../iranshop_dornica/category-index.php"
                                             class="px-4 py-2 flex w-full items-start hover:bg-red-100 rounded-lg transition no-underline hover:no-underline duration-100 cursor-pointer">
                                             <span class="flex-1">دسته بندی تکی(نمونه لپ تاپ)</span>
                                         </a>
@@ -1000,7 +1000,7 @@
         <nav
             class="fixed top-0 right-0 bottom-0 flex flex-col w-5/6 max-w-sm py-5 px-6 bg-white border-r overflow-y-auto">
             <div class="flex justify-center items-center mb-4">
-                <a class="order-1" href="../../../shop1/amirtttk.ir/index .php">
+                <a class="order-1" href="../../../iranshop_dornica/index .php">
                     <img class="w-32" src="" alt="" />
                 </a>
             </div>
@@ -1011,7 +1011,7 @@
                             <div>
                                 <div
                                     class="md:flex justify-center align-middle lg:inline-block py-2 px-4 text-sm text-neutral-800 rounded-xl hover:text-neutral-700 hover:bg-red-100 transition">
-                                    <a href="../../../shop1/amirtttk.ir/index .php">
+                                    <a href="../../../iranshop_dornica/index .php">
                                         <img
                                             class="inline ml-1 w-5"
                                             src="attachment/image/shopping-cart.png"
@@ -1019,7 +1019,7 @@
                                 </div>
                                 <div
                                     class="md:flex justify-center align-middle lg:inline-block py-2 px-4 text-sm text-neutral-800 rounded-xl hover:text-neutral-700 hover:bg-red-100 transition">
-                                    <a href="../../../shop1/amirtttk.ir/login-register.php"><img
+                                    <a href="../../../iranshop_dornica/login-register.php"><img
                                             class="inline ml-1 w-5"
                                             src="attachment/image/user.png"
                                             alt="" />ورود | ثبت نام</a>
@@ -1032,7 +1032,7 @@
                         x-data="{showChildren:false}"
                         @click.away="showChildren=false">
                         <a
-                            href="../../../shop1/amirtttk.ir/category-index.php"
+                            href="../../../iranshop_dornica/category-index.php"
                             class="flex justify-between items-center h-10 leading-10 text-sm opacity-90 px-3 cursor-pointer no-underline w-full hover:no-underline duration-100 mx-1 transition rounded-xl hover:bg-red-100"
                             @click.prevent="showChildren=!showChildren">
                             <span>پوشاک</span>
@@ -1060,7 +1060,7 @@
                                         @mouseleave="showChildren=false"
                                         @mouseenter="showChildren=true">
                                         <a
-                                            href="../../../shop1/amirtttk.ir/category.php"
+                                            href="../../../iranshop_dornica/category.php"
                                             class="px-4 py-2 flex w-full items-start hover:bg-red-100 rounded-lg transition no-underline hover:no-underline duration-100 cursor-pointer">
                                             <span class="flex-1">مردانه</span>
                                         </a>
@@ -1071,7 +1071,7 @@
                                         @mouseleave="showChildren=false"
                                         @mouseenter="showChildren=true">
                                         <a
-                                            href="../../../shop1/amirtttk.ir/category.php"
+                                            href="../../../iranshop_dornica/category.php"
                                             class="px-4 py-2 flex w-full items-start hover:bg-red-100 rounded-lg transition no-underline hover:no-underline duration-100 cursor-pointer">
                                             <span class="flex-1">زنانه</span>
                                         </a>
@@ -1082,7 +1082,7 @@
                                         @mouseleave="showChildren=false"
                                         @mouseenter="showChildren=true">
                                         <a
-                                            href="../../../shop1/amirtttk.ir/category.php"
+                                            href="../../../iranshop_dornica/category.php"
                                             class="px-4 py-2 flex w-full items-start hover:bg-red-100 rounded-lg transition no-underline hover:no-underline duration-100 cursor-pointer">
                                             <span class="flex-1">بچگانه</span>
                                         </a>
@@ -1096,7 +1096,7 @@
                         x-data="{showChildren:false}"
                         @click.away="showChildren=false">
                         <a
-                            href="../../../shop1/amirtttk.ir/category-index.php"
+                            href="../../../iranshop_dornica/category-index.php"
                             class="flex justify-between items-center h-10 text-sm opacity-90 leading-10 px-3 cursor-pointer no-underline w-full hover:no-underline duration-100 mx-1 transition rounded-xl hover:bg-red-100"
                             @click.prevent="showChildren=!showChildren">
                             <span>کالای دیجیتال</span>
@@ -1124,7 +1124,7 @@
                                         @mouseleave="showChildren=false"
                                         @mouseenter="showChildren=true">
                                         <a
-                                            href="../../../shop1/amirtttk.ir/category.php"
+                                            href="../../../iranshop_dornica/category.php"
                                             class="px-4 py-2 flex w-full items-start hover:bg-red-100 rounded-lg transition no-underline hover:no-underline duration-100 cursor-pointer">
                                             <span class="flex-1">لپ تاپ و کامپیوتر</span>
                                         </a>
@@ -1135,7 +1135,7 @@
                                         @mouseleave="showChildren=false"
                                         @mouseenter="showChildren=true">
                                         <a
-                                            href="../../../shop1/amirtttk.ir/category.php"
+                                            href="../../../iranshop_dornica/category.php"
                                             class="px-4 py-2 flex w-full items-start hover:bg-red-100 rounded-lg transition no-underline hover:no-underline duration-100 cursor-pointer">
                                             <span class="flex-1">موبایل</span>
                                         </a>
@@ -1146,7 +1146,7 @@
                                         @mouseleave="showChildren=false"
                                         @mouseenter="showChildren=true">
                                         <a
-                                            href="../../../shop1/amirtttk.ir/category.php"
+                                            href="../../../iranshop_dornica/category.php"
                                             class="px-4 py-2 flex w-full items-start hover:bg-red-100 rounded-lg transition no-underline hover:no-underline duration-100 cursor-pointer">
                                             <span class="flex-1">تبلت</span>
                                         </a>
@@ -1157,7 +1157,7 @@
                                         @mouseleave="showChildren=false"
                                         @mouseenter="showChildren=true">
                                         <a
-                                            href="../../../shop1/amirtttk.ir/category.php"
+                                            href="../../../iranshop_dornica/category.php"
                                             class="px-4 py-2 flex w-full items-start hover:bg-red-100 rounded-lg transition no-underline hover:no-underline duration-100 cursor-pointer">
                                             <span class="flex-1">وسایل جانبی</span>
                                         </a>
@@ -1171,7 +1171,7 @@
                         x-data="{showChildren:false}"
                         @click.away="showChildren=false">
                         <a
-                            href="../../../shop1/amirtttk.ir/category-index.php"
+                            href="../../../iranshop_dornica/category-index.php"
                             class="flex justify-between items-center h-10 text-sm opacity-90 leading-10 px-3 cursor-pointer no-underline w-full hover:no-underline duration-100 mx-1 transition rounded-xl hover:bg-red-100"
                             @click.prevent="showChildren=!showChildren">
                             <span>لوازم خانگی</span>
@@ -1199,7 +1199,7 @@
                                         @mouseleave="showChildren=false"
                                         @mouseenter="showChildren=true">
                                         <a
-                                            href="../../../shop1/amirtttk.ir/category.php"
+                                            href="../../../iranshop_dornica/category.php"
                                             class="px-4 py-2 flex w-full items-start hover:bg-red-100 rounded-lg transition no-underline hover:no-underline duration-100 cursor-pointer">
                                             <span class="flex-1">یخچال و فریزر</span>
                                         </a>
@@ -1210,7 +1210,7 @@
                                         @mouseleave="showChildren=false"
                                         @mouseenter="showChildren=true">
                                         <a
-                                            href="../../../shop1/amirtttk.ir/category.php"
+                                            href="../../../iranshop_dornica/category.php"
                                             class="px-4 py-2 flex w-full items-start hover:bg-red-100 rounded-lg transition no-underline hover:no-underline duration-100 cursor-pointer">
                                             <span class="flex-1">ماشین لباسشویی</span>
                                         </a>
@@ -1221,7 +1221,7 @@
                                         @mouseleave="showChildren=false"
                                         @mouseenter="showChildren=true">
                                         <a
-                                            href="../../../shop1/amirtttk.ir/category.php"
+                                            href="../../../iranshop_dornica/category.php"
                                             class="px-4 py-2 flex w-full items-start hover:bg-red-100 rounded-lg transition no-underline hover:no-underline duration-100 cursor-pointer">
                                             <span class="flex-1">ماشین ظرف شویی</span>
                                         </a>
@@ -1232,7 +1232,7 @@
                                         @mouseleave="showChildren=false"
                                         @mouseenter="showChildren=true">
                                         <a
-                                            href="../../../shop1/amirtttk.ir/category.php"
+                                            href="../../../iranshop_dornica/category.php"
                                             class="px-4 py-2 flex w-full items-start hover:bg-red-100 rounded-lg transition no-underline hover:no-underline duration-100 cursor-pointer">
                                             <span class="flex-1">اجاق گاز</span>
                                         </a>
@@ -1243,7 +1243,7 @@
                                         @mouseleave="showChildren=false"
                                         @mouseenter="showChildren=true">
                                         <a
-                                            href="../../../shop1/amirtttk.ir/category.php"
+                                            href="../../../iranshop_dornica/category.php"
                                             class="px-4 py-2 flex w-full items-start hover:bg-red-100 rounded-lg transition no-underline hover:no-underline duration-100 cursor-pointer">
                                             <span class="flex-1">هود و سینک</span>
                                         </a>
@@ -1257,7 +1257,7 @@
                         x-data="{showChildren:false}"
                         @click.away="showChildren=false">
                         <a
-                            href="../../../shop1/amirtttk.ir/category-index.php"
+                            href="../../../iranshop_dornica/category-index.php"
                             class="flex justify-between items-center h-10 text-sm opacity-90 leading-10 px-3 cursor-pointer no-underline w-full hover:no-underline duration-100 mx-1 transition rounded-xl hover:bg-red-100"
                             @click.prevent="showChildren=!showChildren">
                             <span>زیبایی</span>
@@ -1285,7 +1285,7 @@
                                         @mouseleave="showChildren=false"
                                         @mouseenter="showChildren=true">
                                         <a
-                                            href="../../../shop1/amirtttk.ir/category.php"
+                                            href="../../../iranshop_dornica/category.php"
                                             class="px-4 py-2 flex w-full items-start hover:bg-red-100 rounded-lg transition no-underline hover:no-underline duration-100 cursor-pointer">
                                             <span class="flex-1">لوازم آرایشی</span>
                                         </a>
@@ -1296,7 +1296,7 @@
                                         @mouseleave="showChildren=false"
                                         @mouseenter="showChildren=true">
                                         <a
-                                            href="../../../shop1/amirtttk.ir/category.php"
+                                            href="../../../iranshop_dornica/category.php"
                                             class="px-4 py-2 flex w-full items-start hover:bg-red-100 rounded-lg transition no-underline hover:no-underline duration-100 cursor-pointer">
                                             <span class="flex-1">عطر و ادکلن</span>
                                         </a>
@@ -1307,7 +1307,7 @@
                                         @mouseleave="showChildren=false"
                                         @mouseenter="showChildren=true">
                                         <a
-                                            href="../../../shop1/amirtttk.ir/category.php"
+                                            href="../../../iranshop_dornica/category.php"
                                             class="px-4 py-2 flex w-full items-start hover:bg-red-100 rounded-lg transition no-underline hover:no-underline duration-100 cursor-pointer">
                                             <span class="flex-1">لوازم بهداشتی</span>
                                         </a>
@@ -1321,7 +1321,7 @@
                         x-data="{showChildren:false}"
                         @click.away="showChildren=false">
                         <a
-                            href="../../../shop1/amirtttk.ir/category-index.php"
+                            href="../../../iranshop_dornica/category-index.php"
                             class="flex justify-between items-center h-10 text-sm opacity-90 leading-10 px-3 cursor-pointer no-underline w-full hover:no-underline duration-100 mx-1 transition rounded-xl hover:bg-red-100"
                             @click.prevent="showChildren=!showChildren">
                             <span>لوازم برقی</span>
@@ -1349,7 +1349,7 @@
                                         @mouseleave="showChildren=false"
                                         @mouseenter="showChildren=true">
                                         <a
-                                            href="../../../shop1/amirtttk.ir/category.php"
+                                            href="../../../iranshop_dornica/category.php"
                                             class="px-4 py-2 flex w-full items-start hover:bg-red-100 rounded-lg transition no-underline hover:no-underline duration-100 cursor-pointer">
                                             <span class="flex-1">سشوار</span>
                                         </a>
@@ -1360,7 +1360,7 @@
                                         @mouseleave="showChildren=false"
                                         @mouseenter="showChildren=true">
                                         <a
-                                            href="../../../shop1/amirtttk.ir/category.php"
+                                            href="../../../iranshop_dornica/category.php"
                                             class="px-4 py-2 flex w-full items-start hover:bg-red-100 rounded-lg transition no-underline hover:no-underline duration-100 cursor-pointer">
                                             <span class="flex-1">اتو</span>
                                         </a>
@@ -1371,7 +1371,7 @@
                                         @mouseleave="showChildren=false"
                                         @mouseenter="showChildren=true">
                                         <a
-                                            href="../../../shop1/amirtttk.ir/category.php"
+                                            href="../../../iranshop_dornica/category.php"
                                             class="px-4 py-2 flex w-full items-start hover:bg-red-100 rounded-lg transition no-underline hover:no-underline duration-100 cursor-pointer">
                                             <span class="flex-1">ریش تراش</span>
                                         </a>
@@ -1382,7 +1382,7 @@
                                         @mouseleave="showChildren=false"
                                         @mouseenter="showChildren=true">
                                         <a
-                                            href="../../../shop1/amirtttk.ir/category.php"
+                                            href="../../../iranshop_dornica/category.php"
                                             class="px-4 py-2 flex w-full items-start hover:bg-red-100 rounded-lg transition no-underline hover:no-underline duration-100 cursor-pointer">
                                             <span class="flex-1">ساعت دیجیتال</span>
                                         </a>
@@ -1393,7 +1393,7 @@
                                         @mouseleave="showChildren=false"
                                         @mouseenter="showChildren=true">
                                         <a
-                                            href="../../../shop1/amirtttk.ir/category.php"
+                                            href="../../../iranshop_dornica/category.php"
                                             class="px-4 py-2 flex w-full items-start hover:bg-red-100 rounded-lg transition no-underline hover:no-underline duration-100 cursor-pointer">
                                             <span class="flex-1">هم زن و آبمیوه گیر</span>
                                         </a>
@@ -1404,7 +1404,7 @@
                                         @mouseleave="showChildren=false"
                                         @mouseenter="showChildren=true">
                                         <a
-                                            href="../../../shop1/amirtttk.ir/category.php"
+                                            href="../../../iranshop_dornica/category.php"
                                             class="px-4 py-2 flex w-full items-start hover:bg-red-100 rounded-lg transition no-underline hover:no-underline duration-100 cursor-pointer">
                                             <span class="flex-1">ترازو دیجیتال و چرخ کن</span>
                                         </a>
@@ -1418,7 +1418,7 @@
                         x-data="{showChildren:false}"
                         @click.away="showChildren=false">
                         <a
-                            href="../../../shop1/amirtttk.ir/category-index.php"
+                            href="../../../iranshop_dornica/category-index.php"
                             class="flex justify-between items-center h-10 text-sm opacity-90 leading-10 px-3 cursor-pointer no-underline w-full hover:no-underline duration-100 mx-1 transition rounded-xl hover:bg-red-100"
                             @click.prevent="showChildren=!showChildren">
                             <span>سوپر مارکت</span>
@@ -1446,7 +1446,7 @@
                                         @mouseleave="showChildren=false"
                                         @mouseenter="showChildren=true">
                                         <a
-                                            href="../../../shop1/amirtttk.ir/category.php"
+                                            href="../../../iranshop_dornica/category.php"
                                             class="px-4 py-2 flex w-full items-start hover:bg-red-100 rounded-lg transition no-underline hover:no-underline duration-100 cursor-pointer">
                                             <span class="flex-1">صبحانه</span>
                                         </a>
@@ -1457,7 +1457,7 @@
                                         @mouseleave="showChildren=false"
                                         @mouseenter="showChildren=true">
                                         <a
-                                            href="../../../shop1/amirtttk.ir/category.php"
+                                            href="../../../iranshop_dornica/category.php"
                                             class="px-4 py-2 flex w-full items-start hover:bg-red-100 rounded-lg transition no-underline hover:no-underline duration-100 cursor-pointer">
                                             <span class="flex-1">تنقلات</span>
                                         </a>
@@ -1468,7 +1468,7 @@
                                         @mouseleave="showChildren=false"
                                         @mouseenter="showChildren=true">
                                         <a
-                                            href="../../../shop1/amirtttk.ir/category.php"
+                                            href="../../../iranshop_dornica/category.php"
                                             class="px-4 py-2 flex w-full items-start hover:bg-red-100 rounded-lg transition no-underline hover:no-underline duration-100 cursor-pointer">
                                             <span class="flex-1">خشکبار</span>
                                         </a>
@@ -1479,7 +1479,7 @@
                                         @mouseleave="showChildren=false"
                                         @mouseenter="showChildren=true">
                                         <a
-                                            href="../../../shop1/amirtttk.ir/category.php"
+                                            href="../../../iranshop_dornica/category.php"
                                             class="px-4 py-2 flex w-full items-start hover:bg-red-100 rounded-lg transition no-underline hover:no-underline duration-100 cursor-pointer">
                                             <span class="flex-1">حبوبات و کنسرو</span>
                                         </a>
@@ -1490,7 +1490,7 @@
                                         @mouseleave="showChildren=false"
                                         @mouseenter="showChildren=true">
                                         <a
-                                            href="../../../shop1/amirtttk.ir/category.php"
+                                            href="../../../iranshop_dornica/category.php"
                                             class="px-4 py-2 flex w-full items-start hover:bg-red-100 rounded-lg transition no-underline hover:no-underline duration-100 cursor-pointer">
                                             <span class="flex-1">میوه و سبزیجات</span>
                                         </a>
@@ -1501,7 +1501,7 @@
                                         @mouseleave="showChildren=false"
                                         @mouseenter="showChildren=true">
                                         <a
-                                            href="../../../shop1/amirtttk.ir/category.php"
+                                            href="../../../iranshop_dornica/category.php"
                                             class="px-4 py-2 flex w-full items-start hover:bg-red-100 rounded-lg transition no-underline hover:no-underline duration-100 cursor-pointer">
                                             <span class="flex-1">سوسیس و کالباس</span>
                                         </a>
@@ -1512,7 +1512,7 @@
                                         @mouseleave="showChildren=false"
                                         @mouseenter="showChildren=true">
                                         <a
-                                            href="../../../shop1/amirtttk.ir/category.php"
+                                            href="../../../iranshop_dornica/category.php"
                                             class="px-4 py-2 flex w-full items-start hover:bg-red-100 rounded-lg transition no-underline hover:no-underline duration-100 cursor-pointer">
                                             <span class="flex-1">گوشت</span>
                                         </a>
@@ -1523,7 +1523,7 @@
                                         @mouseleave="showChildren=false"
                                         @mouseenter="showChildren=true">
                                         <a
-                                            href="../../../shop1/amirtttk.ir/category.php"
+                                            href="../../../iranshop_dornica/category.php"
                                             class="px-4 py-2 flex w-full items-start hover:bg-red-100 rounded-lg transition no-underline hover:no-underline duration-100 cursor-pointer">
                                             <span class="flex-1">لبنیات</span>
                                         </a>
@@ -1537,7 +1537,7 @@
                         x-data="{showChildren:false}"
                         @click.away="showChildren=false">
                         <a
-                            href="../../../shop1/amirtttk.ir/category-index.php"
+                            href="../../../iranshop_dornica/category-index.php"
                             class="flex justify-between items-center h-10 text-sm opacity-90 leading-10 px-3 cursor-pointer no-underline w-full hover:no-underline duration-100 mx-1 transition rounded-xl hover:bg-red-100"
                             @click.prevent="showChildren=!showChildren">
                             <span>کودک و نوزاد</span>
@@ -1565,7 +1565,7 @@
                                         @mouseleave="showChildren=false"
                                         @mouseenter="showChildren=true">
                                         <a
-                                            href="../../../shop1/amirtttk.ir/category.php"
+                                            href="../../../iranshop_dornica/category.php"
                                             class="px-4 py-2 flex w-full items-start hover:bg-red-100 rounded-lg transition no-underline hover:no-underline duration-100 cursor-pointer">
                                             <span class="flex-1">پوشک</span>
                                         </a>
@@ -1576,7 +1576,7 @@
                                         @mouseleave="showChildren=false"
                                         @mouseenter="showChildren=true">
                                         <a
-                                            href="../../../shop1/amirtttk.ir/category.php"
+                                            href="../../../iranshop_dornica/category.php"
                                             class="px-4 py-2 flex w-full items-start hover:bg-red-100 rounded-lg transition no-underline hover:no-underline duration-100 cursor-pointer">
                                             <span class="flex-1">بهداشت و حمام</span>
                                         </a>
@@ -1587,7 +1587,7 @@
                                         @mouseleave="showChildren=false"
                                         @mouseenter="showChildren=true">
                                         <a
-                                            href="../../../shop1/amirtttk.ir/category.php"
+                                            href="../../../iranshop_dornica/category.php"
                                             class="px-4 py-2 flex w-full items-start hover:bg-red-100 rounded-lg transition no-underline hover:no-underline duration-100 cursor-pointer">
                                             <span class="flex-1">سرگرمی و غذاخوری</span>
                                         </a>
@@ -1598,7 +1598,7 @@
                                         @mouseleave="showChildren=false"
                                         @mouseenter="showChildren=true">
                                         <a
-                                            href="../../../shop1/amirtttk.ir/category.php"
+                                            href="../../../iranshop_dornica/category.php"
                                             class="px-4 py-2 flex w-full items-start hover:bg-red-100 rounded-lg transition no-underline hover:no-underline duration-100 cursor-pointer">
                                             <span class="flex-1">کالای خواب</span>
                                         </a>
