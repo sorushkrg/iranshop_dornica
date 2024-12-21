@@ -99,7 +99,7 @@
                 </div>
 
                 <div class="flex left-auto">
-                  <a href="#name" class="reply mr-auto px-2 sm:px-4 py-2 opacity-80 md:w-auto text-xs sm:text-sm xl:text-base">
+                  <a href="#name" data-commentid="<?= testSecurity($value["id"]) ?>" class="reply mr-auto px-2 sm:px-4 py-2 opacity-80 md:w-auto text-xs sm:text-sm xl:text-base">
                     پاسخ
                   </a>
                 </div>
@@ -125,10 +125,38 @@
                         <?= testSecurity($reply["content"]) ?>
                       </div>
                       <div class="flex left-auto">
-                        <a href="#name" class="reply  mr-auto px-2 sm:px-4 py-2 opacity-80 md:w-auto text-xs sm:text-sm xl:text-base flex justify-center items-center">
+                        <a href="#name" data-commentid="<?= testSecurity($reply["id"]) ?>" class="reply  mr-auto px-2 sm:px-4 py-2 opacity-80 md:w-auto text-xs sm:text-sm xl:text-base flex justify-center items-center">
                           پاسخ
                         </a>
                       </div>
+
+                      <!-- two reply query -->
+                      <?php
+                      $db->where("parent_id", $reply["id"]);
+                      $db->where("status", 1);
+                      $rep_Reply = $db->get("comment_blog");
+                      ?>
+
+                      <?php foreach ($rep_Reply as $doubleRep) { ?>
+                        <div class="bg-gray-50 rounded-xl pl-2 pr-5 sm:pr-8 py-3 my-2">
+                          <div class="flex items-center">
+                            <div>
+                              <img class="w-10" src="attachment/image/userNotImage.png" alt="">
+                            </div>
+                            <div class="text-sm opacity-60 pr-1">
+                              پاسخ داده شده توسط <?= testSecurity($doubleRep["name"]) ?>
+                            </div>
+                          </div>
+                          <div class="opacity-60 text-sm py-3">
+                            <?= testSecurity($doubleRep["content"]) ?>
+                          </div>
+                          <div class="flex left-auto">
+                            <a href="#name" data-commentid="<?= testSecurity($doubleRep["id"]) ?>" class="reply  mr-auto px-2 sm:px-4 py-2 opacity-80 md:w-auto text-xs sm:text-sm xl:text-base flex justify-center items-center">
+                              پاسخ
+                            </a>
+                          </div>
+                        </div>
+                      <?php } ?>
                     </div>
                   <?php } ?>
                 </div>
@@ -204,6 +232,11 @@
 
 
 <script>
+  $(".reply").on("click", function() {
+    $("#parentid").val($(this).data("commentid"));
+  });
+
+
   $("#send_comment").on("submit", function(e) {
     e.preventDefault();
 
@@ -211,7 +244,7 @@
       blog_id: <?= $id ?>,
       name: $("#name").val(),
       content: $("#content").val(),
-      
+      parent_id: $("#parentid").val(),
     };
 
 
