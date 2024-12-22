@@ -62,7 +62,7 @@
             رمز عبور:
           </div>
           <div class="mb-2">
-            <input id="password" class="w-full drop-shadow-lg outline-none rounded-2xl py-2 text-center" type="text">
+            <input id="password" class="w-full drop-shadow-lg outline-none rounded-2xl py-2 text-center" type="password">
             <p id="errorD"></p>
           </div>
 
@@ -70,7 +70,7 @@
             تکرار رمز عبور :
           </div>
           <div class="mb-2">
-            <input id="confirmPassword" class="w-full drop-shadow-lg outline-none rounded-2xl py-2 text-center" type="text">
+            <input id="confirmPassword" class="w-full drop-shadow-lg outline-none rounded-2xl py-2 text-center" type="password">
             <p id="errorE"></p>
           </div>
 
