@@ -5,7 +5,7 @@
 
 <head>
   <?php require_once "masterPage/head.php" ?>
-  <title><?= testSecurity($setting["site_name"])?>-ورود</title>
+  <title><?= testSecurity($setting["site_name"]) ?>-ورود</title>
   <style>
     input::-webkit-outer-spin-button,
     input::-webkit-inner-spin-button {
@@ -27,20 +27,24 @@
         <div class="opacity-80 text-lg mb-5">
           ورود
         </div>
+        <p id="massage"></p>
+
         <div class="text-xs opacity-70 mb-2">
-          شماره همراه یا ایمیل خود را وارد کنید:
+          نام کاربری
         </div>
         <div class="mb-2">
-          <input class="w-full drop-shadow-lg outline-none rounded-2xl py-2 text-center" type="text">
+          <input id="username" class="w-full drop-shadow-lg outline-none rounded-2xl py-2 text-center" type="text">
         </div>
+        <p id="errorA"></p>
         <div class="text-xs opacity-70 mb-2">
           رمز عبور
         </div>
         <div class="mb-2">
-          <input class="w-full drop-shadow-lg outline-none rounded-2xl py-2 text-center" type="password">
+          <input id="password" class="w-full drop-shadow-lg outline-none rounded-2xl py-2 text-center" type="password">
         </div>
+        <p id="errorB"></p>
         <div class="text-center mt-5 mb-3">
-          <button class="bg-red-500 hover:bg-red-600 transition text-white opacity-80 rounded-2xl w-full py-2" type="submit">
+          <button id="login_submit" class="bg-red-500 hover:bg-red-600 transition text-white opacity-80 rounded-2xl w-full py-2">
             ورود
           </button>
         </div>
@@ -54,6 +58,57 @@
   </div>
 </body>
 
-<!-- Mirrored from amirtttk.ir/login.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 09 Dec 2024 19:47:39 GMT -->
+<script src="assets/js/jquery.min.js"></script>
+
+
+<script>
+  $(document).ready(function() {
+    $("#login_submit").on("click", function(e) {
+      e.preventDefault();
+      $("#errorA").text("");
+      $("#errorB").text("");
+
+
+      const formData = {
+        username: $("#username").val(),
+        password: $("#password").val(),
+      };
+      console.log(formData);
+      
+
+      $.ajax({
+        type: "POST",
+        url: "login-submit.php",
+        data: formData,
+
+        success: function(response) {
+          try {
+            const result = JSON.parse(response);
+
+            if (result.success) {
+              $("#massage").text(result.message).css("color", "green");
+              setTimeout(function() {
+                window.location.href = "index%20.php";
+              }, 2000);
+
+            } else {
+              if (result.errorA) {
+                $("#errorA").text(result.errorA).css("color", "red");
+              }
+              if (result.errorB) {
+                $("#errorB").text(result.errorB).css("color", "red");
+              }
+            }
+          } catch (e) {
+            $("#errorA").html("پاسخ نامعتبر است").css("color", "red");
+          }
+        },
+        error: function() {
+          $("#errorA").html("خطایی رخ داده است. لطفا دوباره تلاش کنید").css("color", "red");
+        }
+      });
+    });
+  });
+</script>
 
 </html>

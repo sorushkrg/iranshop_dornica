@@ -1,3 +1,9 @@
+<?php
+
+session_start();
+
+?>
+
 <div>
     <!-- TOP -->
     <nav
@@ -129,10 +135,20 @@
                     href="../../../iranshop_dornica/login.php"
                     class="flex items-center h-10 leading-10 px-3 mx-1 transition rounded-xl hover:bg-red-50">
                     <img class="ml-1 w-6" src="attachment/image/user.png" alt="" />
-                    <span
-                        class="text-sm opacity-95">
-                        ورود | ثبت نام
-                    </span>
+                    <?php if (isset($_SESSION['user_id'])) { ?>
+
+                        <span class="text-sm opacity-95">
+                            <?= $_SESSION["first_name"] . " " . $_SESSION["last_name"] ?>
+                        </span>
+
+                    <?php
+                    } else {
+                    ?>
+                        <span
+                            class="text-sm opacity-95">
+                            ورود | ثبت نام
+                        </span>
+                    <?php } ?>
                     <span>
                         <img class="w-4 mr-1" src="attachment/image/chevron-down-login.png" alt="" />
                     </span>
@@ -150,63 +166,106 @@
                     @mouseenter="showChildren=true"
                     @mouseleave="showChildren=false">
                     <div class="bg-white rounded-2xl w-full relative z-10 py-2 px-2">
-                        <ul class="list-reset">
-                            <li
-                                class="relative border-b-2 border-red-300 pb-2"
-                                x-data="{showChildren:false}"
-                                @mouseleave="showChildren=false"
-                                @mouseenter="showChildren=true">
-                                <a
-                                    href="../../../iranshop_dornica/profile.php"
-                                    class="px-2 py-2 flex w-full items-start hover:bg-red-50 rounded-xl">
-                                    <span
-                                        class="flex justify-center items-center opacity-90"><img
-                                            class="w-8 ml-2"
-                                            src="attachment/image/userNotImage.png"
-                                            alt="" />امیررضا کریمی</span>
-                                </a>
-                            </li>
-                            <li
-                                class="relative pt-2"
-                                x-data="{showChildren:false}"
-                                @mouseleave="showChildren=false"
-                                @mouseenter="showChildren=true">
-                                <a
-                                    href="../../../iranshop_dornica/profile-order.php"
-                                    class="px-4 py-2 flex w-full items-start hover:bg-red-50 rounded-xl">
-                                    <span class="flex justify-center items-center text-sm opacity-90"><img
-                                            class="w-5 ml-1"
-                                            src="attachment/image/package.png"
-                                            alt="" />سفارش ها</span>
-                                </a>
-                            </li>
-                            <li
-                                class="relative"
-                                x-data="{showChildren:false}"
-                                @mouseleave="showChildren=false"
-                                @mouseenter="showChildren=true">
-                                <a
-                                    href="../../../iranshop_dornica/profile-favorites.php"
-                                    class="px-4 py-2 flex w-full items-start hover:bg-red-50 rounded-xl">
-                                    <span class="flex justify-center items-center text-sm opacity-90"><img
-                                            class="w-5 ml-1"
-                                            src="attachment/image/heart.png"
-                                            alt="" />علاقه مندی ها</span>
-                                </a>
-                            </li>
-                            <li
-                                class="relative"
-                                x-data="{showChildren:false}"
-                                @mouseleave="showChildren=false"
-                                @mouseenter="showChildren=true">
-                                <a
-                                    href="#"
-                                    class="px-4 py-2 flex w-full items-start hover:bg-red-50 rounded-xl">
-                                    <span class="flex justify-center items-center text-sm opacity-90"><img class="w-5 ml-1" src="attachment/image/exit.png" alt="" />خروج
-                                        از حساب کاربری</span>
-                                </a>
-                            </li>
-                        </ul>
+
+                        <!--********************************* login or signup************************ -->
+                        <?php
+                        if (isset($_SESSION['user_id'])) { ?>
+                            <ul class="list-reset">
+                                <li
+                                    class="relative border-b-2 border-red-300 pb-2"
+                                    x-data="{showChildren:false}"
+                                    @mouseleave="showChildren=false"
+                                    @mouseenter="showChildren=true">
+                                    <a
+                                        href="../../../iranshop_dornica/profile.php"
+                                        class="px-2 py-2 flex w-full items-start hover:bg-red-50 rounded-xl">
+                                        <span
+                                            class="flex justify-center items-center opacity-90"><img
+                                                class="w-8 ml-2"
+                                                src="attachment/image/userNotImage.png"
+                                                alt="" /><?= $_SESSION["first_name"] . " " . $_SESSION["last_name"] ?></span>
+                                    </a>
+                                </li>
+                                <!-- سایر موارد منو -->
+                                <li
+                                    class="relative pt-2"
+                                    x-data="{showChildren:false}"
+                                    @mouseleave="showChildren=false"
+                                    @mouseenter="showChildren=true">
+                                    <a
+                                        href="../../../iranshop_dornica/profile-order.php"
+                                        class="px-4 py-2 flex w-full items-start hover:bg-red-50 rounded-xl">
+                                        <span class="flex justify-center items-center text-sm opacity-90"><img
+                                                class="w-5 ml-1"
+                                                src="attachment/image/package.png"
+                                                alt="" />سفارش ها</span>
+                                    </a>
+                                </li>
+                                <li
+                                    class="relative"
+                                    x-data="{showChildren:false}"
+                                    @mouseleave="showChildren=false"
+                                    @mouseenter="showChildren=true">
+                                    <a
+                                        href="../../../iranshop_dornica/profile-favorites.php"
+                                        class="px-4 py-2 flex w-full items-start hover:bg-red-50 rounded-xl">
+                                        <span class="flex justify-center items-center text-sm opacity-90"><img
+                                                class="w-5 ml-1"
+                                                src="attachment/image/heart.png"
+                                                alt="" />علاقه مندی ها</span>
+                                    </a>
+                                </li>
+                                <li
+                                    class="relative"
+                                    x-data="{showChildren:false}"
+                                    @mouseleave="showChildren=false"
+                                    @mouseenter="showChildren=true">
+                                    <a
+                                        href="#"
+                                        class="px-4 py-2 flex w-full items-start hover:bg-red-50 rounded-xl">
+                                        <span class="flex justify-center items-center text-sm opacity-90"><img class="w-5 ml-1" src="attachment/image/exit.png" alt="" />خروج
+                                            از حساب کاربری</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        <?php
+                        } else { ?>
+                            <ul class="list-reset">
+                                <li
+                                    class="relative pt-2"
+                                    x-data="{showChildren:false}"
+                                    @mouseleave="showChildren=false"
+                                    @mouseenter="showChildren=true">
+                                    <a
+                                        href="login.php"
+                                        class="px-4 py-2 flex w-full items-start hover:bg-red-50 rounded-xl">
+                                        <span class="flex justify-center items-center text-sm opacity-90"><img
+                                                class="w-5 ml-1"
+                                                src="attachment/image/user.png"
+                                                alt="" />ورود</span>
+                                    </a>
+                                </li>
+                                <li
+                                    class="relative"
+                                    x-data="{showChildren:false}"
+                                    @mouseleave="showChildren=false"
+                                    @mouseenter="showChildren=true">
+                                    <a
+                                        href="login-register.php"
+                                        class="px-4 py-2 flex w-full items-start hover:bg-red-50 rounded-xl">
+                                        <span class="flex justify-center items-center text-sm opacity-90"><img
+                                                class="w-5 ml-1"
+                                                src="attachment/image/user.png"
+                                                alt="" />ثبت نام</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        <?php
+                        }
+                        ?>
+                        <!--********************************* login or signup************************ -->
+
+
                     </div>
                 </div>
             </span>
