@@ -99,7 +99,7 @@
                 </div>
 
                 <div class="flex left-auto">
-                  <a href="#name" data-commentid="<?= testSecurity($value["id"]) ?>" class="reply mr-auto px-2 sm:px-4 py-2 opacity-80 md:w-auto text-xs sm:text-sm xl:text-base">
+                  <a href="<?= (isset($_SESSION["user_id"])) ? "#content" : "#name"; ?>" data-commentid="<?= testSecurity($value["id"]) ?>" class="reply mr-auto px-2 sm:px-4 py-2 opacity-80 md:w-auto text-xs sm:text-sm xl:text-base">
                     پاسخ
                   </a>
                 </div>
@@ -125,7 +125,7 @@
                         <?= testSecurity($reply["content"]) ?>
                       </div>
                       <div class="flex left-auto">
-                        <a href="#name" data-commentid="<?= testSecurity($reply["id"]) ?>" class="reply  mr-auto px-2 sm:px-4 py-2 opacity-80 md:w-auto text-xs sm:text-sm xl:text-base flex justify-center items-center">
+                        <a href="<?= (isset($_SESSION["user_id"])) ? "#content" : "#name"; ?>" data-commentid="<?= testSecurity($reply["id"]) ?>" class="reply  mr-auto px-2 sm:px-4 py-2 opacity-80 md:w-auto text-xs sm:text-sm xl:text-base flex justify-center items-center">
                           پاسخ
                         </a>
                       </div>
@@ -151,7 +151,7 @@
                             <?= testSecurity($doubleRep["content"]) ?>
                           </div>
                           <div class="flex left-auto">
-                            <a href="#name" data-commentid="<?= testSecurity($doubleRep["id"]) ?>" class="reply  mr-auto px-2 sm:px-4 py-2 opacity-80 md:w-auto text-xs sm:text-sm xl:text-base flex justify-center items-center">
+                            <a href="<?= (isset($_SESSION["user_id"])) ? "#content" : "#name"; ?>" data-commentid="<?= testSecurity($doubleRep["id"]) ?>" class="reply  mr-auto px-2 sm:px-4 py-2 opacity-80 md:w-auto text-xs sm:text-sm xl:text-base flex justify-center items-center">
                               پاسخ
                             </a>
                           </div>
@@ -168,14 +168,14 @@
             <form action="" id="send_comment">
               <div>
                 <div class="mb-4">
-                  <label for="username" class="inline-block mb-2 ml-1 font-semibold text-xs text-slate-700">نام شما:</label>
+                  <label for="username" class="inline-block mb-2 ml-1 font-semibold text-xs text-slate-700"><?= (isset($_SESSION["user_id"])) ?  "نام کاربر :" . " " . $_SESSION["first_name"] . " " . $_SESSION["last_name"]  : "نام شما :"; ?></label>
                   <p id="errorN"></p>
-                  <input type="text" class="text-sm block w-full rounded-lg border border-gray-400 bg-white px-3 py-2 font-normal text-gray-700 outline-none focus:border-red-300" , id="name" />
+                  <input type="<?= (isset($_SESSION["user_id"])) ? "hidden" : "text"; ?>" class="text-sm block w-full rounded-lg border border-gray-400 bg-white px-3 py-2 font-normal text-gray-700 outline-none focus:border-red-300" , id="name" />
                   <input type="hidden" id="parentid" name="parentid" value="">
                 </div>
               </div>
               <div class="mb-4">
-                <label for="mailTicket" class="inline-block mb-2 ml-1 font-semibold text-xs text-slate-700">نظر شما:</label>
+                <label for="mailTicket" class="inline-block mb-2 ml-1 font-semibold text-xs text-slate-700">نظر شما :</label>
                 <p id="errorC"></p>
                 <textarea cols="30" rows="5" class="text-sm block w-full rounded-lg border border-gray-400 bg-white px-3 py-2 font-normal text-gray-700 outline-none focus:border-red-300" id="content"></textarea>
               </div>

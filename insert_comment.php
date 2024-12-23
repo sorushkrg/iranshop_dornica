@@ -2,6 +2,8 @@
 
 require_once "../iranshop_dornica/functions/functionQuery.php";
 
+session_start();
+
 $db = connectDb();
 
 $errorN = $errorC = "";
@@ -15,20 +17,22 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $content = (isset($_POST["content"])) ? testSecurity($_POST["content"]) : '';
 
 
-
-    if (empty($name)) {
-        $errorN = 'نام خالی است';
+    if (isset($_SESSION["user_id"])) {
+        $errorC = "";
+    } else {
+        if (empty($name)) {
+            $errorN = 'نام خالی است';
+        }
     }
+
 
     if (empty($content)) {
         $errorC = 'متن مورد نظر خود را بنویسید';
-    }elseif(strlen($content) < 50 ){
-        $errorC = "متن  مورد نظر باید بشتر از 50 تا باشد ";
     }
 
 
     if (!empty($errorN) || !empty($errorC)) {
-        
+
         echo json_encode([
             'errorN' => $errorN,
             'errorC' => $errorC
@@ -40,7 +44,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     $data = array(
         "blog_id" => $blog_id,
-        "name" => $name,
+        "name" => (isset($_SESSION["user_id"])) ? $_SESSION["first_name"] . " " . $_SESSION["last_name"] : $name,
+        "user_id" => (isset($_SESSION["user_id"])) ? $_SESSION["user_id"] : null,
         "content" => $content,
         "ip" => $_SERVER["REMOTE_ADDR"],
         "parent_id" => $parent_id,
