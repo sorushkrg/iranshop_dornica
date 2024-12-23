@@ -15,7 +15,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $errors = [];
 
     $hashPassword = password_hash($password, PASSWORD_DEFAULT);
-    $hashCpassword = password_hash($confirm_password, PASSWORD_DEFAULT);
 
 
 
@@ -45,28 +44,37 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         die;
     }
 
+    try {
 
+        $data = array(
+            "firstName" => $firstName,
+            "lastName" => $lastName,
+            "userName" => $userName,
+            "password" => $hashPassword,
+        );
 
-    $data = array(
-        "firstName" => $firstName,
-        "lastName" => $lastName,
-        "userName" => $userName,
-        "password" => $hashPassword,
-        "confirmPassword" => $hashCpassword,
+        $result = $db->insert('users', $data);
 
-    );
+        if ($result) {
+            echo json_encode([
+                'success' => true,
+                'message' => 'ثبت نام شما با موفقیت انجام شد',
+            ]);
+        } else {
+            echo json_encode([
+                'success' => false,
+                'message' => 'خطایی در ثبت نام رخ داد',
+                'error' => $db->getLastError(), 
+            ]);
+        }
 
-    $result = $db->insert('users', $data);
-
-    if ($result) {
-        echo json_encode([
-            'success' => true,
-            'message' => 'ثبت نام شما با موفقیت انجام شد',
-        ]);
-    } else {
-        echo json_encode([
-            'success' => false,
-            'message' => 'خطایی در ثبت نام رخ داد'
-        ]);
+    } catch (Exception $e) {
+        if ($e->getCode() == 1062) {
+            $errors['errorC'] = "نام کاربری یا ایمیل تکراری است";
+        } else {
+            $errors['errorGeneral'] = $e->getMessage();
+        }
+        echo json_encode($errors);
     }
 }
+
