@@ -221,7 +221,7 @@ session_start();
                                     @mouseleave="showChildren=false"
                                     @mouseenter="showChildren=true">
                                     <a
-                                        href="#"
+                                        href="logout.php"
                                         class="px-4 py-2 flex w-full items-start hover:bg-red-50 rounded-xl">
                                         <span class="flex justify-center items-center text-sm opacity-90"><img class="w-5 ml-1" src="attachment/image/exit.png" alt="" />خروج
                                             از حساب کاربری</span>
