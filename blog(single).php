@@ -168,16 +168,17 @@
             <form action="" id="send_comment">
               <div>
                 <div class="mb-4">
+                  <p id="errorA"></p>
                   <label for="username" class="inline-block mb-2 ml-1 font-semibold text-xs text-slate-700"><?= (isset($_SESSION["user_id"])) ?  "نام کاربر :" . " " . $_SESSION["first_name"] . " " . $_SESSION["last_name"]  : "نام شما :"; ?></label>
-                  <p id="errorN"></p>
                   <input type="<?= (isset($_SESSION["user_id"])) ? "hidden" : "text"; ?>" class="text-sm block w-full rounded-lg border border-gray-400 bg-white px-3 py-2 font-normal text-gray-700 outline-none focus:border-red-300" , id="name" />
+                  <p id="errorN"></p>
                   <input type="hidden" id="parentid" name="parentid" value="">
                 </div>
               </div>
               <div class="mb-4">
                 <label for="mailTicket" class="inline-block mb-2 ml-1 font-semibold text-xs text-slate-700">نظر شما :</label>
-                <p id="errorC"></p>
                 <textarea cols="30" rows="5" class="text-sm block w-full rounded-lg border border-gray-400 bg-white px-3 py-2 font-normal text-gray-700 outline-none focus:border-red-300" id="content"></textarea>
+                <p id="errorC"></p>
               </div>
               <button class="inline-block px-8 py-2 ml-auto font-semibold text-center text-white bg-red-500 rounded-lg shadow-md text-xs" type="submit">ارسال نظر</button>
           </div>
@@ -242,6 +243,9 @@
 
     $("#errorN").text("");
     $("#errorC").text("");
+    setTimeout(function() {
+      $("#errorA").text("")
+    }, 2000);
 
     const formData = {
       blog_id: <?= $id ?>,
@@ -258,7 +262,7 @@
       success: function(response) {
 
         if (response.indexOf("ثبت شد") !== -1) {
-          $("#errorN").text(response).css("color", "green");
+          $("#errorA").text(response).css("color", "green");
           $("#name").val("");
           $("#content").val("");
         } else {
