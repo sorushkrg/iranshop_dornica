@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1:3306
--- Generation Time: Dec 21, 2024 at 10:43 AM
+-- Generation Time: Dec 25, 2024 at 02:41 PM
 -- Server version: 8.3.0
 -- PHP Version: 8.2.18
 
@@ -29,7 +29,7 @@ SET time_zone = "+00:00";
 
 DROP TABLE IF EXISTS `authors_blog`;
 CREATE TABLE IF NOT EXISTS `authors_blog` (
-  `id` tinyint NOT NULL AUTO_INCREMENT,
+  `id` int NOT NULL AUTO_INCREMENT,
   `firstName` varchar(32) COLLATE utf8mb4_persian_ci NOT NULL,
   `lastName` varchar(32) COLLATE utf8mb4_persian_ci NOT NULL,
   `status` tinyint(1) NOT NULL DEFAULT '1',
@@ -56,7 +56,7 @@ INSERT INTO `authors_blog` (`id`, `firstName`, `lastName`, `status`) VALUES
 
 DROP TABLE IF EXISTS `best_suggest`;
 CREATE TABLE IF NOT EXISTS `best_suggest` (
-  `id` tinyint NOT NULL AUTO_INCREMENT,
+  `id` int NOT NULL AUTO_INCREMENT,
   `model_name` varchar(32) COLLATE utf8mb4_persian_ci NOT NULL,
   `real_price` varchar(355) COLLATE utf8mb4_persian_ci NOT NULL,
   `discount_price` varchar(355) COLLATE utf8mb4_persian_ci NOT NULL,
@@ -84,15 +84,15 @@ INSERT INTO `best_suggest` (`id`, `model_name`, `real_price`, `discount_price`, 
 
 DROP TABLE IF EXISTS `blog_details`;
 CREATE TABLE IF NOT EXISTS `blog_details` (
-  `id` tinyint NOT NULL AUTO_INCREMENT,
-  `blog_id` tinyint NOT NULL,
-  `category_id` tinyint NOT NULL,
-  `author_id` tinyint NOT NULL,
+  `id` int NOT NULL AUTO_INCREMENT,
+  `blog_id` int NOT NULL,
+  `category_id` int NOT NULL,
+  `author_id` int NOT NULL,
   `description` text CHARACTER SET utf8mb4 COLLATE utf8mb4_persian_ci NOT NULL,
   `rate` varchar(16) COLLATE utf8mb4_persian_ci NOT NULL,
   `status` tinyint(1) NOT NULL DEFAULT '1',
   PRIMARY KEY (`id`),
-  KEY `blog_details_ibfk_1` (`blog_id`),
+  KEY `blog_id` (`blog_id`),
   KEY `category_id` (`category_id`),
   KEY `author_id` (`author_id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=22 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_persian_ci;
@@ -118,7 +118,7 @@ INSERT INTO `blog_details` (`id`, `blog_id`, `category_id`, `author_id`, `descri
 
 DROP TABLE IF EXISTS `blog_index`;
 CREATE TABLE IF NOT EXISTS `blog_index` (
-  `id` tinyint NOT NULL AUTO_INCREMENT COMMENT 'ردیف',
+  `id` int NOT NULL AUTO_INCREMENT COMMENT 'ردیف',
   `name` varchar(32) COLLATE utf8mb4_persian_ci NOT NULL COMMENT 'نام',
   `image` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_persian_ci NOT NULL COMMENT 'ادرس عکس',
   `status` tinyint(1) NOT NULL DEFAULT '1' COMMENT 'وضعیت',
@@ -143,9 +143,9 @@ INSERT INTO `blog_index` (`id`, `name`, `image`, `status`) VALUES
 
 DROP TABLE IF EXISTS `blog_page`;
 CREATE TABLE IF NOT EXISTS `blog_page` (
-  `id` tinyint NOT NULL AUTO_INCREMENT,
-  `author_id` tinyint NOT NULL,
-  `category_id` tinyint NOT NULL,
+  `id` int NOT NULL AUTO_INCREMENT,
+  `author_id` int NOT NULL,
+  `category_id` int NOT NULL,
   `content` text COLLATE utf8mb4_persian_ci NOT NULL,
   `image` varchar(255) COLLATE utf8mb4_persian_ci NOT NULL COMMENT 'عکس',
   `sort` int NOT NULL COMMENT 'دسته بندی ',
@@ -179,7 +179,7 @@ INSERT INTO `blog_page` (`id`, `author_id`, `category_id`, `content`, `image`, `
 
 DROP TABLE IF EXISTS `category_blog`;
 CREATE TABLE IF NOT EXISTS `category_blog` (
-  `id` tinyint NOT NULL AUTO_INCREMENT COMMENT 'ردیف',
+  `id` int NOT NULL AUTO_INCREMENT COMMENT 'ردیف',
   `category_title` varchar(32) CHARACTER SET utf8mb4 COLLATE utf8mb4_persian_ci NOT NULL COMMENT 'نام دسته بندی ',
   `image` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_persian_ci NOT NULL COMMENT 'عکس دسته بندی ',
   `sort` int NOT NULL COMMENT 'دسته بندی',
@@ -213,7 +213,7 @@ INSERT INTO `category_blog` (`id`, `category_title`, `image`, `sort`, `status`) 
 
 DROP TABLE IF EXISTS `category_index`;
 CREATE TABLE IF NOT EXISTS `category_index` (
-  `id` tinyint NOT NULL AUTO_INCREMENT,
+  `id` int NOT NULL AUTO_INCREMENT,
   `name` varchar(32) COLLATE utf8mb4_persian_ci NOT NULL,
   `image` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_persian_ci NOT NULL,
   `status` tinyint(1) NOT NULL DEFAULT '1',
@@ -241,11 +241,11 @@ INSERT INTO `category_index` (`id`, `name`, `image`, `status`) VALUES
 
 DROP TABLE IF EXISTS `comment_blog`;
 CREATE TABLE IF NOT EXISTS `comment_blog` (
-  `id` tinyint NOT NULL AUTO_INCREMENT COMMENT 'ردیف',
-  `blog_id` tinyint NOT NULL COMMENT 'ردیف بلاگ',
-  `parent_id` tinyint NOT NULL DEFAULT '0' COMMENT 'ردیف والد',
-  `user_id` tinyint NOT NULL DEFAULT '0' COMMENT 'ردیف کاربر ثبت نام شده',
-  `name` varchar(32) COLLATE utf8mb4_persian_ci NOT NULL COMMENT 'نام',
+  `id` int NOT NULL AUTO_INCREMENT COMMENT 'ردیف',
+  `blog_id` int NOT NULL COMMENT 'ردیف بلاگ',
+  `parent_id` int NOT NULL DEFAULT '0' COMMENT 'ردیف والد',
+  `user_id` int DEFAULT NULL COMMENT 'ردیف کاربر ثبت نام شده',
+  `name` varchar(32) CHARACTER SET utf8mb4 COLLATE utf8mb4_persian_ci DEFAULT NULL COMMENT 'نام',
   `subject` varchar(32) COLLATE utf8mb4_persian_ci DEFAULT NULL COMMENT 'موضوع',
   `content` varchar(128) COLLATE utf8mb4_persian_ci NOT NULL COMMENT 'کامنت',
   `email` varchar(64) COLLATE utf8mb4_persian_ci DEFAULT NULL COMMENT 'ایمیل',
@@ -254,19 +254,23 @@ CREATE TABLE IF NOT EXISTS `comment_blog` (
   `Approveed_by` int DEFAULT NULL COMMENT 'کسی که تایید کرده',
   `status` tinyint(1) NOT NULL DEFAULT '0' COMMENT 'وضعیت',
   PRIMARY KEY (`id`),
-  KEY `blog_id` (`blog_id`)
-) ENGINE=InnoDB AUTO_INCREMENT=13 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_persian_ci COMMENT='کامنت های بلاگ';
+  KEY `blog_id` (`blog_id`),
+  KEY `user_id` (`user_id`)
+) ENGINE=InnoDB AUTO_INCREMENT=20 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_persian_ci COMMENT='کامنت های بلاگ';
 
 --
 -- Dumping data for table `comment_blog`
 --
 
 INSERT INTO `comment_blog` (`id`, `blog_id`, `parent_id`, `user_id`, `name`, `subject`, `content`, `email`, `ip`, `created_at`, `Approveed_by`, `status`) VALUES
-(8, 1, 0, 0, 'Sorushkg', NULL, 'عالی و شیک', NULL, '::1', '2024-12-21 10:16:24', NULL, 1),
-(9, 1, 8, 0, 'سامان', NULL, 'بسیار موافقم', NULL, '::1', '2024-12-21 10:17:41', NULL, 1),
-(10, 1, 0, 0, 'سروش کارگشا', NULL, 'بادوام و کاربردی', NULL, '::1', '2024-12-21 10:19:57', NULL, 1),
-(11, 1, 10, 0, 'امیر فلاحتی', NULL, 'موافق نیستم', NULL, '::1', '2024-12-21 10:20:56', NULL, 1),
-(12, 1, 9, 0, 'علی احمدی', NULL, 'درسته', NULL, '::1', '2024-12-21 10:37:05', NULL, 1);
+(12, 1, 0, NULL, 'علی احمدی', NULL, 'شیک و بادوام', NULL, '::1', '2024-12-23 20:44:17', NULL, 1),
+(13, 1, 12, NULL, 'سامان کارگشا', NULL, 'موافقم', NULL, '::1', '2024-12-23 20:46:11', NULL, 1),
+(14, 1, 0, 1, 'سروش کارگشا', NULL, 'عالی و شیک', NULL, '::1', '2024-12-23 21:29:47', NULL, 1),
+(15, 1, 14, 2, 'سامان کارگشا', NULL, 'موافق نیستم', NULL, '::1', '2024-12-23 21:31:33', NULL, 1),
+(16, 1, 0, NULL, 'طاها قادری', NULL, 'قیمت منااسب', NULL, '::1', '2024-12-24 09:16:23', NULL, 1),
+(17, 1, 0, NULL, 'امیر فلاحتی', NULL, 'موافقم', NULL, '::1', '2024-12-24 09:20:24', NULL, 1),
+(18, 1, 17, NULL, 'علی سالاری', NULL, 'موافق نیستم', NULL, '::1', '2024-12-24 09:24:10', NULL, 1),
+(19, 1, 18, 1, 'سروش کارگشا', NULL, 'اشتباه می کنید', NULL, '::1', '2024-12-25 14:38:50', NULL, 1);
 
 -- --------------------------------------------------------
 
@@ -276,7 +280,7 @@ INSERT INTO `comment_blog` (`id`, `blog_id`, `parent_id`, `user_id`, `name`, `su
 
 DROP TABLE IF EXISTS `digital_product`;
 CREATE TABLE IF NOT EXISTS `digital_product` (
-  `id` tinyint NOT NULL AUTO_INCREMENT COMMENT 'ردیف',
+  `id` int NOT NULL AUTO_INCREMENT COMMENT 'ردیف',
   `name` varchar(32) COLLATE utf8mb4_persian_ci NOT NULL COMMENT 'نام',
   `image` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_persian_ci NOT NULL COMMENT 'ادرس عکس',
   `discount_price` varchar(255) COLLATE utf8mb4_persian_ci NOT NULL COMMENT 'قیمت با تخفیف',
@@ -305,7 +309,7 @@ INSERT INTO `digital_product` (`id`, `name`, `image`, `discount_price`, `real_pr
 
 DROP TABLE IF EXISTS `discounts_index`;
 CREATE TABLE IF NOT EXISTS `discounts_index` (
-  `id` tinyint NOT NULL AUTO_INCREMENT COMMENT 'ردیف',
+  `id` int NOT NULL AUTO_INCREMENT COMMENT 'ردیف',
   `model_name` varchar(32) COLLATE utf8mb4_persian_ci NOT NULL COMMENT 'نام کالا',
   `real_price` varchar(355) COLLATE utf8mb4_persian_ci NOT NULL COMMENT 'قیمت اصلی',
   `discount_price` varchar(355) COLLATE utf8mb4_persian_ci NOT NULL COMMENT 'قیمت با تخفیف',
@@ -411,7 +415,7 @@ INSERT INTO `index_adds` (`id`, `name`, `image`, `status`) VALUES
 
 DROP TABLE IF EXISTS `last_offers`;
 CREATE TABLE IF NOT EXISTS `last_offers` (
-  `id` tinyint NOT NULL AUTO_INCREMENT COMMENT 'ردیف',
+  `id` int NOT NULL AUTO_INCREMENT COMMENT 'ردیف',
   `product_name_english` varchar(64) COLLATE utf8mb4_persian_ci NOT NULL COMMENT 'نام محصول انگلیسی',
   `product_name_farsi` varchar(64) COLLATE utf8mb4_persian_ci NOT NULL COMMENT 'نام محصول فارسی',
   `image` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_persian_ci NOT NULL COMMENT 'لینک عکس',
@@ -462,7 +466,7 @@ INSERT INTO `latest_articles` (`id`, `name`, `image`, `created_at`, `status`) VA
 
 DROP TABLE IF EXISTS `product`;
 CREATE TABLE IF NOT EXISTS `product` (
-  `id` tinyint NOT NULL AUTO_INCREMENT COMMENT 'ردیف',
+  `id` int NOT NULL AUTO_INCREMENT COMMENT 'ردیف',
   `name` varchar(32) COLLATE utf8mb4_persian_ci NOT NULL COMMENT 'نام',
   `image` varchar(255) COLLATE utf8mb4_persian_ci NOT NULL COMMENT 'عکس',
   `price` int NOT NULL COMMENT 'قیمت ',
@@ -554,8 +558,8 @@ INSERT INTO `slider_index` (`id`, `name`, `image`, `status`) VALUES
 
 DROP TABLE IF EXISTS `social_media`;
 CREATE TABLE IF NOT EXISTS `social_media` (
-  `id` tinyint NOT NULL AUTO_INCREMENT COMMENT 'ردیف',
-  `social_media_type_id` tinyint NOT NULL COMMENT 'ردیف نوع شبکه ای مجازی',
+  `id` int NOT NULL AUTO_INCREMENT COMMENT 'ردیف',
+  `social_media_type_id` int NOT NULL COMMENT 'ردیف نوع شبکه ای مجازی',
   `value` varchar(128) COLLATE utf8mb4_persian_ci NOT NULL COMMENT 'مقدار',
   `status` tinyint(1) NOT NULL DEFAULT '1' COMMENT 'وضعیت',
   PRIMARY KEY (`id`),
@@ -579,7 +583,7 @@ INSERT INTO `social_media` (`id`, `social_media_type_id`, `value`, `status`) VAL
 
 DROP TABLE IF EXISTS `social_media_type`;
 CREATE TABLE IF NOT EXISTS `social_media_type` (
-  `id` tinyint NOT NULL AUTO_INCREMENT COMMENT 'ردیف',
+  `id` int NOT NULL AUTO_INCREMENT COMMENT 'ردیف',
   `name` varchar(32) COLLATE utf8mb4_persian_ci NOT NULL COMMENT 'نام',
   `url` varchar(255) COLLATE utf8mb4_persian_ci NOT NULL COMMENT 'لینک',
   `icon` varchar(356) CHARACTER SET utf8mb4 COLLATE utf8mb4_persian_ci NOT NULL COMMENT 'ایکون',
@@ -625,6 +629,33 @@ INSERT INTO `useful_links` (`id`, `name`, `link`, `status`) VALUES
 (4, 'سوالات متداول', '../../../iranshop_dornica/faq.php', 1),
 (5, 'بلاگ', '../../../iranshop_dornica/blog.php', 1);
 
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `users`
+--
+
+DROP TABLE IF EXISTS `users`;
+CREATE TABLE IF NOT EXISTS `users` (
+  `id` int NOT NULL AUTO_INCREMENT COMMENT 'ردیف',
+  `firstName` varchar(32) CHARACTER SET utf8mb4 COLLATE utf8mb4_persian_ci NOT NULL COMMENT 'نام',
+  `lastName` varchar(32) CHARACTER SET utf8mb4 COLLATE utf8mb4_persian_ci NOT NULL COMMENT 'نام خانوادگی',
+  `userName` varchar(64) CHARACTER SET utf8mb4 COLLATE utf8mb4_persian_ci NOT NULL COMMENT 'نام کاربری',
+  `password` varchar(128) CHARACTER SET utf8mb4 COLLATE utf8mb4_persian_ci NOT NULL COMMENT 'رمز عبور',
+  `created_at` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT 'زمان ساخت کاربر',
+  `status` tinyint(1) NOT NULL DEFAULT '1' COMMENT 'وضعیت',
+  PRIMARY KEY (`id`),
+  UNIQUE KEY `userName` (`userName`)
+) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_persian_ci;
+
+--
+-- Dumping data for table `users`
+--
+
+INSERT INTO `users` (`id`, `firstName`, `lastName`, `userName`, `password`, `created_at`, `status`) VALUES
+(1, 'سروش', 'کارگشا', 'sorushkg', '$2y$10$KM5Wymk4byGgmPSFb/gr/ehPPZFIhnQn9vHyPTrShvOalQeD76U2u', '2024-12-23 21:26:58', 1),
+(2, 'سامان', 'کارگشا', 'samankg', '$2y$10$R4RSZEUmEyn4XMW0Xz6fQ.SZzM5OLFSZT06SKH3r5Dcut1J.oxryG', '2024-12-23 21:27:30', 1);
+
 --
 -- Constraints for dumped tables
 --
@@ -648,7 +679,8 @@ ALTER TABLE `blog_page`
 -- Constraints for table `comment_blog`
 --
 ALTER TABLE `comment_blog`
-  ADD CONSTRAINT `comment_blog_ibfk_1` FOREIGN KEY (`blog_id`) REFERENCES `blog_page` (`id`) ON DELETE RESTRICT ON UPDATE RESTRICT;
+  ADD CONSTRAINT `comment_blog_ibfk_1` FOREIGN KEY (`blog_id`) REFERENCES `blog_page` (`id`) ON DELETE RESTRICT ON UPDATE RESTRICT,
+  ADD CONSTRAINT `comment_blog_ibfk_2` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`) ON DELETE RESTRICT ON UPDATE RESTRICT;
 
 --
 -- Constraints for table `social_media`
