@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1:3306
--- Generation Time: Dec 25, 2024 at 02:41 PM
+-- Generation Time: Dec 28, 2024 at 11:37 AM
 -- Server version: 8.3.0
 -- PHP Version: 8.2.18
 
@@ -20,6 +20,31 @@ SET time_zone = "+00:00";
 --
 -- Database: `iranshop`
 --
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `admins`
+--
+
+DROP TABLE IF EXISTS `admins`;
+CREATE TABLE IF NOT EXISTS `admins` (
+  `id` int NOT NULL AUTO_INCREMENT,
+  `firstName` varchar(32) COLLATE utf8mb4_persian_ci NOT NULL,
+  `lastName` varchar(32) COLLATE utf8mb4_persian_ci NOT NULL,
+  `userName` varchar(64) COLLATE utf8mb4_persian_ci NOT NULL,
+  `password` varchar(128) COLLATE utf8mb4_persian_ci NOT NULL,
+  `created_at` timestamp NOT NULL,
+  `status` tinyint(1) NOT NULL DEFAULT '1',
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_persian_ci;
+
+--
+-- Dumping data for table `admins`
+--
+
+INSERT INTO `admins` (`id`, `firstName`, `lastName`, `userName`, `password`, `created_at`, `status`) VALUES
+(1, 'سروش', 'کارگشا', 'sorushkg', '123456789', '2024-12-28 08:29:32', 1);
 
 -- --------------------------------------------------------
 
