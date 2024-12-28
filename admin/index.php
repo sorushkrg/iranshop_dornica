@@ -1,8 +1,8 @@
+<?php
+require_once "checkLogin.php";
+?>
 <!doctype html>
 <html lang="en" dir="rtl">
-
-
-<!-- Mirrored from theme-script.ir/templates/lexa/Lexa-RTL/RTL-lexa-teal/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 27 Dec 2024 17:18:45 GMT -->
 <head>
     <?php require_once "layout/head.php" ?>
     <title><?= $stitle ?> | لکسا - قالب مدیریت و داشبورد</title>
@@ -20,16 +20,12 @@
     <!-- ========== Left Sidebar Start ========== -->
     <?php require_once "layout/sideBar.php" ?>
     <!-- Left Sidebar End -->
-
-
-
     <!-- ============================================================== -->
     <!-- Start right Content here -->
     <!-- ============================================================== -->
     <div class="main-content">
         <div class="page-content">
             <div class="container-fluid">
-
                 <!-- start page title -->
                 <div class="row">
                     <div class="col-sm-6">
@@ -563,9 +559,6 @@
     <?php require_once "layout/footer.php" ?>
     
 </div>
-
-
-
 
 <!-- END layout-wrapper -->
 
