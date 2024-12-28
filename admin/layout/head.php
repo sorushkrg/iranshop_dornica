@@ -1,8 +1,6 @@
 <?php 
 $stitle = 'پنل مدیریتی ';
 $firstUrl = $_SERVER["HTTP_HOST"];
-require_once "./dbConncet/connect.php";
-session_start();
 ?>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
