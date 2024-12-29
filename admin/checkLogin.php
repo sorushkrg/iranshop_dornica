@@ -8,8 +8,8 @@ if ((isset($_SESSION["admin_id"]) && $_SESSION["admin_id"] > 0) && (isset($_SESS
     }
     
 }else {
-    header("Location:pages-login.php");
-	echo "<script> window.location.href = 'pages-login.php';</script>";
+    header("Location:" . $nav_path ."pages-login.php");
+	echo "<script>window.location= " . $nav_path . "pages-login.php';</script>";
     exit;
 }
 
