@@ -1,3 +1,5 @@
+<?php require_once "includeFiles.php" ?>
+
 <!doctype html>
 <html lang="en" dir="rtl">
 
