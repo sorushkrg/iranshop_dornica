@@ -48,9 +48,10 @@ $ins_ctg->registerTrigger("END", "Trigger_Default_Redirect", 99, "blogCategori_l
 $ins_ctg->registerTrigger("AFTER", "Trigger_ImageUpload", 97);
 
 // Add columns
-$ins_ctg->setTable("shopsss");
+$ins_ctg->setTable("category_blog");
 $ins_ctg->addColumn("category_title", "STRING_TYPE", "POST", "category_title");
 $ins_ctg->addColumn("image", "FILE_TYPE", "FILES", "image");
+$ins_ctg->addColumn("status", "STRING_TYPE", "POST", "status");
 $ins_ctg->setPrimaryKey("id", "NUMERIC_TYPE");
 
 // Execute all the registered transactions
@@ -74,7 +75,7 @@ $tNGs->executeTransactions();
     <?= $tNGs->displayValidationRules(); ?>
 
 
-    <title> =دسته بندی - بلاگ - درج | لکسا - قالب مدیریت و داشبورد</title>
+    <title>دسته بندی - بلاگ - درج | لکسا - قالب مدیریت و داشبورد</title>
 </head>
 <?php require_once "../../layout/header.php" ?>
 
@@ -124,7 +125,10 @@ $tNGs->executeTransactions();
                             <div class="card">
                                 <div class="card-body">
                                     <h4 class="card-title">فرم درج بلاگ</h4>
-                                    <form method="post" enctype="multipart/form-data">
+                                    <?php
+                                    echo $tNGs->getErrorMsg();
+                                    ?>
+                                    <form method="post" action="<?= _ktx(KT_getFullUri()); ?>" enctype="multipart/form-data">
                                         <div class="mb-3">
                                             <label for="title" class="form-label">عنوان</label>
                                             <input type="text" class="form-control" id="title" name="category_title">
@@ -134,23 +138,23 @@ $tNGs->executeTransactions();
                                             <input type="file" class="form-control" id="image" name="image">
                                         </div>
                                         <div class="mb-3">
+                                            <span class="help-block m-3">فرمتهای مجاز: <?= _ktx($ImgAllowedExtensions) ?>. حداکثر اندازه فایل: <?= _ktx($ImgMaxSize) ?>KB</span>
+                                        </div>
+                                        <div class="mb-3">
                                             <label class="form-label">وضعیت</label>
                                             <div>
                                                 <div class="form-check form-check-inline">
-                                                    <input class="form-check-input" type="radio" name="status" id="status1" value="active" checked>
+                                                    <input class="form-check-input" type="radio" name="status" id="status1" value="1" checked>
                                                     <label class="form-check-label" for="status1">فعال</label>
                                                 </div>
                                                 <div class="form-check form-check-inline">
-                                                    <input class="form-check-input" type="radio" name="status" id="status2" value="inactive">
+                                                    <input class="form-check-input" type="radio" name="status" id="status2" value="0">
                                                     <label class="form-check-label" for="status2">غیرفعال</label>
                                                 </div>
                                             </div>
                                         </div>
                                         <button type="submit" class="btn btn-primary" name="send">ارسال</button>
                                     </form>
-                                    <?php
-                                    echo $tNGs->getErrorMsg();
-                                    ?>
                                 </div>
                             </div>
                         </div>
@@ -178,6 +182,16 @@ $tNGs->executeTransactions();
     <script src="../../assets/js/app.js"></script>
 
 </body>
+
+
+<script>
+    var ImgMaxSize = "<?= $ImgMaxSize ?>";
+    var ImgAllowedExtensions = "<?= $ImgAllowedExtensions ?>";
+
+    $("#image").change(function() {
+        Filevalidation("image", ImgMaxSize, ImgAllowedExtensions)
+    });
+</script>
 
 <!-- Mirrored from theme-script.ir/templates/lexa/Lexa-RTL/RTL-lexa-teal/pages-blank.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 27 Dec 2024 17:20:04 GMT -->
 
