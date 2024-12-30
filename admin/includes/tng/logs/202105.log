@@ -1,0 +1,3881 @@
+=== BEGIN MESSAGE ===
+Client IP:
+  172.16.90.5
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  https://payesh.bonyadmaskan.ir/portal/plugins/admin/admin_add.php
+
+Date:
+  2021-05-01 13:16:03
+
+خطا:
+  کاربر با این نام کاربری قبلا درج شده است
+
+Developer Details:
+  %s
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      BEFORE.Trigger_CheckUnique*
+      ERROR.Trigger_Default_Insert_RollBack
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  172.16.90.5
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  https://payesh.bonyadmaskan.ir/portal/plugins/admin/admin_add.php
+
+Date:
+  2021-05-01 13:16:04
+
+خطا:
+  کاربر با این نام کاربری قبلا درج شده است
+
+Developer Details:
+  %s
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      BEFORE.Trigger_CheckUnique*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  78.38.116.74
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  https://payesh.bonyadmaskan.ir/portal/plugins/havale/havale_anbar.php?code=!!I6RtmrmqWXGafblpf3UefsO60TVHBFNINHS2sSZzUzLS5Weo10LDNkU0VDNwR1YU9yYrEzR4Zjb5E0SkRzM
+
+Date:
+  2021-05-02 11:36:36
+
+خطا:
+  خطای پایگاه داده. <br><div style="display:none">Column 'anbarid' cannot be null</div>
+
+Developer Details:
+  خطای پایگاه داده. <br><div style="display:none">INSERT INTO havale_anbar (havalecode, anbarid, tahvildate, drivername, drivercar, drivertel, driverpelak	) values ('9915984550706538', null, null, null, null, null, null).</div> (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  185.141.39.215
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  https://payesh.bonyadmaskan.ir/portal/plugins/havades/file_add.php?cod=SFwFE2h$$8n9I488$$SjsUYpjO90zdBlzbLpGZ0pkd5IFUup2LrQ1VPVWe&mode=edit
+
+Date:
+  2021-05-02 12:03:21
+
+خطا:
+  خطای بارگذاری فایل. <br><div style="display:none">File size must be less than 200 kB.</div>
+
+Developer Details:
+  خطای بارگذاری فایل. <br><div style="display:none">File size must be less than 200 kB.</div> (FILE_UPLOAD_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql
+      tNG_insert.postExecuteSql
+      AFTER.Trigger_ImageUpload*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  2.183.14.39
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  https://payesh.bonyadmaskan.ir/portal/plugins/havades/file_add.php?cod=@@PWQosg4Ciab138PfvZuGrjO90TQu9mMx9Ce540aR5WOQBzYQt0UmJFb&cod=@@PWQosg4Ciab138PfvZuGrjO90TQu9mMx9Ce540aR5WOQBzYQt0UmJFb&mode=edit
+
+Date:
+  2021-05-02 12:52:14
+
+خطا:
+  خطای بارگذاری فایل. <br><div style="display:none">File size must be less than 200 kB.</div>
+
+Developer Details:
+  خطای بارگذاری فایل. <br><div style="display:none">File size must be less than 200 kB.</div> (FILE_UPLOAD_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql
+      tNG_insert.postExecuteSql
+      AFTER.Trigger_ImageUpload*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  2.183.14.39
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  https://payesh.bonyadmaskan.ir/portal/plugins/havades/file_add.php?cod=2jRYC$$TubFWSBBVyl1ez9pjO90TQplWRoJUazMmVvYnRDt0VVtUOjFnc&cod=2jRYC$$TubFWSBBVyl1ez9pjO90TQplWRoJUazMmVvYnRDt0VVtUOjFnc&mode=edit
+
+Date:
+  2021-05-02 12:53:07
+
+خطا:
+  خطای بارگذاری فایل. <br><div style="display:none">File size must be less than 200 kB.</div>
+
+Developer Details:
+  خطای بارگذاری فایل. <br><div style="display:none">File size must be less than 200 kB.</div> (FILE_UPLOAD_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql
+      tNG_insert.postExecuteSql
+      AFTER.Trigger_ImageUpload*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  2.184.108.237
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  https://payesh.bonyadmaskan.ir/portal/plugins/havades/havades_edit.php?cod=VQNs8C7AxXqkdl6x7ni@@GojO90TUQBnMmZkYWlHc0VFVnF1dtF0Yrl3T&mode=edit
+
+Date:
+  2021-05-03 14:54:56
+
+خطا:
+  خطای پایگاه داده. <br><div style="display:none">Column 'khesaratlevel' cannot be null</div>
+
+Developer Details:
+  خطای پایگاه داده. <br><div style="display:none">UPDATE hadese SET sgcode='1093', scode='1045', ostan='18', shahr='1803031520', shahrestan='1803', bakhsh='180303', rosta='1803031520', mahale=null, mojtama=null, loctype='1', tozihat=null, formserial='121119', codeposti=null, khanevarfarei='0', tedadfoti=null, tedadzakhmi=null, sokonat='1', karbari='1', nahad='4', eskan='0', mastercode=null, parvandetype='1', relcode=null, mojavez='1', adres=null, active='9', sal=1399, type='1', khesaratlevel=null, khesaratmlevel='1' WHERE code = '16084470696982'.</div> (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_update.doTransaction
+      BEFORE.Trigger_Default_saveData
+        tNG_update.saveData
+      BEFORE.Trigger_Default_FormValidation
+      tNG_update.prepareSQL
+      tNG_update.executeTransaction - execute sql*
+  tNG_update.getRecordset
+  tNG_update.getFakeRsArr
+  tNG_update.getLocalRecordset
+  tNG_update.getFakeRecordset
+  tNG_update.executeTransaction
+  tNG_update.getRecordset
+  tNG_update.getFakeRsArr
+  tNG_update.getLocalRecordset
+  tNG_update.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  2.184.108.237
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  https://payesh.bonyadmaskan.ir/portal/plugins/havades/havades_edit.php?cod=VQNs8C7AxXqkdl6x7ni@@GojO90TUQBnMmZkYWlHc0VFVnF1dtF0Yrl3T&mode=edit
+
+Date:
+  2021-05-03 14:55:01
+
+خطا:
+  خطای پایگاه داده. <br><div style="display:none">Column 'khesaratlevel' cannot be null</div>
+
+Developer Details:
+  خطای پایگاه داده. <br><div style="display:none">UPDATE hadese SET sgcode='1093', scode='1045', ostan='18', shahr='1803031520', shahrestan='1803', bakhsh='180303', rosta='1803031520', mahale=null, mojtama=null, loctype='1', tozihat=null, formserial='121119', codeposti=null, khanevarfarei='0', tedadfoti=null, tedadzakhmi=null, sokonat='1', karbari='1', nahad='4', eskan='0', mastercode=null, parvandetype='1', relcode=null, mojavez='1', adres=null, active='9', sal=1399, type='1', khesaratlevel=null, khesaratmlevel='1' WHERE code = '16084470696982'.</div> (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_update.doTransaction
+      BEFORE.Trigger_Default_saveData
+        tNG_update.saveData
+      BEFORE.Trigger_Default_FormValidation
+      tNG_update.prepareSQL
+      tNG_update.executeTransaction - execute sql*
+  tNG_update.getRecordset
+  tNG_update.getFakeRsArr
+  tNG_update.getLocalRecordset
+  tNG_update.getFakeRecordset
+  tNG_update.executeTransaction
+  tNG_update.getRecordset
+  tNG_update.getFakeRsArr
+  tNG_update.getLocalRecordset
+  tNG_update.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  5.119.145.54
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  https://payesh.bonyadmaskan.ir/portal/plugins/havades/hesab_add.php?cod=kAXZ7jfXy3VLPmMpOX26FrjO90zdNBzYLhXZ1lVbFtmMXtWRYd3ckVkb&mode=edit
+
+Date:
+  2021-05-04 15:46:39
+
+خطا:
+  خطای پایگاه داده. <br><div style="display:none">Data too long for column 'shhesab' at row 1</div>
+
+Developer Details:
+  خطای پایگاه داده. <br><div style="display:none">UPDATE hadese SET bank=2, shobe='بندرآزاد چابهار', shhesab='IIR67 0180 0000 0000 4114 9141 64', shabanumber='IR67 0180 0000 0000 4114 9141 64', cartnumber=null, malicode='33311986' WHERE code = '15802145399081'.</div> (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_update.doTransaction
+      BEFORE.Trigger_Default_saveData
+        tNG_update.saveData
+      BEFORE.Trigger_Default_FormValidation
+      tNG_update.prepareSQL
+      tNG_update.executeTransaction - execute sql*
+  tNG_update.getRecordset
+  tNG_update.getFakeRsArr
+  tNG_update.getLocalRecordset
+  tNG_update.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  2.187.39.198
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  https://payesh.bonyadmaskan.ir/portal/plugins/havades/makan_add.php?mode=edit&&cod=PWw442HqaaS25RAr2cEC7ojO90TUCN0czJ0V5dDSGxEaQZjQyFETYlWb
+
+Date:
+  2021-05-04 17:02:53
+
+خطا:
+  خطای بارگذاری فایل. <br><div style="display:none">File size must be less than 200 kB.</div>
+
+Developer Details:
+  خطای بارگذاری فایل. <br><div style="display:none">File size must be less than 200 kB.</div> (FILE_UPLOAD_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_update.doTransaction
+      BEFORE.Trigger_Default_saveData
+        tNG_update.saveData
+      BEFORE.Trigger_Default_FormValidation
+      tNG_update.prepareSQL
+      tNG_update.executeTransaction - execute sql
+      AFTER.Trigger_ImageUpload*
+  tNG_insert.getRecordset
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_update.getRecordset
+  tNG_update.getFakeRsArr
+  tNG_update.getLocalRecordset
+  tNG_update.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  94.183.24.123
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  https://payesh.bonyadmaskan.ir/portal/plugins/havades/file_add.php?cod=8deqnvIDMJw7c3kIkYXPMrjO90TULNXbrllbLFFNINWQrYzNWdTZuZUd&cod=8deqnvIDMJw7c3kIkYXPMrjO90TULNXbrllbLFFNINWQrYzNWdTZuZUd&mode=edit
+
+Date:
+  2021-05-05 11:05:34
+
+خطا:
+  خطای بارگذاری فایل. <br><div style="display:none">File size must be less than 200 kB.</div>
+
+Developer Details:
+  خطای بارگذاری فایل. <br><div style="display:none">File size must be less than 200 kB.</div> (FILE_UPLOAD_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql
+      tNG_insert.postExecuteSql
+      AFTER.Trigger_ImageUpload*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  94.183.24.123
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  https://payesh.bonyadmaskan.ir/portal/plugins/havades/file_add.php?cod=8deqnvIDMJw7c3kIkYXPMrjO90TULNXbrllbLFFNINWQrYzNWdTZuZUd&cod=8deqnvIDMJw7c3kIkYXPMrjO90TULNXbrllbLFFNINWQrYzNWdTZuZUd&mode=edit
+
+Date:
+  2021-05-05 11:08:31
+
+خطا:
+  خطای بارگذاری فایل. <br><div style="display:none">File size must be less than 200 kB.</div>
+
+Developer Details:
+  خطای بارگذاری فایل. <br><div style="display:none">File size must be less than 200 kB.</div> (FILE_UPLOAD_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql
+      tNG_insert.postExecuteSql
+      AFTER.Trigger_ImageUpload*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  185.141.39.215
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  https://payesh.bonyadmaskan.ir/portal/plugins/havades/moteghazi_edit.php?cod=!!oqAmMqSpxECWjOKcA76tvgO60TUk52cStiMkF1ZjZlY5JlWn5mSE5kSYVDe3xkdzhGN1plStlTMEdFZ2dGc&id=m4EA9rAkFDHb76M9WKz1qqjO90TQJlVSwo2ardUMnp0coF0QsdVN0kVV
+
+Date:
+  2021-05-06 13:20:02
+
+خطا:
+  خطای پایگاه داده. <br><div style="display:none">Data too long for column 'job' at row 1</div>
+
+Developer Details:
+  خطای پایگاه داده. <br><div style="display:none">UPDATE khanevar SET nesbat='1', name='صالح', lname='یلمه', pedar='خوجه نیاز', shsh='1727', mahalsodor='آق قلا', codemeli='497-925263-1', mahaltavalod='اق قلا', birthday='1357/05/15', job='لباس فروش در کنار جاده تهران-گرگان', tel='0', mobile='09116463984', tabeiat='0', user='a270810', takafol='2', noesokonat='1', jensiat='0', taahol='1', status=1 WHERE id = 594620.</div> (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_update.doTransaction
+      BEFORE.Trigger_Default_saveData
+        tNG_update.saveData
+      BEFORE.Trigger_Default_FormValidation
+      tNG_update.prepareSQL
+      tNG_update.executeTransaction - execute sql*
+  tNG_update.getRecordset
+  tNG_update.getFakeRsArr
+  tNG_update.getLocalRecordset
+  tNG_update.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  2.184.88.255
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  https://payesh.bonyadmaskan.ir/portal/plugins/havades/file_add.php?cod=G8rtghuF4G7tfk8vi@@4tDrjO90TU3FHVr5UYDpGdOZFaxNjYCVXOop0R&cod=G8rtghuF4G7tfk8vi@@4tDrjO90TU3FHVr5UYDpGdOZFaxNjYCVXOop0R&mode=edit
+
+Date:
+  2021-05-08 09:43:38
+
+خطا:
+  خطای بارگذاری فایل. <br><div style="display:none">File size must be less than 200 kB.</div>
+
+Developer Details:
+  خطای بارگذاری فایل. <br><div style="display:none">File size must be less than 200 kB.</div> (FILE_UPLOAD_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql
+      tNG_insert.postExecuteSql
+      AFTER.Trigger_ImageUpload*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  2.184.88.255
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  https://payesh.bonyadmaskan.ir/portal/plugins/havades/file_add.php?cod=G8rtghuF4G7tfk8vi@@4tDrjO90TU3FHVr5UYDpGdOZFaxNjYCVXOop0R&cod=G8rtghuF4G7tfk8vi@@4tDrjO90TU3FHVr5UYDpGdOZFaxNjYCVXOop0R&mode=edit
+
+Date:
+  2021-05-08 09:44:09
+
+خطا:
+  خطای بارگذاری فایل. <br><div style="display:none">File size must be less than 200 kB.</div>
+
+Developer Details:
+  خطای بارگذاری فایل. <br><div style="display:none">File size must be less than 200 kB.</div> (FILE_UPLOAD_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql
+      tNG_insert.postExecuteSql
+      AFTER.Trigger_ImageUpload*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  2.184.88.255
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  https://payesh.bonyadmaskan.ir/portal/plugins/havades/file_add.php?cod=y3dQyjdS7SGp8hGazw4qypjO90TUqpWbNdjM0dTW390LlpWNDFGMGNzZ&cod=y3dQyjdS7SGp8hGazw4qypjO90TUqpWbNdjM0dTW390LlpWNDFGMGNzZ&mode=edit
+
+Date:
+  2021-05-08 09:47:23
+
+خطا:
+  خطای بارگذاری فایل. <br><div style="display:none">File size must be less than 200 kB.</div>
+
+Developer Details:
+  خطای بارگذاری فایل. <br><div style="display:none">File size must be less than 200 kB.</div> (FILE_UPLOAD_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql
+      tNG_insert.postExecuteSql
+      AFTER.Trigger_ImageUpload*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  2.184.88.255
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  https://payesh.bonyadmaskan.ir/portal/plugins/havades/file_add.php?cod=y3dQyjdS7SGp8hGazw4qypjO90TUqpWbNdjM0dTW390LlpWNDFGMGNzZ&cod=y3dQyjdS7SGp8hGazw4qypjO90TUqpWbNdjM0dTW390LlpWNDFGMGNzZ&mode=edit
+
+Date:
+  2021-05-08 09:48:12
+
+خطا:
+  خطای بارگذاری فایل. <br><div style="display:none">File size must be less than 200 kB.</div>
+
+Developer Details:
+  خطای بارگذاری فایل. <br><div style="display:none">File size must be less than 200 kB.</div> (FILE_UPLOAD_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql
+      tNG_insert.postExecuteSql
+      AFTER.Trigger_ImageUpload*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  5.232.224.5
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  https://payesh.bonyadmaskan.ir/portal/plugins/havades/file_add.php?cod=yulvJR5RfVESiWbyMGpWAqjO90zZxITVzsUS3JGbYZneQNkRvI3RvJGb&cod=yulvJR5RfVESiWbyMGpWAqjO90zZxITVzsUS3JGbYZneQNkRvI3RvJGb&mode=edit
+
+Date:
+  2021-05-09 11:37:04
+
+خطا:
+  خطای بارگذاری فایل. <br><div style="display:none">File size must be less than 200 kB.</div>
+
+Developer Details:
+  خطای بارگذاری فایل. <br><div style="display:none">File size must be less than 200 kB.</div> (FILE_UPLOAD_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql
+      tNG_insert.postExecuteSql
+      AFTER.Trigger_ImageUpload*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  46.224.247.172
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  https://payesh.bonyadmaskan.ir/portal/plugins/havades/file_add.php?cod=gNBsXVF6kTBFILaBlRgXjpjO90zZ1p1RygzLu9ySNpWbvUneRBTMlVHT&mode=edit
+
+Date:
+  2021-05-09 12:27:42
+
+خطا:
+  خطای بارگذاری فایل. <br><div style="display:none">File size must be less than 200 kB.</div>
+
+Developer Details:
+  خطای بارگذاری فایل. <br><div style="display:none">File size must be less than 200 kB.</div> (FILE_UPLOAD_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql
+      tNG_insert.postExecuteSql
+      AFTER.Trigger_ImageUpload*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  188.213.177.37
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  https://payesh.bonyadmaskan.ir/portal/plugins/havades/file_add.php?cod=4ZYn3Xo0Ad0d9Z5wYpB$$wpjO90zZvgnbVtCT0YHUpJme4F1YLF1YQRzK&cod=4ZYn3Xo0Ad0d9Z5wYpB$$wpjO90zZvgnbVtCT0YHUpJme4F1YLF1YQRzK&mode=edit
+
+Date:
+  2021-05-10 10:48:15
+
+خطا:
+  خطای بارگذاری فایل. <br><div style="display:none">File size must be less than 200 kB.</div>
+
+Developer Details:
+  خطای بارگذاری فایل. <br><div style="display:none">File size must be less than 200 kB.</div> (FILE_UPLOAD_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql
+      tNG_insert.postExecuteSql
+      AFTER.Trigger_ImageUpload*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  188.213.177.37
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  https://payesh.bonyadmaskan.ir/portal/plugins/havades/file_add.php?cod=4ZYn3Xo0Ad0d9Z5wYpB$$wpjO90zZvgnbVtCT0YHUpJme4F1YLF1YQRzK&cod=4ZYn3Xo0Ad0d9Z5wYpB$$wpjO90zZvgnbVtCT0YHUpJme4F1YLF1YQRzK&mode=edit
+
+Date:
+  2021-05-10 10:49:00
+
+خطا:
+  خطای بارگذاری فایل. <br><div style="display:none">File size must be less than 200 kB.</div>
+
+Developer Details:
+  خطای بارگذاری فایل. <br><div style="display:none">File size must be less than 200 kB.</div> (FILE_UPLOAD_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql
+      tNG_insert.postExecuteSql
+      AFTER.Trigger_ImageUpload*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  2.183.209.88
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  https://payesh.bonyadmaskan.ir/portal/plugins/havades/file_add.php?cod=5hDguFDG5VowSAKS@@iOyjojO90TQ4IXZu1UaRNTaGtiZHRUcjJVaB5WZ&mode=edit
+
+Date:
+  2021-05-12 08:36:31
+
+خطا:
+  خطای بارگذاری فایل. <br><div style="display:none">File size must be less than 200 kB.</div>
+
+Developer Details:
+  خطای بارگذاری فایل. <br><div style="display:none">File size must be less than 200 kB.</div> (FILE_UPLOAD_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql
+      tNG_insert.postExecuteSql
+      AFTER.Trigger_ImageUpload*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  5.120.172.79
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  https://payesh.bonyadmaskan.ir/portal/plugins/havades/melktakmil_add.php?cod=zHgrtQ4pEmDzkeir6HTNqrjO90zdoNWRygUcIRUcRRXaIVXTXhWWqZ1Y&mode=edit
+
+Date:
+  2021-05-12 09:27:39
+
+خطا:
+  خطای پایگاه داده. <br><div style="display:none">Incorrect integer value: '۱' for column 'maskoniv' at row 1</div>
+
+Developer Details:
+  خطای پایگاه داده. <br><div style="display:none">INSERT INTO melk_detail (hcode, tabaghe, maskoniv, maskonim, tejariv, tejarim, tejmasv, tejmasm, khadv, khadm, edariv, edarim, mazhabiv, mazhabim, malek, user, sdate, active) values ('16192577326724', 0, '۱', '۴۳', null, null, null, null, null, null, null, null, null, null, 'مرضیه بلوچ زهی', 'a110701', '1400/02/22', '1').</div> (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  93.115.147.170
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  https://payesh.bonyadmaskan.ir/portal/plugins/havades/file_add.php?cod=7G7TnBw2DrgaeWDpt0oXYojO90TUBtWRiFnWPp3QBZXdrNjQ0UESrInd&mode=edit
+
+Date:
+  2021-05-12 13:16:12
+
+خطا:
+  خطای بارگذاری فایل. <br><div style="display:none">File size must be less than 200 kB.</div>
+
+Developer Details:
+  خطای بارگذاری فایل. <br><div style="display:none">File size must be less than 200 kB.</div> (FILE_UPLOAD_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql
+      tNG_insert.postExecuteSql
+      AFTER.Trigger_ImageUpload*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  2.187.234.177
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  https://payesh.bonyadmaskan.ir/portal/plugins/havades/makan_add.php?cod=1593JzxHIdiw0KvD2zW6lpjO90TQQplQhRmUxN0ZC92Y1A3N4FTQRZVU&mode=edit
+
+Date:
+  2021-05-14 10:50:42
+
+خطا:
+  خطای بارگذاری فایل. <br><div style="display:none">File size must be less than 200 kB.</div>
+
+Developer Details:
+  خطای بارگذاری فایل. <br><div style="display:none">File size must be less than 200 kB.</div> (FILE_UPLOAD_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_update.doTransaction
+      BEFORE.Trigger_Default_saveData
+        tNG_update.saveData
+      BEFORE.Trigger_Default_FormValidation
+      tNG_update.prepareSQL
+      tNG_update.executeTransaction - execute sql
+      AFTER.Trigger_ImageUpload*
+  tNG_insert.getRecordset
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_update.getRecordset
+  tNG_update.getFakeRsArr
+  tNG_update.getLocalRecordset
+  tNG_update.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  2.187.234.177
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  https://payesh.bonyadmaskan.ir/portal/plugins/havades/makan_add.php?cod=$$9918gQenAybUk7EDsn1wrjO90zZKV0U1gEWRVHW5cXbOhVaqh0LmtyN&mode=edit
+
+Date:
+  2021-05-14 11:51:31
+
+خطا:
+  خطای بارگذاری فایل. <br><div style="display:none">File size must be less than 200 kB.</div>
+
+Developer Details:
+  خطای بارگذاری فایل. <br><div style="display:none">File size must be less than 200 kB.</div> (FILE_UPLOAD_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_update.doTransaction
+      BEFORE.Trigger_Default_saveData
+        tNG_update.saveData
+      BEFORE.Trigger_Default_FormValidation
+      tNG_update.prepareSQL
+      tNG_update.executeTransaction - execute sql
+      AFTER.Trigger_ImageUpload*
+  tNG_insert.getRecordset
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_update.getRecordset
+  tNG_update.getFakeRsArr
+  tNG_update.getLocalRecordset
+  tNG_update.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  185.141.39.215
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  https://payesh.bonyadmaskan.ir/portal/plugins/havades/hesab_add.php?cod=b5WAQ@@Bw9XFZg6ylWSXSIojO90TQvEzaIdHRRJlUVJ1MvhmR1k2bqJ2L&mode=edit
+
+Date:
+  2021-05-15 08:44:04
+
+خطا:
+  خطای پایگاه داده. <br><div style="display:none">Data too long for column 'shhesab' at row 1</div>
+
+Developer Details:
+  خطای پایگاه داده. <br><div style="display:none">UPDATE hadese SET bank=17, shobe='مراوه تپه', shhesab=' IR60 0150 0000 0310 1006 0353 77', shabanumber='IR60 0150 0000 0310 1006 0353 77', cartnumber=null, malicode=null WHERE code = '15536947469247'.</div> (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_update.doTransaction
+      BEFORE.Trigger_Default_saveData
+        tNG_update.saveData
+      BEFORE.Trigger_Default_FormValidation
+      tNG_update.prepareSQL
+      tNG_update.executeTransaction - execute sql*
+  tNG_update.getRecordset
+  tNG_update.getFakeRsArr
+  tNG_update.getLocalRecordset
+  tNG_update.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  46.100.217.205
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  https://payesh.bonyadmaskan.ir/portal/plugins/havades/payankar_add.php?cod=PICWB4UWDX@@MHwY$$DzB7crjO90zdrYEO5J1Qj9UMid3d5I2b3kDdEBHO&mode=edit
+
+Date:
+  2021-05-15 09:11:04
+
+خطا:
+  خطای پایگاه داده. <br><div style="display:none">Column 'shahr' cannot be null</div>
+
+Developer Details:
+  خطای پایگاه داده. <br><div style="display:none">UPDATE hadese SET payankarstatus='1', payankardate=null, pelaksabti=null, adres=null, karbari='1', ostan='08', shahrestan='0822', bakhsh='082201', shahr=null, rosta='0822020002096108' WHERE code = '15295110033159'.</div> (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_update.doTransaction
+      BEFORE.Trigger_Default_saveData
+        tNG_update.saveData
+      BEFORE.Trigger_Default_FormValidation
+      tNG_update.prepareSQL
+      tNG_update.executeTransaction - execute sql*
+  tNG_update.getRecordset
+  tNG_update.getFakeRsArr
+  tNG_update.getLocalRecordset
+  tNG_update.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  93.115.147.170
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  https://payesh.bonyadmaskan.ir/portal/plugins/havades/file_add.php?cod=DiDs6rZmVqEnAGahVDqnorjO90TQ4dnUpd2SiVkZPp2R3cVZMlFayE3Q&mode=edit
+
+Date:
+  2021-05-15 10:39:56
+
+خطا:
+  خطای بارگذاری فایل. <br><div style="display:none">File size must be less than 200 kB.</div>
+
+Developer Details:
+  خطای بارگذاری فایل. <br><div style="display:none">File size must be less than 200 kB.</div> (FILE_UPLOAD_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql
+      tNG_insert.postExecuteSql
+      AFTER.Trigger_ImageUpload*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  93.115.147.170
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  https://payesh.bonyadmaskan.ir/portal/plugins/havades/file_add.php?cod=DiDs6rZmVqEnAGahVDqnorjO90TQ4dnUpd2SiVkZPp2R3cVZMlFayE3Q&mode=edit
+
+Date:
+  2021-05-15 10:40:32
+
+خطا:
+  خطای بارگذاری فایل. <br><div style="display:none">File size must be less than 200 kB.</div>
+
+Developer Details:
+  خطای بارگذاری فایل. <br><div style="display:none">File size must be less than 200 kB.</div> (FILE_UPLOAD_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql
+      tNG_insert.postExecuteSql
+      AFTER.Trigger_ImageUpload*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  46.100.217.205
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  https://payesh.bonyadmaskan.ir/portal/plugins/havades/payankar_add.php?cod=oZUsNYllukgOR@@aDxk7GrqjO90TUCdnVUx0dEZHRx0mQi9iZH5GZGJFe&mode=edit
+
+Date:
+  2021-05-15 10:59:01
+
+خطا:
+  خطای پایگاه داده. <br><div style="display:none">Column 'shahrestan' cannot be null</div>
+
+Developer Details:
+  خطای پایگاه داده. <br><div style="display:none">UPDATE hadese SET payankarstatus='1', payankardate=null, pelaksabti=null, adres=null, karbari='1', ostan='08', shahrestan=null, bakhsh='082201', shahr='0822012429', rosta='0822012429' WHERE code = '15163163467011'.</div> (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_update.doTransaction
+      BEFORE.Trigger_Default_saveData
+        tNG_update.saveData
+      BEFORE.Trigger_Default_FormValidation
+      tNG_update.prepareSQL
+      tNG_update.executeTransaction - execute sql*
+  tNG_update.getRecordset
+  tNG_update.getFakeRsArr
+  tNG_update.getLocalRecordset
+  tNG_update.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  93.115.144.100
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  https://payesh.bonyadmaskan.ir/portal/plugins/havades/makan_add.php?mode=edit&&cod=ZvuqLPsQCaKz129h3nQetojO90TUoNmY2UmQuVVSM9SUnd2b2s0Srhjd
+
+Date:
+  2021-05-15 13:45:26
+
+خطا:
+  خطای بارگذاری فایل. <br><div style="display:none">File size must be less than 200 kB.</div>
+
+Developer Details:
+  خطای بارگذاری فایل. <br><div style="display:none">File size must be less than 200 kB.</div> (FILE_UPLOAD_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_update.doTransaction
+      BEFORE.Trigger_Default_saveData
+        tNG_update.saveData
+      BEFORE.Trigger_Default_FormValidation
+      tNG_update.prepareSQL
+      tNG_update.executeTransaction - execute sql
+      AFTER.Trigger_ImageUpload*
+  tNG_insert.getRecordset
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_update.getRecordset
+  tNG_update.getFakeRsArr
+  tNG_update.getLocalRecordset
+  tNG_update.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  93.115.147.170
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  https://payesh.bonyadmaskan.ir/portal/plugins/havades/moteghazi_edit.php?cod=RQgPi31FP3Rd0JZLY7l9ApjO90zZqZGVpxENLp2TqdWeihGSZZDTxhEW&id=Qzm7XIRxvfPBKc8nD8WderjO90TQMN1YBREVtdHO312dNtURBFFelJmM
+
+Date:
+  2021-05-15 16:30:08
+
+خطا:
+  خطای پایگاه داده. <br><div style="display:none">Data too long for column 'mobile' at row 1</div>
+
+Developer Details:
+  خطای پایگاه داده. <br><div style="display:none">UPDATE khanevar SET nesbat='2', name='رقیه', lname='یادآور', pedar='حسینقلی', shsh='425', mahalsodor='کهگیلویه', codemeli='425-093301-6', mahaltavalod='دهدشت', birthday='1361/11/22', job=null, tel=null, mobile='0000000000000000000000', tabeiat='0', user='a170409', takafol=null, noesokonat='1', jensiat='1', taahol='1', status=1 WHERE id = 1028147.</div> (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_update.doTransaction
+      BEFORE.Trigger_Default_saveData
+        tNG_update.saveData
+      BEFORE.Trigger_Default_FormValidation
+      tNG_update.prepareSQL
+      tNG_update.executeTransaction - execute sql*
+  tNG_update.getRecordset
+  tNG_update.getFakeRsArr
+  tNG_update.getLocalRecordset
+  tNG_update.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  2.181.30.10
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  https://payesh.bonyadmaskan.ir/portal/plugins/savanehgroup/savanehgroup_saqftedad_list.php?code=cvt9cNjjEIbg4Crh@@sLvcrjO90TQjRURZlVS5Q1ShBzcrQ0Tq50U6d0c
+
+Date:
+  2021-05-16 16:22:30
+
+خطا:
+  خطای پایگاه داده. <br><div style="display:none">Data too long for column 'product' at row 1</div>
+
+Developer Details:
+  خطای پایگاه داده. <br><div style="display:none">INSERT INTO savanehgroup_product (maxnum, product, vahed) values ('2000', '100009,100010,100011,100014,100022,100023,100024,100025,100026,100034,100037,100045', '1').</div> (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  5.120.210.183
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  https://payesh.bonyadmaskan.ir/portal/plugins/havades/file_add.php?cod=Tl2hNmdhV6HcZ0jp91YMTojO90TQwFVaxgkZyomayVkZuh3QxUDMB5kS&cod=Tl2hNmdhV6HcZ0jp91YMTojO90TQwFVaxgkZyomayVkZuh3QxUDMB5kS&mode=edit
+
+Date:
+  2021-05-17 08:11:51
+
+خطا:
+  خطای بارگذاری فایل. <br><div style="display:none">File size must be less than 200 kB.</div>
+
+Developer Details:
+  خطای بارگذاری فایل. <br><div style="display:none">File size must be less than 200 kB.</div> (FILE_UPLOAD_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql
+      tNG_insert.postExecuteSql
+      AFTER.Trigger_ImageUpload*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  5.209.131.89
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  https://payesh.bonyadmaskan.ir/portal/plugins/havades/havades_edit.php?cod=o6bLC9WT88m$$crkdWp7PtrjO90zd1N2N3hlMGdUe4cGR4gmZGNnRHtiS&mode=edit
+
+Date:
+  2021-05-18 14:24:33
+
+خطا:
+  خطای پایگاه داده. <br><div style="display:none">Data too long for column 'relcode' at row 1</div>
+
+Developer Details:
+  خطای پایگاه داده. <br><div style="display:none">UPDATE hadese SET sgcode='1091', scode='1037', ostan='06', shahr='0605011275', shahrestan='0605', bakhsh='060501', rosta='0605011275', mahale='22', mojtama=null, loctype='1', tozihat='منزل تصرفی(تعمیری 3)قبض برق بنام فرد دیگری است', formserial='14090084', codeposti=null, khanevarfarei='0', tedadfoti=null, tedadzakhmi=null, sokonat='1', karbari='1', nahad='4', eskan=null, mastercode=null, parvandetype='1', relcode='ملک با شماره پرونده قبلا ثبت شده ودوبرادر در یک مکان سکونت دارند17876', mojavez='1', adres='A9', active='2', sal=1399, type='1', khesaratlevel='1', khesaratmlevel='1' WHERE code = '16082256872277'.</div> (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_update.doTransaction
+      BEFORE.Trigger_Default_saveData
+        tNG_update.saveData
+      BEFORE.Trigger_Default_FormValidation
+      tNG_update.prepareSQL
+      tNG_update.executeTransaction - execute sql*
+  tNG_update.getRecordset
+  tNG_update.getFakeRsArr
+  tNG_update.getLocalRecordset
+  tNG_update.getFakeRecordset
+  tNG_update.executeTransaction
+  tNG_update.getRecordset
+  tNG_update.getFakeRsArr
+  tNG_update.getLocalRecordset
+  tNG_update.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  78.38.116.74
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  https://payesh.bonyadmaskan.ir/portal/plugins/havale/havale_anbar.php?code=!!cgT3XL5IkUR2DRQPsaqrRmO60DMhdzZJ9iM2d3LwlmcKhkW3YEd4FzLrFlcylnVTRmUFpWV1Blez12QyQ2L
+
+Date:
+  2021-05-19 10:36:56
+
+خطا:
+  خطای پایگاه داده. <br><div style="display:none">Column 'anbarid' cannot be null</div>
+
+Developer Details:
+  خطای پایگاه داده. <br><div style="display:none">UPDATE havale_anbar SET havalecode='9916138389932854', anbarid=null, tahvildate=null, drivername=null, drivercar=null, drivertel=null, driverpelak	=null WHERE id = 75033.</div> (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_update.doTransaction
+      BEFORE.Trigger_Default_saveData
+        tNG_update.saveData
+      BEFORE.Trigger_Default_FormValidation
+      tNG_update.prepareSQL
+      tNG_update.executeTransaction - execute sql*
+  tNG_update.getRecordset
+  tNG_update.getFakeRsArr
+  tNG_update.getLocalRecordset
+  tNG_update.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  78.38.116.74
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  https://payesh.bonyadmaskan.ir/portal/plugins/havale/havale_anbar.php?code=!!cOx5ITakS51srFxKEXt5klO60zZtFlVLhHVVlTTVpVMwIna4l1UpdmeZZkbXFmVZBnY39yaaNEa1UVb2gmT
+
+Date:
+  2021-05-19 10:37:33
+
+خطا:
+  خطای پایگاه داده. <br><div style="display:none">Column 'anbarid' cannot be null</div>
+
+Developer Details:
+  خطای پایگاه داده. <br><div style="display:none">UPDATE havale_anbar SET havalecode='9916138397363812', anbarid=null, tahvildate=null, drivername=null, drivercar='0', drivertel=null, driverpelak	=null WHERE id = 75034.</div> (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_update.doTransaction
+      BEFORE.Trigger_Default_saveData
+        tNG_update.saveData
+      BEFORE.Trigger_Default_FormValidation
+      tNG_update.prepareSQL
+      tNG_update.executeTransaction - execute sql*
+  tNG_update.getRecordset
+  tNG_update.getFakeRsArr
+  tNG_update.getLocalRecordset
+  tNG_update.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  78.38.116.74
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  https://payesh.bonyadmaskan.ir/portal/plugins/havale/havale_anbar.php?code=!!8obmH6uzJeNb0a6DTnlsggO60TV2wkM04GcudneiNUel1UeYRjcvNkSXpnW1AnUI5kWHV2UvhFMO1WeRFVb
+
+Date:
+  2021-05-19 10:38:06
+
+خطا:
+  خطای پایگاه داده. <br><div style="display:none">Column 'anbarid' cannot be null</div>
+
+Developer Details:
+  خطای پایگاه داده. <br><div style="display:none">UPDATE havale_anbar SET havalecode='9916138400679740', anbarid=null, tahvildate=null, drivername=null, drivercar=null, drivertel=null, driverpelak	=null WHERE id = 75035.</div> (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_update.doTransaction
+      BEFORE.Trigger_Default_saveData
+        tNG_update.saveData
+      BEFORE.Trigger_Default_FormValidation
+      tNG_update.prepareSQL
+      tNG_update.executeTransaction - execute sql*
+  tNG_update.getRecordset
+  tNG_update.getFakeRsArr
+  tNG_update.getLocalRecordset
+  tNG_update.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  78.38.116.74
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  https://payesh.bonyadmaskan.ir/portal/plugins/havale/havale_anbar.php?code=!!8obmH6uzJeNb0a6DTnlsggO60TV2wkM04GcudneiNUel1UeYRjcvNkSXpnW1AnUI5kWHV2UvhFMO1WeRFVb
+
+Date:
+  2021-05-19 10:38:15
+
+خطا:
+  خطای پایگاه داده. <br><div style="display:none">Column 'anbarid' cannot be null</div>
+
+Developer Details:
+  خطای پایگاه داده. <br><div style="display:none">UPDATE havale_anbar SET havalecode='9916138400679740', anbarid=null, tahvildate=null, drivername=null, drivercar=null, drivertel=null, driverpelak	=null WHERE id = 75035.</div> (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_update.doTransaction
+      BEFORE.Trigger_Default_saveData
+        tNG_update.saveData
+      BEFORE.Trigger_Default_FormValidation
+      tNG_update.prepareSQL
+      tNG_update.executeTransaction - execute sql*
+  tNG_update.getRecordset
+  tNG_update.getFakeRsArr
+  tNG_update.getLocalRecordset
+  tNG_update.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  78.38.116.74
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  https://payesh.bonyadmaskan.ir/portal/plugins/havale/havale_anbar.php?code=!!oNhlK6zhk@@C5My@@yuRuUEvO60TSvxkWtJnRTxmUTpXY0QGWEhGVYBzNnJVZ5pWZnhEMxUFcCV2Z5kGRUhDR
+
+Date:
+  2021-05-19 10:39:09
+
+خطا:
+  خطای پایگاه داده. <br><div style="display:none">Column 'anbarid' cannot be null</div>
+
+Developer Details:
+  خطای پایگاه داده. <br><div style="display:none">UPDATE havale_anbar SET havalecode='9916138404515644', anbarid=null, tahvildate=null, drivername=null, drivercar=null, drivertel=null, driverpelak	=null WHERE id = 75036.</div> (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_update.doTransaction
+      BEFORE.Trigger_Default_saveData
+        tNG_update.saveData
+      BEFORE.Trigger_Default_FormValidation
+      tNG_update.prepareSQL
+      tNG_update.executeTransaction - execute sql*
+  tNG_update.getRecordset
+  tNG_update.getFakeRsArr
+  tNG_update.getLocalRecordset
+  tNG_update.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  78.38.116.74
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  https://payesh.bonyadmaskan.ir/portal/plugins/havale/havale_anbar.php?code=!!0s$$c2KD@@T0nMLME7mwsiApO60zc2l3LRFEZNpGU3gDeWR0S6p1ThFzcYRzchVWNXVzVwNDTPdkT0FEdmhTQ
+
+Date:
+  2021-05-19 10:39:37
+
+خطا:
+  خطای پایگاه داده. <br><div style="display:none">Column 'anbarid' cannot be null</div>
+
+Developer Details:
+  خطای پایگاه داده. <br><div style="display:none">UPDATE havale_anbar SET havalecode='9916138407519067', anbarid=null, tahvildate=null, drivername=null, drivercar=null, drivertel=null, driverpelak	=null WHERE id = 75037.</div> (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_update.doTransaction
+      BEFORE.Trigger_Default_saveData
+        tNG_update.saveData
+      BEFORE.Trigger_Default_FormValidation
+      tNG_update.prepareSQL
+      tNG_update.executeTransaction - execute sql*
+  tNG_update.getRecordset
+  tNG_update.getFakeRsArr
+  tNG_update.getLocalRecordset
+  tNG_update.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  78.38.116.74
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  https://payesh.bonyadmaskan.ir/portal/plugins/havale/havale_anbar.php?code=!!AZa7G1Z5e4J1yKMeS6rXgoO60zaJN2QqtiVQVTVRpVMBFTOm1mQ2l2bvEDT1skWHlEZLFFcyQ1UrcUWUd2a
+
+Date:
+  2021-05-19 11:01:30
+
+خطا:
+  خطای پایگاه داده. <br><div style="display:none">Column 'anbarid' cannot be null</div>
+
+Developer Details:
+  خطای پایگاه داده. <br><div style="display:none">UPDATE havale_anbar SET havalecode='9916213270038422', anbarid=null, tahvildate=null, drivername=null, drivercar=null, drivertel=null, driverpelak	=null WHERE id = 82058.</div> (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_update.doTransaction
+      BEFORE.Trigger_Default_saveData
+        tNG_update.saveData
+      BEFORE.Trigger_Default_FormValidation
+      tNG_update.prepareSQL
+      tNG_update.executeTransaction - execute sql*
+  tNG_update.getRecordset
+  tNG_update.getFakeRsArr
+  tNG_update.getLocalRecordset
+  tNG_update.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  185.141.39.215
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  https://payesh.bonyadmaskan.ir/portal/plugins/havades/moteghazi_edit.php?cod=SYcoeC4BWff$$DhCwlXPJwrjO90TQ4ZTOycjd31mMstWZjV2Mi90bBN0c&id=9hjaztisCG$$2dOvg2d$$IXqjO90zd0kDbDtCWwQXVxoUMuZ1UsN3SCtkb
+
+Date:
+  2021-05-19 13:40:47
+
+خطا:
+  خطای پایگاه داده. <br><div style="display:none">Data too long for column 'job' at row 1</div>
+
+Developer Details:
+  خطای پایگاه داده. <br><div style="display:none">UPDATE khanevar SET nesbat='1', name='عبدالحمید', lname='لکزائی', pedar='عباس', shsh='556', mahalsodor='آق قلا', codemeli='497-970814-5', mahaltavalod='آق قلا', birthday='1360/06/31', job='پیش پدر-کشاورز دارای 4 هکتار زمین', tel='0', mobile='09304303372', tabeiat='0', user='a270810', takafol='3', noesokonat='1', jensiat='0', taahol='1', status=1 WHERE id = 372130.</div> (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_update.doTransaction
+      BEFORE.Trigger_Default_saveData
+        tNG_update.saveData
+      BEFORE.Trigger_Default_FormValidation
+      tNG_update.prepareSQL
+      tNG_update.executeTransaction - execute sql*
+  tNG_update.getRecordset
+  tNG_update.getFakeRsArr
+  tNG_update.getLocalRecordset
+  tNG_update.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  185.141.39.215
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  https://payesh.bonyadmaskan.ir/portal/plugins/havades/moteghazi_edit.php?cod=Egh7oZ1aS@@jBmyl8ZF8aAqjO90TQ2YmY0YXVZVXMtdmeDdzcDp0dzclU&id=AdLb86iBhQykzNrV8kjbjrjO90zdC52LVREN0UTc1YXVUZzVzkHbHhWW
+
+Date:
+  2021-05-19 13:57:27
+
+خطا:
+  خطای پایگاه داده. <br><div style="display:none">Data too long for column 'job' at row 1</div>
+
+Developer Details:
+  خطای پایگاه داده. <br><div style="display:none">UPDATE khanevar SET nesbat='2', name='پریسا', lname='رخشانی', pedar='کریم', shsh='0', mahalsodor='0', codemeli='497-970814-5', mahaltavalod='0', birthday='1300/01/01', job='همسرش میگوید افغانی بدون مدرک است', tel='0', mobile='0', tabeiat='0', user='a270810', takafol='0', noesokonat='1', jensiat='1', taahol='1', status=1 WHERE id = 372131.</div> (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_update.doTransaction
+      BEFORE.Trigger_Default_saveData
+        tNG_update.saveData
+      BEFORE.Trigger_Default_FormValidation
+      tNG_update.prepareSQL
+      tNG_update.executeTransaction - execute sql*
+  tNG_update.getRecordset
+  tNG_update.getFakeRsArr
+  tNG_update.getLocalRecordset
+  tNG_update.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  5.234.169.202
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  https://payesh.bonyadmaskan.ir/portal/plugins/havades/makan_add.php?cod=e35DbL1Epqpof039@@KjLWqjO90zZyo2RFtUcBhXR1JncrZUNwEFWaNFN&mode=edit
+
+Date:
+  2021-05-21 10:15:06
+
+خطا:
+  خطای بارگذاری فایل. <br><div style="display:none">File size must be less than 200 kB.</div>
+
+Developer Details:
+  خطای بارگذاری فایل. <br><div style="display:none">File size must be less than 200 kB.</div> (FILE_UPLOAD_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_update.doTransaction
+      BEFORE.Trigger_Default_saveData
+        tNG_update.saveData
+      BEFORE.Trigger_Default_FormValidation
+      tNG_update.prepareSQL
+      tNG_update.executeTransaction - execute sql
+      AFTER.Trigger_ImageUpload*
+  tNG_insert.getRecordset
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_update.getRecordset
+  tNG_update.getFakeRsArr
+  tNG_update.getLocalRecordset
+  tNG_update.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  5.234.169.202
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  https://payesh.bonyadmaskan.ir/portal/plugins/havades/makan_add.php?cod=nd8BxyuFNbLohNR5Ls5torjO90TUNlVWGZXWKBHcxU1ZxVWS5EHVM9Ga&mode=edit
+
+Date:
+  2021-05-21 10:32:15
+
+خطا:
+  خطای بارگذاری فایل. <br><div style="display:none">File size must be less than 200 kB.</div>
+
+Developer Details:
+  خطای بارگذاری فایل. <br><div style="display:none">File size must be less than 200 kB.</div> (FILE_UPLOAD_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_update.doTransaction
+      BEFORE.Trigger_Default_saveData
+        tNG_update.saveData
+      BEFORE.Trigger_Default_FormValidation
+      tNG_update.prepareSQL
+      tNG_update.executeTransaction - execute sql
+      AFTER.Trigger_ImageUpload*
+  tNG_insert.getRecordset
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_update.getRecordset
+  tNG_update.getFakeRsArr
+  tNG_update.getLocalRecordset
+  tNG_update.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  85.9.121.248
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  https://payesh.bonyadmaskan.ir/portal/plugins/havades/file_add.php?cod=idRC2HVbYuF$$MVJaOtQrQqjO90TQ650Z1wkTUJ2MuVzRpRXdlRXc0k2K&cod=idRC2HVbYuF$$MVJaOtQrQqjO90TQ650Z1wkTUJ2MuVzRpRXdlRXc0k2K&mode=edit
+
+Date:
+  2021-05-22 07:40:50
+
+خطا:
+  خطای بارگذاری فایل. <br><div style="display:none">File size must be less than 200 kB.</div>
+
+Developer Details:
+  خطای بارگذاری فایل. <br><div style="display:none">File size must be less than 200 kB.</div> (FILE_UPLOAD_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql
+      tNG_insert.postExecuteSql
+      AFTER.Trigger_ImageUpload*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  185.109.61.8
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  https://payesh.bonyadmaskan.ir/portal/plugins/havades/file_add.php?cod=7PHu0@@D6G7ChCrjsj9y$$NqjO90zd3oVWwQTdutkSIJDWaZ0dMx0SzhGZ&cod=7PHu0@@D6G7ChCrjsj9y$$NqjO90zd3oVWwQTdutkSIJDWaZ0dMx0SzhGZ&mode=edit
+
+Date:
+  2021-05-22 12:08:36
+
+خطا:
+  خطای پایگاه داده. <br><div style="display:none">Data too long for column 'name' at row 1</div>
+
+Developer Details:
+  خطای پایگاه داده. <br><div style="display:none">INSERT INTO hadese_file (hcode, type, name, file, active, user, sdate) values ('16111209374651', '2', 'فیش واریزی به مبلغ 10میلیون تومان ازعلیکرم برزگربه موسوی', '', '1', 'a180304', '1400/03/01').</div> (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  185.109.61.8
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  https://payesh.bonyadmaskan.ir/portal/plugins/havades/file_add.php?cod=7PHu0@@D6G7ChCrjsj9y$$NqjO90zd3oVWwQTdutkSIJDWaZ0dMx0SzhGZ&cod=7PHu0@@D6G7ChCrjsj9y$$NqjO90zd3oVWwQTdutkSIJDWaZ0dMx0SzhGZ&mode=edit
+
+Date:
+  2021-05-22 12:10:15
+
+خطا:
+  خطای پایگاه داده. <br><div style="display:none">Data too long for column 'name' at row 1</div>
+
+Developer Details:
+  خطای پایگاه داده. <br><div style="display:none">INSERT INTO hadese_file (hcode, type, name, file, active, user, sdate) values ('16111209374651', '2', 'فیش واریزی به مبلغ 10میلیون تومان ازعلیکرم برزگربه موسوی', '', '1', 'a180304', '1400/03/01').</div> (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  185.109.61.86
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  https://payesh.bonyadmaskan.ir/portal/plugins/havades/file_add.php?cod=LLQzMA2l@@iWkX0zvyx6JkrjO90TQqh0auBXR0MkbVhzYPlXasVnRwIne&mode=edit
+
+Date:
+  2021-05-23 10:13:32
+
+خطا:
+  خطای پایگاه داده. <br><div style="display:none">Data too long for column 'name' at row 1</div>
+
+Developer Details:
+  خطای پایگاه داده. <br><div style="display:none">INSERT INTO hadese_file (hcode, type, name, file, active, user, sdate) values ('16098282632103', '2', 'بابت واریز به حساب سید ابراهیم موسوی ', '', '1', 'ostanz1803', '1400/03/02').</div> (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  185.109.61.86
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  https://payesh.bonyadmaskan.ir/portal/plugins/havades/file_add.php?cod=LLQzMA2l@@iWkX0zvyx6JkrjO90TQqh0auBXR0MkbVhzYPlXasVnRwIne&mode=edit
+
+Date:
+  2021-05-23 10:13:54
+
+خطا:
+  خطای پایگاه داده. <br><div style="display:none">Data too long for column 'name' at row 1</div>
+
+Developer Details:
+  خطای پایگاه داده. <br><div style="display:none">INSERT INTO hadese_file (hcode, type, name, file, active, user, sdate) values ('16098282632103', '2', 'بابت واریز به حساب سید ابراهیم موسوی ', '', '1', 'ostanz1803', '1400/03/02').</div> (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  5.235.159.197
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  https://payesh.bonyadmaskan.ir/portal/plugins/havades/file_add.php?cod=!!Ev@@cZZW5oBf8PJuquoiVPpO60TQuRmdNVmamFTTqJlWHZ2Q0hUUUNlU0A1cxAHMH9SNx1WeoZ0b5oHdidlS&cod=!!Ev@@cZZW5oBf8PJuquoiVPpO60TQuRmdNVmamFTTqJlWHZ2Q0hUUUNlU0A1cxAHMH9SNx1WeoZ0b5oHdidlS&mode=edit
+
+Date:
+  2021-05-23 11:52:00
+
+خطا:
+  خطای بارگذاری فایل. <br><div style="display:none">File size must be less than 200 kB.</div>
+
+Developer Details:
+  خطای بارگذاری فایل. <br><div style="display:none">File size must be less than 200 kB.</div> (FILE_UPLOAD_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql
+      tNG_insert.postExecuteSql
+      AFTER.Trigger_ImageUpload*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  5.235.159.197
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  https://payesh.bonyadmaskan.ir/portal/plugins/havades/makan_add.php?cod=!!AwKnGaab2KqUq@@tAg4D3SiO60TRJBXZqBlR5hlTyIXTzYEanhzUhFETrZGM4MHUCp2LIFzV1BTRRpENUpUZ&mode=edit
+
+Date:
+  2021-05-23 11:55:16
+
+خطا:
+  خطای بارگذاری تصویر. خطا در تغییر سایز تصویر.
+
+Developer Details:
+  خطای بارگذاری تصویر. خطا در تغییر سایز تصویر. <br><div style="display:none">Error converting image (image resize). The file "/var2/www/html/attachment/havades/makan/New Bitmap Image_84.bmp" is invalid.</div> (IMG_RESIZE)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_update.doTransaction
+      BEFORE.Trigger_Default_saveData
+        tNG_update.saveData
+      BEFORE.Trigger_Default_FormValidation
+      tNG_update.prepareSQL
+      tNG_update.executeTransaction - execute sql
+      AFTER.Trigger_ImageUpload
+        tNG_update.afterUpdateField - kroki, New Bitmap Image_84.bmp*
+  tNG_insert.getRecordset
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_update.getRecordset
+  tNG_update.getFakeRsArr
+  tNG_update.getLocalRecordset
+  tNG_update.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  5.235.159.197
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  https://payesh.bonyadmaskan.ir/portal/plugins/havades/makan_add.php?cod=!!Ev@@cZZW5oBf8PJuquoiVPpO60TQuRmdNVmamFTTqJlWHZ2Q0hUUUNlU0A1cxAHMH9SNx1WeoZ0b5oHdidlS&mode=edit
+
+Date:
+  2021-05-23 11:55:55
+
+خطا:
+  خطای بارگذاری تصویر. خطا در تغییر سایز تصویر.
+
+Developer Details:
+  خطای بارگذاری تصویر. خطا در تغییر سایز تصویر. <br><div style="display:none">Error converting image (image resize). The file "/var2/www/html/attachment/havades/makan/New Bitmap Image_83.bmp" is invalid.</div> (IMG_RESIZE)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_update.doTransaction
+      BEFORE.Trigger_Default_saveData
+        tNG_update.saveData
+      BEFORE.Trigger_Default_FormValidation
+      tNG_update.prepareSQL
+      tNG_update.executeTransaction - execute sql
+      AFTER.Trigger_ImageUpload
+        tNG_update.afterUpdateField - kroki, New Bitmap Image_83.bmp*
+  tNG_insert.getRecordset
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_update.getRecordset
+  tNG_update.getFakeRsArr
+  tNG_update.getLocalRecordset
+  tNG_update.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  78.38.116.74
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  https://payesh.bonyadmaskan.ir/portal/plugins/havale/havale_anbar.php?code=!!sULzFoHUw$$30QHS@@vWi0pnO60zYidzNRNWeydkd0VFOGpXNPp3UKl2LxhWN3MWdVhHdztWO3x0b4gzaLt2Z
+
+Date:
+  2021-05-24 07:59:43
+
+خطا:
+  خطای پایگاه داده. <br><div style="display:none">Column 'anbarid' cannot be null</div>
+
+Developer Details:
+  خطای پایگاه داده. <br><div style="display:none">UPDATE havale_anbar SET havalecode='9915930991415646', anbarid=null, tahvildate=null, drivername=null, drivercar=null, drivertel=null, driverpelak	=null WHERE id = 35064.</div> (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_update.doTransaction
+      BEFORE.Trigger_Default_saveData
+        tNG_update.saveData
+      BEFORE.Trigger_Default_FormValidation
+      tNG_update.prepareSQL
+      tNG_update.executeTransaction - execute sql*
+  tNG_update.getRecordset
+  tNG_update.getFakeRsArr
+  tNG_update.getLocalRecordset
+  tNG_update.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  78.38.116.74
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  https://payesh.bonyadmaskan.ir/portal/plugins/havale/havale_anbar.php?code=!!IdP@@d0W4dcPX0EaoMblI$$nO60zcQFWUsVWNrgERDRXMQRlYwlEUwYFcxgUNOFndy82MrZUUIdVYiJka0J3Z
+
+Date:
+  2021-05-24 08:16:33
+
+خطا:
+  خطای پایگاه داده. <br><div style="display:none">Column 'anbarid' cannot be null</div>
+
+Developer Details:
+  خطای پایگاه داده. <br><div style="display:none">UPDATE havale_anbar SET havalecode='9915931527499107', anbarid=null, tahvildate=null, drivername=null, drivercar=null, drivertel=null, driverpelak	=null WHERE id = 35171.</div> (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_update.doTransaction
+      BEFORE.Trigger_Default_saveData
+        tNG_update.saveData
+      BEFORE.Trigger_Default_FormValidation
+      tNG_update.prepareSQL
+      tNG_update.executeTransaction - execute sql*
+  tNG_update.getRecordset
+  tNG_update.getFakeRsArr
+  tNG_update.getLocalRecordset
+  tNG_update.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  109.125.159.166
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  https://payesh.bonyadmaskan.ir/portal/plugins/havades/file_add.php?cod=c2Uy7k$$g$$EvK8K1Ry4EYSojO90zdHZFVjNmNVZ0R0NVd4FFRhdzTv8WU&cod=c2Uy7k$$g$$EvK8K1Ry4EYSojO90zdHZFVjNmNVZ0R0NVd4FFRhdzTv8WU&mode=edit
+
+Date:
+  2021-05-24 08:25:10
+
+خطا:
+  خطای بارگذاری فایل. <br><div style="display:none">File size must be less than 200 kB.</div>
+
+Developer Details:
+  خطای بارگذاری فایل. <br><div style="display:none">File size must be less than 200 kB.</div> (FILE_UPLOAD_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql
+      tNG_insert.postExecuteSql
+      AFTER.Trigger_ImageUpload*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  78.38.116.74
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  https://payesh.bonyadmaskan.ir/portal/plugins/havale/havale_anbar.php?code=!!89e985VTq0Ell9HjqO7QakO60TWZFGMxtWbLhnMCxUZVBlRrRjRURVO0clavUWU6JVRtd0VQp0cS9EZrp0c
+
+Date:
+  2021-05-24 08:33:20
+
+خطا:
+  خطای پایگاه داده. <br><div style="display:none">Column 'anbarid' cannot be null</div>
+
+Developer Details:
+  خطای پایگاه داده. <br><div style="display:none">UPDATE havale_anbar SET havalecode='9915932466938588', anbarid=null, tahvildate=null, drivername=null, drivercar=null, drivertel=null, driverpelak	=null WHERE id = 35531.</div> (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_update.doTransaction
+      BEFORE.Trigger_Default_saveData
+        tNG_update.saveData
+      BEFORE.Trigger_Default_FormValidation
+      tNG_update.prepareSQL
+      tNG_update.executeTransaction - execute sql*
+  tNG_update.getRecordset
+  tNG_update.getFakeRsArr
+  tNG_update.getLocalRecordset
+  tNG_update.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  78.38.116.74
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  https://payesh.bonyadmaskan.ir/portal/plugins/havale/havale_anbar.php?code=!!89e985VTq0Ell9HjqO7QakO60TWZFGMxtWbLhnMCxUZVBlRrRjRURVO0clavUWU6JVRtd0VQp0cS9EZrp0c
+
+Date:
+  2021-05-24 08:33:24
+
+خطا:
+  خطای پایگاه داده. <br><div style="display:none">Column 'anbarid' cannot be null</div>
+
+Developer Details:
+  خطای پایگاه داده. <br><div style="display:none">UPDATE havale_anbar SET havalecode='9915932466938588', anbarid=null, tahvildate=null, drivername=null, drivercar=null, drivertel=null, driverpelak	=null WHERE id = 35531.</div> (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_update.doTransaction
+      BEFORE.Trigger_Default_saveData
+        tNG_update.saveData
+      BEFORE.Trigger_Default_FormValidation
+      tNG_update.prepareSQL
+      tNG_update.executeTransaction - execute sql*
+  tNG_update.getRecordset
+  tNG_update.getFakeRsArr
+  tNG_update.getLocalRecordset
+  tNG_update.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  93.115.147.170
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  https://payesh.bonyadmaskan.ir/portal/plugins/havale/havale_anbar.php?code=!!cApC0a2Oe@@AENx0p3Q@@sTsO60DMRRXWvo2bR9CWrkDWltEezk3cKZGVvoUMyt2U5tUSshnMBV2V5NWNZlnZ
+
+Date:
+  2021-05-24 08:42:05
+
+خطا:
+  خطای پایگاه داده. <br><div style="display:none">Column 'anbarid' cannot be null</div>
+
+Developer Details:
+  خطای پایگاه داده. <br><div style="display:none">INSERT INTO havale_anbar (havalecode, anbarid, tahvildate, drivername, drivercar, drivertel, driverpelak	) values ('9916218295061162', null, null, null, null, null, null).</div> (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  5.235.172.55
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  https://payesh.bonyadmaskan.ir/portal/plugins/havades/file_add.php?cod=!!0h02KLP2lbKX9I3DntVi1oO60zbrF1S3V3U1ZHWmtmb4p2U6lEWhJWav40NrwkSPN0LUJnUmVUR3AlUlpEW&cod=!!0h02KLP2lbKX9I3DntVi1oO60zbrF1S3V3U1ZHWmtmb4p2U6lEWhJWav40NrwkSPN0LUJnUmVUR3AlUlpEW&mode=edit
+
+Date:
+  2021-05-24 10:40:54
+
+خطا:
+  خطای بارگذاری فایل. <br><div style="display:none">File size must be less than 200 kB.</div>
+
+Developer Details:
+  خطای بارگذاری فایل. <br><div style="display:none">File size must be less than 200 kB.</div> (FILE_UPLOAD_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql
+      tNG_insert.postExecuteSql
+      AFTER.Trigger_ImageUpload*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  5.235.172.55
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  https://payesh.bonyadmaskan.ir/portal/plugins/havades/file_add.php?cod=!!0h02KLP2lbKX9I3DntVi1oO60zbrF1S3V3U1ZHWmtmb4p2U6lEWhJWav40NrwkSPN0LUJnUmVUR3AlUlpEW&cod=!!0h02KLP2lbKX9I3DntVi1oO60zbrF1S3V3U1ZHWmtmb4p2U6lEWhJWav40NrwkSPN0LUJnUmVUR3AlUlpEW&mode=edit
+
+Date:
+  2021-05-24 10:41:07
+
+خطا:
+  خطای بارگذاری فایل. <br><div style="display:none">File size must be less than 200 kB.</div>
+
+Developer Details:
+  خطای بارگذاری فایل. <br><div style="display:none">File size must be less than 200 kB.</div> (FILE_UPLOAD_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql
+      tNG_insert.postExecuteSql
+      AFTER.Trigger_ImageUpload*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  78.38.116.74
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  https://payesh.bonyadmaskan.ir/portal/plugins/havale/havale_anbar.php?code=!!s38Zt0hYB8MFjfPryyf5dnO60TVLljZrMHdjRGNwg0UnRDNC9Gczo3bFdER1MHRudXaQlXZ4gXeC9iWIh0R
+
+Date:
+  2021-05-24 12:10:26
+
+خطا:
+  خطای پایگاه داده. <br><div style="display:none">Column 'anbarid' cannot be null</div>
+
+Developer Details:
+  خطای پایگاه داده. <br><div style="display:none">UPDATE havale_anbar SET havalecode='9916073365371577', anbarid=null, tahvildate=null, drivername=null, drivercar=null, drivertel=null, driverpelak	=null WHERE id = 70831.</div> (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_update.doTransaction
+      BEFORE.Trigger_Default_saveData
+        tNG_update.saveData
+      BEFORE.Trigger_Default_FormValidation
+      tNG_update.prepareSQL
+      tNG_update.executeTransaction - execute sql*
+  tNG_update.getRecordset
+  tNG_update.getFakeRsArr
+  tNG_update.getLocalRecordset
+  tNG_update.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  78.38.116.74
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  https://payesh.bonyadmaskan.ir/portal/plugins/havale/havale_anbar.php?code=!!sQOE@@siMOkzQP1KyxuAwPtO60DMpdXdPN2QIdlUZVzL4RFe1QFZvd1U5VkZYNXdGJ3UMpXMtdTMWp3aBx2S
+
+Date:
+  2021-05-24 12:16:39
+
+خطا:
+  خطای پایگاه داده. <br><div style="display:none">Column 'anbarid' cannot be null</div>
+
+Developer Details:
+  خطای پایگاه داده. <br><div style="display:none">UPDATE havale_anbar SET havalecode='9915962705654015', anbarid=null, tahvildate=null, drivername=null, drivercar=null, drivertel=null, driverpelak	=null WHERE id = 50288.</div> (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_update.doTransaction
+      BEFORE.Trigger_Default_saveData
+        tNG_update.saveData
+      BEFORE.Trigger_Default_FormValidation
+      tNG_update.prepareSQL
+      tNG_update.executeTransaction - execute sql*
+  tNG_update.getRecordset
+  tNG_update.getFakeRsArr
+  tNG_update.getLocalRecordset
+  tNG_update.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  78.38.116.74
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  https://payesh.bonyadmaskan.ir/portal/plugins/havale/havale_anbar.php?code=!!YbO@@qPYV58AedmKA7H0lttO60zbyZFbxdDZZF3TQdDbtJ2S6hle3ADO1dGZ6lXRB90RWdlRxRkS1Y2axJkW
+
+Date:
+  2021-05-24 12:46:43
+
+خطا:
+  خطای پایگاه داده. <br><div style="display:none">Column 'anbarid' cannot be null</div>
+
+Developer Details:
+  خطای پایگاه داده. <br><div style="display:none">UPDATE havale_anbar SET havalecode='9915930991415646', anbarid=null, tahvildate=null, drivername=null, drivercar=null, drivertel=null, driverpelak	=null WHERE id = 35064.</div> (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_update.doTransaction
+      BEFORE.Trigger_Default_saveData
+        tNG_update.saveData
+      BEFORE.Trigger_Default_FormValidation
+      tNG_update.prepareSQL
+      tNG_update.executeTransaction - execute sql*
+  tNG_update.getRecordset
+  tNG_update.getFakeRsArr
+  tNG_update.getLocalRecordset
+  tNG_update.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  78.38.116.74
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  https://payesh.bonyadmaskan.ir/portal/plugins/havale/havale_anbar.php?code=!!wdeddszxm8CuReVYuuft6sO60zdZdUZvNjNLVnQNhXc192NkhzSoJGeHNTQLxUeZVDcXFUU61GeUd3SSNDa
+
+Date:
+  2021-05-24 19:24:35
+
+خطا:
+  خطای پایگاه داده. <br><div style="display:none">Column 'anbarid' cannot be null</div>
+
+Developer Details:
+  خطای پایگاه داده. <br><div style="display:none">UPDATE havale_anbar SET havalecode='9916075278577211', anbarid=null, tahvildate=null, drivername=null, drivercar=null, drivertel=null, driverpelak	=null WHERE id = 71061.</div> (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_update.doTransaction
+      BEFORE.Trigger_Default_saveData
+        tNG_update.saveData
+      BEFORE.Trigger_Default_FormValidation
+      tNG_update.prepareSQL
+      tNG_update.executeTransaction - execute sql*
+  tNG_update.getRecordset
+  tNG_update.getFakeRsArr
+  tNG_update.getLocalRecordset
+  tNG_update.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  78.38.116.74
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  https://payesh.bonyadmaskan.ir/portal/plugins/havale/havale_anbar.php?code=!!U0S@@5wdHjfcQxN@@$$ZDUOclO60zbth3TXR2UrY2bvIFWDRUNld3ZvdWUpp0Q3MEVWVVVOtSOFVlaxtmY2Eza
+
+Date:
+  2021-05-24 19:47:15
+
+خطا:
+  خطای پایگاه داده. <br><div style="display:none">Column 'anbarid' cannot be null</div>
+
+Developer Details:
+  خطای پایگاه داده. <br><div style="display:none">UPDATE havale_anbar SET havalecode='9915953473471344', anbarid=null, tahvildate=null, drivername=null, drivercar=null, drivertel=null, driverpelak	=null WHERE id = 44574.</div> (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_update.doTransaction
+      BEFORE.Trigger_Default_saveData
+        tNG_update.saveData
+      BEFORE.Trigger_Default_FormValidation
+      tNG_update.prepareSQL
+      tNG_update.executeTransaction - execute sql*
+  tNG_update.getRecordset
+  tNG_update.getFakeRsArr
+  tNG_update.getLocalRecordset
+  tNG_update.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  78.38.116.74
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  https://payesh.bonyadmaskan.ir/portal/plugins/havale/havale_anbar.php?code=!!c2i7w@@AKYgwPjOW4noL4cmO60DMTpFWQhHe2sSY2IGWKJUT5BVV1EzNx00d3YVVSpWNpt2V4BnN6JjY69Sb
+
+Date:
+  2021-05-24 19:49:14
+
+خطا:
+  خطای پایگاه داده. <br><div style="display:none">Column 'anbarid' cannot be null</div>
+
+Developer Details:
+  خطای پایگاه داده. <br><div style="display:none">UPDATE havale_anbar SET havalecode='9916092210556727', anbarid=null, tahvildate=null, drivername=null, drivercar=null, drivertel=null, driverpelak	=null WHERE id = 71890.</div> (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_update.doTransaction
+      BEFORE.Trigger_Default_saveData
+        tNG_update.saveData
+      BEFORE.Trigger_Default_FormValidation
+      tNG_update.prepareSQL
+      tNG_update.executeTransaction - execute sql*
+  tNG_update.getRecordset
+  tNG_update.getFakeRsArr
+  tNG_update.getLocalRecordset
+  tNG_update.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  78.38.116.74
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  https://payesh.bonyadmaskan.ir/portal/plugins/havale/havale_anbar.php?code=!!4fLACHK@@6EYK9Bc6aBwIzmO60zYwpWSRdHVLlkTzNnVtJUWrlDMEBlW5IjUIBzVol3ZB9COBlHS4h0NPZVV
+
+Date:
+  2021-05-25 08:30:11
+
+خطا:
+  خطای پایگاه داده. <br><div style="display:none">Column 'anbarid' cannot be null</div>
+
+Developer Details:
+  خطای پایگاه داده. <br><div style="display:none">UPDATE havale_anbar SET havalecode='9915964368429521', anbarid=null, tahvildate=null, drivername=null, drivercar=null, drivertel=null, driverpelak	=null WHERE id = 50747.</div> (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_update.doTransaction
+      BEFORE.Trigger_Default_saveData
+        tNG_update.saveData
+      BEFORE.Trigger_Default_FormValidation
+      tNG_update.prepareSQL
+      tNG_update.executeTransaction - execute sql*
+  tNG_update.getRecordset
+  tNG_update.getFakeRsArr
+  tNG_update.getLocalRecordset
+  tNG_update.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  78.38.116.74
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  https://payesh.bonyadmaskan.ir/portal/plugins/havale/havale_anbar.php?code=!!sfWWwHBiZ5u7NlbY9GMGwgO60zd1cWO5MTSSp1b1ZHOIdmcvcjWyMXdjRUNWd1LitCcPFEUrBlbVtCUzplN
+
+Date:
+  2021-05-25 08:38:42
+
+خطا:
+  خطای پایگاه داده. <br><div style="display:none">Column 'anbarid' cannot be null</div>
+
+Developer Details:
+  خطای پایگاه داده. <br><div style="display:none">UPDATE havale_anbar SET havalecode='9915966200707744', anbarid=null, tahvildate=null, drivername=null, drivercar=null, drivertel=null, driverpelak	=null WHERE id = 51235.</div> (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_update.doTransaction
+      BEFORE.Trigger_Default_saveData
+        tNG_update.saveData
+      BEFORE.Trigger_Default_FormValidation
+      tNG_update.prepareSQL
+      tNG_update.executeTransaction - execute sql*
+  tNG_update.getRecordset
+  tNG_update.getFakeRsArr
+  tNG_update.getLocalRecordset
+  tNG_update.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  78.38.116.74
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  https://payesh.bonyadmaskan.ir/portal/plugins/havale/havale_anbar.php?code=!!gCiRn8r8996KInm2jkBaQpO60zYsRnazQkTrl3Q2AjQvg1R2hVYZ9CbCVGNuJ2Y5YFUxdTToBnb5J1SFBTR
+
+Date:
+  2021-05-25 09:42:45
+
+خطا:
+  خطای پایگاه داده. <br><div style="display:none">Column 'anbarid' cannot be null</div>
+
+Developer Details:
+  خطای پایگاه داده. <br><div style="display:none">UPDATE havale_anbar SET havalecode='9916016334399100', anbarid=null, tahvildate=null, drivername=null, drivercar=null, drivertel=null, driverpelak	=null WHERE id = 62665.</div> (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_update.doTransaction
+      BEFORE.Trigger_Default_saveData
+        tNG_update.saveData
+      BEFORE.Trigger_Default_FormValidation
+      tNG_update.prepareSQL
+      tNG_update.executeTransaction - execute sql*
+  tNG_update.getRecordset
+  tNG_update.getFakeRsArr
+  tNG_update.getLocalRecordset
+  tNG_update.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  78.38.116.74
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  https://payesh.bonyadmaskan.ir/portal/plugins/havale/havale_anbar.php?code=!!ceuuQPkwZS3b4WuwOGTsOkO60TUqF1YLRDcQZmezo3Rlhncj9kSQFjd1gGSPFlbUdkUkN2YxVlMRh3b1IGZ
+
+Date:
+  2021-05-25 09:51:35
+
+خطا:
+  خطای پایگاه داده. <br><div style="display:none">Column 'anbarid' cannot be null</div>
+
+Developer Details:
+  خطای پایگاه داده. <br><div style="display:none">UPDATE havale_anbar SET havalecode='9916026648042827', anbarid=null, tahvildate=null, drivername=null, drivercar=null, drivertel=null, driverpelak	=null WHERE id = 64159.</div> (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_update.doTransaction
+      BEFORE.Trigger_Default_saveData
+        tNG_update.saveData
+      BEFORE.Trigger_Default_FormValidation
+      tNG_update.prepareSQL
+      tNG_update.executeTransaction - execute sql*
+  tNG_update.getRecordset
+  tNG_update.getFakeRsArr
+  tNG_update.getLocalRecordset
+  tNG_update.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  78.38.116.74
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  https://payesh.bonyadmaskan.ir/portal/plugins/havale/havale_anbar.php?code=!!czL1EUp3n5FVBILdU0EKkrO60TVQ5WVNJTZidHWWhGTpRVRCplQVd2dxUTTiJUMEd0d5IjMIZTeNBFa5l3Q
+
+Date:
+  2021-05-25 10:03:09
+
+خطا:
+  خطای پایگاه داده. <br><div style="display:none">Column 'anbarid' cannot be null</div>
+
+Developer Details:
+  خطای پایگاه داده. <br><div style="display:none">UPDATE havale_anbar SET havalecode='9916156207177705', anbarid=null, tahvildate=null, drivername=null, drivercar=null, drivertel=null, driverpelak	=null WHERE id = 76359.</div> (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_update.doTransaction
+      BEFORE.Trigger_Default_saveData
+        tNG_update.saveData
+      BEFORE.Trigger_Default_FormValidation
+      tNG_update.prepareSQL
+      tNG_update.executeTransaction - execute sql*
+  tNG_update.getRecordset
+  tNG_update.getFakeRsArr
+  tNG_update.getLocalRecordset
+  tNG_update.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  78.38.116.74
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  https://payesh.bonyadmaskan.ir/portal/plugins/havale/havale_anbar.php?code=!!s5raiErRauYCRc$$AUsqopvO60zYnVmMzpnaQVnMhF2VzIUZmBjcLdjS2RVMlFHTxIWWGpHbSZjczxmcthkS
+
+Date:
+  2021-05-25 10:07:37
+
+خطا:
+  خطای پایگاه داده. <br><div style="display:none">Column 'anbarid' cannot be null</div>
+
+Developer Details:
+  خطای پایگاه داده. <br><div style="display:none">UPDATE havale_anbar SET havalecode='9916140569372595', anbarid=null, tahvildate=null, drivername=null, drivercar=null, drivertel=null, driverpelak	=null WHERE id = 75096.</div> (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_update.doTransaction
+      BEFORE.Trigger_Default_saveData
+        tNG_update.saveData
+      BEFORE.Trigger_Default_FormValidation
+      tNG_update.prepareSQL
+      tNG_update.executeTransaction - execute sql*
+  tNG_update.getRecordset
+  tNG_update.getFakeRsArr
+  tNG_update.getLocalRecordset
+  tNG_update.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  78.38.116.74
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  https://payesh.bonyadmaskan.ir/portal/plugins/havale/havale_anbar.php?code=!!kHTppMOL$$Z$$BwvSQGSG5KiO60zZVtWRWBXV5g2SMJke2dXcohHWUdEU3YUe4VzdLBVRJ9UVSxUVqdXYxZFZ
+
+Date:
+  2021-05-25 10:15:52
+
+خطا:
+  خطای پایگاه داده. <br><div style="display:none">Column 'anbarid' cannot be null</div>
+
+Developer Details:
+  خطای پایگاه داده. <br><div style="display:none">UPDATE havale_anbar SET havalecode='9916084785083705', anbarid=null, tahvildate=null, drivername=null, drivercar=null, drivertel=null, driverpelak	=null WHERE id = 71666.</div> (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_update.doTransaction
+      BEFORE.Trigger_Default_saveData
+        tNG_update.saveData
+      BEFORE.Trigger_Default_FormValidation
+      tNG_update.prepareSQL
+      tNG_update.executeTransaction - execute sql*
+  tNG_update.getRecordset
+  tNG_update.getFakeRsArr
+  tNG_update.getLocalRecordset
+  tNG_update.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  89.34.48.157
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  https://payesh.bonyadmaskan.ir/portal/plugins/havades/melktakmil_add.php?cod=jaSBDj59S3Xe2uF3Q4hGErjO90zZvpFS1syLnh0TqdFU3VTVkNGVGNjN&mode=edit
+
+Date:
+  2021-05-25 11:39:14
+
+خطا:
+  خطای پایگاه داده. <br><div style="display:none">Column 'tabaghe' cannot be null</div>
+
+Developer Details:
+  خطای پایگاه داده. <br><div style="display:none">INSERT INTO melk_detail (hcode, tabaghe, maskoniv, maskonim, tejariv, tejarim, tejmasv, tejmasm, khadv, khadm, edariv, edarim, mazhabiv, mazhabim, malek, user, sdate, active) values ('16157986257971', null, '1', '120', null, null, null, null, null, null, null, null, null, null, 'علی مهربانی', 'a170201', '1400/03/04', '1').</div> (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  185.109.61.86
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  https://payesh.bonyadmaskan.ir/portal/plugins/havades/file_add.php?cod=Fnc2yJl45ZSMIcGbALfQ4ojO90TUSl1NXl2ZWx0NOlGMvMXWnVzUQNFV&cod=Fnc2yJl45ZSMIcGbALfQ4ojO90TUSl1NXl2ZWx0NOlGMvMXWnVzUQNFV&mode=edit
+
+Date:
+  2021-05-25 13:03:26
+
+خطا:
+  خطای بارگذاری فایل. <br><div style="display:none">File size must be less than 200 kB.</div>
+
+Developer Details:
+  خطای بارگذاری فایل. <br><div style="display:none">File size must be less than 200 kB.</div> (FILE_UPLOAD_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql
+      tNG_insert.postExecuteSql
+      AFTER.Trigger_ImageUpload*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  185.109.61.86
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  https://payesh.bonyadmaskan.ir/portal/plugins/havades/file_add.php?cod=Fnc2yJl45ZSMIcGbALfQ4ojO90TUSl1NXl2ZWx0NOlGMvMXWnVzUQNFV&cod=Fnc2yJl45ZSMIcGbALfQ4ojO90TUSl1NXl2ZWx0NOlGMvMXWnVzUQNFV&mode=edit
+
+Date:
+  2021-05-25 13:03:39
+
+خطا:
+  خطای بارگذاری فایل. <br><div style="display:none">File size must be less than 200 kB.</div>
+
+Developer Details:
+  خطای بارگذاری فایل. <br><div style="display:none">File size must be less than 200 kB.</div> (FILE_UPLOAD_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql
+      tNG_insert.postExecuteSql
+      AFTER.Trigger_ImageUpload*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  185.109.61.86
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  https://payesh.bonyadmaskan.ir/portal/plugins/havades/file_add.php?cod=Fnc2yJl45ZSMIcGbALfQ4ojO90TUSl1NXl2ZWx0NOlGMvMXWnVzUQNFV&cod=Fnc2yJl45ZSMIcGbALfQ4ojO90TUSl1NXl2ZWx0NOlGMvMXWnVzUQNFV&mode=edit
+
+Date:
+  2021-05-25 13:03:56
+
+خطا:
+  خطای بارگذاری فایل. <br><div style="display:none">File size must be less than 200 kB.</div>
+
+Developer Details:
+  خطای بارگذاری فایل. <br><div style="display:none">File size must be less than 200 kB.</div> (FILE_UPLOAD_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql
+      tNG_insert.postExecuteSql
+      AFTER.Trigger_ImageUpload*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  185.109.61.86
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  https://payesh.bonyadmaskan.ir/portal/plugins/havades/file_add.php?cod=Fnc2yJl45ZSMIcGbALfQ4ojO90TUSl1NXl2ZWx0NOlGMvMXWnVzUQNFV&cod=Fnc2yJl45ZSMIcGbALfQ4ojO90TUSl1NXl2ZWx0NOlGMvMXWnVzUQNFV&mode=edit
+
+Date:
+  2021-05-25 13:04:19
+
+خطا:
+  خطای بارگذاری فایل. <br><div style="display:none">File size must be less than 200 kB.</div>
+
+Developer Details:
+  خطای بارگذاری فایل. <br><div style="display:none">File size must be less than 200 kB.</div> (FILE_UPLOAD_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql
+      tNG_insert.postExecuteSql
+      AFTER.Trigger_ImageUpload*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  185.109.61.86
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  https://payesh.bonyadmaskan.ir/portal/plugins/havades/file_add.php?cod=Fnc2yJl45ZSMIcGbALfQ4ojO90TUSl1NXl2ZWx0NOlGMvMXWnVzUQNFV&cod=Fnc2yJl45ZSMIcGbALfQ4ojO90TUSl1NXl2ZWx0NOlGMvMXWnVzUQNFV&mode=edit
+
+Date:
+  2021-05-25 13:05:17
+
+خطا:
+  خطای بارگذاری فایل. <br><div style="display:none">File size must be less than 200 kB.</div>
+
+Developer Details:
+  خطای بارگذاری فایل. <br><div style="display:none">File size must be less than 200 kB.</div> (FILE_UPLOAD_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql
+      tNG_insert.postExecuteSql
+      AFTER.Trigger_ImageUpload*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  185.109.61.86
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  https://payesh.bonyadmaskan.ir/portal/plugins/havades/file_add.php?cod=Fnc2yJl45ZSMIcGbALfQ4ojO90TUSl1NXl2ZWx0NOlGMvMXWnVzUQNFV&cod=Fnc2yJl45ZSMIcGbALfQ4ojO90TUSl1NXl2ZWx0NOlGMvMXWnVzUQNFV&mode=edit
+
+Date:
+  2021-05-25 13:06:17
+
+خطا:
+  خطای بارگذاری فایل. <br><div style="display:none">File size must be less than 200 kB.</div>
+
+Developer Details:
+  خطای بارگذاری فایل. <br><div style="display:none">File size must be less than 200 kB.</div> (FILE_UPLOAD_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql
+      tNG_insert.postExecuteSql
+      AFTER.Trigger_ImageUpload*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  185.109.61.86
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  https://payesh.bonyadmaskan.ir/portal/plugins/havades/file_add.php?cod=7p1MGSEApb5UYHNcLQuTNrjO90TU25kRrRTRykmS6R0bhVkZPljQyM2K&cod=7p1MGSEApb5UYHNcLQuTNrjO90TU25kRrRTRykmS6R0bhVkZPljQyM2K&mode=edit
+
+Date:
+  2021-05-25 13:25:52
+
+خطا:
+  خطای بارگذاری فایل. <br><div style="display:none">Invalid file name.</div>
+
+Developer Details:
+  خطای بارگذاری فایل. <br><div style="display:none">Invalid file name. File name contains ".." character.</div> (FILE_UPLOAD_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql
+      tNG_insert.postExecuteSql
+      AFTER.Trigger_ImageUpload*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  185.109.61.86
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  https://payesh.bonyadmaskan.ir/portal/plugins/havades/file_add.php?cod=7p1MGSEApb5UYHNcLQuTNrjO90TU25kRrRTRykmS6R0bhVkZPljQyM2K&cod=7p1MGSEApb5UYHNcLQuTNrjO90TU25kRrRTRykmS6R0bhVkZPljQyM2K&mode=edit
+
+Date:
+  2021-05-25 13:26:07
+
+خطا:
+  خطای بارگذاری فایل. <br><div style="display:none">Invalid file name.</div>
+
+Developer Details:
+  خطای بارگذاری فایل. <br><div style="display:none">Invalid file name. File name contains ".." character.</div> (FILE_UPLOAD_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql
+      tNG_insert.postExecuteSql
+      AFTER.Trigger_ImageUpload*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  46.51.98.103
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  https://payesh.bonyadmaskan.ir/portal/plugins/havades/melktakmil_add.php?cod=eLdfCsdNbn19viR@@YNm11pjO90zZypGUzQnaWRmelFHS09GZztmUmhWe&mode=edit
+
+Date:
+  2021-05-26 13:51:46
+
+خطا:
+  خطای پایگاه داده. <br><div style="display:none">Column 'tabaghe' cannot be null</div>
+
+Developer Details:
+  خطای پایگاه داده. <br><div style="display:none">INSERT INTO melk_detail (hcode, tabaghe, maskoniv, maskonim, tejariv, tejarim, tejmasv, tejmasm, khadv, khadm, edariv, edarim, mazhabiv, mazhabim, malek, user, sdate, active) values ('16099160407671', null, null, null, null, null, null, null, null, null, null, null, null, null, 'حنظل ثامری', 'a060504', '1400/03/05', '1').</div> (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  5.232.235.90
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  https://payesh.bonyadmaskan.ir/portal/plugins/havades/file_add.php?cod=1W5fo@@itXyxdCMYBbn@@ScrjO90TQ1hGVEdnVFZ3N34EMv0UZph0TQR3Y&mode=edit
+
+Date:
+  2021-05-26 19:02:55
+
+خطا:
+  خطای بارگذاری فایل. <br><div style="display:none">File size must be less than 200 kB.</div>
+
+Developer Details:
+  خطای بارگذاری فایل. <br><div style="display:none">File size must be less than 200 kB.</div> (FILE_UPLOAD_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql
+      tNG_insert.postExecuteSql
+      AFTER.Trigger_ImageUpload*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  37.254.172.150
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  https://payesh.bonyadmaskan.ir/portal/plugins/havalat/savanehgroup_havale_etebar_add.php
+
+Date:
+  2021-05-27 12:32:52
+
+خطا:
+  خطای پایگاه داده. <br><div style="display:none">Incorrect integer value: '۲۰۰' for column 'tedadtakhsis' at row 1</div>
+
+Developer Details:
+  خطای پایگاه داده. <br><div style="display:none">INSERT INTO savanehgroup_havale_etebar (sgcode, prodcode, tedad, tedadtakhsis, mosavabecode, mosavabedate, description, mfuid, residdate, barnum, barprice, machinenum, ranande, keraye, kalaname, kalaamount, kalaprice, kalamaliat, kalasum, metebar, user, setdate, status) values ('1103', '100020', '۲۰۰', '۲۰۰', null, '1400/03/06', null, null, null, null, null, null, null, null, null, null, null, null, null, null, 'ostank1001', '1400/03/06', '1').</div> (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  37.254.172.150
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  https://payesh.bonyadmaskan.ir/portal/plugins/havalat/savanehgroup_havale_etebar_add.php
+
+Date:
+  2021-05-27 12:34:38
+
+خطا:
+  خطای پایگاه داده. <br><div style="display:none">Incorrect integer value: '۵۰' for column 'tedadtakhsis' at row 1</div>
+
+Developer Details:
+  خطای پایگاه داده. <br><div style="display:none">INSERT INTO savanehgroup_havale_etebar (sgcode, prodcode, tedad, tedadtakhsis, mosavabecode, mosavabedate, description, mfuid, residdate, barnum, barprice, machinenum, ranande, keraye, kalaname, kalaamount, kalaprice, kalamaliat, kalasum, metebar, user, setdate, status) values ('1103', '100020', '۵۰', '۵۰', null, '1400/03/06', null, null, null, null, null, null, null, null, null, null, null, null, null, null, 'ostank1001', '1400/03/06', '1').</div> (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  37.254.172.150
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  https://payesh.bonyadmaskan.ir/portal/plugins/havalat/savanehgroup_havale_etebar_add.php
+
+Date:
+  2021-05-27 12:36:41
+
+خطا:
+  خطای پایگاه داده. <br><div style="display:none">Incorrect integer value: '۵۰' for column 'tedadtakhsis' at row 1</div>
+
+Developer Details:
+  خطای پایگاه داده. <br><div style="display:none">INSERT INTO savanehgroup_havale_etebar (sgcode, prodcode, tedad, tedadtakhsis, mosavabecode, mosavabedate, description, mfuid, residdate, barnum, barprice, machinenum, ranande, keraye, kalaname, kalaamount, kalaprice, kalamaliat, kalasum, metebar, user, setdate, status) values ('1103', '100020', '۵۰', '۵۰', null, '1400/03/06', null, null, null, null, null, null, null, null, null, null, null, null, null, null, 'ostank1001', '1400/03/06', '1').</div> (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  164.215.210.117
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  https://payesh.bonyadmaskan.ir/portal/plugins/havades/makan_add.php?mode=edit&&cod=oGlS8xaEXcNq5kxrRBm$$mpjO90TUIhVQr8SVtBDMtRzbHhWYrZ2ThVHd
+
+Date:
+  2021-05-27 12:36:47
+
+خطا:
+  خطای بارگذاری فایل. <br><div style="display:none">File size must be less than 200 kB.</div>
+
+Developer Details:
+  خطای بارگذاری فایل. <br><div style="display:none">File size must be less than 200 kB.</div> (FILE_UPLOAD_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_update.doTransaction
+      BEFORE.Trigger_Default_saveData
+        tNG_update.saveData
+      BEFORE.Trigger_Default_FormValidation
+      tNG_update.prepareSQL
+      tNG_update.executeTransaction - execute sql
+      AFTER.Trigger_ImageUpload*
+  tNG_insert.getRecordset
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_update.getRecordset
+  tNG_update.getFakeRsArr
+  tNG_update.getLocalRecordset
+  tNG_update.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  164.215.210.117
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  https://payesh.bonyadmaskan.ir/portal/plugins/havades/makan_add.php?mode=edit&&cod=oGlS8xaEXcNq5kxrRBm$$mpjO90TUIhVQr8SVtBDMtRzbHhWYrZ2ThVHd
+
+Date:
+  2021-05-27 12:37:18
+
+خطا:
+  خطای بارگذاری فایل. <br><div style="display:none">File size must be less than 200 kB.</div>
+
+Developer Details:
+  خطای بارگذاری فایل. <br><div style="display:none">File size must be less than 200 kB.</div> (FILE_UPLOAD_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_update.doTransaction
+      BEFORE.Trigger_Default_saveData
+        tNG_update.saveData
+      BEFORE.Trigger_Default_FormValidation
+      tNG_update.prepareSQL
+      tNG_update.executeTransaction - execute sql
+      AFTER.Trigger_ImageUpload*
+  tNG_insert.getRecordset
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_update.getRecordset
+  tNG_update.getFakeRsArr
+  tNG_update.getLocalRecordset
+  tNG_update.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  5.212.83.249
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  https://payesh.bonyadmaskan.ir/portal/plugins/havades/melktakmil_add.php?cod=7xUD6QOzR@@86uXwoZRxBlpjO90TQ5IHRjd0dY9UWHhlYPlDcihTdKhXO&mode=edit
+
+Date:
+  2021-05-28 14:35:12
+
+خطا:
+  خطای پایگاه داده. <br><div style="display:none">Column 'tabaghe' cannot be null</div>
+
+Developer Details:
+  خطای پایگاه داده. <br><div style="display:none">INSERT INTO melk_detail (hcode, tabaghe, maskoniv, maskonim, tejariv, tejarim, tejmasv, tejmasm, khadv, khadm, edariv, edarim, mazhabiv, mazhabim, malek, user, sdate, active) values ('16073134533542', null, null, null, null, null, null, null, null, null, null, null, null, null, 'محمدرضا بذرگر', 'a072901', '1400/03/07', '1').</div> (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  185.141.39.215
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  https://payesh.bonyadmaskan.ir/portal/plugins/havades/melktakmil_add.php?cod=7trxZP7JrEMqq2LZeRCEorjO90zdhVHNwJVVMBzQJhjaKd1UzdFVGpHV&mode=edit
+
+Date:
+  2021-05-29 08:52:42
+
+خطا:
+  خطای پایگاه داده. <br><div style="display:none">Incorrect integer value: 'سخاوی' for column 'maskoniv' at row 1</div>
+
+Developer Details:
+  خطای پایگاه داده. <br><div style="display:none">INSERT INTO melk_detail (hcode, tabaghe, maskoniv, maskonim, tejariv, tejarim, tejmasv, tejmasm, khadv, khadm, edariv, edarim, mazhabiv, mazhabim, malek, user, sdate, active) values ('16222618076051', 0, 'سخاوی', null, null, null, null, null, null, null, null, null, null, null, 'عبداله', 'p270604', '1400/03/08', '1').</div> (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  93.115.147.170
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  https://payesh.bonyadmaskan.ir/portal/plugins/havades/file_add.php?cod=UZgBvJYdidYF4MNJhntJ1qjO90TQOlXa5AHe6dkeuRUTzQGNRp0ZJRTe&mode=edit
+
+Date:
+  2021-05-29 08:59:19
+
+خطا:
+  خطای بارگذاری فایل. <br><div style="display:none">File size must be less than 200 kB.</div>
+
+Developer Details:
+  خطای بارگذاری فایل. <br><div style="display:none">File size must be less than 200 kB.</div> (FILE_UPLOAD_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql
+      tNG_insert.postExecuteSql
+      AFTER.Trigger_ImageUpload*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  2.184.199.184
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  https://payesh.bonyadmaskan.ir/portal/plugins/havades/hesab_add.php?cod=YzdTQvE3mjATdRZqFmlPPqjO90TQDF2RVBnUrYlb6JmWvY0Z3gXNiVXa&mode=edit
+
+Date:
+  2021-05-29 09:52:28
+
+خطا:
+  خطای پایگاه داده. <br><div style="display:none">Data too long for column 'shhesab' at row 1</div>
+
+Developer Details:
+  خطای پایگاه داده. <br><div style="display:none">UPDATE hadese SET bank=14, shobe='دژگان', shhesab=' IR57 0190 0000 0011 5982 4930 06', shabanumber='IR57 0190 0000 0011 5982 4930 06', cartnumber=null, malicode=null WHERE code = '16217510366876'.</div> (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_update.doTransaction
+      BEFORE.Trigger_Default_saveData
+        tNG_update.saveData
+      BEFORE.Trigger_Default_FormValidation
+      tNG_update.prepareSQL
+      tNG_update.executeTransaction - execute sql*
+  tNG_update.getRecordset
+  tNG_update.getFakeRsArr
+  tNG_update.getLocalRecordset
+  tNG_update.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  185.141.39.215
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  https://payesh.bonyadmaskan.ir/portal/plugins/etebarat/etebarat_add.php?id=
+
+Date:
+  2021-05-29 11:08:32
+
+خطا:
+  خطای پایگاه داده. <br><div style="display:none">Column 'loctype' cannot be null</div>
+
+Developer Details:
+  خطای پایگاه داده. <br><div style="display:none">INSERT INTO etebarat (tashilatetebarid, bankcode, sgcode, scode, tashilatkind, ostan, shahrcode, shobecode, tarikh, mablagh, user, sdate, type, noekh, noekarbari, tozihat, mosavabecode, active, sal, sahmie, loctype, khesaratlevel) values (0, 18, 1027, 281, '0', '27', '2713', '960', '1400/03/08', '41750000070', 'ostank2701', '1400/03/08', '3', '1', '1', null, null, '1', 1398, 77, null, '1').</div> (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  78.38.116.74
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  https://payesh.bonyadmaskan.ir/portal/plugins/havale/havale_anbar.php?code=!!UDFLgahaIs8X9VjKK7BpclO60TVvlmYWlFZUR0ULhFZ4VURP9WU35UbFBXOv9iMrZFUJ90YxUVYWpUa5F0K
+
+Date:
+  2021-05-29 12:06:20
+
+خطا:
+  خطای پایگاه داده. <br><div style="display:none">Column 'anbarid' cannot be null</div>
+
+Developer Details:
+  خطای پایگاه داده. <br><div style="display:none">UPDATE havale_anbar SET havalecode='9915930991415646', anbarid=null, tahvildate=null, drivername=null, drivercar=null, drivertel=null, driverpelak	=null WHERE id = 35064.</div> (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_update.doTransaction
+      BEFORE.Trigger_Default_saveData
+        tNG_update.saveData
+      BEFORE.Trigger_Default_FormValidation
+      tNG_update.prepareSQL
+      tNG_update.executeTransaction - execute sql*
+  tNG_update.getRecordset
+  tNG_update.getFakeRsArr
+  tNG_update.getLocalRecordset
+  tNG_update.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  78.38.116.74
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  https://payesh.bonyadmaskan.ir/portal/plugins/havale/havale_anbar.php?code=!!4wl@@jsjqXc6gnx$$2II9ZvlO60za04kcZZXMmFGWXFFRrE0QUFnU5I1R4M0K2gmQvJkbkFDcwMTUwxURBRWT
+
+Date:
+  2021-05-29 12:19:06
+
+خطا:
+  خطای پایگاه داده. <br><div style="display:none">Column 'anbarid' cannot be null</div>
+
+Developer Details:
+  خطای پایگاه داده. <br><div style="display:none">UPDATE havale_anbar SET havalecode='9915930990287616', anbarid=null, tahvildate=null, drivername=null, drivercar=null, drivertel=null, driverpelak	=null WHERE id = 35062.</div> (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_update.doTransaction
+      BEFORE.Trigger_Default_saveData
+        tNG_update.saveData
+      BEFORE.Trigger_Default_FormValidation
+      tNG_update.prepareSQL
+      tNG_update.executeTransaction - execute sql*
+  tNG_update.getRecordset
+  tNG_update.getFakeRsArr
+  tNG_update.getLocalRecordset
+  tNG_update.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  78.38.116.74
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  https://payesh.bonyadmaskan.ir/portal/plugins/havale/havale_anbar.php?code=!!g8QgEIJVH7B0kH5ynQLFhuO60TSs9UTpl0VzJkZGZkaOtyaOljauR2dktiNJJnbH9CW3NVethXd3MlcrglM
+
+Date:
+  2021-05-29 12:20:21
+
+خطا:
+  خطای پایگاه داده. <br><div style="display:none">Column 'anbarid' cannot be null</div>
+
+Developer Details:
+  خطای پایگاه داده. <br><div style="display:none">UPDATE havale_anbar SET havalecode='9915931527499107', anbarid=null, tahvildate=null, drivername=null, drivercar=null, drivertel=null, driverpelak	=null WHERE id = 35171.</div> (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_update.doTransaction
+      BEFORE.Trigger_Default_saveData
+        tNG_update.saveData
+      BEFORE.Trigger_Default_FormValidation
+      tNG_update.prepareSQL
+      tNG_update.executeTransaction - execute sql*
+  tNG_update.getRecordset
+  tNG_update.getFakeRsArr
+  tNG_update.getLocalRecordset
+  tNG_update.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  78.38.116.74
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  https://payesh.bonyadmaskan.ir/portal/plugins/havale/havale_anbar.php?code=!!Ucn5g2kCbZFr@@TM@@u5R@@kvO60TSMV3ZRhldrU2RCRkRPRHU4pHNhl0Kll1RPBlN5JEOaNUcxRVV0kFMilWU
+
+Date:
+  2021-05-29 12:29:49
+
+خطا:
+  خطای پایگاه داده. <br><div style="display:none">Column 'anbarid' cannot be null</div>
+
+Developer Details:
+  خطای پایگاه داده. <br><div style="display:none">UPDATE havale_anbar SET havalecode='9915932466938588', anbarid=null, tahvildate=null, drivername=null, drivercar=null, drivertel=null, driverpelak	=null WHERE id = 35531.</div> (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_update.doTransaction
+      BEFORE.Trigger_Default_saveData
+        tNG_update.saveData
+      BEFORE.Trigger_Default_FormValidation
+      tNG_update.prepareSQL
+      tNG_update.executeTransaction - execute sql*
+  tNG_update.getRecordset
+  tNG_update.getFakeRsArr
+  tNG_update.getLocalRecordset
+  tNG_update.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  78.38.116.74
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  https://payesh.bonyadmaskan.ir/portal/plugins/havale/havale_anbar.php?code=!!4x0K5avJB51na1eSj$$URQmO60TUxcWTvpXa0dEWzNkYvhXSCNHOCdzLjZjbhxmTFVmajVWWDdjWR9iNVBXc
+
+Date:
+  2021-05-29 12:35:55
+
+خطا:
+  خطای پایگاه داده. <br><div style="display:none">Column 'anbarid' cannot be null</div>
+
+Developer Details:
+  خطای پایگاه داده. <br><div style="display:none">UPDATE havale_anbar SET havalecode='9915931004871271', anbarid=null, tahvildate=null, drivername=null, drivercar=null, drivertel=null, driverpelak	=null WHERE id = 35069.</div> (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_update.doTransaction
+      BEFORE.Trigger_Default_saveData
+        tNG_update.saveData
+      BEFORE.Trigger_Default_FormValidation
+      tNG_update.prepareSQL
+      tNG_update.executeTransaction - execute sql*
+  tNG_update.getRecordset
+  tNG_update.getFakeRsArr
+  tNG_update.getLocalRecordset
+  tNG_update.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  78.38.116.74
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  https://payesh.bonyadmaskan.ir/portal/plugins/havale/havale_anbar.php?code=!!EGnU@@tWS2Ar8Sx7EtY8bIvO60TTTZHb402V3ADRQJGVTdGVx0UcGZDWTlHbQV0VjRleE5kRrxkeL12UZlXe
+
+Date:
+  2021-05-29 12:41:00
+
+خطا:
+  خطای پایگاه داده. <br><div style="display:none">Column 'anbarid' cannot be null</div>
+
+Developer Details:
+  خطای پایگاه داده. <br><div style="display:none">UPDATE havale_anbar SET havalecode='9915932741496670', anbarid=null, tahvildate=null, drivername=null, drivercar=null, drivertel=null, driverpelak	=null WHERE id = 35671.</div> (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_update.doTransaction
+      BEFORE.Trigger_Default_saveData
+        tNG_update.saveData
+      BEFORE.Trigger_Default_FormValidation
+      tNG_update.prepareSQL
+      tNG_update.executeTransaction - execute sql*
+  tNG_update.getRecordset
+  tNG_update.getFakeRsArr
+  tNG_update.getLocalRecordset
+  tNG_update.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  164.215.237.111
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  https://payesh.bonyadmaskan.ir/portal/plugins/havades/makan_add.php?mode=edit&&cod=nLgSfN0zO95fL8kYlYpOkpjO90TQ0FDUZh2d3cFTLFnNlN3UUhENsdXY
+
+Date:
+  2021-05-30 11:11:37
+
+خطا:
+  خطای بارگذاری فایل. <br><div style="display:none">File size must be less than 200 kB.</div>
+
+Developer Details:
+  خطای بارگذاری فایل. <br><div style="display:none">File size must be less than 200 kB.</div> (FILE_UPLOAD_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_update.doTransaction
+      BEFORE.Trigger_Default_saveData
+        tNG_update.saveData
+      BEFORE.Trigger_Default_FormValidation
+      tNG_update.prepareSQL
+      tNG_update.executeTransaction - execute sql
+      AFTER.Trigger_ImageUpload*
+  tNG_insert.getRecordset
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_update.getRecordset
+  tNG_update.getFakeRsArr
+  tNG_update.getLocalRecordset
+  tNG_update.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  164.215.237.111
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  https://payesh.bonyadmaskan.ir/portal/plugins/havades/makan_add.php?mode=edit&&cod=L5kJRsE8U8$$qiZ54uHkyFqjO90zdnh1b1FGWRp3NslUOvhmSNZVTEhUW
+
+Date:
+  2021-05-30 12:57:32
+
+خطا:
+  خطای بارگذاری فایل. <br><div style="display:none">File size must be less than 200 kB.</div>
+
+Developer Details:
+  خطای بارگذاری فایل. <br><div style="display:none">File size must be less than 200 kB.</div> (FILE_UPLOAD_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_update.doTransaction
+      BEFORE.Trigger_Default_saveData
+        tNG_update.saveData
+      BEFORE.Trigger_Default_FormValidation
+      tNG_update.prepareSQL
+      tNG_update.executeTransaction - execute sql
+      AFTER.Trigger_ImageUpload*
+  tNG_insert.getRecordset
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_update.getRecordset
+  tNG_update.getFakeRsArr
+  tNG_update.getLocalRecordset
+  tNG_update.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  164.215.237.111
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  https://payesh.bonyadmaskan.ir/portal/plugins/havades/makan_add.php?mode=edit&&cod=3tDe9alhoLMOmsKnvUiEgrjO90TU3EEUMZjaZ1WaWB3RmFHVux0dWFWU
+
+Date:
+  2021-05-30 13:05:29
+
+خطا:
+  خطای بارگذاری فایل. <br><div style="display:none">File size must be less than 200 kB.</div>
+
+Developer Details:
+  خطای بارگذاری فایل. <br><div style="display:none">File size must be less than 200 kB.</div> (FILE_UPLOAD_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_update.doTransaction
+      BEFORE.Trigger_Default_saveData
+        tNG_update.saveData
+      BEFORE.Trigger_Default_FormValidation
+      tNG_update.prepareSQL
+      tNG_update.executeTransaction - execute sql
+      AFTER.Trigger_ImageUpload*
+  tNG_insert.getRecordset
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_update.getRecordset
+  tNG_update.getFakeRsArr
+  tNG_update.getLocalRecordset
+  tNG_update.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  46.224.249.27
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  https://payesh.bonyadmaskan.ir/portal/plugins/havades/hesab_add.php?cod=JhP0irp7EmLlhCzD$$3h7YpjO90TQstCZzQ2SGtCNYRmczkkTm92RE50T&mode=edit
+
+Date:
+  2021-05-31 09:03:31
+
+خطا:
+  خطای پایگاه داده. <br><div style="display:none">Data too long for column 'malicode' at row 1</div>
+
+Developer Details:
+  خطای پایگاه داده. <br><div style="display:none">UPDATE hadese SET bank=1, shobe=null, shhesab='010498703', shabanumber='IR14 0170 0000 0010 4986 0730 03', cartnumber=null, malicode=' IR14 0170 0000 0010 4986 0730 03' WHERE code = '16061199925283'.</div> (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_update.doTransaction
+      BEFORE.Trigger_Default_saveData
+        tNG_update.saveData
+      BEFORE.Trigger_Default_FormValidation
+      tNG_update.prepareSQL
+      tNG_update.executeTransaction - execute sql*
+  tNG_update.getRecordset
+  tNG_update.getFakeRsArr
+  tNG_update.getLocalRecordset
+  tNG_update.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  46.224.249.27
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  https://payesh.bonyadmaskan.ir/portal/plugins/havades/hesab_add.php?cod=lIELKmBoeVQAD35tDG3$$yqjO90TQwV0Ns9CS4oFT1YkTTlkeClDMxEXR&mode=edit
+
+Date:
+  2021-05-31 09:04:31
+
+خطا:
+  خطای پایگاه داده. <br><div style="display:none">Data too long for column 'malicode' at row 1</div>
+
+Developer Details:
+  خطای پایگاه داده. <br><div style="display:none">UPDATE hadese SET bank=null, shobe=null, shhesab='10 4986 0730 03', shabanumber='IR14 0170 0000 0010 4986 0730 03', cartnumber=null, malicode=' IR14 0170 0000 0010 4986 0730 03' WHERE code = '16061199925283'.</div> (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_update.doTransaction
+      BEFORE.Trigger_Default_saveData
+        tNG_update.saveData
+      BEFORE.Trigger_Default_FormValidation
+      tNG_update.prepareSQL
+      tNG_update.executeTransaction - execute sql*
+  tNG_update.getRecordset
+  tNG_update.getFakeRsArr
+  tNG_update.getLocalRecordset
+  tNG_update.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  85.204.215.97
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  https://payesh.bonyadmaskan.ir/portal/plugins/havades/file_add.php?cod=U1hyzAFWgYsT@@LRUdLBEvojO90TURJlWCJVUYRlUOJ0LsNjRVFDdu1GM&mode=edit
+
+Date:
+  2021-05-31 11:13:11
+
+خطا:
+  خطای بارگذاری فایل. <br><div style="display:none">File size must be less than 200 kB.</div>
+
+Developer Details:
+  خطای بارگذاری فایل. <br><div style="display:none">File size must be less than 200 kB.</div> (FILE_UPLOAD_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql
+      tNG_insert.postExecuteSql
+      AFTER.Trigger_ImageUpload*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  172.16.90.5
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  https://payesh.bonyadmaskan.ir/portal/plugins/admin/admin_add.php
+
+Date:
+  2021-05-31 11:48:55
+
+خطا:
+  کاربر با این نام کاربری قبلا درج شده است
+
+Developer Details:
+  %s
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      BEFORE.Trigger_CheckUnique*
+      ERROR.Trigger_Default_Insert_RollBack
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  172.16.90.5
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  https://payesh.bonyadmaskan.ir/portal/plugins/admin/admin_add.php
+
+Date:
+  2021-05-31 11:48:55
+
+خطا:
+  کاربر با این نام کاربری قبلا درج شده است
+
+Developer Details:
+  %s
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      BEFORE.Trigger_CheckUnique*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  5.234.180.85
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  https://payesh.bonyadmaskan.ir/portal/plugins/havades/makan_add.php?cod=S$$fuEjkPjz7aBf@@XOLuegojO90TUsZzdrYERYR1VzNXM5xERq9WeipUa&mode=edit
+
+Date:
+  2021-05-31 15:56:58
+
+خطا:
+  خطای بارگذاری فایل. <br><div style="display:none">File size must be less than 200 kB.</div>
+
+Developer Details:
+  خطای بارگذاری فایل. <br><div style="display:none">File size must be less than 200 kB.</div> (FILE_UPLOAD_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_update.doTransaction
+      BEFORE.Trigger_Default_saveData
+        tNG_update.saveData
+      BEFORE.Trigger_Default_FormValidation
+      tNG_update.prepareSQL
+      tNG_update.executeTransaction - execute sql
+      AFTER.Trigger_ImageUpload*
+  tNG_insert.getRecordset
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_update.getRecordset
+  tNG_update.getFakeRsArr
+  tNG_update.getLocalRecordset
+  tNG_update.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  2.180.28.92
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  https://payesh.bonyadmaskan.ir/portal/plugins/havades/file_add.php?cod=eUdLfLjtdwxa7BWze7egUojO90zZ4dnQj5GcSRlSMFnS4MXUhRzKEVlM&cod=eUdLfLjtdwxa7BWze7egUojO90zZ4dnQj5GcSRlSMFnS4MXUhRzKEVlM&mode=edit
+
+Date:
+  2021-05-31 21:37:27
+
+خطا:
+  خطای بارگذاری فایل. <br><div style="display:none">File extension not allowed for upload.</div>
+
+Developer Details:
+  خطای بارگذاری فایل. <br><div style="display:none">File extension "jfif" is not allowed for upload.</div> (FILE_UPLOAD_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql
+      tNG_insert.postExecuteSql
+      AFTER.Trigger_ImageUpload*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===

@@ -1,8 +1,6 @@
 <?php 
 
-require_once "./dbConncet/connect.php";
-
-session_start();
+require_once "./includeFiles.php";
 
 function testSecurity($data){
     $data = htmlspecialchars($data);

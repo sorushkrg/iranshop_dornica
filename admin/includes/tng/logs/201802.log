@@ -1,0 +1,2109 @@
+=== BEGIN MESSAGE ===
+Client IP:
+  80.191.171.246
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  http://payesh.bonyadmaskan.ir/portal/plugins/havades/havades_add.php
+
+Date:
+  2018-02-01 11:27:36
+
+Error:
+  SQL error: Column 'type' cannot be null.
+
+Developer Details:
+  SQL error: INSERT INTO hadese (code, scode, ostan, shahrestan, bakhsh, shahr, rosta, sokonat, nahad, mojavez, user, codeposti, khanevarfarei, tedadfoti, tedadzakhmi, setdate, adres, eskan, sal, active, type, tasarof, karbari, khesaratlevel, kaneksstatus) values ('15174718556059', '17', '08', '0805', '080502', '0805020008', '805020008026103144', '1', '4', '1', 'a10050101', null, '0', null, null, '1396/11/12', 'خ محمد رسول الله ص', '0', 1396, '1', null, '1', '1', '2', '0'). (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.executeTransaction
+  tNG_update.executeTransaction
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  5.233.59.228
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  http://payesh.bonyadmaskan.ir/portal/plugins/reporteskan/reporteskan_add.php
+
+Date:
+  2018-02-01 16:59:43
+
+Error:
+  SQL error: Column 'level10' cannot be null.
+
+Developer Details:
+  SQL error: INSERT INTO reporteskan (hid, level1, level2, level3, level4, level5, level6, level7, level8, level9, level10, level11, level1ro, level2ro, level3ro, level4ro, level5ro, level6ro, level7ro, level8ro, level9ro, level10ro, level11ro, file, user, ip, setdate, repdate, status) values ('18', 0, 0, 0, 0, 0, 0, 0, 0, 0, null, 61, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 32, '', 'a10050201', '5.233.59.228', '1396/11/12 16:59:42', '1396/11/12', '0'). (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  80.191.171.246
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  http://payesh.bonyadmaskan.ir/portal/plugins/havades/havades_add.php
+
+Date:
+  2018-02-03 09:30:52
+
+Error:
+  SQL error: Column 'type' cannot be null.
+
+Developer Details:
+  SQL error: INSERT INTO hadese (code, scode, ostan, shahrestan, bakhsh, shahr, rosta, sokonat, nahad, mojavez, user, codeposti, khanevarfarei, tedadfoti, tedadzakhmi, setdate, adres, eskan, sal, active, type, tasarof, karbari, khesaratlevel, kaneksstatus) values ('15176376526522', '17', '08', '0805', '080503', '0805030002', '805030002031103195', '1', '4', '1', 'a10050101', null, '0', null, null, '1396/11/14', 'صاحب الزمان 9', '0', 1396, '1', null, '1', '1', '3', '0'). (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.executeTransaction
+  tNG_update.executeTransaction
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  2.183.246.166
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  http://payesh.bonyadmaskan.ir/portal/plugins/havades/havades_add.php
+
+Date:
+  2018-02-03 11:14:21
+
+Error:
+  SQL error: Column 'type' cannot be null.
+
+Developer Details:
+  SQL error: INSERT INTO hadese (code, scode, ostan, shahrestan, bakhsh, shahr, rosta, sokonat, nahad, mojavez, user, codeposti, khanevarfarei, tedadfoti, tedadzakhmi, setdate, adres, eskan, sal, active, type, tasarof, karbari, khesaratlevel, kaneksstatus) values ('15176438614146', '26', '08', '0812', '081203', '0812030001', '812030001040094976', '1', '4', '1', 'p10040701', null, '0', null, null, '1396/11/14', null, '1', 1396, '2', null, '1', '1', '2', '0'). (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.executeTransaction
+  tNG_update.executeTransaction
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  5.223.219.228
+
+Host:
+  212.16.95.18
+
+Requested URI:
+  http://212.16.95.18/portal/plugins/reportvam/reportvam_add.php
+
+Date:
+  2018-02-03 20:36:05
+
+Error:
+  SQL error: Column 'pardakhtivtl2' cannot be null.
+
+Developer Details:
+  SQL error: INSERT INTO reportvam (hid, moarefibe, moarefibt, parkhatibe, pardakhtibt, moarefive, moarefivt, gharardadve, gharardadvt, pardakhtivel1, pardakhtivtl1, pardakhtivel2, pardakhtivtl2, pardakhtivel3, pardakhtivel4, moarefibero, moarefibtro, parkhatibero, pardakhtibtro, moarefivero, moarefivtro, gharardadvero, gharardadvtro, pardakhtivel1ro, pardakhtivtl1ro, pardakhtivel2ro, pardakhtivtl2ro, pardakhtivel3ro, pardakhtivel4ro, tashkilesh, tashkilero, tashkiltsh, tashkiltro, moarefiejaremal, moarefiejaremos, pardakhtiejaremal, pardakhtiejaremos, file, user, ip, setdate, repdate, status) values ('3', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, null, 0, 0, 873, 0, 40, 0, 26, 35, 33, 0, 0, 250, 0, 0, 0, 0, 50, 14, 0, 0, 0, 0, 0, 0, '', 'k10010301', '5.223.219.228', '1396/11/14 20:36:04', '1396/11/14', '0'). (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  5.117.232.243
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  http://payesh.bonyadmaskan.ir/portal/plugins/admingroup/admingroup_edit.php?id=!!!!Qvv1y9phqRKfwrremwNwIZ
+
+Date:
+  2018-02-04 00:23:31
+
+Error:
+  SQL error: Data too long for column 'name' at row 1.
+
+Developer Details:
+  SQL error: UPDATE admingroup SET name='رئیس گروه سیستمها و روشها-عبدالرضا سلامات', status='1' WHERE id = 8. (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_update.doTransaction
+      BEFORE.Trigger_Default_saveData
+        tNG_update.saveData
+      BEFORE.Trigger_Default_FormValidation
+      tNG_update.prepareSQL
+      tNG_update.executeTransaction - execute sql*
+  tNG_update.getRecordset
+  tNG_update.getFakeRsArr
+  tNG_update.getLocalRecordset
+  tNG_update.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  94.183.214.166
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  http://payesh.bonyadmaskan.ir/portal/plugins/reportvam/reportvam_add.php
+
+Date:
+  2018-02-04 14:09:28
+
+Error:
+  SQL error: Column 'moarefivero' cannot be null.
+
+Developer Details:
+  SQL error: INSERT INTO reportvam (hid, moarefibe, moarefibt, parkhatibe, pardakhtibt, moarefive, moarefivt, gharardadve, gharardadvt, pardakhtivel1, pardakhtivtl1, pardakhtivel2, pardakhtivtl2, pardakhtivel3, pardakhtivel4, moarefibero, moarefibtro, parkhatibero, pardakhtibtro, moarefivero, moarefivtro, gharardadvero, gharardadvtro, pardakhtivel1ro, pardakhtivtl1ro, pardakhtivel2ro, pardakhtivtl2ro, pardakhtivel3ro, pardakhtivel4ro, tashkilesh, tashkilero, tashkiltsh, tashkiltro, moarefiejaremal, moarefiejaremos, pardakhtiejaremal, pardakhtiejaremos, file, user, ip, setdate, repdate, status) values ('30', 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, null, 0, 0, 0, 1, 0, 1, 0, 2, 1, 0, 0, 0, 0, 0, 0, 0, 0, '', 'a10041101', '94.183.214.166', '1396/11/15 14:09:28', '1396/11/15', '0'). (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  37.202.232.44
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  http://payesh.bonyadmaskan.ir/portal/plugins/reportdata/reportdata_add.php
+
+Date:
+  2018-02-04 14:09:34
+
+Error:
+  SQL error: Column 'karsh' cannot be null.
+
+Developer Details:
+  SQL error: INSERT INTO reportdata (hid, karsh, karrs, ehdasi1sh, ehdasi1rs, ehdasi2sh, ehdasi2rs, tamiri1sh, tamiri1rs, tamiri2sh, tamiri2rs, tamiri3sh, tamiri3rs, divarsh, divarrs, tejarish, tejarirs, salemsh, salemrs, rostaarzyabi, rostatakhrib, file, user, ip, setdate, repdate, status) values ('35', null, 4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, '', 'a10041601', '37.202.232.44', '1396/11/15 14:09:34', '1396/11/15', '0'). (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  5.223.98.145
+
+Host:
+  212.16.95.18
+
+Requested URI:
+  http://212.16.95.18/portal/plugins/havades/havades_edit.php?cod=!!!!gnCcq0ITIe9up3jRqABK$$k&mode=edit
+
+Date:
+  2018-02-06 02:00:12
+
+Error:
+  SQL error: Column 'shahr' cannot be null.
+
+Developer Details:
+  SQL error: UPDATE hadese SET scode='1', ostan='05', shahr=null, shahrestan=null, bakhsh=null, rosta=null, tozihat=null, codeposti=null, khanevarfarei='0', tedadfoti=null, tedadzakhmi=null, sokonat=null, karbari='1', nahad='4', eskan='0', relcode=null, mojavez='0', adres='ميراث فرهنگي کنار شهرداري', active='1', sal=1396, type='1', tasarof='1', khesaratlevel='4' WHERE code = '15144185501655  '. (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_update.doTransaction
+      BEFORE.Trigger_Default_saveData
+        tNG_update.saveData
+      BEFORE.Trigger_Default_FormValidation
+      tNG_update.prepareSQL
+      tNG_update.executeTransaction - execute sql*
+  tNG_update.getRecordset
+  tNG_update.getFakeRsArr
+  tNG_update.getLocalRecordset
+  tNG_update.getFakeRecordset
+  tNG_update.executeTransaction
+  tNG_update.getRecordset
+  tNG_update.getFakeRsArr
+  tNG_update.getLocalRecordset
+  tNG_update.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  5.117.227.20
+
+Host:
+  212.16.95.18
+
+Requested URI:
+  http://212.16.95.18/portal/plugins/havades/havades_add.php
+
+Date:
+  2018-02-06 11:33:56
+
+Error:
+  SQL error: Column 'type' cannot be null.
+
+Developer Details:
+  SQL error: INSERT INTO hadese (code, scode, ostan, shahrestan, bakhsh, shahr, rosta, sokonat, nahad, mojavez, user, codeposti, khanevarfarei, tedadfoti, tedadzakhmi, setdate, adres, eskan, sal, active, type, tasarof, karbari, khesaratlevel, kaneksstatus) values ('15179042368410', '4', '05', '0508', '050801', '0508010002', '508010002009053519', '1', '4', '0', 'a10010701', null, '0', null, null, '1396/11/17', 'گورسفید', '0', 1396, '2', null, '1', '1', '3', '0'). (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.executeTransaction
+  tNG_update.executeTransaction
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  5.223.98.145
+
+Host:
+  212.16.95.18
+
+Requested URI:
+  http://212.16.95.18/portal/plugins/havades/file_add.php?cod=!!!!gM6fNW0HnF2k05b5wc5LBW&mode=edit
+
+Date:
+  2018-02-08 01:58:10
+
+Error:
+  File upload error: File extension not allowed for upload.
+
+Developer Details:
+  File upload error: File extension "pdf" is not allowed for upload. (FILE_UPLOAD_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql
+      tNG_insert.postExecuteSql
+      AFTER.Trigger_ImageUpload*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  80.191.171.246
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  http://payesh.bonyadmaskan.ir/portal/plugins/havades/havades_add.php
+
+Date:
+  2018-02-08 12:02:10
+
+Error:
+  SQL error: Column 'type' cannot be null.
+
+Developer Details:
+  SQL error: INSERT INTO hadese (code, scode, ostan, shahrestan, bakhsh, shahr, rosta, sokonat, nahad, mojavez, user, codeposti, khanevarfarei, tedadfoti, tedadzakhmi, setdate, adres, eskan, sal, active, type, tasarof, karbari, khesaratlevel, kaneksstatus) values ('15180787308436', '17', '08', '0805', '080502', '0805020008', '805020008026103199', '1', '4', '1', 'a10050101', null, '0', null, null, '1396/11/19', null, '0', 1396, '1', null, '1', '1', '1', '0'). (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.executeTransaction
+  tNG_update.executeTransaction
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  5.120.192.240
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  http://payesh.bonyadmaskan.ir/portal/plugins/reportpishraft/reportpishraft_add.php
+
+Date:
+  2018-02-08 20:08:25
+
+Error:
+  SQL error: Column 'level5ro' cannot be null.
+
+Developer Details:
+  SQL error: INSERT INTO reportpishraft (hid, level1, level2, level3, level4, level5, level6, level7, level8, level9, level10, level11, level1ro, level2ro, level3ro, level4ro, level5ro, level6ro, level7ro, level8ro, level9ro, level10ro, level11ro, startopsh, endopsh, startopro, endopro, rostaavar, file, user, ip, setdate, repdate, status) values ('2', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 15, 40, 12, 6, null, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, '', 'M10010201', '5.120.192.240', '1396/11/19 20:08:24', '1396/11/19', '0'). (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  5.234.19.82
+
+Host:
+  212.16.95.18
+
+Requested URI:
+  http://212.16.95.18/portal/plugins/havades/dastresy_add.php?cod=!!!!A$$cnwWc8GG2cHfT6Kpx3b1&mode=edit
+
+Date:
+  2018-02-10 12:31:46
+
+Error:
+  SQL error: Data too long for column 'malicode' at row 1.
+
+Developer Details:
+  SQL error: UPDATE hadese SET codeposti=null, xpos=null, ypos=null, adres='خيابان ساحلي کوچه رشيدي ', tel=null, mob='09187342100', pelaksabti='316-3916', mojnahr=0, mojrod=0, mojbargh=0, mojgaz=0, mojrah=0, malekdastresi=null, mojsayer=0, tozihat=null, rahnamanesbat=null, rahnamaname=null, bank=3, shobe='مرکزی', shhesab='7101366258115', malicode='710013564301 حساب قبلي مسدوده شده و حساب جديد ايجاد گرديده ', karshcode=null, karshdate=null, ehdasstatus=null, peymanid=null, contracttype=null, contractcode=null, contractdate=null WHERE code = '15145955389620  '. (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_update.doTransaction
+      BEFORE.Trigger_Default_saveData
+        tNG_update.saveData
+      BEFORE.Trigger_Default_FormValidation
+      tNG_update.prepareSQL
+      tNG_update.executeTransaction - execute sql*
+  tNG_update.getRecordset
+  tNG_update.getFakeRsArr
+  tNG_update.getLocalRecordset
+  tNG_update.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  5.223.241.92
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  http://payesh.bonyadmaskan.ir/portal/plugins/havades/melktakmil_add.php?cod=!!!!Ahrb@@htytezOEVfZpG@@wEq&mode=edit
+
+Date:
+  2018-02-11 16:20:31
+
+Error:
+  SQL error: Column 'tabaghe' cannot be null.
+
+Developer Details:
+  SQL error: INSERT INTO melk_detail (hcode, tabaghe, maskoniv, maskonim, tejariv, tejarim, tejmasv, tejmasm, khadv, khadm, edariv, edarim, mazhabiv, mazhabim, malek, user, sdate, active) values ('15154437094982  ', null, '1', '160', null, null, null, null, null, null, null, null, null, null, 'محمد محمدیان', 'a10010801', '1396/11/22', '1'). (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  80.191.171.246
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  http://payesh.bonyadmaskan.ir/portal/plugins/havades/melktakmil_add.php?cod=!!!!A4Zp6C@@VktqPZkl01CJg2P&mode=
+
+Date:
+  2018-02-12 09:01:19
+
+Error:
+  SQL error: Column 'tabaghe' cannot be null.
+
+Developer Details:
+  SQL error: INSERT INTO melk_detail (hcode, tabaghe, maskoniv, maskonim, tejariv, tejarim, tejmasv, tejmasm, khadv, khadm, edariv, edarim, mazhabiv, mazhabim, malek, user, sdate, active) values ('15184132116492  ', null, null, null, null, null, null, null, null, null, null, null, null, null, 'عصمت ضیا الدینی', 'a10050101', '1396/11/23', '1'). (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  80.191.171.246
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  http://payesh.bonyadmaskan.ir/portal/plugins/havades/melktakmil_add.php?cod=!!!!A8QyEYk$$y4Nm6LmB1z7$$7U&mode=
+
+Date:
+  2018-02-12 13:11:43
+
+Error:
+  SQL error: Column 'tabaghe' cannot be null.
+
+Developer Details:
+  SQL error: INSERT INTO melk_detail (hcode, tabaghe, maskoniv, maskonim, tejariv, tejarim, tejmasv, tejmasm, khadv, khadm, edariv, edarim, mazhabiv, mazhabim, malek, user, sdate, active) values ('15184282585110  ', null, null, null, null, null, null, null, null, null, null, null, null, null, 'محسن علیزاده', 'a10050101', '1396/11/23', '1'). (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  212.95.131.187
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  http://payesh.bonyadmaskan.ir/portal/plugins/havades/havades_edit.php?cod=!!!!w9r7WWrKnsA9QF8M2XP$$Ch&mode=edit
+
+Date:
+  2018-02-12 14:57:26
+
+Error:
+  SQL error: Column 'shahr' cannot be null.
+
+Developer Details:
+  SQL error: UPDATE hadese SET scode='9', ostan='05', shahr=null, shahrestan='0503', bakhsh='050302', rosta='503020001015051793', tozihat=null, codeposti=null, khanevarfarei='0', tedadfoti=null, tedadzakhmi=null, sokonat='1', karbari='1', nahad='1', eskan='0', relcode=null, mojavez='0', adres=null, active='2', sal=1396, type='1', tasarof='1', khesaratlevel='4' WHERE code = '15176680847220  '. (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_update.doTransaction
+      BEFORE.Trigger_Default_saveData
+        tNG_update.saveData
+      BEFORE.Trigger_Default_FormValidation
+      tNG_update.prepareSQL
+      tNG_update.executeTransaction - execute sql*
+  tNG_update.getRecordset
+  tNG_update.getFakeRsArr
+  tNG_update.getLocalRecordset
+  tNG_update.getFakeRecordset
+  tNG_update.executeTransaction
+  tNG_update.getRecordset
+  tNG_update.getFakeRsArr
+  tNG_update.getLocalRecordset
+  tNG_update.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  83.123.62.13
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  http://payesh.bonyadmaskan.ir/portal/plugins/reportdata/reportdata_add.php
+
+Date:
+  2018-02-12 22:57:32
+
+Error:
+  SQL error: Column 'karsh' cannot be null.
+
+Developer Details:
+  SQL error: INSERT INTO reportdata (hid, karsh, karrs, ehdasi1sh, ehdasi1rs, ehdasi2sh, ehdasi2rs, tamiri1sh, tamiri1rs, tamiri2sh, tamiri2rs, tamiri3sh, tamiri3rs, divarsh, divarrs, tejarish, tejarirs, salemsh, salemrs, rostaarzyabi, rostatakhrib, file, user, ip, setdate, repdate, status) values ('34', null, 350, 0, 0, 0, 300, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, '', 'a10041501', '83.123.62.13', '1396/11/23 22:57:32', '1396/11/23', '0'). (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  80.191.171.246
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  http://payesh.bonyadmaskan.ir/portal/plugins/havades/havades_add.php
+
+Date:
+  2018-02-13 11:48:35
+
+Error:
+  SQL error: Column 'type' cannot be null.
+
+Developer Details:
+  SQL error: INSERT INTO hadese (code, scode, ostan, shahrestan, bakhsh, shahr, rosta, sokonat, nahad, mojavez, user, codeposti, khanevarfarei, tedadfoti, tedadzakhmi, setdate, adres, eskan, sal, active, type, tasarof, karbari, khesaratlevel, kaneksstatus) values ('15185099156037', '17', '08', '0805', '080502', '0805021337', '805021337', '1', '4', '1', 'a10050101', null, '0', null, null, '1396/11/24', 'شهرک امام سجاد', '0', 1396, '1', null, '1', '1', '2', '0'). (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.executeTransaction
+  tNG_update.executeTransaction
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  80.191.171.246
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  http://payesh.bonyadmaskan.ir/portal/plugins/havades/havades_add.php
+
+Date:
+  2018-02-13 11:49:04
+
+Error:
+  SQL error: Column 'type' cannot be null.
+
+Developer Details:
+  SQL error: INSERT INTO hadese (code, scode, ostan, shahrestan, bakhsh, shahr, rosta, sokonat, nahad, mojavez, user, codeposti, khanevarfarei, tedadfoti, tedadzakhmi, setdate, adres, eskan, sal, active, type, tasarof, karbari, khesaratlevel, kaneksstatus) values ('15185099441175', '17', '08', '0805', '080502', '0805021337', '805021337', '1', '4', '1', 'a10050101', null, '0', null, null, '1396/11/24', 'شهرک امام سجاد', '0', 1396, '1', null, '1', '1', '2', '0'). (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.executeTransaction
+  tNG_update.executeTransaction
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  188.209.138.233
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  http://payesh.bonyadmaskan.ir/portal/plugins/havades/havades_add.php
+
+Date:
+  2018-02-13 12:35:00
+
+Error:
+  SQL error: Column 'type' cannot be null.
+
+Developer Details:
+  SQL error: INSERT INTO hadese (code, scode, ostan, shahrestan, bakhsh, shahr, rosta, sokonat, nahad, mojavez, user, codeposti, khanevarfarei, tedadfoti, tedadzakhmi, setdate, adres, eskan, sal, active, type, tasarof, karbari, khesaratlevel, kaneksstatus) values ('15185127007062', '13', '08', '0808', '080805', '0808052428', '808052428', '1', '4', '1', 'p10020101', null, '0', null, null, '1396/11/24', 'شهر اختیار اباد- خیابان طالقانی -کوچه 11', '0', 1395, '2', null, '1', '1', '2', '0'). (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.executeTransaction
+  tNG_update.executeTransaction
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  212.95.139.222
+
+Host:
+  212.16.95.18
+
+Requested URI:
+  http://212.16.95.18/portal/plugins/havades/melktakmil_add.php?cod=!!!!gl1xaIElskkIoGN2VrIYGl&mode=edit
+
+Date:
+  2018-02-13 17:30:58
+
+Error:
+  SQL error: Column 'tabaghe' cannot be null.
+
+Developer Details:
+  SQL error: INSERT INTO melk_detail (hcode, tabaghe, maskoniv, maskonim, tejariv, tejarim, tejmasv, tejmasm, khadv, khadm, edariv, edarim, mazhabiv, mazhabim, malek, user, sdate, active) values ('15173867124849  ', null, null, null, null, null, null, null, null, null, null, null, null, null, 'یوسف کمری', 'a10010201', '1396/11/24', '1'). (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  151.247.110.122
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  http://payesh.bonyadmaskan.ir/portal/plugins/havades/file_add.php?cod=!!!!Az6dymMv7wrBKYEsLx42nj&mode=edit
+
+Date:
+  2018-02-14 09:34:15
+
+Error:
+  File upload error: File size must be less than 1500 kB.
+
+Developer Details:
+  File upload error: File size must be less than 1500 kB. (FILE_UPLOAD_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql
+      tNG_insert.postExecuteSql
+      AFTER.Trigger_ImageUpload*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  5.115.209.18
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  http://payesh.bonyadmaskan.ir/portal/plugins/product_vahed/product_vahed_add.php
+
+Date:
+  2018-02-15 01:45:00
+
+Error:
+  SQL error: Field 'id' doesn't have a default value.
+
+Developer Details:
+  SQL error: INSERT INTO product_vahed (name, active) values ('دستگاه', '1'). (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  5.115.209.18
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  http://payesh.bonyadmaskan.ir/portal/plugins/product_vahed/product_vahed_add.php
+
+Date:
+  2018-02-15 01:46:35
+
+Error:
+  SQL error: Field 'id' doesn't have a default value.
+
+Developer Details:
+  SQL error: INSERT INTO product_vahed (name, active) values ('دستگاه', '1'). (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  5.115.209.18
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  http://payesh.bonyadmaskan.ir/portal/plugins/product_vahed/product_vahed_add.php
+
+Date:
+  2018-02-15 01:47:22
+
+Error:
+  SQL error: Field 'id' doesn't have a default value.
+
+Developer Details:
+  SQL error: INSERT INTO product_vahed (name, active) values ('دستگاه', '1'). (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  5.115.209.18
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  http://payesh.bonyadmaskan.ir/portal/plugins/product_vahed/product_vahed_add.php
+
+Date:
+  2018-02-15 01:51:16
+
+Error:
+  SQL error: Field 'id' doesn't have a default value.
+
+Developer Details:
+  SQL error: INSERT INTO product_vahed (name, active) values ('رول', '1'). (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  212.95.157.153
+
+Host:
+  212.16.95.18
+
+Requested URI:
+  http://212.16.95.18/portal/plugins/havades/melktakmil_add.php?cod=!!!!Ay6lxwtLZc$$kUYDXCdq7hg&mode=edit
+
+Date:
+  2018-02-15 14:20:55
+
+Error:
+  SQL error: Column 'tabaghe' cannot be null.
+
+Developer Details:
+  SQL error: INSERT INTO melk_detail (hcode, tabaghe, maskoniv, maskonim, tejariv, tejarim, tejmasv, tejmasm, khadv, khadm, edariv, edarim, mazhabiv, mazhabim, malek, user, sdate, active) values ('15186915309628  ', null, null, null, '1', '72', null, null, null, null, null, null, null, null, 'کریم رستمی', 'p10010803', '1396/11/26', '1'). (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  212.95.157.153
+
+Host:
+  212.16.95.18
+
+Requested URI:
+  http://212.16.95.18/portal/plugins/havades/melktakmil_add.php?cod=!!!!Ay6lxwtLZc$$kUYDXCdq7hg&mode=edit
+
+Date:
+  2018-02-15 14:21:21
+
+Error:
+  SQL error: Column 'tabaghe' cannot be null.
+
+Developer Details:
+  SQL error: INSERT INTO melk_detail (hcode, tabaghe, maskoniv, maskonim, tejariv, tejarim, tejmasv, tejmasm, khadv, khadm, edariv, edarim, mazhabiv, mazhabim, malek, user, sdate, active) values ('15186915309628  ', null, null, null, '1', '70', null, null, null, null, null, null, null, null, 'کریم رستمی', 'p10010803', '1396/11/26', '1'). (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  185.125.23.115
+
+Host:
+  212.16.95.18
+
+Requested URI:
+  http://212.16.95.18/portal/plugins/havades/melktakmil_edit.php?id=!!!!Qcd1G76ezUQDV99j$$WSFft
+
+Date:
+  2018-02-16 13:38:37
+
+Error:
+  SQL error: Data truncated for column 'tejarim' at row 1.
+
+Developer Details:
+  SQL error: UPDATE melk_detail SET tabaghe='0', maskoniv=null, maskonim=null, tejariv='1', tejarim='99/25', tejmasv=null, tejmasm=null, khadv=null, khadm=null, edariv=null, edarim=null, malek='نصرت عثمانی' WHERE id = 829. (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_update.doTransaction
+      BEFORE.Trigger_Default_saveData
+        tNG_update.saveData
+      BEFORE.Trigger_Default_FormValidation
+      tNG_update.prepareSQL
+      tNG_update.executeTransaction - execute sql*
+  tNG_update.getRecordset
+  tNG_update.getFakeRsArr
+  tNG_update.getLocalRecordset
+  tNG_update.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  212.95.143.62
+
+Host:
+  212.16.95.18
+
+Requested URI:
+  http://212.16.95.18/portal/plugins/havades/melktakmil_add.php?cod=!!!!gnN37kMvkObMpmU1sEEEkF&mode=edit
+
+Date:
+  2018-02-16 16:01:13
+
+Error:
+  SQL error: Column 'tabaghe' cannot be null.
+
+Developer Details:
+  SQL error: INSERT INTO melk_detail (hcode, tabaghe, maskoniv, maskonim, tejariv, tejarim, tejmasv, tejmasm, khadv, khadm, edariv, edarim, mazhabiv, mazhabim, malek, user, sdate, active) values ('15148120091151  ', null, null, null, null, null, null, null, null, null, null, null, null, null, 'مروت مرادی', 'p10010205', '1396/11/27', '1'). (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  212.95.143.62
+
+Host:
+  212.16.95.18
+
+Requested URI:
+  http://212.16.95.18/portal/plugins/havades/melktakmil_add.php?cod=!!!!g@@NMDmGUb5jtas$$uosICBb&mode=edit
+
+Date:
+  2018-02-16 16:03:58
+
+Error:
+  SQL error: Column 'tabaghe' cannot be null.
+
+Developer Details:
+  SQL error: INSERT INTO melk_detail (hcode, tabaghe, maskoniv, maskonim, tejariv, tejarim, tejmasv, tejmasm, khadv, khadm, edariv, edarim, mazhabiv, mazhabim, malek, user, sdate, active) values ('15187631103588  ', null, null, null, null, null, null, null, null, null, null, null, null, null, '0', 'p10010205', '1396/11/27', '1'). (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  5.223.241.229
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  http://payesh.bonyadmaskan.ir/portal/plugins/havades/havades_edit.php?cod=!!!!wd9Gb35rn5KZQCjXSIdK5p&mode=edit
+
+Date:
+  2018-02-17 15:48:57
+
+Error:
+  SQL error: Column 'shahr' cannot be null.
+
+Developer Details:
+  SQL error: UPDATE hadese SET scode='6', ostan='05', shahr=null, shahrestan=null, bakhsh=null, rosta=null, tozihat='در کارشناسی مجدد به تعمیری نوع دو تغییر پیدا کرد', codeposti=null, khanevarfarei='0', tedadfoti=null, tedadzakhmi=null, sokonat='1', karbari='1', nahad='4', eskan='0', relcode=null, mojavez='0', adres=null, active='1', sal=1396, type='1', tasarof='1', khesaratlevel='4' WHERE code = '15154416637415  '. (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_update.doTransaction
+      BEFORE.Trigger_Default_saveData
+        tNG_update.saveData
+      BEFORE.Trigger_Default_FormValidation
+      tNG_update.prepareSQL
+      tNG_update.executeTransaction - execute sql*
+  tNG_update.getRecordset
+  tNG_update.getFakeRsArr
+  tNG_update.getLocalRecordset
+  tNG_update.getFakeRecordset
+  tNG_update.executeTransaction
+  tNG_update.getRecordset
+  tNG_update.getFakeRsArr
+  tNG_update.getLocalRecordset
+  tNG_update.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  5.223.98.145
+
+Host:
+  212.16.95.18
+
+Requested URI:
+  http://212.16.95.18/portal/plugins/havades/havades_edit.php?cod=!!!!AiRqJziBXe489rDvMK5zup&mode=edit
+
+Date:
+  2018-02-17 19:27:32
+
+Error:
+  SQL error: Column 'shahr' cannot be null.
+
+Developer Details:
+  SQL error: UPDATE hadese SET scode='1', ostan='05', shahr=null, shahrestan=null, bakhsh=null, rosta=null, tozihat='تغییر پرونده به حالت تابررسی اولیه در تاریخ 96/11/28 با توجه به نظر حقوقی انجام شد.', codeposti=null, khanevarfarei='0', tedadfoti=null, tedadzakhmi=null, sokonat=null, karbari='1', nahad='4', eskan='0', relcode=null, mojavez='0', adres='زعفران خيابان 2 کانال اب', active='2', sal=1396, type='1', tasarof='1', khesaratlevel='3' WHERE code = '15144180542067  '. (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_update.doTransaction
+      BEFORE.Trigger_Default_saveData
+        tNG_update.saveData
+      BEFORE.Trigger_Default_FormValidation
+      tNG_update.prepareSQL
+      tNG_update.executeTransaction - execute sql*
+  tNG_update.getRecordset
+  tNG_update.getFakeRsArr
+  tNG_update.getLocalRecordset
+  tNG_update.getFakeRecordset
+  tNG_update.executeTransaction
+  tNG_update.getRecordset
+  tNG_update.getFakeRsArr
+  tNG_update.getLocalRecordset
+  tNG_update.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  5.115.42.225
+
+Host:
+  212.16.95.18
+
+Requested URI:
+  http://212.16.95.18/portal/plugins/havades/melktakmil_edit.php?id=!!!!g8otPD7p00K3hBAo8Ukp9N
+
+Date:
+  2018-02-18 08:03:44
+
+Error:
+  SQL error: Incorrect integer value: '-' for column 'tejariv' at row 1.
+
+Developer Details:
+  SQL error: UPDATE melk_detail SET tabaghe='0', maskoniv='1', maskonim='85', tejariv='-', tejarim='-', tejmasv='-', tejmasm='-', khadv='-', khadm='-', edariv='-', edarim='-', malek='بساط ماهی بیگی' WHERE id = 941. (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_update.doTransaction
+      BEFORE.Trigger_Default_saveData
+        tNG_update.saveData
+      BEFORE.Trigger_Default_FormValidation
+      tNG_update.prepareSQL
+      tNG_update.executeTransaction - execute sql*
+  tNG_update.getRecordset
+  tNG_update.getFakeRsArr
+  tNG_update.getLocalRecordset
+  tNG_update.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  65.49.68.198
+
+Host:
+  212.16.95.18
+
+Requested URI:
+  http://212.16.95.18/portal/plugins/product_vahed/product_vahed_add.php
+
+Date:
+  2018-02-18 13:48:15
+
+Error:
+  SQL error: Field 'id' doesn't have a default value.
+
+Developer Details:
+  SQL error: INSERT INTO product_vahed (name, active) values ('رول', '1'). (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  5.223.241.229
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  http://payesh.bonyadmaskan.ir/portal/plugins/havades/havades_edit.php?cod=!!!!AaZOQkxdABHTYVxfp9m0NE&mode=edit
+
+Date:
+  2018-02-18 20:00:50
+
+Error:
+  SQL error: Column 'shahr' cannot be null.
+
+Developer Details:
+  SQL error: UPDATE hadese SET scode='6', ostan='05', shahr=null, shahrestan=null, bakhsh=null, rosta=null, tozihat='کارشناسی جدید تبدیل از احداثی نوع 2 به تعمیری نوع 3 ', codeposti=null, khanevarfarei='0', tedadfoti=null, tedadzakhmi=null, sokonat='1', karbari='1', nahad='4', eskan='0', relcode=null, mojavez='0', adres=null, active='2', sal=1396, type='1', tasarof='1', khesaratlevel='5' WHERE code = '15154461534827  '. (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_update.doTransaction
+      BEFORE.Trigger_Default_saveData
+        tNG_update.saveData
+      BEFORE.Trigger_Default_FormValidation
+      tNG_update.prepareSQL
+      tNG_update.executeTransaction - execute sql*
+  tNG_update.getRecordset
+  tNG_update.getFakeRsArr
+  tNG_update.getLocalRecordset
+  tNG_update.getFakeRecordset
+  tNG_update.executeTransaction
+  tNG_update.getRecordset
+  tNG_update.getFakeRsArr
+  tNG_update.getLocalRecordset
+  tNG_update.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  5.223.241.229
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  http://payesh.bonyadmaskan.ir/portal/plugins/havades/havades_edit.php?cod=!!!!QNjtfH0GUOdgfKK00unORV&mode=edit
+
+Date:
+  2018-02-18 22:03:48
+
+Error:
+  SQL error: Column 'shahr' cannot be null.
+
+Developer Details:
+  SQL error: UPDATE hadese SET scode='6', ostan='05', shahr=null, shahrestan=null, bakhsh=null, rosta=null, tozihat=null, codeposti=null, khanevarfarei='0', tedadfoti=null, tedadzakhmi=null, sokonat='1', karbari='1', nahad='4', eskan='0', relcode=null, mojavez='0', adres=null, active='1', sal=1396, type='1', tasarof='1', khesaratlevel='5' WHERE code = '15162293489096  '. (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_update.doTransaction
+      BEFORE.Trigger_Default_saveData
+        tNG_update.saveData
+      BEFORE.Trigger_Default_FormValidation
+      tNG_update.prepareSQL
+      tNG_update.executeTransaction - execute sql*
+  tNG_update.getRecordset
+  tNG_update.getFakeRsArr
+  tNG_update.getLocalRecordset
+  tNG_update.getFakeRecordset
+  tNG_update.executeTransaction
+  tNG_update.getRecordset
+  tNG_update.getFakeRsArr
+  tNG_update.getLocalRecordset
+  tNG_update.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  5.223.98.145
+
+Host:
+  212.16.95.18
+
+Requested URI:
+  http://212.16.95.18/portal/plugins/havades/havades_add.php
+
+Date:
+  2018-02-18 22:54:06
+
+Error:
+  SQL error: Column 'type' cannot be null.
+
+Developer Details:
+  SQL error: INSERT INTO hadese (code, scode, ostan, shahrestan, bakhsh, shahr, rosta, sokonat, nahad, mojavez, user, codeposti, khanevarfarei, tedadfoti, tedadzakhmi, setdate, adres, eskan, sal, active, type, tasarof, karbari, khesaratlevel, kaneksstatus) values ('15189818466975', '1', '05', '0504', '050401', '0504011264', '504011264', '1', '4', '0', 'm10010101', null, '0', null, null, '1396/11/29', 'ميراث فرهنگي کنار شهرداري', '0', 1396, '2', null, '1', '8', '0', '0'). (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.executeTransaction
+  tNG_update.executeTransaction
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  5.223.241.229
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  http://payesh.bonyadmaskan.ir/portal/plugins/havades/havades_edit.php?cod=!!!!wSphmlJrWgFUfFgjTNYQqX&mode=edit
+
+Date:
+  2018-02-19 19:42:52
+
+Error:
+  SQL error: Column 'shahr' cannot be null.
+
+Developer Details:
+  SQL error: UPDATE hadese SET scode='6', ostan='05', shahr=null, shahrestan=null, bakhsh=null, rosta=null, tozihat='در کارشناسی مجدد به تعمیری نوع سه تغییر پیدا کرد', codeposti=null, khanevarfarei='0', tedadfoti=null, tedadzakhmi=null, sokonat=null, karbari='1', nahad='4', eskan='0', relcode=null, mojavez='0', adres=null, active='2', sal=1396, type='1', tasarof='1', khesaratlevel='5' WHERE code = '15154460959462  '. (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_update.doTransaction
+      BEFORE.Trigger_Default_saveData
+        tNG_update.saveData
+      BEFORE.Trigger_Default_FormValidation
+      tNG_update.prepareSQL
+      tNG_update.executeTransaction - execute sql*
+  tNG_update.getRecordset
+  tNG_update.getFakeRsArr
+  tNG_update.getLocalRecordset
+  tNG_update.getFakeRecordset
+  tNG_update.executeTransaction
+  tNG_update.getRecordset
+  tNG_update.getFakeRsArr
+  tNG_update.getLocalRecordset
+  tNG_update.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  5.223.241.229
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  http://payesh.bonyadmaskan.ir/portal/plugins/havades/havades_edit.php?cod=!!!!gdaNhgvxYi1LjbdPxlulF3&mode=edit
+
+Date:
+  2018-02-19 21:17:33
+
+Error:
+  SQL error: Column 'shahr' cannot be null.
+
+Developer Details:
+  SQL error: UPDATE hadese SET scode='6', ostan='05', shahr=null, shahrestan=null, bakhsh=null, rosta=null, tozihat=null, codeposti=null, khanevarfarei='0', tedadfoti=null, tedadzakhmi=null, sokonat='1', karbari='1', nahad='4', eskan='0', relcode=null, mojavez='1', adres=null, active='1', sal=1396, type='1', tasarof='1', khesaratlevel='1' WHERE code = '15188938215979  '. (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_update.doTransaction
+      BEFORE.Trigger_Default_saveData
+        tNG_update.saveData
+      BEFORE.Trigger_Default_FormValidation
+      tNG_update.prepareSQL
+      tNG_update.executeTransaction - execute sql*
+  tNG_update.getRecordset
+  tNG_update.getFakeRsArr
+  tNG_update.getLocalRecordset
+  tNG_update.getFakeRecordset
+  tNG_update.executeTransaction
+  tNG_update.getRecordset
+  tNG_update.getFakeRsArr
+  tNG_update.getLocalRecordset
+  tNG_update.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  5.223.241.229
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  http://payesh.bonyadmaskan.ir/portal/plugins/havades/havades_edit.php?cod=!!!!QJcORxIJjfbG0G5rPw9G@@A&mode=edit
+
+Date:
+  2018-02-20 08:28:50
+
+Error:
+  SQL error: Column 'shahr' cannot be null.
+
+Developer Details:
+  SQL error: UPDATE hadese SET scode='6', ostan='05', shahr=null, shahrestan=null, bakhsh=null, rosta=null, tozihat=null, codeposti=null, khanevarfarei='0', tedadfoti=null, tedadzakhmi=null, sokonat='1', karbari='1', nahad='4', eskan='0', relcode=null, mojavez='0', adres='خيابان فاروق اعظم-کوچه وحدت 6', active='1', sal=1396, type='1', tasarof='1', khesaratlevel='5' WHERE code = '15154413494913  '. (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_update.doTransaction
+      BEFORE.Trigger_Default_saveData
+        tNG_update.saveData
+      BEFORE.Trigger_Default_FormValidation
+      tNG_update.prepareSQL
+      tNG_update.executeTransaction - execute sql*
+  tNG_update.getRecordset
+  tNG_update.getFakeRsArr
+  tNG_update.getLocalRecordset
+  tNG_update.getFakeRecordset
+  tNG_update.executeTransaction
+  tNG_update.getRecordset
+  tNG_update.getFakeRsArr
+  tNG_update.getLocalRecordset
+  tNG_update.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  5.234.20.236
+
+Host:
+  212.16.95.18
+
+Requested URI:
+  http://212.16.95.18/portal/plugins/havades/melktakmil_add.php?cod=!!!!AniATV3Ubp6j$$M5nwGGk5d&mode=edit
+
+Date:
+  2018-02-20 11:08:32
+
+Error:
+  SQL error: Column 'tabaghe' cannot be null.
+
+Developer Details:
+  SQL error: INSERT INTO melk_detail (hcode, tabaghe, maskoniv, maskonim, tejariv, tejarim, tejmasv, tejmasm, khadv, khadm, edariv, edarim, mazhabiv, mazhabim, malek, user, sdate, active) values ('15143659566958  ', null, '1', '60', null, null, null, null, null, null, null, null, null, null, 'پروین دیدگاه', 'a10010301', '1396/12/01', '1'). (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  5.223.241.229
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  http://payesh.bonyadmaskan.ir/portal/plugins/havades/havades_edit.php?cod=!!!!wPkRnTTxVDtKDP3662xCIi&mode=edit
+
+Date:
+  2018-02-20 12:39:08
+
+Error:
+  SQL error: Column 'shahr' cannot be null.
+
+Developer Details:
+  SQL error: UPDATE hadese SET scode='6', ostan='05', shahr=null, shahrestan=null, bakhsh=null, rosta=null, tozihat=null, codeposti=null, khanevarfarei='0', tedadfoti=null, tedadzakhmi=null, sokonat='1', karbari='1', nahad='4', eskan='0', relcode=null, mojavez='0', adres='خیابان مطهری کوچه ایثار6', active='1', sal=1396, type='1', tasarof='1', khesaratlevel='5' WHERE code = '15154434604629  '. (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_update.doTransaction
+      BEFORE.Trigger_Default_saveData
+        tNG_update.saveData
+      BEFORE.Trigger_Default_FormValidation
+      tNG_update.prepareSQL
+      tNG_update.executeTransaction - execute sql*
+  tNG_update.getRecordset
+  tNG_update.getFakeRsArr
+  tNG_update.getLocalRecordset
+  tNG_update.getFakeRecordset
+  tNG_update.executeTransaction
+  tNG_update.getRecordset
+  tNG_update.getFakeRsArr
+  tNG_update.getLocalRecordset
+  tNG_update.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  5.223.192.104
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  http://payesh.bonyadmaskan.ir/portal/plugins/havades/havades_edit.php?cod=!!!!wres7CT0qFBhWKyVjnQpMS&mode=edit
+
+Date:
+  2018-02-22 08:52:33
+
+Error:
+  SQL error: Column 'shahr' cannot be null.
+
+Developer Details:
+  SQL error: UPDATE hadese SET scode='8', ostan='05', shahr=null, shahrestan=null, bakhsh=null, rosta=null, tozihat=null, codeposti=null, khanevarfarei='0', tedadfoti=null, tedadzakhmi=null, sokonat='1', karbari='1', nahad='1', eskan='0', relcode=null, mojavez='0', adres=null, active='2', sal=1396, type='1', tasarof='1', khesaratlevel='1' WHERE code = '15192745041144  '. (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_update.doTransaction
+      BEFORE.Trigger_Default_saveData
+        tNG_update.saveData
+      BEFORE.Trigger_Default_FormValidation
+      tNG_update.prepareSQL
+      tNG_update.executeTransaction - execute sql*
+  tNG_update.getRecordset
+  tNG_update.getFakeRsArr
+  tNG_update.getLocalRecordset
+  tNG_update.getFakeRecordset
+  tNG_update.executeTransaction
+  tNG_update.getRecordset
+  tNG_update.getFakeRsArr
+  tNG_update.getLocalRecordset
+  tNG_update.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  80.191.171.246
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  http://payesh.bonyadmaskan.ir/portal/plugins/havades/havades_add.php
+
+Date:
+  2018-02-22 10:15:31
+
+Error:
+  SQL error: Column 'type' cannot be null.
+
+Developer Details:
+  SQL error: INSERT INTO hadese (code, scode, ostan, shahrestan, bakhsh, shahr, rosta, sokonat, nahad, mojavez, user, codeposti, khanevarfarei, tedadfoti, tedadzakhmi, setdate, adres, eskan, sal, active, type, tasarof, karbari, khesaratlevel, kaneksstatus) values ('15192819316916', '17', '08', '0805', '080502', '0805021337', '805021337', '1', '4', '1', 'a10050101', null, '0', null, null, '1396/12/03', 'بلوار امام حسین ک 1 فرعی اول سمت راست', '0', 1396, '1', null, '1', '1', '1', '0'). (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.executeTransaction
+  tNG_update.executeTransaction
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  2.185.101.71
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  http://payesh.bonyadmaskan.ir/portal/plugins/havades/havades_add.php
+
+Date:
+  2018-02-22 12:02:48
+
+Error:
+  SQL error: Column 'type' cannot be null.
+
+Developer Details:
+  SQL error: INSERT INTO hadese (code, scode, ostan, shahrestan, bakhsh, shahr, rosta, sokonat, nahad, mojavez, user, codeposti, khanevarfarei, tedadfoti, tedadzakhmi, setdate, adres, eskan, sal, active, type, tasarof, karbari, khesaratlevel, kaneksstatus) values ('15192883683039', '6', '05', '0512', '051201', '0512010001', '512010001012050974', '1', '4', '0', 'a10010801', null, '0', null, null, '1396/12/03', null, '0', 1396, '1', null, '1', '1', '1', '0'). (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.executeTransaction
+  tNG_update.executeTransaction
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  5.202.24.222
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  http://payesh.bonyadmaskan.ir/portal/plugins/havades/havades_add.php
+
+Date:
+  2018-02-22 14:24:20
+
+Error:
+  SQL error: Column 'type' cannot be null.
+
+Developer Details:
+  SQL error: INSERT INTO hadese (code, scode, ostan, shahrestan, bakhsh, shahr, rosta, sokonat, nahad, mojavez, user, codeposti, khanevarfarei, tedadfoti, tedadzakhmi, setdate, adres, eskan, sal, active, type, tasarof, karbari, khesaratlevel, kaneksstatus) values ('15192968609152', '38', '08', '0808', '080806', '0808061329', '808061329', '1', '4', '0', 'a10041901', '76818-34391', '0', null, null, '1396/12/03', 'راین خیابان ولیعصر کوچه 6', '0', 1396, '2', null, '1', '1', '2', '0'). (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.executeTransaction
+  tNG_update.executeTransaction
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  5.202.24.222
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  http://payesh.bonyadmaskan.ir/portal/plugins/havades/havades_add.php
+
+Date:
+  2018-02-22 14:26:47
+
+Error:
+  SQL error: Column 'type' cannot be null.
+
+Developer Details:
+  SQL error: INSERT INTO hadese (code, scode, ostan, shahrestan, bakhsh, shahr, rosta, sokonat, nahad, mojavez, user, codeposti, khanevarfarei, tedadfoti, tedadzakhmi, setdate, adres, eskan, sal, active, type, tasarof, karbari, khesaratlevel, kaneksstatus) values ('15192970074554', '38', '08', '0808', '080806', '0808061329', '808061329', '1', '4', '0', 'a10041901', '76818-34391', '0', null, null, '1396/12/03', 'راین خیابان ولیعصر کوچه 6', '0', 1396, '2', null, '1', '1', '2', '0'). (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.executeTransaction
+  tNG_update.executeTransaction
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  5.202.24.222
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  http://payesh.bonyadmaskan.ir/portal/plugins/havades/havades_add.php
+
+Date:
+  2018-02-22 14:39:48
+
+Error:
+  SQL error: Column 'type' cannot be null.
+
+Developer Details:
+  SQL error: INSERT INTO hadese (code, scode, ostan, shahrestan, bakhsh, shahr, rosta, sokonat, nahad, mojavez, user, codeposti, khanevarfarei, tedadfoti, tedadzakhmi, setdate, adres, eskan, sal, active, type, tasarof, karbari, khesaratlevel, kaneksstatus) values ('15192977881122', '38', '08', '0808', '080806', '0808060001', '808060001013384478', '1', '2', '0', 'a10041901', null, '0', null, null, '1396/12/03', 'راین روستای ده شاهوردی', '0', 1396, '2', null, '1', '1', '2', '0'). (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.executeTransaction
+  tNG_update.executeTransaction
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  5.202.24.222
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  http://payesh.bonyadmaskan.ir/portal/plugins/havades/havades_add.php
+
+Date:
+  2018-02-22 14:56:01
+
+Error:
+  SQL error: Column 'type' cannot be null.
+
+Developer Details:
+  SQL error: INSERT INTO hadese (code, scode, ostan, shahrestan, bakhsh, shahr, rosta, sokonat, nahad, mojavez, user, codeposti, khanevarfarei, tedadfoti, tedadzakhmi, setdate, adres, eskan, sal, active, type, tasarof, karbari, khesaratlevel, kaneksstatus) values ('15192987618176', '38', '08', '0808', '080806', '0808061329', '808061329', '1', '4', '0', 'a10041901', '76818-33568', '0', null, null, '1396/12/03', 'راین خیابان طالقانی کوچه شهید قریه میرزایی', '0', 1396, '2', null, '1', '1', '2', '0'). (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.executeTransaction
+  tNG_update.executeTransaction
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  5.202.9.69
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  http://payesh.bonyadmaskan.ir/portal/plugins/havades/havades_add.php
+
+Date:
+  2018-02-24 08:25:04
+
+Error:
+  SQL error: Column 'type' cannot be null.
+
+Developer Details:
+  SQL error: INSERT INTO hadese (code, scode, ostan, shahrestan, bakhsh, shahr, rosta, sokonat, nahad, mojavez, user, codeposti, khanevarfarei, tedadfoti, tedadzakhmi, setdate, adres, eskan, sal, active, type, tasarof, karbari, khesaratlevel, kaneksstatus) values ('15194481045635', '38', '08', '0808', '080806', '0808061329', '808061329', '1', '4', '0', 'a10041901', null, '0', null, null, '1396/12/05', 'راین بلوارشاهدکوچه شهرداری', '0', 1396, '2', null, '1', '1', '2', '0'). (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.executeTransaction
+  tNG_update.executeTransaction
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  212.95.158.47
+
+Host:
+  212.16.95.18
+
+Requested URI:
+  http://212.16.95.18/portal/plugins/havades/havades_edit.php?cod=!!!!gss0KHbbauQNPQSoypc8t5&mode=edit
+
+Date:
+  2018-02-24 18:27:26
+
+Error:
+  SQL error: Column 'shahr' cannot be null.
+
+Developer Details:
+  SQL error: UPDATE hadese SET scode='2', ostan='05', shahr=null, shahrestan=null, bakhsh=null, rosta=null, tozihat=null, codeposti=null, khanevarfarei='0', tedadfoti=null, tedadzakhmi=null, sokonat='1', karbari='1', nahad='4', eskan='0', relcode=null, mojavez='0', adres=null, active='2', sal=1396, type='1', tasarof='1', khesaratlevel='1' WHERE code = '15192202033127  '. (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_update.doTransaction
+      BEFORE.Trigger_Default_saveData
+        tNG_update.saveData
+      BEFORE.Trigger_Default_FormValidation
+      tNG_update.prepareSQL
+      tNG_update.executeTransaction - execute sql*
+  tNG_update.getRecordset
+  tNG_update.getFakeRsArr
+  tNG_update.getLocalRecordset
+  tNG_update.getFakeRecordset
+  tNG_update.executeTransaction
+  tNG_update.getRecordset
+  tNG_update.getFakeRsArr
+  tNG_update.getLocalRecordset
+  tNG_update.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  94.241.168.185
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  http://payesh.bonyadmaskan.ir/portal/plugins/havades/havades_add.php
+
+Date:
+  2018-02-27 13:47:47
+
+Error:
+  SQL error: Column 'type' cannot be null.
+
+Developer Details:
+  SQL error: INSERT INTO hadese (code, scode, ostan, shahrestan, bakhsh, shahr, rosta, sokonat, nahad, mojavez, user, codeposti, khanevarfarei, tedadfoti, tedadzakhmi, setdate, adres, eskan, sal, active, type, tasarof, karbari, khesaratlevel, kaneksstatus) values ('15197266668964', '38', '08', '0808', '080804', '0808041344', '808041344', '1', '4', '0', 'a10041901', null, '0', null, null, '1396/12/08', 'بلوار جمهوری -کوچه شماره 7', '0', 1396, '2', null, '1', '1', '2', '0'). (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.executeTransaction
+  tNG_update.executeTransaction
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  94.241.168.185
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  http://payesh.bonyadmaskan.ir/portal/plugins/havades/havades_add.php
+
+Date:
+  2018-02-27 13:48:39
+
+Error:
+  SQL error: Column 'type' cannot be null.
+
+Developer Details:
+  SQL error: INSERT INTO hadese (code, scode, ostan, shahrestan, bakhsh, shahr, rosta, sokonat, nahad, mojavez, user, codeposti, khanevarfarei, tedadfoti, tedadzakhmi, setdate, adres, eskan, sal, active, type, tasarof, karbari, khesaratlevel, kaneksstatus) values ('15197267191156', '38', '08', '0808', '080804', '0808041344', '808041344', '1', '4', '0', 'a10041901', null, '0', null, null, '1396/12/08', 'بلوار جمهوری -کوچه شماره 7', '0', 1396, '2', null, '1', '1', '2', '0'). (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.executeTransaction
+  tNG_update.executeTransaction
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  5.202.96.90
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  http://payesh.bonyadmaskan.ir/portal/plugins/havades/havades_edit.php?cod=!!!!QLfNPC4If2rvlY9MdPg@@OS&mode=edit
+
+Date:
+  2018-02-27 18:49:40
+
+Error:
+  SQL error: Column 'shahrestan' cannot be null.
+
+Developer Details:
+  SQL error: UPDATE hadese SET scode='38', ostan='08', shahr='0808070002', shahrestan=null, bakhsh='080807', rosta='808070002028102819', tozihat=null, codeposti=null, khanevarfarei='0', tedadfoti=null, tedadzakhmi=null, sokonat='1', karbari='1', nahad='4', eskan='0', relcode=null, mojavez='1', adres='گورچوئیه ک شهید اکبرعرب', active='2', sal=1396, type='1', tasarof='1', khesaratlevel='2' WHERE code = '15197447234043  '. (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_update.doTransaction
+      BEFORE.Trigger_Default_saveData
+        tNG_update.saveData
+      BEFORE.Trigger_Default_FormValidation
+      tNG_update.prepareSQL
+      tNG_update.executeTransaction - execute sql*
+  tNG_update.getRecordset
+  tNG_update.getFakeRsArr
+  tNG_update.getLocalRecordset
+  tNG_update.getFakeRecordset
+  tNG_update.executeTransaction
+  tNG_update.getRecordset
+  tNG_update.getFakeRsArr
+  tNG_update.getLocalRecordset
+  tNG_update.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  5.115.87.219
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  http://payesh.bonyadmaskan.ir/portal/plugins/havades/melktakmil_add.php?cod=!!!!QXUoaspEcngr3KCQy1hkhM&mode=edit
+
+Date:
+  2018-02-28 14:37:53
+
+Error:
+  SQL error: Data truncated for column 'maskonim' at row 1.
+
+Developer Details:
+  SQL error: INSERT INTO melk_detail (hcode, tabaghe, maskoniv, maskonim, tejariv, tejarim, tejmasv, tejmasm, khadv, khadm, edariv, edarim, mazhabiv, mazhabim, malek, user, sdate, active) values ('15198160151859  ', 1, '2', '98/6', null, null, null, null, null, null, null, null, null, null, 'جواد افشاری', 'p10010901', '1396/12/09', '1'). (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===

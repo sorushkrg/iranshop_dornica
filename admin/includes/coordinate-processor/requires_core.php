@@ -1,0 +1,12 @@
+<?php 
+require_once('src/Helpers/GeneralHelper.php');
+require_once('src/Helpers/UTMHelper.php');
+require_once('src/ProcessorFactory.php');
+require_once('src/Contracts/Processor.php');
+require_once('src/KMZProcessor.php');
+require_once('src/GeoJSONProcessor.php');
+require_once('src/KMLProcessor.php');
+require_once('src/Entities/MultiPolygonEntity.php');
+require_once('src/Exceptions/FileProcessingException.php');
+require_once('src/Entities/CoordinateEntity.php');
+require_once('src/Entities/PolygonEntity.php');

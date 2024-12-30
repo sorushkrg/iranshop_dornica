@@ -1,0 +1,5792 @@
+=== BEGIN MESSAGE ===
+Client IP:
+  172.18.131.2
+
+Host:
+  172.18.100.34
+
+Requested URI:
+  http://172.18.100.34/portal/plugins/havades/file_add.php?cod=JqcEiGJ6cw5ipnOZVkoSWrjO90zZyYmazgnaYVlUpB3U3gTUpV0dKZ0c&cod=JqcEiGJ6cw5ipnOZVkoSWrjO90zZyYmazgnaYVlUpB3U3gTUpV0dKZ0c&mode=edit
+
+Date:
+  2023-11-01 07:45:24
+
+خطا:
+  خطای بارگذاری فایل. <br>نام فایل، نامعتبر است
+
+Developer Details:
+  خطای بارگذاری فایل. <br>PHP_UPLOAD_FILENAME_XSS (FILE_UPLOAD_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql
+      tNG_insert.postExecuteSql
+      AFTER.Trigger_ImageUpload*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  172.18.117.2
+
+Host:
+  172.18.100.34
+
+Requested URI:
+  http://172.18.100.34/portal/plugins/etebarat/etebarat_edit.php?id=6MExNasacPM9nN6GNbeyArjO90zdmdlc2JWcsFWR0UzS2MmNzATSO9yK
+
+Date:
+  2023-11-01 11:30:28
+
+خطا:
+  خطای پایگاه داده. <br><div style="display:none"></div>
+
+Developer Details:
+  خطای پایگاه داده. <br><div style="display:none"></div> (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_update.doTransaction
+      BEFORE.Trigger_Default_saveData
+        tNG_update.saveData
+      BEFORE.Trigger_Default_FormValidation
+      tNG_update.prepareSQL
+      tNG_update.executeTransaction - execute sql*
+  tNG_update.getRecordset
+  tNG_update.getFakeRsArr
+  tNG_update.getLocalRecordset
+  tNG_update.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  172.18.107.2
+
+Host:
+  172.18.100.34
+
+Requested URI:
+  http://172.18.100.34/portal/plugins/havades/makan_add.php?mode=edit&&cod=1ttkpfO3zIcfsn7fCYUE9pjO90zdrQmZBtCSMVlQkhla3MTbrVHMXdkc
+
+Date:
+  2023-11-02 17:22:08
+
+خطا:
+  خطای بارگذاری فایل. <br>نام فایل، نامعتبر است
+
+Developer Details:
+  خطای بارگذاری فایل. <br>PHP_UPLOAD_FILENAME_XSS (FILE_UPLOAD_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_update.doTransaction
+      BEFORE.Trigger_Default_saveData
+        tNG_update.saveData
+      BEFORE.Trigger_Default_FormValidation
+      tNG_update.prepareSQL
+      tNG_update.executeTransaction - execute sql
+      AFTER.Trigger_ImageUpload*
+  tNG_insert.getRecordset
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_update.getRecordset
+  tNG_update.getFakeRsArr
+  tNG_update.getLocalRecordset
+  tNG_update.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  172.18.107.2
+
+Host:
+  172.18.100.34
+
+Requested URI:
+  http://172.18.100.34/portal/plugins/havades/makan_add.php?cod=DcaSvLDpJxZtZxiirY3iTpjO90zZzV3NpZEbjJ0KMR1Mil3RLl1RFNlN&mode=edit
+
+Date:
+  2023-11-03 12:42:15
+
+خطا:
+  خطای بارگذاری فایل. <br>سایز فایل باید کمتر از 300 کیلوبایت باشد.
+
+Developer Details:
+  خطای بارگذاری فایل. <br>سایز فایل باید کمتر از 300 کیلوبایت باشد. (FILE_UPLOAD_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_update.doTransaction
+      BEFORE.Trigger_Default_saveData
+        tNG_update.saveData
+      BEFORE.Trigger_Default_FormValidation
+      tNG_update.prepareSQL
+      tNG_update.executeTransaction - execute sql
+      AFTER.Trigger_ImageUpload*
+  tNG_insert.getRecordset
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_update.getRecordset
+  tNG_update.getFakeRsArr
+  tNG_update.getLocalRecordset
+  tNG_update.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  172.16.90.190
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  https://payesh.bonyadmaskan.ir/portal/plugins/havades/file_add.php?cod=N32yYNo2yXO$$T08lXATp2ojO90TUjpHOWNjRuhTQqNVMFhUNZt0ZvIGb&mode=edit
+
+Date:
+  2023-11-04 09:47:30
+
+خطا:
+  خطای بارگذاری فایل. <br>سایز فایل باید کمتر از 200 کیلوبایت باشد.
+
+Developer Details:
+  خطای بارگذاری فایل. <br>سایز فایل باید کمتر از 200 کیلوبایت باشد. (FILE_UPLOAD_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql
+      tNG_insert.postExecuteSql
+      AFTER.Trigger_ImageUpload*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  172.16.90.190
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  https://payesh.bonyadmaskan.ir/portal/plugins/havades/file_add.php?cod=N32yYNo2yXO$$T08lXATp2ojO90TUjpHOWNjRuhTQqNVMFhUNZt0ZvIGb&mode=edit
+
+Date:
+  2023-11-04 09:48:36
+
+خطا:
+  خطای بارگذاری فایل. <br>سایز فایل باید کمتر از 200 کیلوبایت باشد.
+
+Developer Details:
+  خطای بارگذاری فایل. <br>سایز فایل باید کمتر از 200 کیلوبایت باشد. (FILE_UPLOAD_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql
+      tNG_insert.postExecuteSql
+      AFTER.Trigger_ImageUpload*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  172.16.90.190
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  https://payesh.bonyadmaskan.ir/portal/plugins/havades/file_add.php?cod=mpUIna0lQAxL9dJlVeCTNojO90TUBdEShBHc0p2cYtiW1E3Lxd3Z5skZ&mode=edit
+
+Date:
+  2023-11-04 11:09:09
+
+خطا:
+  خطای بارگذاری فایل. <br>سایز فایل باید کمتر از 200 کیلوبایت باشد.
+
+Developer Details:
+  خطای بارگذاری فایل. <br>سایز فایل باید کمتر از 200 کیلوبایت باشد. (FILE_UPLOAD_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql
+      tNG_insert.postExecuteSql
+      AFTER.Trigger_ImageUpload*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  172.16.90.190
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  https://payesh.bonyadmaskan.ir/portal/plugins/havades/file_add.php?cod=mpUIna0lQAxL9dJlVeCTNojO90TUBdEShBHc0p2cYtiW1E3Lxd3Z5skZ&mode=edit
+
+Date:
+  2023-11-04 11:09:18
+
+خطا:
+  خطای بارگذاری فایل. <br>سایز فایل باید کمتر از 200 کیلوبایت باشد.
+
+Developer Details:
+  خطای بارگذاری فایل. <br>سایز فایل باید کمتر از 200 کیلوبایت باشد. (FILE_UPLOAD_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql
+      tNG_insert.postExecuteSql
+      AFTER.Trigger_ImageUpload*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  172.16.90.190
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  https://payesh.bonyadmaskan.ir/portal/plugins/havades/file_add.php?cod=mpUIna0lQAxL9dJlVeCTNojO90TUBdEShBHc0p2cYtiW1E3Lxd3Z5skZ&mode=edit
+
+Date:
+  2023-11-04 11:09:46
+
+خطا:
+  خطای بارگذاری فایل. <br>سایز فایل باید کمتر از 200 کیلوبایت باشد.
+
+Developer Details:
+  خطای بارگذاری فایل. <br>سایز فایل باید کمتر از 200 کیلوبایت باشد. (FILE_UPLOAD_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql
+      tNG_insert.postExecuteSql
+      AFTER.Trigger_ImageUpload*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  172.16.90.190
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  https://payesh.bonyadmaskan.ir/portal/plugins/havades/file_add.php?cod=mpUIna0lQAxL9dJlVeCTNojO90TUBdEShBHc0p2cYtiW1E3Lxd3Z5skZ&mode=edit
+
+Date:
+  2023-11-04 11:10:11
+
+خطا:
+  خطای بارگذاری فایل. <br>سایز فایل باید کمتر از 200 کیلوبایت باشد.
+
+Developer Details:
+  خطای بارگذاری فایل. <br>سایز فایل باید کمتر از 200 کیلوبایت باشد. (FILE_UPLOAD_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql
+      tNG_insert.postExecuteSql
+      AFTER.Trigger_ImageUpload*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  172.16.90.190
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  https://payesh.bonyadmaskan.ir/portal/plugins/havades/file_add.php?cod=mpUIna0lQAxL9dJlVeCTNojO90TUBdEShBHc0p2cYtiW1E3Lxd3Z5skZ&mode=edit
+
+Date:
+  2023-11-04 11:11:10
+
+خطا:
+  خطای بارگذاری فایل. <br>سایز فایل باید کمتر از 200 کیلوبایت باشد.
+
+Developer Details:
+  خطای بارگذاری فایل. <br>سایز فایل باید کمتر از 200 کیلوبایت باشد. (FILE_UPLOAD_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql
+      tNG_insert.postExecuteSql
+      AFTER.Trigger_ImageUpload*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  172.18.102.2
+
+Host:
+  172.18.100.34
+
+Requested URI:
+  http://172.18.100.34/portal/plugins/havades/file_add.php?cod=SHOAG@@vQLRZ37jH2PFQl9qjO90zZwETWr4EeVVEV2QWQNNFSMhFavMnM&cod=SHOAG@@vQLRZ37jH2PFQl9qjO90zZwETWr4EeVVEV2QWQNNFSMhFavMnM&mode=edit
+
+Date:
+  2023-11-04 11:54:00
+
+خطا:
+  خطای بارگذاری فایل. <br>نام فایل، نامعتبر است
+
+Developer Details:
+  خطای بارگذاری فایل. <br>PHP_UPLOAD_FILENAME_XSS (FILE_UPLOAD_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql
+      tNG_insert.postExecuteSql
+      AFTER.Trigger_ImageUpload*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  172.16.90.190
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  https://payesh.bonyadmaskan.ir/portal/plugins/shahr/shahr_add.php
+
+Date:
+  2023-11-04 11:54:34
+
+خطا:
+  خطای پایگاه داده. <br><div style="display:none"></div>
+
+Developer Details:
+  خطای پایگاه داده. <br><div style="display:none"></div> (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  172.16.90.190
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  https://payesh.bonyadmaskan.ir/portal/plugins/havades/file_add.php?cod=M1eViri0W6cI3dxUM7RN@@rjO90TUqlzUaNVe3pHV1xWVJpneThzc4ZXd&cod=M1eViri0W6cI3dxUM7RN@@rjO90TUqlzUaNVe3pHV1xWVJpneThzc4ZXd&mode=edit
+
+Date:
+  2023-11-04 13:31:36
+
+خطا:
+  خطای بارگذاری فایل. <br>سایز فایل باید کمتر از 200 کیلوبایت باشد.
+
+Developer Details:
+  خطای بارگذاری فایل. <br>سایز فایل باید کمتر از 200 کیلوبایت باشد. (FILE_UPLOAD_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql
+      tNG_insert.postExecuteSql
+      AFTER.Trigger_ImageUpload*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  172.16.90.190
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  https://payesh.bonyadmaskan.ir/portal/plugins/havades/file_add.php?cod=M1eViri0W6cI3dxUM7RN@@rjO90TUqlzUaNVe3pHV1xWVJpneThzc4ZXd&cod=M1eViri0W6cI3dxUM7RN@@rjO90TUqlzUaNVe3pHV1xWVJpneThzc4ZXd&mode=edit
+
+Date:
+  2023-11-04 13:31:56
+
+خطا:
+  خطای بارگذاری فایل. <br>سایز فایل باید کمتر از 200 کیلوبایت باشد.
+
+Developer Details:
+  خطای بارگذاری فایل. <br>سایز فایل باید کمتر از 200 کیلوبایت باشد. (FILE_UPLOAD_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql
+      tNG_insert.postExecuteSql
+      AFTER.Trigger_ImageUpload*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  172.16.90.190
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  https://payesh.bonyadmaskan.ir/portal/plugins/havades/file_add.php?cod=M1eViri0W6cI3dxUM7RN@@rjO90TUqlzUaNVe3pHV1xWVJpneThzc4ZXd&cod=M1eViri0W6cI3dxUM7RN@@rjO90TUqlzUaNVe3pHV1xWVJpneThzc4ZXd&mode=edit
+
+Date:
+  2023-11-04 13:32:34
+
+خطا:
+  خطای بارگذاری فایل. <br>سایز فایل باید کمتر از 200 کیلوبایت باشد.
+
+Developer Details:
+  خطای بارگذاری فایل. <br>سایز فایل باید کمتر از 200 کیلوبایت باشد. (FILE_UPLOAD_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql
+      tNG_insert.postExecuteSql
+      AFTER.Trigger_ImageUpload*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  172.18.18.177
+
+Host:
+  172.18.100.34
+
+Requested URI:
+  http://172.18.100.34/portal/plugins/havades/hadese_transfer_tobehsazi.php?cod=KL7oCWYJAnHpRhnLC3uOzqjO90zZ3h2QM1kQQRzLplFdqVEZShkMvonc&mode=edit
+
+Date:
+  2023-11-04 13:51:18
+
+خطا:
+  خطای پایگاه داده. <br><div style="display:none"></div>
+
+Developer Details:
+  خطای پایگاه داده. <br><div style="display:none"></div> (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  172.18.18.177
+
+Host:
+  172.18.100.34
+
+Requested URI:
+  http://172.18.100.34/portal/plugins/havades/hadese_transfer_tobehsazi.php?cod=KL7oCWYJAnHpRhnLC3uOzqjO90zZ3h2QM1kQQRzLplFdqVEZShkMvonc&mode=edit
+
+Date:
+  2023-11-04 13:51:18
+
+خطا:
+  خطای پایگاه داده. <br><div style="display:none"></div>
+
+Developer Details:
+  خطای پایگاه داده. <br><div style="display:none"></div> (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  172.18.107.2
+
+Host:
+  172.18.100.34
+
+Requested URI:
+  http://172.18.100.34/portal/plugins/havades/file_add.php?cod=lXh2zQ4L7J81h1gK4gly0rjO90TQlJHbrkmQ6tEVqFzaiNzVupXUStmU&cod=lXh2zQ4L7J81h1gK4gly0rjO90TQlJHbrkmQ6tEVqFzaiNzVupXUStmU&mode=edit
+
+Date:
+  2023-11-04 14:44:15
+
+خطا:
+  خطای بارگذاری فایل. <br>پسوند فایل برای بارگذاری مجاز نمی باشد.
+
+Developer Details:
+  خطای بارگذاری فایل. <br>پسوند فایل "jfif" جهت بارگذاری مجاز نمی باشد. (FILE_UPLOAD_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql
+      tNG_insert.postExecuteSql
+      AFTER.Trigger_ImageUpload*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  172.18.107.2
+
+Host:
+  172.18.100.34
+
+Requested URI:
+  http://172.18.100.34/portal/plugins/havades/file_add.php?cod=aP9ruMAkDpU0@@zm1y2Er0rjO90zZytUYUVWaVJUVaZVMhVDNtZXZvNFd&cod=aP9ruMAkDpU0@@zm1y2Er0rjO90zZytUYUVWaVJUVaZVMhVDNtZXZvNFd&mode=edit
+
+Date:
+  2023-11-05 16:54:18
+
+خطا:
+  خطای بارگذاری فایل. <br>سایز فایل باید کمتر از 200 کیلوبایت باشد.<br />نام فایل، نامعتبر است
+
+Developer Details:
+  خطای بارگذاری فایل. <br>سایز فایل باید کمتر از 200 کیلوبایت باشد.<br />PHP_UPLOAD_FILENAME_XSS (FILE_UPLOAD_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql
+      tNG_insert.postExecuteSql
+      AFTER.Trigger_ImageUpload*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  172.18.107.2
+
+Host:
+  172.18.100.34
+
+Requested URI:
+  http://172.18.100.34/portal/plugins/havades/file_add.php?cod=aP9ruMAkDpU0@@zm1y2Er0rjO90zZytUYUVWaVJUVaZVMhVDNtZXZvNFd&cod=aP9ruMAkDpU0@@zm1y2Er0rjO90zZytUYUVWaVJUVaZVMhVDNtZXZvNFd&mode=edit
+
+Date:
+  2023-11-05 16:54:48
+
+خطا:
+  خطای بارگذاری فایل. <br>نام فایل، نامعتبر است
+
+Developer Details:
+  خطای بارگذاری فایل. <br>PHP_UPLOAD_FILENAME_XSS (FILE_UPLOAD_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql
+      tNG_insert.postExecuteSql
+      AFTER.Trigger_ImageUpload*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  172.16.90.190
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  https://payesh.bonyadmaskan.ir/portal/plugins/actions/actions_edit.php?id=S$$BAUMQm86Zx$$X9oSO5JTojO90zdEV3a5NVc0UjVT9icvQ1T5MFbhRGU
+
+Date:
+  2023-11-06 15:48:32
+
+خطا:
+  خطای داخلی.
+
+Developer Details:
+  tNG_update.getLocalRecordset:خطا.<br /><br><div style="display:none"><strong>پیغام خطا:</strong><br /><br /><strong>دستور پایگاه داده:</strong><br />Unknown column 'actionscat_id' in 'field list'</div> (UPD_RS)
+
+tNG Execution Trace:
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+  tNG_update.getRecordset
+  tNG_update.getLocalRecordset*
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  172.18.107.2
+
+Host:
+  172.18.100.34
+
+Requested URI:
+  http://172.18.100.34/portal/plugins/havades/makan_add.php?mode=edit&&cod=bizRlplRI1Dij0ZYCR$$aVqjO90TQv8CbWt0VCRWUIhnbYJUdZpEM5dFZ
+
+Date:
+  2023-11-06 18:34:35
+
+خطا:
+  خطای بارگذاری فایل. <br>سایز فایل باید کمتر از 300 کیلوبایت باشد.
+
+Developer Details:
+  خطای بارگذاری فایل. <br>سایز فایل باید کمتر از 300 کیلوبایت باشد. (FILE_UPLOAD_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_update.doTransaction
+      BEFORE.Trigger_Default_saveData
+        tNG_update.saveData
+      BEFORE.Trigger_Default_FormValidation
+      tNG_update.prepareSQL
+      tNG_update.executeTransaction - execute sql
+      AFTER.Trigger_ImageUpload*
+  tNG_insert.getRecordset
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_update.getRecordset
+  tNG_update.getFakeRsArr
+  tNG_update.getLocalRecordset
+  tNG_update.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  172.16.90.190
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  https://payesh.bonyadmaskan.ir/portal/plugins/shahr/shahr_edit.php?id=NkLoljrlaghH7x50I$$JIZpjO90zZRR1NyRVR5ImQoFFOpdGS0IDTIVkV
+
+Date:
+  2023-11-07 06:16:54
+
+خطا:
+  خطای پایگاه داده. <br><div style="display:none"></div>
+
+Developer Details:
+  خطای پایگاه داده. <br><div style="display:none"></div> (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_update.doTransaction
+      BEFORE.Trigger_Default_saveData
+        tNG_update.saveData
+      BEFORE.Trigger_Default_FormValidation
+      tNG_update.prepareSQL
+      tNG_update.executeTransaction - execute sql*
+  tNG_update.getRecordset
+  tNG_update.getFakeRsArr
+  tNG_update.getLocalRecordset
+  tNG_update.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  172.16.90.190
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  https://payesh.bonyadmaskan.ir/portal/plugins/shahr/shahr_edit.php?id=NkLoljrlaghH7x50I$$JIZpjO90zZRR1NyRVR5ImQoFFOpdGS0IDTIVkV
+
+Date:
+  2023-11-07 06:16:54
+
+خطا:
+  خطای پایگاه داده. <br><div style="display:none"></div>
+
+Developer Details:
+  خطای پایگاه داده. <br><div style="display:none"></div> (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_update.doTransaction
+      BEFORE.Trigger_Default_saveData
+        tNG_update.saveData
+      BEFORE.Trigger_Default_FormValidation
+      tNG_update.prepareSQL
+      tNG_update.executeTransaction - execute sql*
+  tNG_update.getRecordset
+  tNG_update.getFakeRsArr
+  tNG_update.getLocalRecordset
+  tNG_update.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  172.16.90.190
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  https://payesh.bonyadmaskan.ir/portal/plugins/shahr/shahr_edit.php?id=NkLoljrlaghH7x50I$$JIZpjO90zZRR1NyRVR5ImQoFFOpdGS0IDTIVkV
+
+Date:
+  2023-11-07 06:17:51
+
+خطا:
+  خطای پایگاه داده. <br><div style="display:none"></div>
+
+Developer Details:
+  خطای پایگاه داده. <br><div style="display:none"></div> (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_update.doTransaction
+      BEFORE.Trigger_Default_saveData
+        tNG_update.saveData
+      BEFORE.Trigger_Default_FormValidation
+      tNG_update.prepareSQL
+      tNG_update.executeTransaction - execute sql*
+  tNG_update.getRecordset
+  tNG_update.getFakeRsArr
+  tNG_update.getLocalRecordset
+  tNG_update.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  172.16.90.190
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  https://payesh.bonyadmaskan.ir/portal/plugins/shahr/shahr_edit.php?id=NkLoljrlaghH7x50I$$JIZpjO90zZRR1NyRVR5ImQoFFOpdGS0IDTIVkV
+
+Date:
+  2023-11-07 06:17:52
+
+خطا:
+  خطای پایگاه داده. <br><div style="display:none"></div>
+
+Developer Details:
+  خطای پایگاه داده. <br><div style="display:none"></div> (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_update.doTransaction
+      BEFORE.Trigger_Default_saveData
+        tNG_update.saveData
+      BEFORE.Trigger_Default_FormValidation
+      tNG_update.prepareSQL
+      tNG_update.executeTransaction - execute sql*
+  tNG_update.getRecordset
+  tNG_update.getFakeRsArr
+  tNG_update.getLocalRecordset
+  tNG_update.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  172.16.90.190
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  https://payesh.bonyadmaskan.ir/portal/plugins/shahr/shahr_edit.php?id=NkLoljrlaghH7x50I$$JIZpjO90zZRR1NyRVR5ImQoFFOpdGS0IDTIVkV
+
+Date:
+  2023-11-07 06:18:01
+
+خطا:
+  خطای پایگاه داده. <br><div style="display:none"></div>
+
+Developer Details:
+  خطای پایگاه داده. <br><div style="display:none"></div> (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_update.doTransaction
+      BEFORE.Trigger_Default_saveData
+        tNG_update.saveData
+      BEFORE.Trigger_Default_FormValidation
+      tNG_update.prepareSQL
+      tNG_update.executeTransaction - execute sql*
+  tNG_update.getRecordset
+  tNG_update.getFakeRsArr
+  tNG_update.getLocalRecordset
+  tNG_update.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  172.16.90.190
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  https://payesh.bonyadmaskan.ir/portal/plugins/shahr/shahr_edit.php?id=NkLoljrlaghH7x50I$$JIZpjO90zZRR1NyRVR5ImQoFFOpdGS0IDTIVkV
+
+Date:
+  2023-11-07 06:18:01
+
+خطا:
+  خطای پایگاه داده. <br><div style="display:none"></div>
+
+Developer Details:
+  خطای پایگاه داده. <br><div style="display:none"></div> (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_update.doTransaction
+      BEFORE.Trigger_Default_saveData
+        tNG_update.saveData
+      BEFORE.Trigger_Default_FormValidation
+      tNG_update.prepareSQL
+      tNG_update.executeTransaction - execute sql*
+  tNG_update.getRecordset
+  tNG_update.getFakeRsArr
+  tNG_update.getLocalRecordset
+  tNG_update.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  172.18.107.2
+
+Host:
+  172.18.100.34
+
+Requested URI:
+  http://172.18.100.34/portal/plugins/havades/havades_edit.php?cod=bRsNoQmKKUBeJ$$p9r5TeiojO90zdR5kauVnMHhzY3oHRzM3b5VkUiVlZ&mode=edit
+
+Date:
+  2023-11-08 08:44:32
+
+خطا:
+  خطای پایگاه داده. <br><div style="display:none"></div>
+
+Developer Details:
+  خطای پایگاه داده. <br><div style="display:none"></div> (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_update.doTransaction
+      BEFORE.Trigger_Default_saveData
+        tNG_update.saveData
+      BEFORE.Trigger_Default_FormValidation
+      tNG_update.prepareSQL
+      tNG_update.executeTransaction - execute sql*
+  tNG_update.getRecordset
+  tNG_update.getFakeRsArr
+  tNG_update.getLocalRecordset
+  tNG_update.getFakeRecordset
+  tNG_update.executeTransaction
+  tNG_update.getRecordset
+  tNG_update.getFakeRsArr
+  tNG_update.getLocalRecordset
+  tNG_update.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  172.16.90.190
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  https://payesh.bonyadmaskan.ir/portal/plugins/shahr/shahr_edit.php?id=gw7J0Et@@793D4QADzeUOgqjO90TQXhUb4IWVDN0SkdFSmVTZQJkYnRHN
+
+Date:
+  2023-11-08 09:24:38
+
+خطا:
+  خطای پایگاه داده. <br><div style="display:none"></div>
+
+Developer Details:
+  خطای پایگاه داده. <br><div style="display:none"></div> (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_update.doTransaction
+      BEFORE.Trigger_Default_saveData
+        tNG_update.saveData
+      BEFORE.Trigger_Default_FormValidation
+      tNG_update.prepareSQL
+      tNG_update.executeTransaction - execute sql*
+  tNG_update.getRecordset
+  tNG_update.getFakeRsArr
+  tNG_update.getLocalRecordset
+  tNG_update.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  172.16.90.190
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  https://payesh.bonyadmaskan.ir/portal/plugins/shahr/shahr_edit.php?id=gw7J0Et@@793D4QADzeUOgqjO90TQXhUb4IWVDN0SkdFSmVTZQJkYnRHN
+
+Date:
+  2023-11-08 09:24:38
+
+خطا:
+  خطای پایگاه داده. <br><div style="display:none"></div>
+
+Developer Details:
+  خطای پایگاه داده. <br><div style="display:none"></div> (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_update.doTransaction
+      BEFORE.Trigger_Default_saveData
+        tNG_update.saveData
+      BEFORE.Trigger_Default_FormValidation
+      tNG_update.prepareSQL
+      tNG_update.executeTransaction - execute sql*
+  tNG_update.getRecordset
+  tNG_update.getFakeRsArr
+  tNG_update.getLocalRecordset
+  tNG_update.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  172.16.90.190
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  https://payesh.bonyadmaskan.ir/portal/plugins/shahr/shahr_edit.php?id=gw7J0Et@@793D4QADzeUOgqjO90TQXhUb4IWVDN0SkdFSmVTZQJkYnRHN
+
+Date:
+  2023-11-08 09:25:22
+
+خطا:
+  خطای پایگاه داده. <br><div style="display:none"></div>
+
+Developer Details:
+  خطای پایگاه داده. <br><div style="display:none"></div> (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_update.doTransaction
+      BEFORE.Trigger_Default_saveData
+        tNG_update.saveData
+      BEFORE.Trigger_Default_FormValidation
+      tNG_update.prepareSQL
+      tNG_update.executeTransaction - execute sql*
+  tNG_update.getRecordset
+  tNG_update.getFakeRsArr
+  tNG_update.getLocalRecordset
+  tNG_update.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  172.16.90.190
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  https://payesh.bonyadmaskan.ir/portal/plugins/shahr/shahr_edit.php?id=gw7J0Et@@793D4QADzeUOgqjO90TQXhUb4IWVDN0SkdFSmVTZQJkYnRHN
+
+Date:
+  2023-11-08 09:25:22
+
+خطا:
+  خطای پایگاه داده. <br><div style="display:none"></div>
+
+Developer Details:
+  خطای پایگاه داده. <br><div style="display:none"></div> (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_update.doTransaction
+      BEFORE.Trigger_Default_saveData
+        tNG_update.saveData
+      BEFORE.Trigger_Default_FormValidation
+      tNG_update.prepareSQL
+      tNG_update.executeTransaction - execute sql*
+  tNG_update.getRecordset
+  tNG_update.getFakeRsArr
+  tNG_update.getLocalRecordset
+  tNG_update.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  172.16.90.190
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  https://payesh.bonyadmaskan.ir/portal/plugins/havades/payankar_add.php?cod=nrvxVZ6v@@4NNmdIeJtFXqrjO90TU3wWb3okMUtkZthFerwUZNJDN3BVM&mode=edit
+
+Date:
+  2023-11-08 10:19:35
+
+خطا:
+  خطای پایگاه داده. <br><div style="display:none"></div>
+
+Developer Details:
+  خطای پایگاه داده. <br><div style="display:none"></div> (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_update.doTransaction
+      BEFORE.Trigger_Default_saveData
+        tNG_update.saveData
+      BEFORE.Trigger_Default_FormValidation
+      tNG_update.prepareSQL
+      tNG_update.executeTransaction - execute sql*
+  tNG_update.getRecordset
+  tNG_update.getFakeRsArr
+  tNG_update.getLocalRecordset
+  tNG_update.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  172.16.90.190
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  https://payesh.bonyadmaskan.ir/portal/plugins/havades/file_add.php?cod=ZBCel8si8M5ItYwY7oR4qpjO90TUEFVUNJ1ahhzM0djd3wUVolkWNtiY&cod=ZBCel8si8M5ItYwY7oR4qpjO90TUEFVUNJ1ahhzM0djd3wUVolkWNtiY&mode=edit
+
+Date:
+  2023-11-08 11:33:42
+
+خطا:
+  خطای بارگذاری فایل. <br>پسوند فایل برای بارگذاری مجاز نمی باشد.<br />نام فایل، نامعتبر است
+
+Developer Details:
+  خطای بارگذاری فایل. <br>پسوند فایل "pdf" جهت بارگذاری مجاز نمی باشد.<br />PHP_UPLOAD_FILENAME_XSS (FILE_UPLOAD_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql
+      tNG_insert.postExecuteSql
+      AFTER.Trigger_ImageUpload*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  172.16.90.190
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  https://payesh.bonyadmaskan.ir/portal/plugins/havades/file_add.php?cod=ZBCel8si8M5ItYwY7oR4qpjO90TUEFVUNJ1ahhzM0djd3wUVolkWNtiY&cod=ZBCel8si8M5ItYwY7oR4qpjO90TUEFVUNJ1ahhzM0djd3wUVolkWNtiY&mode=edit
+
+Date:
+  2023-11-08 11:34:10
+
+خطا:
+  خطای بارگذاری فایل. <br>پسوند فایل برای بارگذاری مجاز نمی باشد.<br />نام فایل، نامعتبر است
+
+Developer Details:
+  خطای بارگذاری فایل. <br>پسوند فایل "pdf" جهت بارگذاری مجاز نمی باشد.<br />PHP_UPLOAD_FILENAME_XSS (FILE_UPLOAD_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql
+      tNG_insert.postExecuteSql
+      AFTER.Trigger_ImageUpload*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  172.16.90.190
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  https://payesh.bonyadmaskan.ir/portal/plugins/havades/file_add.php?cod=ZBCel8si8M5ItYwY7oR4qpjO90TUEFVUNJ1ahhzM0djd3wUVolkWNtiY&cod=ZBCel8si8M5ItYwY7oR4qpjO90TUEFVUNJ1ahhzM0djd3wUVolkWNtiY&mode=edit
+
+Date:
+  2023-11-08 11:35:23
+
+خطا:
+  خطای بارگذاری فایل. <br>نام فایل، نامعتبر است
+
+Developer Details:
+  خطای بارگذاری فایل. <br>PHP_UPLOAD_FILENAME_XSS (FILE_UPLOAD_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql
+      tNG_insert.postExecuteSql
+      AFTER.Trigger_ImageUpload*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  172.16.90.190
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  https://payesh.bonyadmaskan.ir/portal/plugins/admin/admin_add.php
+
+Date:
+  2023-11-08 17:36:25
+
+خطا:
+  کاربر با این نام کاربری قبلا درج شده است
+
+Developer Details:
+  %s
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      BEFORE.Trigger_CheckUnique*
+      ERROR.Trigger_Default_Insert_RollBack
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  172.16.90.190
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  https://payesh.bonyadmaskan.ir/portal/plugins/admin/admin_add.php
+
+Date:
+  2023-11-08 17:36:25
+
+خطا:
+  کاربر با این نام کاربری قبلا درج شده است
+
+Developer Details:
+  %s
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      BEFORE.Trigger_CheckUnique*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  172.18.116.2
+
+Host:
+  172.18.100.34
+
+Requested URI:
+  http://172.18.100.34/portal/plugins/havades/file_add.php?cod=Y8t8F0vrldAtR5ah7SvNDrjO90zZ5NUODNkYVtyVUBTTS1ke2okbGBDW&cod=Y8t8F0vrldAtR5ah7SvNDrjO90zZ5NUODNkYVtyVUBTTS1ke2okbGBDW&mode=edit
+
+Date:
+  2023-11-09 11:54:02
+
+خطا:
+  خطای بارگذاری فایل. <br>سایز فایل باید کمتر از 200 کیلوبایت باشد.
+
+Developer Details:
+  خطای بارگذاری فایل. <br>سایز فایل باید کمتر از 200 کیلوبایت باشد. (FILE_UPLOAD_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql
+      tNG_insert.postExecuteSql
+      AFTER.Trigger_ImageUpload*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  172.18.116.2
+
+Host:
+  172.18.100.34
+
+Requested URI:
+  http://172.18.100.34/portal/plugins/havades/file_add.php?cod=Y8t8F0vrldAtR5ah7SvNDrjO90zZ5NUODNkYVtyVUBTTS1ke2okbGBDW&cod=Y8t8F0vrldAtR5ah7SvNDrjO90zZ5NUODNkYVtyVUBTTS1ke2okbGBDW&mode=edit
+
+Date:
+  2023-11-09 11:54:05
+
+خطا:
+  خطای بارگذاری فایل. <br>سایز فایل باید کمتر از 200 کیلوبایت باشد.
+
+Developer Details:
+  خطای بارگذاری فایل. <br>سایز فایل باید کمتر از 200 کیلوبایت باشد. (FILE_UPLOAD_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql
+      tNG_insert.postExecuteSql
+      AFTER.Trigger_ImageUpload*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  172.18.116.2
+
+Host:
+  172.18.100.34
+
+Requested URI:
+  http://172.18.100.34/portal/plugins/havades/file_add.php?cod=Y8t8F0vrldAtR5ah7SvNDrjO90zZ5NUODNkYVtyVUBTTS1ke2okbGBDW&cod=Y8t8F0vrldAtR5ah7SvNDrjO90zZ5NUODNkYVtyVUBTTS1ke2okbGBDW&mode=edit
+
+Date:
+  2023-11-09 11:54:48
+
+خطا:
+  خطای بارگذاری فایل. <br>سایز فایل باید کمتر از 200 کیلوبایت باشد.
+
+Developer Details:
+  خطای بارگذاری فایل. <br>سایز فایل باید کمتر از 200 کیلوبایت باشد. (FILE_UPLOAD_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql
+      tNG_insert.postExecuteSql
+      AFTER.Trigger_ImageUpload*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  172.18.116.2
+
+Host:
+  172.18.100.34
+
+Requested URI:
+  http://172.18.100.34/portal/plugins/havades/file_add.php?cod=Y8t8F0vrldAtR5ah7SvNDrjO90zZ5NUODNkYVtyVUBTTS1ke2okbGBDW&cod=Y8t8F0vrldAtR5ah7SvNDrjO90zZ5NUODNkYVtyVUBTTS1ke2okbGBDW&mode=edit
+
+Date:
+  2023-11-09 11:55:38
+
+خطا:
+  خطای بارگذاری فایل. <br>سایز فایل باید کمتر از 200 کیلوبایت باشد.
+
+Developer Details:
+  خطای بارگذاری فایل. <br>سایز فایل باید کمتر از 200 کیلوبایت باشد. (FILE_UPLOAD_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql
+      tNG_insert.postExecuteSql
+      AFTER.Trigger_ImageUpload*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  172.18.116.2
+
+Host:
+  172.18.100.34
+
+Requested URI:
+  http://172.18.100.34/portal/plugins/havades/file_add.php?cod=Y8t8F0vrldAtR5ah7SvNDrjO90zZ5NUODNkYVtyVUBTTS1ke2okbGBDW&cod=Y8t8F0vrldAtR5ah7SvNDrjO90zZ5NUODNkYVtyVUBTTS1ke2okbGBDW&mode=edit
+
+Date:
+  2023-11-09 11:56:12
+
+خطا:
+  خطای بارگذاری فایل. <br>سایز فایل باید کمتر از 200 کیلوبایت باشد.
+
+Developer Details:
+  خطای بارگذاری فایل. <br>سایز فایل باید کمتر از 200 کیلوبایت باشد. (FILE_UPLOAD_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql
+      tNG_insert.postExecuteSql
+      AFTER.Trigger_ImageUpload*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  172.18.116.2
+
+Host:
+  172.18.100.34
+
+Requested URI:
+  http://172.18.100.34/portal/plugins/havades/file_add.php?cod=Y8t8F0vrldAtR5ah7SvNDrjO90zZ5NUODNkYVtyVUBTTS1ke2okbGBDW&cod=Y8t8F0vrldAtR5ah7SvNDrjO90zZ5NUODNkYVtyVUBTTS1ke2okbGBDW&mode=edit
+
+Date:
+  2023-11-09 11:56:17
+
+خطا:
+  خطای بارگذاری فایل. <br>سایز فایل باید کمتر از 200 کیلوبایت باشد.
+
+Developer Details:
+  خطای بارگذاری فایل. <br>سایز فایل باید کمتر از 200 کیلوبایت باشد. (FILE_UPLOAD_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql
+      tNG_insert.postExecuteSql
+      AFTER.Trigger_ImageUpload*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  172.18.117.2
+
+Host:
+  172.18.100.34
+
+Requested URI:
+  http://172.18.100.34/portal/plugins/admin/admin_edit_info.php?id=Xbszy$$oeY6RjvzkKacUXjrjO90TUSVUYQhkWMpVUs5UY18WcDBHM39mc&mode=edit
+
+Date:
+  2023-11-11 10:20:33
+
+خطا:
+  خطای بارگذاری فایل. <br>نام فایل، نامعتبر است
+
+Developer Details:
+  خطای بارگذاری فایل. <br>PHP_UPLOAD_FILENAME_XSS (FILE_UPLOAD_ERROR)
+
+tNG Execution Trace:
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_update.doTransaction
+      BEFORE.Trigger_Default_saveData
+        tNG_update.saveData
+      BEFORE.Trigger_Default_FormValidation
+      tNG_update.prepareSQL
+      tNG_update.executeTransaction - execute sql
+      AFTER.Trigger_ImageUpload*
+  tNG_update.getRecordset
+  tNG_update.getFakeRsArr
+  tNG_update.getLocalRecordset
+  tNG_update.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  172.18.117.2
+
+Host:
+  172.18.100.34
+
+Requested URI:
+  http://172.18.100.34/portal/plugins/admin/admin_edit_info.php?id=Xbszy$$oeY6RjvzkKacUXjrjO90TUSVUYQhkWMpVUs5UY18WcDBHM39mc&mode=edit
+
+Date:
+  2023-11-11 10:23:03
+
+خطا:
+  خطای بارگذاری فایل. <br>نام فایل، نامعتبر است
+
+Developer Details:
+  خطای بارگذاری فایل. <br>PHP_UPLOAD_FILENAME_XSS (FILE_UPLOAD_ERROR)
+
+tNG Execution Trace:
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_update.doTransaction
+      BEFORE.Trigger_Default_saveData
+        tNG_update.saveData
+      BEFORE.Trigger_Default_FormValidation
+      tNG_update.prepareSQL
+      tNG_update.executeTransaction - execute sql
+      AFTER.Trigger_ImageUpload*
+  tNG_update.getRecordset
+  tNG_update.getFakeRsArr
+  tNG_update.getLocalRecordset
+  tNG_update.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  172.16.90.190
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  https://payesh.bonyadmaskan.ir/portal/plugins/havades/file_add.php?cod=g82NT6haFFqk5nTddX@@jMrjO90zd2cWb6Bnb0Qjbn9STR1mbklDSyRWR&mode=edit
+
+Date:
+  2023-11-11 10:51:21
+
+خطا:
+  خطای بارگذاری فایل. <br>سایز فایل باید کمتر از 200 کیلوبایت باشد.
+
+Developer Details:
+  خطای بارگذاری فایل. <br>سایز فایل باید کمتر از 200 کیلوبایت باشد. (FILE_UPLOAD_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql
+      tNG_insert.postExecuteSql
+      AFTER.Trigger_ImageUpload*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  172.16.90.190
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  https://payesh.bonyadmaskan.ir/portal/plugins/actions/actions_edit.php?id=rMYg0hvwp3E7qrfzJNJ3arjO90TQSVFSI1GbkRnNEtCd002U0ZFarZlR
+
+Date:
+  2023-11-11 14:59:28
+
+خطا:
+  خطای داخلی.
+
+Developer Details:
+  tNG_update.getLocalRecordset:خطا.<br /><br><div style="display:none"><strong>پیغام خطا:</strong><br /><br /><strong>دستور پایگاه داده:</strong><br />Unknown column 'actionscat_id' in 'field list'</div> (UPD_RS)
+
+tNG Execution Trace:
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+  tNG_update.getRecordset
+  tNG_update.getLocalRecordset*
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  172.16.90.190
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  https://payesh.bonyadmaskan.ir/portal/plugins/actions/actions_edit.php?id=u34S06tDlOMKWncpBZzT7qjO90TUWVUOzlnaWxmdJdlVCN3SqF1bzJUd
+
+Date:
+  2023-11-11 14:59:32
+
+خطا:
+  خطای داخلی.
+
+Developer Details:
+  tNG_update.getLocalRecordset:خطا.<br /><br><div style="display:none"><strong>پیغام خطا:</strong><br /><br /><strong>دستور پایگاه داده:</strong><br />Unknown column 'actionscat_id' in 'field list'</div> (UPD_RS)
+
+tNG Execution Trace:
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+  tNG_update.getRecordset
+  tNG_update.getLocalRecordset*
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  172.16.90.190
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  https://payesh.bonyadmaskan.ir/portal/plugins/havades/moteghazi_edit.php?cod=GCSeeeWXDmslJR3XkIcEzrjO90zZxoGeykVbpJkZr1EWP5meiZTa310d&id=EEIOID3UkeaidsarY2AAhpjO90zd3Yzd0BlQY9SVhVmToZXSxsUSVJHU
+
+Date:
+  2023-11-12 08:33:55
+
+خطا:
+  خطای پایگاه داده. <br><div style="display:none"></div>
+
+Developer Details:
+  خطای پایگاه داده. <br><div style="display:none"></div> (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_update.doTransaction
+      BEFORE.Trigger_Default_saveData
+        tNG_update.saveData
+      BEFORE.Trigger_Default_FormValidation
+      tNG_update.prepareSQL
+      tNG_update.executeTransaction - execute sql*
+  tNG_update.getRecordset
+  tNG_update.getFakeRsArr
+  tNG_update.getLocalRecordset
+  tNG_update.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  172.18.129.2
+
+Host:
+  172.18.100.34
+
+Requested URI:
+  http://172.18.100.34/portal/plugins/havades/file_add.php?cod=2GnmQMrQF35Y5WezkmLMTojO90zZUl2K3MDMudzUvEnaBt0aa9UeFtme&cod=2GnmQMrQF35Y5WezkmLMTojO90zZUl2K3MDMudzUvEnaBt0aa9UeFtme&mode=edit
+
+Date:
+  2023-11-12 09:49:38
+
+خطا:
+  خطای بارگذاری فایل. <br>نام فایل، نامعتبر است
+
+Developer Details:
+  خطای بارگذاری فایل. <br>PHP_UPLOAD_FILENAME_XSS (FILE_UPLOAD_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql
+      tNG_insert.postExecuteSql
+      AFTER.Trigger_ImageUpload*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  172.18.109.114
+
+Host:
+  172.18.100.34
+
+Requested URI:
+  http://172.18.100.34/portal/plugins/havale/havale_add.php
+
+Date:
+  2023-11-13 07:45:22
+
+خطا:
+  خطای پایگاه داده. <br><div style="display:none"></div>
+
+Developer Details:
+  خطای پایگاه داده. <br><div style="display:none"></div> (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  172.18.109.114
+
+Host:
+  172.18.100.34
+
+Requested URI:
+  http://172.18.100.34/portal/plugins/havale/havale_add.php
+
+Date:
+  2023-11-13 07:45:22
+
+خطا:
+  خطای پایگاه داده. <br><div style="display:none"></div>
+
+Developer Details:
+  خطای پایگاه داده. <br><div style="display:none"></div> (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  172.18.109.114
+
+Host:
+  172.18.100.34
+
+Requested URI:
+  http://172.18.100.34/portal/plugins/havale/havale_add.php
+
+Date:
+  2023-11-13 07:45:22
+
+خطا:
+  خطای پایگاه داده. <br><div style="display:none"></div>
+
+Developer Details:
+  خطای پایگاه داده. <br><div style="display:none"></div> (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.executeTransaction
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  172.18.109.114
+
+Host:
+  172.18.100.34
+
+Requested URI:
+  http://172.18.100.34/portal/plugins/havale/havale_add.php
+
+Date:
+  2023-11-13 07:45:22
+
+خطا:
+  خطای پایگاه داده. <br><div style="display:none"></div>
+
+Developer Details:
+  خطای پایگاه داده. <br><div style="display:none"></div> (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.executeTransaction
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  172.18.109.114
+
+Host:
+  172.18.100.34
+
+Requested URI:
+  http://172.18.100.34/portal/plugins/havale/havale_add.php
+
+Date:
+  2023-11-13 07:45:22
+
+خطا:
+  خطای پایگاه داده. <br><div style="display:none"></div>
+
+Developer Details:
+  خطای پایگاه داده. <br><div style="display:none"></div> (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  172.18.109.114
+
+Host:
+  172.18.100.34
+
+Requested URI:
+  http://172.18.100.34/portal/plugins/havale/havale_add.php
+
+Date:
+  2023-11-13 07:45:22
+
+خطا:
+  خطای پایگاه داده. <br><div style="display:none"></div>
+
+Developer Details:
+  خطای پایگاه داده. <br><div style="display:none"></div> (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  172.18.109.114
+
+Host:
+  172.18.100.34
+
+Requested URI:
+  http://172.18.100.34/portal/plugins/havale/havale_add.php
+
+Date:
+  2023-11-13 07:45:23
+
+خطا:
+  خطای پایگاه داده. <br><div style="display:none"></div>
+
+Developer Details:
+  خطای پایگاه داده. <br><div style="display:none"></div> (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  172.18.109.114
+
+Host:
+  172.18.100.34
+
+Requested URI:
+  http://172.18.100.34/portal/plugins/havale/havale_add.php
+
+Date:
+  2023-11-13 07:45:23
+
+خطا:
+  خطای پایگاه داده. <br><div style="display:none"></div>
+
+Developer Details:
+  خطای پایگاه داده. <br><div style="display:none"></div> (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  172.18.109.114
+
+Host:
+  172.18.100.34
+
+Requested URI:
+  http://172.18.100.34/portal/plugins/havale/havale_add.php
+
+Date:
+  2023-11-13 07:45:52
+
+خطا:
+  خطای پایگاه داده. <br><div style="display:none"></div>
+
+Developer Details:
+  خطای پایگاه داده. <br><div style="display:none"></div> (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  172.18.109.114
+
+Host:
+  172.18.100.34
+
+Requested URI:
+  http://172.18.100.34/portal/plugins/havale/havale_add.php
+
+Date:
+  2023-11-13 07:45:52
+
+خطا:
+  خطای پایگاه داده. <br><div style="display:none"></div>
+
+Developer Details:
+  خطای پایگاه داده. <br><div style="display:none"></div> (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  172.18.109.114
+
+Host:
+  172.18.100.34
+
+Requested URI:
+  http://172.18.100.34/portal/plugins/havale/havale_add.php
+
+Date:
+  2023-11-13 07:45:52
+
+خطا:
+  خطای پایگاه داده. <br><div style="display:none"></div>
+
+Developer Details:
+  خطای پایگاه داده. <br><div style="display:none"></div> (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.executeTransaction
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  172.18.109.114
+
+Host:
+  172.18.100.34
+
+Requested URI:
+  http://172.18.100.34/portal/plugins/havale/havale_add.php
+
+Date:
+  2023-11-13 07:45:52
+
+خطا:
+  خطای پایگاه داده. <br><div style="display:none"></div>
+
+Developer Details:
+  خطای پایگاه داده. <br><div style="display:none"></div> (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.executeTransaction
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  172.18.109.114
+
+Host:
+  172.18.100.34
+
+Requested URI:
+  http://172.18.100.34/portal/plugins/havale/havale_add.php
+
+Date:
+  2023-11-13 07:45:53
+
+خطا:
+  خطای پایگاه داده. <br><div style="display:none"></div>
+
+Developer Details:
+  خطای پایگاه داده. <br><div style="display:none"></div> (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  172.18.109.114
+
+Host:
+  172.18.100.34
+
+Requested URI:
+  http://172.18.100.34/portal/plugins/havale/havale_add.php
+
+Date:
+  2023-11-13 07:45:53
+
+خطا:
+  خطای پایگاه داده. <br><div style="display:none"></div>
+
+Developer Details:
+  خطای پایگاه داده. <br><div style="display:none"></div> (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  172.18.109.114
+
+Host:
+  172.18.100.34
+
+Requested URI:
+  http://172.18.100.34/portal/plugins/havale/havale_add.php
+
+Date:
+  2023-11-13 07:45:53
+
+خطا:
+  خطای پایگاه داده. <br><div style="display:none"></div>
+
+Developer Details:
+  خطای پایگاه داده. <br><div style="display:none"></div> (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  172.18.109.114
+
+Host:
+  172.18.100.34
+
+Requested URI:
+  http://172.18.100.34/portal/plugins/havale/havale_add.php
+
+Date:
+  2023-11-13 07:45:53
+
+خطا:
+  خطای پایگاه داده. <br><div style="display:none"></div>
+
+Developer Details:
+  خطای پایگاه داده. <br><div style="display:none"></div> (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  172.18.124.2
+
+Host:
+  172.18.100.34
+
+Requested URI:
+  http://172.18.100.34/portal/plugins/havades/file_add.php?cod=xCVZwCzOn02SIXp8rh9FvqjO90TUIV2bQdENMlmTBtSOhlWWlZ0N3R1M&cod=xCVZwCzOn02SIXp8rh9FvqjO90TUIV2bQdENMlmTBtSOhlWWlZ0N3R1M&mode=edit
+
+Date:
+  2023-11-13 10:58:15
+
+خطا:
+  خطای بارگذاری فایل. <br>سایز فایل باید کمتر از 200 کیلوبایت باشد.
+
+Developer Details:
+  خطای بارگذاری فایل. <br>سایز فایل باید کمتر از 200 کیلوبایت باشد. (FILE_UPLOAD_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql
+      tNG_insert.postExecuteSql
+      AFTER.Trigger_ImageUpload*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  172.18.130.10
+
+Host:
+  172.18.100.34
+
+Requested URI:
+  http://172.18.100.34/portal/plugins/havades/hadese_transfer_tobehsazi.php?cod=HVOOceeLjTrrdoiwEHRQrqjO90TQJhndrBXdSx2S2QGVxUGM44WTNVXW&mode=edit
+
+Date:
+  2023-11-13 11:21:33
+
+خطا:
+  خطای پایگاه داده. <br><div style="display:none"></div>
+
+Developer Details:
+  خطای پایگاه داده. <br><div style="display:none"></div> (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  172.18.130.10
+
+Host:
+  172.18.100.34
+
+Requested URI:
+  http://172.18.100.34/portal/plugins/havades/hadese_transfer_tobehsazi.php?cod=HVOOceeLjTrrdoiwEHRQrqjO90TQJhndrBXdSx2S2QGVxUGM44WTNVXW&mode=edit
+
+Date:
+  2023-11-13 11:21:33
+
+خطا:
+  خطای پایگاه داده. <br><div style="display:none"></div>
+
+Developer Details:
+  خطای پایگاه داده. <br><div style="display:none"></div> (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  172.18.130.10
+
+Host:
+  172.18.100.34
+
+Requested URI:
+  http://172.18.100.34/portal/plugins/havades/hadese_transfer_tobehsazi.php?cod=HVOOceeLjTrrdoiwEHRQrqjO90TQJhndrBXdSx2S2QGVxUGM44WTNVXW&mode=edit
+
+Date:
+  2023-11-13 11:21:54
+
+خطا:
+  خطای پایگاه داده. <br><div style="display:none"></div>
+
+Developer Details:
+  خطای پایگاه داده. <br><div style="display:none"></div> (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  172.18.130.10
+
+Host:
+  172.18.100.34
+
+Requested URI:
+  http://172.18.100.34/portal/plugins/havades/hadese_transfer_tobehsazi.php?cod=HVOOceeLjTrrdoiwEHRQrqjO90TQJhndrBXdSx2S2QGVxUGM44WTNVXW&mode=edit
+
+Date:
+  2023-11-13 11:21:54
+
+خطا:
+  خطای پایگاه داده. <br><div style="display:none"></div>
+
+Developer Details:
+  خطای پایگاه داده. <br><div style="display:none"></div> (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  172.18.130.10
+
+Host:
+  172.18.100.34
+
+Requested URI:
+  http://172.18.100.34/portal/plugins/havades/hadese_transfer_tobehsazi.php?cod=HVOOceeLjTrrdoiwEHRQrqjO90TQJhndrBXdSx2S2QGVxUGM44WTNVXW&mode=edit
+
+Date:
+  2023-11-13 11:22:06
+
+خطا:
+  خطای پایگاه داده. <br><div style="display:none"></div>
+
+Developer Details:
+  خطای پایگاه داده. <br><div style="display:none"></div> (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  172.18.130.10
+
+Host:
+  172.18.100.34
+
+Requested URI:
+  http://172.18.100.34/portal/plugins/havades/hadese_transfer_tobehsazi.php?cod=HVOOceeLjTrrdoiwEHRQrqjO90TQJhndrBXdSx2S2QGVxUGM44WTNVXW&mode=edit
+
+Date:
+  2023-11-13 11:22:06
+
+خطا:
+  خطای پایگاه داده. <br><div style="display:none"></div>
+
+Developer Details:
+  خطای پایگاه داده. <br><div style="display:none"></div> (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  172.18.130.10
+
+Host:
+  172.18.100.34
+
+Requested URI:
+  http://172.18.100.34/portal/plugins/havades/hadese_transfer_tobehsazi.php?cod=HVOOceeLjTrrdoiwEHRQrqjO90TQJhndrBXdSx2S2QGVxUGM44WTNVXW&mode=edit
+
+Date:
+  2023-11-13 11:22:40
+
+خطا:
+  خطای پایگاه داده. <br><div style="display:none"></div>
+
+Developer Details:
+  خطای پایگاه داده. <br><div style="display:none"></div> (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  172.18.130.10
+
+Host:
+  172.18.100.34
+
+Requested URI:
+  http://172.18.100.34/portal/plugins/havades/hadese_transfer_tobehsazi.php?cod=HVOOceeLjTrrdoiwEHRQrqjO90TQJhndrBXdSx2S2QGVxUGM44WTNVXW&mode=edit
+
+Date:
+  2023-11-13 11:22:40
+
+خطا:
+  خطای پایگاه داده. <br><div style="display:none"></div>
+
+Developer Details:
+  خطای پایگاه داده. <br><div style="display:none"></div> (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  172.18.130.10
+
+Host:
+  172.18.100.34
+
+Requested URI:
+  http://172.18.100.34/portal/plugins/havades/hadese_transfer_tobehsazi.php?cod=HVOOceeLjTrrdoiwEHRQrqjO90TQJhndrBXdSx2S2QGVxUGM44WTNVXW&mode=edit
+
+Date:
+  2023-11-13 11:23:14
+
+خطا:
+  خطای پایگاه داده. <br><div style="display:none"></div>
+
+Developer Details:
+  خطای پایگاه داده. <br><div style="display:none"></div> (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  172.18.130.10
+
+Host:
+  172.18.100.34
+
+Requested URI:
+  http://172.18.100.34/portal/plugins/havades/hadese_transfer_tobehsazi.php?cod=HVOOceeLjTrrdoiwEHRQrqjO90TQJhndrBXdSx2S2QGVxUGM44WTNVXW&mode=edit
+
+Date:
+  2023-11-13 11:23:14
+
+خطا:
+  خطای پایگاه داده. <br><div style="display:none"></div>
+
+Developer Details:
+  خطای پایگاه داده. <br><div style="display:none"></div> (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  172.16.90.190
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  https://payesh.bonyadmaskan.ir/portal/plugins/admin/admin_add.php
+
+Date:
+  2023-11-13 15:22:51
+
+خطا:
+  کاربر با این نام کاربری قبلا درج شده است
+
+Developer Details:
+  %s
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      BEFORE.Trigger_CheckUnique*
+      ERROR.Trigger_Default_Insert_RollBack
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  172.16.90.190
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  https://payesh.bonyadmaskan.ir/portal/plugins/admin/admin_add.php
+
+Date:
+  2023-11-13 15:22:51
+
+خطا:
+  کاربر با این نام کاربری قبلا درج شده است
+
+Developer Details:
+  %s
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      BEFORE.Trigger_CheckUnique*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  172.18.107.2
+
+Host:
+  172.18.100.34
+
+Requested URI:
+  http://172.18.100.34/portal/plugins/havades/file_add.php?cod=69bzj6j8TOnuW890qFO8xojO90zZzUESzkVeNh0NBNldppleUhkNP5mN&cod=69bzj6j8TOnuW890qFO8xojO90zZzUESzkVeNh0NBNldppleUhkNP5mN&mode=edit
+
+Date:
+  2023-11-13 17:16:53
+
+خطا:
+  خطای بارگذاری فایل. <br>نام فایل، نامعتبر است
+
+Developer Details:
+  خطای بارگذاری فایل. <br>PHP_UPLOAD_FILENAME_XSS (FILE_UPLOAD_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql
+      tNG_insert.postExecuteSql
+      AFTER.Trigger_ImageUpload*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  172.18.124.2
+
+Host:
+  172.18.100.34
+
+Requested URI:
+  http://172.18.100.34/portal/plugins/havades/file_add.php?cod=57ABMs$$9baweyFKWDsa1@@pjO90zZ3ZzN3E3Q2x0KUN1S4VFRtZjRpVFd&cod=57ABMs$$9baweyFKWDsa1@@pjO90zZ3ZzN3E3Q2x0KUN1S4VFRtZjRpVFd&mode=edit
+
+Date:
+  2023-11-14 09:17:56
+
+خطا:
+  خطای بارگذاری فایل. <br>سایز فایل باید کمتر از 200 کیلوبایت باشد.
+
+Developer Details:
+  خطای بارگذاری فایل. <br>سایز فایل باید کمتر از 200 کیلوبایت باشد. (FILE_UPLOAD_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql
+      tNG_insert.postExecuteSql
+      AFTER.Trigger_ImageUpload*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  172.18.117.2
+
+Host:
+  172.18.100.34
+
+Requested URI:
+  http://172.18.100.34/portal/plugins/havades/file_add.php?cod=FMSdhfqOoL1DU9tL5lqTwqjO90zdD9kQlhjd1YTV3YnZ1MmercDO1VkT&cod=FMSdhfqOoL1DU9tL5lqTwqjO90zdD9kQlhjd1YTV3YnZ1MmercDO1VkT&mode=edit
+
+Date:
+  2023-11-14 09:56:49
+
+خطا:
+  خطای بارگذاری فایل. <br>نام فایل، نامعتبر است
+
+Developer Details:
+  خطای بارگذاری فایل. <br>PHP_UPLOAD_FILENAME_XSS (FILE_UPLOAD_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql
+      tNG_insert.postExecuteSql
+      AFTER.Trigger_ImageUpload*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  172.18.117.2
+
+Host:
+  172.18.100.34
+
+Requested URI:
+  http://172.18.100.34/portal/plugins/havades/file_add.php?cod=FMSdhfqOoL1DU9tL5lqTwqjO90zdD9kQlhjd1YTV3YnZ1MmercDO1VkT&cod=FMSdhfqOoL1DU9tL5lqTwqjO90zdD9kQlhjd1YTV3YnZ1MmercDO1VkT&mode=edit
+
+Date:
+  2023-11-14 09:57:07
+
+خطا:
+  خطای بارگذاری فایل. <br>نام فایل، نامعتبر است
+
+Developer Details:
+  خطای بارگذاری فایل. <br>PHP_UPLOAD_FILENAME_XSS (FILE_UPLOAD_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql
+      tNG_insert.postExecuteSql
+      AFTER.Trigger_ImageUpload*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  172.18.117.2
+
+Host:
+  172.18.100.34
+
+Requested URI:
+  http://172.18.100.34/portal/plugins/havades/file_add.php?cod=FMSdhfqOoL1DU9tL5lqTwqjO90zdD9kQlhjd1YTV3YnZ1MmercDO1VkT&cod=FMSdhfqOoL1DU9tL5lqTwqjO90zdD9kQlhjd1YTV3YnZ1MmercDO1VkT&mode=edit
+
+Date:
+  2023-11-14 09:59:21
+
+خطا:
+  خطای بارگذاری فایل. <br>نام فایل، نامعتبر است
+
+Developer Details:
+  خطای بارگذاری فایل. <br>PHP_UPLOAD_FILENAME_XSS (FILE_UPLOAD_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql
+      tNG_insert.postExecuteSql
+      AFTER.Trigger_ImageUpload*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  172.18.117.2
+
+Host:
+  172.18.100.34
+
+Requested URI:
+  http://172.18.100.34/portal/plugins/havades/file_add.php?cod=FMSdhfqOoL1DU9tL5lqTwqjO90zdD9kQlhjd1YTV3YnZ1MmercDO1VkT&cod=FMSdhfqOoL1DU9tL5lqTwqjO90zdD9kQlhjd1YTV3YnZ1MmercDO1VkT&mode=edit
+
+Date:
+  2023-11-14 10:00:29
+
+خطا:
+  خطای بارگذاری فایل. <br>نام فایل، نامعتبر است
+
+Developer Details:
+  خطای بارگذاری فایل. <br>PHP_UPLOAD_FILENAME_XSS (FILE_UPLOAD_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql
+      tNG_insert.postExecuteSql
+      AFTER.Trigger_ImageUpload*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  172.18.117.2
+
+Host:
+  172.18.100.34
+
+Requested URI:
+  http://172.18.100.34/portal/plugins/havades/file_add.php?cod=FMSdhfqOoL1DU9tL5lqTwqjO90zdD9kQlhjd1YTV3YnZ1MmercDO1VkT&cod=FMSdhfqOoL1DU9tL5lqTwqjO90zdD9kQlhjd1YTV3YnZ1MmercDO1VkT&mode=edit
+
+Date:
+  2023-11-14 10:00:50
+
+خطا:
+  خطای بارگذاری فایل. <br>نام فایل، نامعتبر است
+
+Developer Details:
+  خطای بارگذاری فایل. <br>PHP_UPLOAD_FILENAME_XSS (FILE_UPLOAD_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql
+      tNG_insert.postExecuteSql
+      AFTER.Trigger_ImageUpload*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  172.18.117.2
+
+Host:
+  172.18.100.34
+
+Requested URI:
+  http://172.18.100.34/portal/plugins/havades/file_add.php?cod=Dtdwi3GUQeDOTxJAm9M$$pojO90zZtBHRQRWayxWWmJkZR9WTwkVUtFUY&cod=Dtdwi3GUQeDOTxJAm9M$$pojO90zZtBHRQRWayxWWmJkZR9WTwkVUtFUY&mode=edit
+
+Date:
+  2023-11-14 10:14:26
+
+خطا:
+  خطای بارگذاری فایل. <br>نام فایل، نامعتبر است
+
+Developer Details:
+  خطای بارگذاری فایل. <br>PHP_UPLOAD_FILENAME_XSS (FILE_UPLOAD_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql
+      tNG_insert.postExecuteSql
+      AFTER.Trigger_ImageUpload*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  172.18.117.2
+
+Host:
+  172.18.100.34
+
+Requested URI:
+  http://172.18.100.34/portal/plugins/havades/file_add.php?cod=mFKtqm8iVirRo0cZKaqQ0qjO90zdl90TvhEOsJDStZmey4maEBzKhBVN&cod=mFKtqm8iVirRo0cZKaqQ0qjO90zdl90TvhEOsJDStZmey4maEBzKhBVN&mode=edit
+
+Date:
+  2023-11-14 10:15:15
+
+خطا:
+  خطای بارگذاری فایل. <br>نام فایل، نامعتبر است
+
+Developer Details:
+  خطای بارگذاری فایل. <br>PHP_UPLOAD_FILENAME_XSS (FILE_UPLOAD_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql
+      tNG_insert.postExecuteSql
+      AFTER.Trigger_ImageUpload*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  172.18.102.2
+
+Host:
+  172.18.100.34
+
+Requested URI:
+  http://172.18.100.34/portal/plugins/havades/file_add.php?cod=OfQv0kZuoeF3FTzEYm$$OSqjO90TQzR2dqZFZUx2ZrMkZaVETwd0UjhjS&cod=OfQv0kZuoeF3FTzEYm$$OSqjO90TQzR2dqZFZUx2ZrMkZaVETwd0UjhjS&mode=edit
+
+Date:
+  2023-11-14 11:52:54
+
+خطا:
+  خطای بارگذاری فایل. <br>سایز فایل باید کمتر از 200 کیلوبایت باشد.
+
+Developer Details:
+  خطای بارگذاری فایل. <br>سایز فایل باید کمتر از 200 کیلوبایت باشد. (FILE_UPLOAD_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql
+      tNG_insert.postExecuteSql
+      AFTER.Trigger_ImageUpload*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  172.18.107.2
+
+Host:
+  172.18.100.34
+
+Requested URI:
+  http://172.18.100.34/portal/plugins/havades/makan_add.php?mode=edit&&cod=5ClpDcOALip2G3uQlWlFfpjO90zZ4U0d0dWY4U1T2EXQp1WZ5dzV0FVR
+
+Date:
+  2023-11-15 13:06:21
+
+خطا:
+  خطای بارگذاری فایل. <br>نام فایل، نامعتبر است
+
+Developer Details:
+  خطای بارگذاری فایل. <br>PHP_UPLOAD_FILENAME_XSS (FILE_UPLOAD_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_update.doTransaction
+      BEFORE.Trigger_Default_saveData
+        tNG_update.saveData
+      BEFORE.Trigger_Default_FormValidation
+      tNG_update.prepareSQL
+      tNG_update.executeTransaction - execute sql
+      AFTER.Trigger_ImageUpload*
+  tNG_insert.getRecordset
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_update.getRecordset
+  tNG_update.getFakeRsArr
+  tNG_update.getLocalRecordset
+  tNG_update.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  172.18.107.2
+
+Host:
+  172.18.100.34
+
+Requested URI:
+  http://172.18.100.34/portal/plugins/havades/file_add.php?cod=cg@@QNOy4yhOzkbOFN@@Z91rjO90TQtF2crE0MxYGOu5Gd5FmNRtCe402Q&cod=cg@@QNOy4yhOzkbOFN@@Z91rjO90TQtF2crE0MxYGOu5Gd5FmNRtCe402Q&mode=edit
+
+Date:
+  2023-11-15 14:47:53
+
+خطا:
+  خطای بارگذاری فایل. <br>سایز فایل باید کمتر از 200 کیلوبایت باشد.
+
+Developer Details:
+  خطای بارگذاری فایل. <br>سایز فایل باید کمتر از 200 کیلوبایت باشد. (FILE_UPLOAD_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql
+      tNG_insert.postExecuteSql
+      AFTER.Trigger_ImageUpload*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  172.18.107.2
+
+Host:
+  172.18.100.34
+
+Requested URI:
+  http://172.18.100.34/portal/plugins/havades/makan_add.php?mode=edit&&cod=uefe4vtGyiNvat8urXTC3rjO90zdyIGWwoWSaZnN1cUUF10dUZ3VE1kc
+
+Date:
+  2023-11-15 16:20:02
+
+خطا:
+  خطای بارگذاری فایل. <br>نام فایل، نامعتبر است
+
+Developer Details:
+  خطای بارگذاری فایل. <br>PHP_UPLOAD_FILENAME_XSS (FILE_UPLOAD_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_update.doTransaction
+      BEFORE.Trigger_Default_saveData
+        tNG_update.saveData
+      BEFORE.Trigger_Default_FormValidation
+      tNG_update.prepareSQL
+      tNG_update.executeTransaction - execute sql
+      AFTER.Trigger_ImageUpload*
+  tNG_insert.getRecordset
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_update.getRecordset
+  tNG_update.getFakeRsArr
+  tNG_update.getLocalRecordset
+  tNG_update.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  172.18.106.10
+
+Host:
+  172.18.100.34
+
+Requested URI:
+  http://172.18.100.34/portal/plugins/havades/payankar_add.php?cod=PDA0EKcOx0tcEBE8EMGduojO90TUGN3bSdTRWlEbUR2YKJ1UwQlZDJlb&mode=edit
+
+Date:
+  2023-11-15 16:23:24
+
+خطا:
+  خطای پایگاه داده. <br><div style="display:none"></div>
+
+Developer Details:
+  خطای پایگاه داده. <br><div style="display:none"></div> (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_update.doTransaction
+      BEFORE.Trigger_Default_saveData
+        tNG_update.saveData
+      BEFORE.Trigger_Default_FormValidation
+      tNG_update.prepareSQL
+      tNG_update.executeTransaction - execute sql*
+  tNG_update.getRecordset
+  tNG_update.getFakeRsArr
+  tNG_update.getLocalRecordset
+  tNG_update.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  172.18.106.10
+
+Host:
+  172.18.100.34
+
+Requested URI:
+  http://172.18.100.34/portal/plugins/havades/payankar_add.php?cod=PDA0EKcOx0tcEBE8EMGduojO90TUGN3bSdTRWlEbUR2YKJ1UwQlZDJlb&mode=edit
+
+Date:
+  2023-11-15 16:23:41
+
+خطا:
+  خطای پایگاه داده. <br><div style="display:none"></div>
+
+Developer Details:
+  خطای پایگاه داده. <br><div style="display:none"></div> (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_update.doTransaction
+      BEFORE.Trigger_Default_saveData
+        tNG_update.saveData
+      BEFORE.Trigger_Default_FormValidation
+      tNG_update.prepareSQL
+      tNG_update.executeTransaction - execute sql*
+  tNG_update.getRecordset
+  tNG_update.getFakeRsArr
+  tNG_update.getLocalRecordset
+  tNG_update.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  172.18.106.10
+
+Host:
+  172.18.100.34
+
+Requested URI:
+  http://172.18.100.34/portal/plugins/havades/payankar_add.php?cod=PDA0EKcOx0tcEBE8EMGduojO90TUGN3bSdTRWlEbUR2YKJ1UwQlZDJlb&mode=edit
+
+Date:
+  2023-11-15 16:23:55
+
+خطا:
+  خطای پایگاه داده. <br><div style="display:none"></div>
+
+Developer Details:
+  خطای پایگاه داده. <br><div style="display:none"></div> (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_update.doTransaction
+      BEFORE.Trigger_Default_saveData
+        tNG_update.saveData
+      BEFORE.Trigger_Default_FormValidation
+      tNG_update.prepareSQL
+      tNG_update.executeTransaction - execute sql*
+  tNG_update.getRecordset
+  tNG_update.getFakeRsArr
+  tNG_update.getLocalRecordset
+  tNG_update.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  172.18.107.2
+
+Host:
+  172.18.100.34
+
+Requested URI:
+  http://172.18.100.34/portal/plugins/havades/payankar_add.php?cod=$$46NN3hFbZqfxvxeRV59xqjO90zdJNUazcUV612KzhHdVh1aGhWYRJnM&mode=edit
+
+Date:
+  2023-11-15 17:40:45
+
+خطا:
+  خطای پایگاه داده. <br><div style="display:none"></div>
+
+Developer Details:
+  خطای پایگاه داده. <br><div style="display:none"></div> (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_update.doTransaction
+      BEFORE.Trigger_Default_saveData
+        tNG_update.saveData
+      BEFORE.Trigger_Default_FormValidation
+      tNG_update.prepareSQL
+      tNG_update.executeTransaction - execute sql*
+  tNG_update.getRecordset
+  tNG_update.getFakeRsArr
+  tNG_update.getLocalRecordset
+  tNG_update.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  172.18.107.2
+
+Host:
+  172.18.100.34
+
+Requested URI:
+  http://172.18.100.34/portal/plugins/havades/makan_add.php?mode=edit&&cod=2Mq1raol4akn2NASrYqk5ojO90zZLpGTwITR3MFZlZXUxh3S51keX12U
+
+Date:
+  2023-11-15 18:38:15
+
+خطا:
+  پسوند فایل نامعتبر است
+
+Developer Details:
+  FILE_EXTENTION_ERROR (FILE_EXTENTION_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_update.doTransaction
+      BEFORE.Trigger_Default_saveData
+        tNG_update.saveData
+      BEFORE.Trigger_Default_FormValidation
+      tNG_update.prepareSQL
+      tNG_update.executeTransaction - execute sql
+      AFTER.Trigger_ImageUpload*
+  tNG_insert.getRecordset
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_update.getRecordset
+  tNG_update.getFakeRsArr
+  tNG_update.getLocalRecordset
+  tNG_update.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  172.18.107.2
+
+Host:
+  172.18.100.34
+
+Requested URI:
+  http://172.18.100.34/portal/plugins/havades/makan_add.php?mode=edit&&cod=2Mq1raol4akn2NASrYqk5ojO90zZLpGTwITR3MFZlZXUxh3S51keX12U
+
+Date:
+  2023-11-15 18:38:34
+
+خطا:
+  پسوند فایل نامعتبر است
+
+Developer Details:
+  FILE_EXTENTION_ERROR (FILE_EXTENTION_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_update.doTransaction
+      BEFORE.Trigger_Default_saveData
+        tNG_update.saveData
+      BEFORE.Trigger_Default_FormValidation
+      tNG_update.prepareSQL
+      tNG_update.executeTransaction - execute sql
+      AFTER.Trigger_ImageUpload*
+  tNG_insert.getRecordset
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_update.getRecordset
+  tNG_update.getFakeRsArr
+  tNG_update.getLocalRecordset
+  tNG_update.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  172.18.107.2
+
+Host:
+  172.18.100.34
+
+Requested URI:
+  http://172.18.100.34/portal/plugins/havades/makan_add.php?mode=edit&&cod=2Mq1raol4akn2NASrYqk5ojO90zZLpGTwITR3MFZlZXUxh3S51keX12U
+
+Date:
+  2023-11-15 18:39:05
+
+خطا:
+  پسوند فایل نامعتبر است
+
+Developer Details:
+  FILE_EXTENTION_ERROR (FILE_EXTENTION_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_update.doTransaction
+      BEFORE.Trigger_Default_saveData
+        tNG_update.saveData
+      BEFORE.Trigger_Default_FormValidation
+      tNG_update.prepareSQL
+      tNG_update.executeTransaction - execute sql
+      AFTER.Trigger_ImageUpload*
+  tNG_insert.getRecordset
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_update.getRecordset
+  tNG_update.getFakeRsArr
+  tNG_update.getLocalRecordset
+  tNG_update.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  172.18.107.2
+
+Host:
+  172.18.100.34
+
+Requested URI:
+  http://172.18.100.34/portal/plugins/havades/makan_add.php?cod=fPcD9a5RRchnOEo10u4j9rjO90TUFdmNaZWNxIXRWtmYCtGewY0Y28iT&mode=edit
+
+Date:
+  2023-11-16 14:57:42
+
+خطا:
+  خطای بارگذاری فایل. <br>نام فایل، نامعتبر است
+
+Developer Details:
+  خطای بارگذاری فایل. <br>PHP_UPLOAD_FILENAME_XSS (FILE_UPLOAD_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_update.doTransaction
+      BEFORE.Trigger_Default_saveData
+        tNG_update.saveData
+      BEFORE.Trigger_Default_FormValidation
+      tNG_update.prepareSQL
+      tNG_update.executeTransaction - execute sql
+      AFTER.Trigger_ImageUpload*
+  tNG_insert.getRecordset
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_update.getRecordset
+  tNG_update.getFakeRsArr
+  tNG_update.getLocalRecordset
+  tNG_update.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  172.18.131.2
+
+Host:
+  172.18.100.34
+
+Requested URI:
+  http://172.18.100.34/portal/plugins/havades/parvane_add.php?cod=dw@@bDDAB6F01doR3nOLjbojO90zdoVHbrwWNIFje2cDTkFUSGlFShVja&mode=edit
+
+Date:
+  2023-11-18 14:03:46
+
+خطا:
+  خطای پایگاه داده. <br><div style="display:none"></div>
+
+Developer Details:
+  خطای پایگاه داده. <br><div style="display:none"></div> (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  172.16.90.190
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  https://payesh.bonyadmaskan.ir/portal/plugins/savanehgroup/savanehgroup_add.php
+
+Date:
+  2023-11-20 09:29:28
+
+خطا:
+  خطای پایگاه داده. <br><div style="display:none"></div>
+
+Developer Details:
+  خطای پایگاه داده. <br><div style="display:none"></div> (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      BEFORE.Trigger_CheckUnique1
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  172.16.90.190
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  https://payesh.bonyadmaskan.ir/portal/plugins/savanehgroup/savanehgroup_add.php
+
+Date:
+  2023-11-20 09:29:28
+
+خطا:
+  خطای پایگاه داده. <br><div style="display:none"></div>
+
+Developer Details:
+  خطای پایگاه داده. <br><div style="display:none"></div> (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      BEFORE.Trigger_CheckUnique1
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  172.16.90.190
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  https://payesh.bonyadmaskan.ir/portal/plugins/savanehgroup/savanehgroup_add.php
+
+Date:
+  2023-11-20 09:29:28
+
+خطا:
+  خطای پایگاه داده. <br><div style="display:none"></div>
+
+Developer Details:
+  خطای پایگاه داده. <br><div style="display:none"></div> (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      BEFORE.Trigger_CheckUnique1
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  172.16.90.190
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  https://payesh.bonyadmaskan.ir/portal/plugins/savanehgroup/savanehgroup_add.php
+
+Date:
+  2023-11-20 09:29:28
+
+خطا:
+  خطای پایگاه داده. <br><div style="display:none"></div>
+
+Developer Details:
+  خطای پایگاه داده. <br><div style="display:none"></div> (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      BEFORE.Trigger_CheckUnique1
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  172.16.90.190
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  https://payesh.bonyadmaskan.ir/portal/plugins/savanehgroup/savanehgroup_add.php
+
+Date:
+  2023-11-20 09:29:28
+
+خطا:
+  خطای پایگاه داده. <br><div style="display:none"></div>
+
+Developer Details:
+  خطای پایگاه داده. <br><div style="display:none"></div> (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      BEFORE.Trigger_CheckUnique1
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  172.16.90.190
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  https://payesh.bonyadmaskan.ir/portal/plugins/savanehgroup/savanehgroup_add.php
+
+Date:
+  2023-11-20 09:29:28
+
+خطا:
+  خطای پایگاه داده. <br><div style="display:none"></div>
+
+Developer Details:
+  خطای پایگاه داده. <br><div style="display:none"></div> (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      BEFORE.Trigger_CheckUnique1
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  172.16.90.190
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  https://payesh.bonyadmaskan.ir/portal/plugins/savanehgroup/savanehgroup_add.php
+
+Date:
+  2023-11-20 09:29:28
+
+خطا:
+  خطای پایگاه داده. <br><div style="display:none"></div>
+
+Developer Details:
+  خطای پایگاه داده. <br><div style="display:none"></div> (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      BEFORE.Trigger_CheckUnique1
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  172.16.90.190
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  https://payesh.bonyadmaskan.ir/portal/plugins/savanehgroup/savanehgroup_add.php
+
+Date:
+  2023-11-20 09:29:28
+
+خطا:
+  خطای پایگاه داده. <br><div style="display:none"></div>
+
+Developer Details:
+  خطای پایگاه داده. <br><div style="display:none"></div> (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      BEFORE.Trigger_CheckUnique1
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  172.16.90.190
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  https://payesh.bonyadmaskan.ir/portal/plugins/savanehgroup/savanehgroup_add.php
+
+Date:
+  2023-11-20 09:29:28
+
+خطا:
+  خطای پایگاه داده. <br><div style="display:none"></div>
+
+Developer Details:
+  خطای پایگاه داده. <br><div style="display:none"></div> (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      BEFORE.Trigger_CheckUnique1
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  172.18.123.2
+
+Host:
+  172.18.100.34
+
+Requested URI:
+  http://172.18.100.34/portal/plugins/havades/pishraft_add.php?hcode=Q@@1WXTDY9iEj5apl6YUO4pjO90zZwVXejtUVMFzTydzMn9CO3tUOGh2L&cod=Q@@1WXTDY9iEj5apl6YUO4pjO90zZwVXejtUVMFzTydzMn9CO3tUOGh2L&mode=edit
+
+Date:
+  2023-11-20 09:34:45
+
+خطا:
+  خطای پایگاه داده. <br><div style="display:none"></div>
+
+Developer Details:
+  خطای پایگاه داده. <br><div style="display:none"></div> (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  172.18.117.2
+
+Host:
+  172.18.100.34
+
+Requested URI:
+  http://172.18.100.34/portal/plugins/havades/havades_edit.php?cod=2DuFi$$YFUvmOEm16RdBAJojO90TQyEnVo10UWFWQ18iWyEGWvUzLyZHe&mode=edit
+
+Date:
+  2023-11-20 12:23:27
+
+خطا:
+  خطای پایگاه داده. <br><div style="display:none"></div>
+
+Developer Details:
+  خطای پایگاه داده. <br><div style="display:none"></div> (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_update.doTransaction
+      BEFORE.Trigger_Default_saveData
+        tNG_update.saveData
+      BEFORE.Trigger_Default_FormValidation
+      tNG_update.prepareSQL
+      tNG_update.executeTransaction - execute sql*
+  tNG_update.getRecordset
+  tNG_update.getFakeRsArr
+  tNG_update.getLocalRecordset
+  tNG_update.getFakeRecordset
+  tNG_update.executeTransaction
+  tNG_update.getRecordset
+  tNG_update.getFakeRsArr
+  tNG_update.getLocalRecordset
+  tNG_update.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  172.16.90.190
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  https://payesh.bonyadmaskan.ir/portal/plugins/savanehgroup/savanehgroup_add.php
+
+Date:
+  2023-11-21 08:11:22
+
+خطا:
+  خطای پایگاه داده. <br><div style="display:none"></div>
+
+Developer Details:
+  خطای پایگاه داده. <br><div style="display:none"></div> (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      BEFORE.Trigger_CheckUnique1
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  172.16.90.190
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  https://payesh.bonyadmaskan.ir/portal/plugins/savanehgroup/savanehgroup_add.php
+
+Date:
+  2023-11-21 08:11:23
+
+خطا:
+  خطای پایگاه داده. <br><div style="display:none"></div>
+
+Developer Details:
+  خطای پایگاه داده. <br><div style="display:none"></div> (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      BEFORE.Trigger_CheckUnique1
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  172.16.90.190
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  https://payesh.bonyadmaskan.ir/portal/plugins/savanehgroup/savanehgroup_add.php
+
+Date:
+  2023-11-21 08:11:23
+
+خطا:
+  خطای پایگاه داده. <br><div style="display:none"></div>
+
+Developer Details:
+  خطای پایگاه داده. <br><div style="display:none"></div> (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      BEFORE.Trigger_CheckUnique1
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  172.16.90.190
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  https://payesh.bonyadmaskan.ir/portal/plugins/savanehgroup/savanehgroup_add.php
+
+Date:
+  2023-11-21 08:11:23
+
+خطا:
+  خطای پایگاه داده. <br><div style="display:none"></div>
+
+Developer Details:
+  خطای پایگاه داده. <br><div style="display:none"></div> (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      BEFORE.Trigger_CheckUnique1
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  172.16.90.190
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  https://payesh.bonyadmaskan.ir/portal/plugins/savanehgroup/savanehgroup_add.php
+
+Date:
+  2023-11-21 08:11:23
+
+خطا:
+  خطای پایگاه داده. <br><div style="display:none"></div>
+
+Developer Details:
+  خطای پایگاه داده. <br><div style="display:none"></div> (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      BEFORE.Trigger_CheckUnique1
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  172.16.90.190
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  https://payesh.bonyadmaskan.ir/portal/plugins/savanehgroup/savanehgroup_add.php
+
+Date:
+  2023-11-21 08:11:23
+
+خطا:
+  خطای پایگاه داده. <br><div style="display:none"></div>
+
+Developer Details:
+  خطای پایگاه داده. <br><div style="display:none"></div> (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      BEFORE.Trigger_CheckUnique1
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  172.16.90.190
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  https://payesh.bonyadmaskan.ir/portal/plugins/savanehgroup/savanehgroup_add.php
+
+Date:
+  2023-11-21 08:11:23
+
+خطا:
+  خطای پایگاه داده. <br><div style="display:none"></div>
+
+Developer Details:
+  خطای پایگاه داده. <br><div style="display:none"></div> (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      BEFORE.Trigger_CheckUnique1
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  172.16.90.190
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  https://payesh.bonyadmaskan.ir/portal/plugins/savanehgroup/savanehgroup_add.php
+
+Date:
+  2023-11-21 08:11:23
+
+خطا:
+  خطای پایگاه داده. <br><div style="display:none"></div>
+
+Developer Details:
+  خطای پایگاه داده. <br><div style="display:none"></div> (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      BEFORE.Trigger_CheckUnique1
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  172.16.90.190
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  https://payesh.bonyadmaskan.ir/portal/plugins/savanehgroup/savanehgroup_add.php
+
+Date:
+  2023-11-21 08:11:23
+
+خطا:
+  خطای پایگاه داده. <br><div style="display:none"></div>
+
+Developer Details:
+  خطای پایگاه داده. <br><div style="display:none"></div> (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      BEFORE.Trigger_CheckUnique1
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  172.16.90.190
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  https://payesh.bonyadmaskan.ir/portal/plugins/rosta/rosta_add.php
+
+Date:
+  2023-11-21 09:02:00
+
+خطا:
+  خطای پایگاه داده. <br><div style="display:none"></div>
+
+Developer Details:
+  خطای پایگاه داده. <br><div style="display:none"></div> (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  172.16.90.190
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  https://payesh.bonyadmaskan.ir/portal/plugins/rosta/rosta_add.php
+
+Date:
+  2023-11-21 09:05:19
+
+خطا:
+  خطای پایگاه داده. <br><div style="display:none"></div>
+
+Developer Details:
+  خطای پایگاه داده. <br><div style="display:none"></div> (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  172.16.90.190
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  https://payesh.bonyadmaskan.ir/portal/plugins/rosta/rosta_add.php
+
+Date:
+  2023-11-21 09:07:47
+
+خطا:
+  خطای پایگاه داده. <br><div style="display:none"></div>
+
+Developer Details:
+  خطای پایگاه داده. <br><div style="display:none"></div> (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  172.16.90.190
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  https://payesh.bonyadmaskan.ir/portal/plugins/rosta/rosta_add.php
+
+Date:
+  2023-11-21 09:10:45
+
+خطا:
+  خطای پایگاه داده. <br><div style="display:none"></div>
+
+Developer Details:
+  خطای پایگاه داده. <br><div style="display:none"></div> (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  172.16.90.190
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  https://payesh.bonyadmaskan.ir/portal/plugins/rosta/rosta_add.php
+
+Date:
+  2023-11-21 09:13:23
+
+خطا:
+  خطای پایگاه داده. <br><div style="display:none"></div>
+
+Developer Details:
+  خطای پایگاه داده. <br><div style="display:none"></div> (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  172.16.90.190
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  https://payesh.bonyadmaskan.ir/portal/plugins/rosta/rosta_add.php
+
+Date:
+  2023-11-21 09:14:49
+
+خطا:
+  خطای پایگاه داده. <br><div style="display:none"></div>
+
+Developer Details:
+  خطای پایگاه داده. <br><div style="display:none"></div> (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  172.16.90.190
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  https://payesh.bonyadmaskan.ir/portal/plugins/admin/admin_add.php
+
+Date:
+  2023-11-21 13:40:54
+
+خطا:
+  کاربر با این نام کاربری قبلا درج شده است
+
+Developer Details:
+  %s
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      BEFORE.Trigger_CheckUnique*
+      ERROR.Trigger_Default_Insert_RollBack
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  172.16.90.190
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  https://payesh.bonyadmaskan.ir/portal/plugins/admin/admin_add.php
+
+Date:
+  2023-11-21 13:40:54
+
+خطا:
+  کاربر با این نام کاربری قبلا درج شده است
+
+Developer Details:
+  %s
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      BEFORE.Trigger_CheckUnique*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  172.18.129.2
+
+Host:
+  172.18.100.34
+
+Requested URI:
+  http://172.18.100.34/portal/plugins/havades/payankar_add.php?cod=I@@Drqqmb356kT8ArBlgt8rjO90zZYxUamNEe5MjN45EduZ0LydmY3NWR&mode=edit
+
+Date:
+  2023-11-22 10:42:15
+
+خطا:
+  خطای پایگاه داده. <br><div style="display:none"></div>
+
+Developer Details:
+  خطای پایگاه داده. <br><div style="display:none"></div> (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_update.doTransaction
+      BEFORE.Trigger_Default_saveData
+        tNG_update.saveData
+      BEFORE.Trigger_Default_FormValidation
+      tNG_update.prepareSQL
+      tNG_update.executeTransaction - execute sql*
+  tNG_update.getRecordset
+  tNG_update.getFakeRsArr
+  tNG_update.getLocalRecordset
+  tNG_update.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  172.18.106.10
+
+Host:
+  172.18.100.34
+
+Requested URI:
+  http://172.18.100.34/portal/plugins/havades/havades_edit.php?cod=!!UlxUhFDbKJzYWhpBLD@@2elO60zdzg1THJ2NyNkbwZmZPN3TNVTO0N2d0lGUatmMTFzVK9yLsZDbkZkY5EGR&mode=edit
+
+Date:
+  2023-11-23 12:36:55
+
+خطا:
+  خطای پایگاه داده. <br><div style="display:none"></div>
+
+Developer Details:
+  خطای پایگاه داده. <br><div style="display:none"></div> (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_update.doTransaction
+      BEFORE.Trigger_Default_saveData
+        tNG_update.saveData
+      BEFORE.Trigger_Default_FormValidation
+      tNG_update.prepareSQL
+      tNG_update.executeTransaction - execute sql*
+  tNG_update.getRecordset
+  tNG_update.getFakeRsArr
+  tNG_update.getLocalRecordset
+  tNG_update.getFakeRecordset
+  tNG_update.executeTransaction
+  tNG_update.getRecordset
+  tNG_update.getFakeRsArr
+  tNG_update.getLocalRecordset
+  tNG_update.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  172.18.107.2
+
+Host:
+  172.18.100.34
+
+Requested URI:
+  http://172.18.100.34/portal/plugins/havades/makan_add.php?mode=edit&&cod=3AYT7BZuRNL5ejm1XIgg9ojO90zdnJGdaBVTTNmW1lDeaJDe2d3ULlzL
+
+Date:
+  2023-11-23 15:14:40
+
+خطا:
+  خطای بارگذاری فایل. <br>نام فایل، نامعتبر است
+
+Developer Details:
+  خطای بارگذاری فایل. <br>PHP_UPLOAD_FILENAME_XSS (FILE_UPLOAD_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_update.doTransaction
+      BEFORE.Trigger_Default_saveData
+        tNG_update.saveData
+      BEFORE.Trigger_Default_FormValidation
+      tNG_update.prepareSQL
+      tNG_update.executeTransaction - execute sql
+      AFTER.Trigger_ImageUpload*
+  tNG_insert.getRecordset
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_update.getRecordset
+  tNG_update.getFakeRsArr
+  tNG_update.getLocalRecordset
+  tNG_update.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  172.18.102.2
+
+Host:
+  172.18.100.34
+
+Requested URI:
+  http://172.18.100.34/portal/plugins/havades/file_add.php?cod=WWrW93nsEoh0j@@m$$jrnofqjO90TQYV1SINneER0coN3SzNFSMtSOB9UW&cod=WWrW93nsEoh0j@@m$$jrnofqjO90TQYV1SINneER0coN3SzNFSMtSOB9UW&mode=edit
+
+Date:
+  2023-11-25 09:49:09
+
+خطا:
+  خطای بارگذاری فایل. <br>سایز فایل باید کمتر از 200 کیلوبایت باشد.<br />نام فایل، نامعتبر است
+
+Developer Details:
+  خطای بارگذاری فایل. <br>سایز فایل باید کمتر از 200 کیلوبایت باشد.<br />PHP_UPLOAD_FILENAME_XSS (FILE_UPLOAD_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql
+      tNG_insert.postExecuteSql
+      AFTER.Trigger_ImageUpload*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  172.18.102.2
+
+Host:
+  172.18.100.34
+
+Requested URI:
+  http://172.18.100.34/portal/plugins/havades/file_add.php?cod=WWrW93nsEoh0j@@m$$jrnofqjO90TQYV1SINneER0coN3SzNFSMtSOB9UW&cod=WWrW93nsEoh0j@@m$$jrnofqjO90TQYV1SINneER0coN3SzNFSMtSOB9UW&mode=edit
+
+Date:
+  2023-11-25 09:50:05
+
+خطا:
+  خطای بارگذاری فایل. <br>نام فایل، نامعتبر است
+
+Developer Details:
+  خطای بارگذاری فایل. <br>PHP_UPLOAD_FILENAME_XSS (FILE_UPLOAD_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql
+      tNG_insert.postExecuteSql
+      AFTER.Trigger_ImageUpload*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  172.16.90.190
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  https://payesh.bonyadmaskan.ir/portal/plugins/mahale/mahale_add.php
+
+Date:
+  2023-11-26 08:27:22
+
+خطا:
+  خطای پایگاه داده. <br><div style="display:none"></div>
+
+Developer Details:
+  خطای پایگاه داده. <br><div style="display:none"></div> (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  172.16.90.190
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  https://payesh.bonyadmaskan.ir/portal/plugins/havades/gheteold_add.php?cod=GfyXV5kxCRHHkcIzgrYNyrjO90zZ1gERxZDcSBXalNUVZpVdYlWZrF2R&mode=edit
+
+Date:
+  2023-11-26 10:51:44
+
+خطا:
+  خطای پایگاه داده. <br><div style="display:none"></div>
+
+Developer Details:
+  خطای پایگاه داده. <br><div style="display:none"></div> (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  172.16.90.190
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  https://payesh.bonyadmaskan.ir/portal/plugins/havades/gheteold_add.php?cod=GfyXV5kxCRHHkcIzgrYNyrjO90zZ1gERxZDcSBXalNUVZpVdYlWZrF2R&mode=edit
+
+Date:
+  2023-11-26 10:51:44
+
+خطا:
+  خطای پایگاه داده. <br><div style="display:none"></div>
+
+Developer Details:
+  خطای پایگاه داده. <br><div style="display:none"></div> (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  172.16.90.190
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  https://payesh.bonyadmaskan.ir/portal/plugins/havades/gheteold_add.php?cod=GfyXV5kxCRHHkcIzgrYNyrjO90zZ1gERxZDcSBXalNUVZpVdYlWZrF2R&mode=edit
+
+Date:
+  2023-11-26 10:53:05
+
+خطا:
+  خطای پایگاه داده. <br><div style="display:none"></div>
+
+Developer Details:
+  خطای پایگاه داده. <br><div style="display:none"></div> (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  172.16.90.190
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  https://payesh.bonyadmaskan.ir/portal/plugins/havades/gheteold_add.php?cod=GfyXV5kxCRHHkcIzgrYNyrjO90zZ1gERxZDcSBXalNUVZpVdYlWZrF2R&mode=edit
+
+Date:
+  2023-11-26 10:53:05
+
+خطا:
+  خطای پایگاه داده. <br><div style="display:none"></div>
+
+Developer Details:
+  خطای پایگاه داده. <br><div style="display:none"></div> (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  172.16.90.190
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  https://payesh.bonyadmaskan.ir/portal/plugins/havades/gheteold_add.php?cod=GfyXV5kxCRHHkcIzgrYNyrjO90zZ1gERxZDcSBXalNUVZpVdYlWZrF2R&mode=edit
+
+Date:
+  2023-11-26 10:54:41
+
+خطا:
+  خطای پایگاه داده. <br><div style="display:none"></div>
+
+Developer Details:
+  خطای پایگاه داده. <br><div style="display:none"></div> (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  172.16.90.190
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  https://payesh.bonyadmaskan.ir/portal/plugins/havades/gheteold_add.php?cod=GfyXV5kxCRHHkcIzgrYNyrjO90zZ1gERxZDcSBXalNUVZpVdYlWZrF2R&mode=edit
+
+Date:
+  2023-11-26 10:54:41
+
+خطا:
+  خطای پایگاه داده. <br><div style="display:none"></div>
+
+Developer Details:
+  خطای پایگاه داده. <br><div style="display:none"></div> (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  172.16.90.190
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  https://payesh.bonyadmaskan.ir/portal/plugins/havades/gheteold_add.php?cod=GfyXV5kxCRHHkcIzgrYNyrjO90zZ1gERxZDcSBXalNUVZpVdYlWZrF2R&mode=edit
+
+Date:
+  2023-11-26 10:58:39
+
+خطا:
+  خطای پایگاه داده. <br><div style="display:none"></div>
+
+Developer Details:
+  خطای پایگاه داده. <br><div style="display:none"></div> (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  172.16.90.190
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  https://payesh.bonyadmaskan.ir/portal/plugins/havades/gheteold_add.php?cod=GfyXV5kxCRHHkcIzgrYNyrjO90zZ1gERxZDcSBXalNUVZpVdYlWZrF2R&mode=edit
+
+Date:
+  2023-11-26 10:58:39
+
+خطا:
+  خطای پایگاه داده. <br><div style="display:none"></div>
+
+Developer Details:
+  خطای پایگاه داده. <br><div style="display:none"></div> (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  172.16.90.190
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  https://payesh.bonyadmaskan.ir/portal/plugins/havades/gheteold_add.php?cod=GfyXV5kxCRHHkcIzgrYNyrjO90zZ1gERxZDcSBXalNUVZpVdYlWZrF2R&mode=edit
+
+Date:
+  2023-11-26 11:09:34
+
+خطا:
+  خطای پایگاه داده. <br><div style="display:none"></div>
+
+Developer Details:
+  خطای پایگاه داده. <br><div style="display:none"></div> (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  172.16.90.190
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  https://payesh.bonyadmaskan.ir/portal/plugins/havades/gheteold_add.php?cod=GfyXV5kxCRHHkcIzgrYNyrjO90zZ1gERxZDcSBXalNUVZpVdYlWZrF2R&mode=edit
+
+Date:
+  2023-11-26 11:09:34
+
+خطا:
+  خطای پایگاه داده. <br><div style="display:none"></div>
+
+Developer Details:
+  خطای پایگاه داده. <br><div style="display:none"></div> (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  172.18.131.2
+
+Host:
+  172.18.100.34
+
+Requested URI:
+  http://172.18.100.34/portal/plugins/havades/file_add.php?cod=P2V8F36P$$PFQUcgpBaJRlpjO90zZyhnRlR0U5pHZaZ0LM9yMxUTYxknT&cod=P2V8F36P$$PFQUcgpBaJRlpjO90zZyhnRlR0U5pHZaZ0LM9yMxUTYxknT&mode=edit
+
+Date:
+  2023-11-26 11:16:16
+
+خطا:
+  خطای بارگذاری فایل. <br>سایز فایل باید کمتر از 200 کیلوبایت باشد.
+
+Developer Details:
+  خطای بارگذاری فایل. <br>سایز فایل باید کمتر از 200 کیلوبایت باشد. (FILE_UPLOAD_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql
+      tNG_insert.postExecuteSql
+      AFTER.Trigger_ImageUpload*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  172.16.90.190
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  https://payesh.bonyadmaskan.ir/portal/plugins/savaneh/ghete_add.php?id=PeknWCNTpb9G6gxePjeYjrjO90TUGt2MyMVWXp0MjJ2djllQpZUR4pHT&sgcode=yLBUVcA@@9lghtbXUkrP82ojO90zZnJET3JncYl0UE9yZRtkarpWZzI1T
+
+Date:
+  2023-11-26 11:22:40
+
+خطا:
+  خطای بارگذاری فایل. <br>نام فایل، نامعتبر است
+
+Developer Details:
+  خطای بارگذاری فایل. <br>PHP_UPLOAD_FILENAME_XSS (FILE_UPLOAD_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql
+      tNG_insert.postExecuteSql
+      AFTER.Trigger_ImageUpload2*
+      ERROR.Trigger_Default_Insert_RollBack
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  172.16.40.195
+
+Host:
+  payesh
+
+Requested URI:
+  http://payesh/portal/plugins/admin/admin_add.php
+
+Date:
+  2023-11-26 11:52:38
+
+خطا:
+  کاربر با این نام کاربری قبلا درج شده است
+
+Developer Details:
+  %s
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      BEFORE.Trigger_CheckUnique*
+      ERROR.Trigger_Default_Insert_RollBack
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  172.16.40.195
+
+Host:
+  payesh
+
+Requested URI:
+  http://payesh/portal/plugins/admin/admin_add.php
+
+Date:
+  2023-11-26 11:52:39
+
+خطا:
+  کاربر با این نام کاربری قبلا درج شده است
+
+Developer Details:
+  %s
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      BEFORE.Trigger_CheckUnique*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  172.18.107.2
+
+Host:
+  172.18.100.34
+
+Requested URI:
+  http://172.18.100.34/portal/plugins/havades/payankar_add.php?cod=ehjIhTh1AdbajwLm0tA9DrjO90zd3V3amVEVnNFS3ZXWyMlctBVRrIkU&mode=edit
+
+Date:
+  2023-11-26 17:45:48
+
+خطا:
+  خطای پایگاه داده. <br><div style="display:none"></div>
+
+Developer Details:
+  خطای پایگاه داده. <br><div style="display:none"></div> (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_update.doTransaction
+      BEFORE.Trigger_Default_saveData
+        tNG_update.saveData
+      BEFORE.Trigger_Default_FormValidation
+      tNG_update.prepareSQL
+      tNG_update.executeTransaction - execute sql*
+  tNG_update.getRecordset
+  tNG_update.getFakeRsArr
+  tNG_update.getLocalRecordset
+  tNG_update.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  172.18.117.2
+
+Host:
+  172.18.100.34
+
+Requested URI:
+  http://172.18.100.34/portal/plugins/havalat/savanehgroup_anbar.php?id=7jolZuFIrxrFngHuNcYptrjO90TQ5IzVjBVaqJHbX1UbC50R190Z2ZkV&edit=1
+
+Date:
+  2023-11-27 08:03:51
+
+خطا:
+  خطای پایگاه داده. <br><div style="display:none"></div>
+
+Developer Details:
+  خطای پایگاه داده. <br><div style="display:none"></div> (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  172.16.90.190
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  https://payesh.bonyadmaskan.ir/portal/plugins/havades/file_add.php?cod=iW@@@@h0Maoxd9$$JeM@@NSUcrjO90zdr0GOaZEduRzYOR3dRNTRDhDWYZTR&mode=edit
+
+Date:
+  2023-11-27 08:59:22
+
+خطا:
+  خطای بارگذاری فایل. <br>سایز فایل باید کمتر از 200 کیلوبایت باشد.
+
+Developer Details:
+  خطای بارگذاری فایل. <br>سایز فایل باید کمتر از 200 کیلوبایت باشد. (FILE_UPLOAD_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql
+      tNG_insert.postExecuteSql
+      AFTER.Trigger_ImageUpload*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  172.18.111.2
+
+Host:
+  172.18.100.34
+
+Requested URI:
+  http://172.18.100.34/portal/plugins/havades/havades_edit.php?cod=h5kZ7eKEH@@nZhqXomBDnJojO90zdvg3VJZkW6VUZ38ydolEVjNWZ4oGd&mode=edit
+
+Date:
+  2023-11-27 09:21:27
+
+خطا:
+  خطای پایگاه داده. <br><div style="display:none"></div>
+
+Developer Details:
+  خطای پایگاه داده. <br><div style="display:none"></div> (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_update.doTransaction
+      BEFORE.Trigger_Default_saveData
+        tNG_update.saveData
+      BEFORE.Trigger_Default_FormValidation
+      tNG_update.prepareSQL
+      tNG_update.executeTransaction - execute sql*
+  tNG_update.getRecordset
+  tNG_update.getFakeRsArr
+  tNG_update.getLocalRecordset
+  tNG_update.getFakeRecordset
+  tNG_update.executeTransaction
+  tNG_update.getRecordset
+  tNG_update.getFakeRsArr
+  tNG_update.getLocalRecordset
+  tNG_update.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  172.16.90.190
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  https://payesh.bonyadmaskan.ir/portal/plugins/havades/file_add.php?cod=Utxs3tG0uZ3EP6bVfUCFOrjO90TUDFWbUdlUrd3NZlVQ2g1UkpnNVZDS&mode=edit
+
+Date:
+  2023-11-27 11:22:35
+
+خطا:
+  خطای پایگاه داده. <br><div style="display:none"></div>
+
+Developer Details:
+  خطای پایگاه داده. <br><div style="display:none"></div> (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  172.16.90.190
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  https://payesh.bonyadmaskan.ir/portal/plugins/havades/file_add.php?cod=Utxs3tG0uZ3EP6bVfUCFOrjO90TUDFWbUdlUrd3NZlVQ2g1UkpnNVZDS&mode=edit
+
+Date:
+  2023-11-27 11:27:08
+
+خطا:
+  خطای پایگاه داده. <br><div style="display:none"></div>
+
+Developer Details:
+  خطای پایگاه داده. <br><div style="display:none"></div> (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  172.16.90.190
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  https://payesh.bonyadmaskan.ir/portal/plugins/havades/file_add.php?cod=dDVRKN1PC0kJaQGSpml93rjO90TU6dTd1klT5pWNuFXbiZzYWtWTGJDM&mode=edit
+
+Date:
+  2023-11-27 11:30:09
+
+خطا:
+  خطای پایگاه داده. <br><div style="display:none"></div>
+
+Developer Details:
+  خطای پایگاه داده. <br><div style="display:none"></div> (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  172.16.90.190
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  https://payesh.bonyadmaskan.ir/portal/plugins/havades/file_add.php?cod=dDVRKN1PC0kJaQGSpml93rjO90TU6dTd1klT5pWNuFXbiZzYWtWTGJDM&mode=edit
+
+Date:
+  2023-11-27 11:30:34
+
+خطا:
+  خطای پایگاه داده. <br><div style="display:none"></div>
+
+Developer Details:
+  خطای پایگاه داده. <br><div style="display:none"></div> (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  172.18.107.2
+
+Host:
+  172.18.100.34
+
+Requested URI:
+  http://172.18.100.34/portal/plugins/havades/makan_add.php?mode=edit&&cod=T$$rg6xriqbRcE25k6LhihojO90zZ6hGUpdleRZ3NhZVdx42Z41We4t0N
+
+Date:
+  2023-11-27 16:24:33
+
+خطا:
+  خطای بارگذاری فایل. <br>سایز فایل باید کمتر از 300 کیلوبایت باشد.
+
+Developer Details:
+  خطای بارگذاری فایل. <br>سایز فایل باید کمتر از 300 کیلوبایت باشد. (FILE_UPLOAD_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_update.doTransaction
+      BEFORE.Trigger_Default_saveData
+        tNG_update.saveData
+      BEFORE.Trigger_Default_FormValidation
+      tNG_update.prepareSQL
+      tNG_update.executeTransaction - execute sql
+      AFTER.Trigger_ImageUpload*
+  tNG_insert.getRecordset
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_update.getRecordset
+  tNG_update.getFakeRsArr
+  tNG_update.getLocalRecordset
+  tNG_update.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  172.18.107.2
+
+Host:
+  172.18.100.34
+
+Requested URI:
+  http://172.18.100.34/portal/plugins/havades/makan_add.php?mode=edit&&cod=w96X7u6lYfRDPYOK8Iy6arjO90TQM9mRJ5EaZBlYy9SO0s0dQVlQ4E0N
+
+Date:
+  2023-11-27 16:35:43
+
+خطا:
+  خطای بارگذاری فایل. <br>سایز فایل باید کمتر از 300 کیلوبایت باشد.
+
+Developer Details:
+  خطای بارگذاری فایل. <br>سایز فایل باید کمتر از 300 کیلوبایت باشد. (FILE_UPLOAD_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_update.doTransaction
+      BEFORE.Trigger_Default_saveData
+        tNG_update.saveData
+      BEFORE.Trigger_Default_FormValidation
+      tNG_update.prepareSQL
+      tNG_update.executeTransaction - execute sql
+      AFTER.Trigger_ImageUpload*
+  tNG_insert.getRecordset
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_update.getRecordset
+  tNG_update.getFakeRsArr
+  tNG_update.getLocalRecordset
+  tNG_update.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  172.18.104.2
+
+Host:
+  172.18.100.34
+
+Requested URI:
+  http://172.18.100.34/portal/plugins/havades/file_add.php?cod=nHB1ku2jdITdo07LdwxExrjO90TQvxkMKljQRJ2SVl1NaJDe2tkQWtyd&cod=nHB1ku2jdITdo07LdwxExrjO90TQvxkMKljQRJ2SVl1NaJDe2tkQWtyd&mode=edit
+
+Date:
+  2023-11-27 17:21:59
+
+خطا:
+  خطای پایگاه داده. <br><div style="display:none"></div>
+
+Developer Details:
+  خطای پایگاه داده. <br><div style="display:none"></div> (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  172.18.123.2
+
+Host:
+  172.18.100.34
+
+Requested URI:
+  http://172.18.100.34/portal/plugins/havades/payankar_add.php?cod=HMADmpEDW$$C7@@q@@7CGcbRpjO90TQRhWVLVWVypVbvYWavMlUCF3YUtES&mode=edit
+
+Date:
+  2023-11-28 10:27:04
+
+خطا:
+  خطای پایگاه داده. <br><div style="display:none"></div>
+
+Developer Details:
+  خطای پایگاه داده. <br><div style="display:none"></div> (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_update.doTransaction
+      BEFORE.Trigger_Default_saveData
+        tNG_update.saveData
+      BEFORE.Trigger_Default_FormValidation
+      tNG_update.prepareSQL
+      tNG_update.executeTransaction - execute sql*
+  tNG_update.getRecordset
+  tNG_update.getFakeRsArr
+  tNG_update.getLocalRecordset
+  tNG_update.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  172.18.129.2
+
+Host:
+  172.18.100.34
+
+Requested URI:
+  http://172.18.100.34/portal/plugins/havades/makan_add.php?mode=edit&&cod=bZdvt4rxDTPuWdxIwE6srqjO90zZs5WMEZWawJlRhd0boFHTohTWt9Gd
+
+Date:
+  2023-11-29 11:38:12
+
+خطا:
+  خطای پایگاه داده. <br><div style="display:none"></div>
+
+Developer Details:
+  خطای پایگاه داده. <br><div style="display:none"></div> (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+  tNG_update.getRecordset
+  tNG_update.getLocalRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  172.16.90.190
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  https://payesh.bonyadmaskan.ir/portal/plugins/havades/file_add.php?cod=MumCNvxEpPJWoV$$nza9u4qjO90TQDp3L1M3SOBTQ3M1a0dXQTxUR4klS&mode=edit
+
+Date:
+  2023-11-29 12:11:57
+
+خطا:
+  خطای بارگذاری فایل. <br>سایز فایل باید کمتر از 200 کیلوبایت باشد.
+
+Developer Details:
+  خطای بارگذاری فایل. <br>سایز فایل باید کمتر از 200 کیلوبایت باشد. (FILE_UPLOAD_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql
+      tNG_insert.postExecuteSql
+      AFTER.Trigger_ImageUpload*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  172.16.90.190
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  https://payesh.bonyadmaskan.ir/portal/plugins/havades/file_add.php?cod=euACJfhmf8OqqPgqWwbZYqjO90TQIlEM1F0NFxWcaFnYwcDb1ZnaZhTd&mode=edit
+
+Date:
+  2023-11-29 13:16:28
+
+خطا:
+  خطای بارگذاری فایل. <br>سایز فایل باید کمتر از 200 کیلوبایت باشد.
+
+Developer Details:
+  خطای بارگذاری فایل. <br>سایز فایل باید کمتر از 200 کیلوبایت باشد. (FILE_UPLOAD_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql
+      tNG_insert.postExecuteSql
+      AFTER.Trigger_ImageUpload*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  172.18.102.2
+
+Host:
+  172.18.100.34
+
+Requested URI:
+  http://172.18.100.34/portal/plugins/havades/file_add.php?cod=dKElrhhViG@@D1ZfMV83PGojO90zd3gUNGFUTSFHRDBDbHZjdrYmNkZzR&cod=dKElrhhViG@@D1ZfMV83PGojO90zd3gUNGFUTSFHRDBDbHZjdrYmNkZzR&mode=edit
+
+Date:
+  2023-11-29 14:29:20
+
+خطا:
+  خطای بارگذاری فایل. <br>سایز فایل باید کمتر از 200 کیلوبایت باشد.
+
+Developer Details:
+  خطای بارگذاری فایل. <br>سایز فایل باید کمتر از 200 کیلوبایت باشد. (FILE_UPLOAD_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql
+      tNG_insert.postExecuteSql
+      AFTER.Trigger_ImageUpload*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  172.18.102.2
+
+Host:
+  172.18.100.34
+
+Requested URI:
+  http://172.18.100.34/portal/plugins/havades/file_add.php?cod=dKElrhhViG@@D1ZfMV83PGojO90zd3gUNGFUTSFHRDBDbHZjdrYmNkZzR&cod=dKElrhhViG@@D1ZfMV83PGojO90zd3gUNGFUTSFHRDBDbHZjdrYmNkZzR&mode=edit
+
+Date:
+  2023-11-29 14:30:24
+
+خطا:
+  خطای بارگذاری فایل. <br>سایز فایل باید کمتر از 200 کیلوبایت باشد.
+
+Developer Details:
+  خطای بارگذاری فایل. <br>سایز فایل باید کمتر از 200 کیلوبایت باشد. (FILE_UPLOAD_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql
+      tNG_insert.postExecuteSql
+      AFTER.Trigger_ImageUpload*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  172.18.107.2
+
+Host:
+  172.18.100.34
+
+Requested URI:
+  http://172.18.100.34/portal/plugins/havades/makan_add.php?cod=sD4rwbf3Gmk7rJ6VfwvORojO90TUXRDeltEeGtCZ6lWcThVMal2c1cEN&mode=edit
+
+Date:
+  2023-11-30 15:02:06
+
+خطا:
+  خطای بارگذاری فایل. <br>نام فایل، نامعتبر است
+
+Developer Details:
+  خطای بارگذاری فایل. <br>PHP_UPLOAD_FILENAME_XSS (FILE_UPLOAD_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_update.doTransaction
+      BEFORE.Trigger_Default_saveData
+        tNG_update.saveData
+      BEFORE.Trigger_Default_FormValidation
+      tNG_update.prepareSQL
+      tNG_update.executeTransaction - execute sql
+      AFTER.Trigger_ImageUpload*
+  tNG_insert.getRecordset
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_update.getRecordset
+  tNG_update.getFakeRsArr
+  tNG_update.getLocalRecordset
+  tNG_update.getFakeRecordset
+=== END MESSAGE ===

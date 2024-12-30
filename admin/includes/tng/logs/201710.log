@@ -1,0 +1,711 @@
+=== BEGIN MESSAGE ===
+Client IP:
+  ::1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/nezam/admin/plugins/project/project_edit.php?id=!!!!gBLq25uzxkMHOWkpZY6xbX
+
+Date:
+  2017-10-21 16:59:54
+
+Error:
+  Internal error.
+
+Developer Details:
+  tNG_update.getLocalRecordset:<br /><strong>Error message:</strong><br />Unknown column 'code' in 'field list'<br /><strong>SQL statement:</strong><br />SELECT code,name,status,id, id as kt_pk_project FROM project WHERE id =8 (UPD_RS)
+
+tNG Execution Trace:
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+  tNG_update.getRecordset
+  tNG_update.getLocalRecordset*
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  ::1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/nezam/admin/plugins/project/project_add.php
+
+Date:
+  2017-10-22 17:32:32
+
+Error:
+  SQL error: Field 'structuretype' doesn't have a default value.
+
+Developer Details:
+  SQL error: INSERT INTO project (projecttrack, fname, lname, codemeli, address, pelak, codeposti, noekarbari, sayerkarbari, constructiongroup, workstep, projectpercent, parvane, parvanecode, parvanedate, marjasodor, projectplace, projectcode, zirbana, satheshghal, saghf, vahed, vahedt, afzayeshbana, afzayeshsaghf, afzayeshmetr, finalzirbana, afzayeshsabt, afzayeshcode, comision, estehkam, estehkamnezam, status) values ('150868095296', 'کامران', 'ملکی', '2093590670', 'ساری', '65', '1234567891', 1, '-', 2, 3, 10, '1', '654321', '1396/07/30', 1, '1', '158', '100', '15', 2, 1, 2, '1', 1, '50', '40', '1', '987', '1', '1', '0', '1'). (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  ::1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/nezam/admin/plugins/projectreport/projectreport_edit.php?id=!!!!ArwHANTBV4rzRmlXf0K388
+
+Date:
+  2017-10-22 18:20:35
+
+Error:
+  Internal error.
+
+Developer Details:
+  tNG_update.getLocalRecordset:<br /><strong>Error message:</strong><br />Unknown column 'name' in 'field list'<br /><strong>SQL statement:</strong><br />SELECT name,type,qcat,constructiongroup,startdate,enddate,status,sort,id, id as kt_pk_projectreport FROM projectreport WHERE id =3 (UPD_RS)
+
+tNG Execution Trace:
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+  tNG_update.getRecordset
+  tNG_update.getLocalRecordset*
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  ::1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/nezam/admin/plugins/project/project_add.php
+
+Date:
+  2017-10-22 18:58:28
+
+Error:
+  SQL error: Column 'noekarbari' cannot be null.
+
+Developer Details:
+  SQL error: INSERT INTO project (projecttrack, fname, lname, codemeli, address, pelak, codeposti, noekarbari, sayerkarbari, constructiongroup, workstep, projectpercent, parvane, parvanecode, parvanedate, marjasodor, projectplace, projectcode, zirbana, satheshghal, saghf, vahed, vahedt, afzayeshbana, afzayeshsaghf, afzayeshmetr, finalzirbana, afzayeshsabt, afzayeshcode, comision, estehkam, estehkamnezam, structuretype, sewagetype, status) values ('150868610833', '5', '5', '5', '5', '55', '5555555555', null, null, 2, 4, 0, '0', null, '1396/07/30', 1, '2', '555', '55', '55', 55, 55, 5, '1', 5, '5', '5', '0', '5', '1', '1', '0', 2, 2, '1'). (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  ::1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/nezam/admin/plugins/project/project_add.php
+
+Date:
+  2017-10-22 20:05:46
+
+Error:
+  SQL error: Column 'noekarbari' cannot be null.
+
+Developer Details:
+  SQL error: INSERT INTO project (projecttrack, fname, lname, codemeli, address, pelak, codeposti, noekarbari, sayerkarbari, constructiongroup, workstep, projectpercent, parvane, parvanecode, parvanedate, marjasodor, projectplace, projectcode, zirbana, satheshghal, saghf, vahed, vahedt, afzayeshbana, afzayeshsaghf, afzayeshmetr, finalzirbana, afzayeshsabt, afzayeshcode, comision, estehkam, estehkamnezam, structuretype, sewagetype, status) values ('150869014678', '1', '1', '1', '1', '1', '1', null, '1', 2, 2, 1, '1', '1111', '1396/07/30', 1, '1', '11', '11', '11', 11, 11, 11, '1', 1, '1', '1', '1', '111', '1', '1', '1', 2, 2, '1'). (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  ::1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/nezam/admin/plugins/project/project_step1.php?id=!!!!wvrQLfcQIjhJ2r4zgFlUzf
+
+Date:
+  2017-10-25 19:06:11
+
+Error:
+  Internal error.
+
+Developer Details:
+  tNG_update.getLocalRecordset:<br /><strong>Error message:</strong><br />You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '  as kt_pk FROM  WHERE  =' at line 1<br /><strong>SQL statement:</strong><br />SELECT ,  as kt_pk FROM  WHERE  = (UPD_RS)
+
+tNG Execution Trace:
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+  tNG_update.getRecordset
+  tNG_update.getLocalRecordset*
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  ::1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/nezam/admin/plugins/project/project_add.php
+
+Date:
+  2017-10-26 19:21:42
+
+Error:
+  SQL error: Unknown column 'ostancode' in 'field list'.
+
+Developer Details:
+  SQL error: INSERT INTO project (projecttrack, fname, lname, codemeli, ostancode, shahrestancode, shahrcode, bakhshcode, address, pelak, codeposti, noekarbari, sayerkarbari, constructiongroup, workstep, projectpercent, parvane, parvanecode, parvanedate, marjasodor, projectplace, projectcode, zirbana, satheshghal, saghf, vahed, vahedt, afzayeshbana, afzayeshsaghf, afzayeshmetr, finalzirbana, afzayeshsabt, afzayeshcode, comision, estehkam, estehkamnezam, structuretype, sewagetype, status) values ('150903310111', '99', '99', '99', '32', '3202', '3202010001', '320201', '9', '9', '9', '3', '9', 2, 4, 0, '1', '9', '1396/08/04', 1, '2', '999', '99', '9', 9, 9, 9, '1', 9, '9', '9', '1', '9', '1', '1', '0', 2, 2, '1'). (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  ::1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/nezam/admin/plugins/shahr/shahr_add.php
+
+Date:
+  2017-10-28 19:05:17
+
+Error:
+  SQL error: Unknown column 'ostan' in 'field list'.
+
+Developer Details:
+  SQL error: INSERT INTO shahr (ostan, shahrestan, bakhsh, code, name, active) values ('02', '0207', '020703', 'test', 'test2', null). (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  ::1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/nezam/admin/plugins/shahr/shahr_add.php
+
+Date:
+  2017-10-28 19:06:54
+
+Error:
+  SQL error: Column 'active' cannot be null.
+
+Developer Details:
+  SQL error: INSERT INTO shahr (ostancode, shahrestancode, bakhshcode, code, name, active) values ('02', '0207', '020703', 'test', 'test2', null). (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  ::1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/nezam/admin/plugins/bakhsh/bakhsh_edit.php?id=!!!!g35rX5LBmNqeevgLBwQ6T9
+
+Date:
+  2017-10-28 20:29:30
+
+Error:
+  Internal error.
+
+Developer Details:
+  tNG_update.getLocalRecordset:<br /><strong>Error message:</strong><br />Unknown column 'bakhshcode' in 'field list'<br /><strong>SQL statement:</strong><br />SELECT ostancode,shahrestancode,bakhshcode,code,name,active,id, id as kt_pk_bakhsh FROM bakhsh WHERE id =952 (UPD_RS)
+
+tNG Execution Trace:
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+  tNG_update.getRecordset
+  tNG_update.getLocalRecordset*
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  ::1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/nezam/admin/plugins/bakhsh/bakhsh_edit.php?id=!!!!g35rX5LBmNqeevgLBwQ6T9
+
+Date:
+  2017-10-28 20:31:07
+
+Error:
+  SQL error: Column 'active' cannot be null.
+
+Developer Details:
+  SQL error: UPDATE bakhsh SET ostancode='01', shahrestancode='0101', code='010101', name='مرکزی', active=null WHERE id = 952. (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_update.doTransaction
+      BEFORE.Trigger_Default_saveData
+        tNG_update.saveData
+      BEFORE.Trigger_Default_FormValidation
+      tNG_update.prepareSQL
+      tNG_update.executeTransaction - execute sql*
+  tNG_update.getRecordset
+  tNG_update.getFakeRsArr
+  tNG_update.getLocalRecordset
+  tNG_update.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  ::1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/nezam/admin/plugins/shahrestan/shahrestan_edit.php?id=
+
+Date:
+  2017-10-28 20:38:38
+
+Error:
+  Internal error.
+
+Developer Details:
+  tNG_update.getLocalRecordset:<br /><strong>Error message:</strong><br />Unknown column 'shahrestancode' in 'field list'<br /><strong>SQL statement:</strong><br />SELECT ostancode,shahrestancode,code,name,active,id, id as kt_pk_shahrestan FROM shahrestan WHERE id =0 (UPD_RS)
+
+tNG Execution Trace:
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+  tNG_update.getRecordset
+  tNG_update.getLocalRecordset*
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  ::1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/nezam/admin/plugins/ostan/ostan_add.php
+
+Date:
+  2017-10-29 18:16:02
+
+Error:
+  SQL error: Column 'active' cannot be null.
+
+Developer Details:
+  SQL error: INSERT INTO ostan (code, name, active) values ('test', 'tedt', null). (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  ::1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/nezam/admin/plugins/rosta/rosta_edit.php?id=!!!!QlvajGHvXcQEGr9axYrZ3U
+
+Date:
+  2017-10-29 19:09:30
+
+Error:
+  SQL error: Column 'shahrcode' cannot be null.
+
+Developer Details:
+  SQL error: UPDATE rosta SET ostancode='23', shahrestancode='2304', bakhshcode='230401', shahrcode=null, code='test', name='test', active='1' WHERE id = 66235. (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_update.doTransaction
+      BEFORE.Trigger_Default_saveData
+        tNG_update.saveData
+      BEFORE.Trigger_Default_FormValidation
+      tNG_update.prepareSQL
+      tNG_update.executeTransaction - execute sql*
+  tNG_update.getRecordset
+  tNG_update.getFakeRsArr
+  tNG_update.getLocalRecordset
+  tNG_update.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  ::1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/nezam/admin/plugins/project/project_add.php
+
+Date:
+  2017-10-29 19:39:54
+
+Error:
+  SQL error: Column 'fname' cannot be null.
+
+Developer Details:
+  SQL error: INSERT INTO project (projecttrack, fname, lname, codemeli, ostan, shahrestan, shahr, bakhsh, rosta, address, pelak, codeposti, noekarbari, sayerkarbari, constructiongroup, workstep, projectpercent, parvane, parvanecode, parvanedate, marjasodor, projectplace, projectcode, zirbana, satheshghal, saghf, vahed, vahedt, afzayeshbana, afzayeshsaghf, afzayeshmetr, finalzirbana, afzayeshsabt, afzayeshcode, comision, estehkam, estehkamnezam, structuretype, sewagetype, status) values ('150929339437', null, null, null, '28', '2801', '2801010001', '280101', '2801010001037125822', null, null, null, null, null, null, null, 0, null, null, '1396/08/07', 1, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null). (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  ::1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/nezam/admin/plugins/project/project_add.php
+
+Date:
+  2017-10-29 19:40:04
+
+Error:
+  SQL error: Column 'fname' cannot be null.
+
+Developer Details:
+  SQL error: INSERT INTO project (projecttrack, fname, lname, codemeli, ostan, shahrestan, shahr, bakhsh, rosta, address, pelak, codeposti, noekarbari, sayerkarbari, constructiongroup, workstep, projectpercent, parvane, parvanecode, parvanedate, marjasodor, projectplace, projectcode, zirbana, satheshghal, saghf, vahed, vahedt, afzayeshbana, afzayeshsaghf, afzayeshmetr, finalzirbana, afzayeshsabt, afzayeshcode, comision, estehkam, estehkamnezam, structuretype, sewagetype, status) values ('150929340440', null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, 0, null, null, '1396/08/07', 1, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null). (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  ::1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/nezam/admin/plugins/project/project_add.php
+
+Date:
+  2017-10-29 19:41:10
+
+Error:
+  SQL error: Column 'fname' cannot be null.
+
+Developer Details:
+  SQL error: INSERT INTO project (projecttrack, fname, lname, codemeli, ostan, shahrestan, shahr, bakhsh, rosta, address, pelak, codeposti, noekarbari, sayerkarbari, constructiongroup, workstep, projectpercent, parvane, parvanecode, parvanedate, marjasodor, projectplace, projectcode, zirbana, satheshghal, saghf, vahed, vahedt, afzayeshbana, afzayeshsaghf, afzayeshmetr, finalzirbana, afzayeshsabt, afzayeshcode, comision, estehkam, estehkamnezam, structuretype, sewagetype, status) values ('150929347038', null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, 0, null, null, '1396/08/07', 1, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null). (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  ::1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/nezam/admin/plugins/project/project_add.php
+
+Date:
+  2017-10-29 19:41:38
+
+Error:
+  SQL error: Column 'fname' cannot be null.
+
+Developer Details:
+  SQL error: INSERT INTO project (projecttrack, fname, lname, codemeli, ostan, shahrestan, shahr, bakhsh, rosta, address, pelak, codeposti, noekarbari, sayerkarbari, constructiongroup, workstep, projectpercent, parvane, parvanecode, parvanedate, marjasodor, projectplace, projectcode, zirbana, satheshghal, saghf, vahed, vahedt, afzayeshbana, afzayeshsaghf, afzayeshmetr, finalzirbana, afzayeshsabt, afzayeshcode, comision, estehkam, estehkamnezam, structuretype, sewagetype, status) values ('150929349863', null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, 0, null, null, '1396/08/07', 1, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null). (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  ::1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/nezam/admin/plugins/project/project_add.php
+
+Date:
+  2017-10-29 19:42:03
+
+Error:
+  SQL error: Column 'fname' cannot be null.
+
+Developer Details:
+  SQL error: INSERT INTO project (projecttrack, fname, lname, codemeli, ostan, shahrestan, shahr, bakhsh, rosta, address, pelak, codeposti, noekarbari, sayerkarbari, constructiongroup, workstep, projectpercent, parvane, parvanecode, parvanedate, marjasodor, projectplace, projectcode, zirbana, satheshghal, saghf, vahed, vahedt, afzayeshbana, afzayeshsaghf, afzayeshmetr, finalzirbana, afzayeshsabt, afzayeshcode, comision, estehkam, estehkamnezam, structuretype, sewagetype, status) values ('150929352312', null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, 0, null, null, '1396/08/07', 1, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null). (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  ::1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/nezam/admin/plugins/project/project_add.php
+
+Date:
+  2017-10-29 19:42:34
+
+Error:
+  SQL error: Column 'fname' cannot be null.
+
+Developer Details:
+  SQL error: INSERT INTO project (projecttrack, fname, lname, codemeli, ostan, shahrestan, shahr, bakhsh, rosta, address, pelak, codeposti, noekarbari, sayerkarbari, constructiongroup, workstep, projectpercent, parvane, parvanecode, parvanedate, marjasodor, projectplace, projectcode, zirbana, satheshghal, saghf, vahed, vahedt, afzayeshbana, afzayeshsaghf, afzayeshmetr, finalzirbana, afzayeshsabt, afzayeshcode, comision, estehkam, estehkamnezam, structuretype, sewagetype, status) values ('150929355420', null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, 0, null, null, '1396/08/07', 1, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null). (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  ::1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/nezam/admin/plugins/project/project_add.php
+
+Date:
+  2017-10-29 19:46:23
+
+Error:
+  SQL error: Column 'fname' cannot be null.
+
+Developer Details:
+  SQL error: INSERT INTO project (projecttrack, fname, lname, codemeli, ostan, shahrestan, shahr, bakhsh, rosta, address, pelak, codeposti, noekarbari, sayerkarbari, constructiongroup, workstep, projectpercent, parvane, parvanecode, parvanedate, marjasodor, projectplace, projectcode, zirbana, satheshghal, saghf, vahed, vahedt, afzayeshbana, afzayeshsaghf, afzayeshmetr, finalzirbana, afzayeshsabt, afzayeshcode, comision, estehkam, estehkamnezam, structuretype, sewagetype, status) values ('150929378311', null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, 0, null, null, '1396/08/07', 1, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null). (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  ::1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/nezam/admin/plugins/project/project_edit.php?id=!!!!Amj@@hRU210IKMfbwH$$vigT
+
+Date:
+  2017-10-29 20:20:41
+
+Error:
+  Internal error.
+
+Developer Details:
+  tNG_update.getLocalRecordset:<br /><strong>Error message:</strong><br />Unknown column 'code' in 'field list'<br /><strong>SQL statement:</strong><br />SELECT code,name,status,id, id as kt_pk_project FROM project WHERE id =31 (UPD_RS)
+
+tNG Execution Trace:
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+  tNG_update.getRecordset
+  tNG_update.getLocalRecordset*
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  ::1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/nezam/admin/plugins/project/project_edit.php?id=!!!!Amj@@hRU210IKMfbwH$$vigT
+
+Date:
+  2017-10-29 20:33:04
+
+Error:
+  SQL error: Column 'noekarbari' cannot be null.
+
+Developer Details:
+  SQL error: UPDATE project SET fname='بهنام', lname='شیرزاد', codemeli='209355555', ostan='06', shahrestan='0611', shahr='0611010005', bakhsh='061101', rosta='611010005014064992', address='خیابان جمهوری', pelak='25', codeposti='12365478891', noekarbari=null, sayerkarbari='-', constructiongroup=2, workstep=1, projectpercent=2, parvane='1', parvanecode='212', parvanedate='1396/08/07', marjasodor=1, projectplace='1', projectcode='654123', zirbana='100', satheshghal='10', saghf=4, vahed=12, vahedt=2, afzayeshbana='1', afzayeshsaghf=2, afzayeshmetr='100', finalzirbana='125', afzayeshsabt='1', afzayeshcode='33333', comision='1', estehkam='1', estehkamnezam='0', structuretype=2, sewagetype=2, status='1' WHERE id = 31. (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_update.doTransaction
+      BEFORE.Trigger_Default_saveData
+        tNG_update.saveData
+      BEFORE.Trigger_Default_FormValidation
+      tNG_update.prepareSQL
+      tNG_update.executeTransaction - execute sql*
+  tNG_update.getRecordset
+  tNG_update.getFakeRsArr
+  tNG_update.getLocalRecordset
+  tNG_update.getFakeRecordset
+=== END MESSAGE ===

@@ -1,0 +1,1429 @@
+=== BEGIN MESSAGE ===
+Client IP:
+  127.0.0.1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/setadbazsazi/admin/plugins/savaneh/savaneh_edit.php?id=!!!!AUrEymnMMTa1mRSJsE7$$73
+
+Date:
+  2017-12-02 17:32:22
+
+Error:
+  Internal error.
+
+Developer Details:
+  tNG_update.getLocalRecordset:<br /><strong>Error message:</strong><br />Unknown column 'hid' in 'field list'<br /><strong>SQL statement:</strong><br />SELECT hid,level1,level2,level3,level4,level5,level6,level7,level8,level9,level10,level11,rostaavar,file,user,ip,repdate,status,id, id as kt_pk_savaneh FROM savaneh WHERE id =0 (UPD_RS)
+
+tNG Execution Trace:
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+  tNG_update.getRecordset
+  tNG_update.getLocalRecordset*
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  127.0.0.1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/setadbazsazi/admin/plugins/savaneh/savaneh_edit.php?id=!!!!AUrEymnMMTa1mRSJsE7$$73
+
+Date:
+  2017-12-02 17:32:26
+
+Error:
+  Internal error.
+
+Developer Details:
+  tNG_update.getLocalRecordset:<br /><strong>Error message:</strong><br />Unknown column 'hid' in 'field list'<br /><strong>SQL statement:</strong><br />SELECT hid,level1,level2,level3,level4,level5,level6,level7,level8,level9,level10,level11,rostaavar,file,user,ip,repdate,status,id, id as kt_pk_savaneh FROM savaneh WHERE id =0 (UPD_RS)
+
+tNG Execution Trace:
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+  tNG_update.getRecordset
+  tNG_update.getLocalRecordset*
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  89.196.17.165
+
+Host:
+  212.16.95.18
+
+Requested URI:
+  http://212.16.95.18/portal/plugins/admingroup/admingroup_add.php
+
+Date:
+  2017-12-02 21:14:02
+
+Error:
+  SQL error: Field 'id' doesn't have a default value.
+
+Developer Details:
+  SQL error: INSERT INTO admingroup (name, status) values ('فناوری دفتر مرکزی', '1'). (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  5.122.47.233
+
+Host:
+  212.16.95.18
+
+Requested URI:
+  http://212.16.95.18/portal/plugins/savaneh/savaneh_edit.php?id=!!!!gCwk1tXyXlfdFjywDoJWsp
+
+Date:
+  2017-12-03 13:08:06
+
+Error:
+  Internal error.
+
+Developer Details:
+  tNG_update.getLocalRecordset:<br /><strong>Error message:</strong><br />Unknown column 'hid' in 'field list'<br /><strong>SQL statement:</strong><br />SELECT hid,level1,level2,level3,level4,level5,level6,level7,level8,level9,level10,level11,rostaavar,file,user,ip,repdate,status,id, id as kt_pk_savaneh FROM savaneh WHERE id =0 (UPD_RS)
+
+tNG Execution Trace:
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+  tNG_update.getRecordset
+  tNG_update.getLocalRecordset*
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  5.122.47.233
+
+Host:
+  212.16.95.18
+
+Requested URI:
+  http://212.16.95.18/portal/plugins/reportpishraft/reportpishraft_add.php
+
+Date:
+  2017-12-03 13:41:54
+
+Error:
+  SQL error: Column 'startopsh' cannot be null.
+
+Developer Details:
+  SQL error: INSERT INTO reportpishraft (hid, level1, level2, level3, level4, level5, level6, level7, level8, level9, level10, level11, level1ro, level2ro, level3ro, level4ro, level5ro, level6ro, level7ro, level8ro, level9ro, level10ro, level11ro, startopsh, endopsh, startopro, endopro, rostaavar, file, user, ip, setdate, repdate, status) values ('1', 303, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, null, null, null, null, 0, '', 'admin', '5.122.47.233', '1396/09/12 13:41:54', '1396/09/11', '1'). (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  172.16.90.5
+
+Host:
+  212.16.95.18
+
+Requested URI:
+  http://212.16.95.18/portal/change_pass.php
+
+Date:
+  2017-12-05 15:23:49
+
+Error:
+  SQL error: Column 'pass' cannot be null.
+
+Developer Details:
+  SQL error: UPDATE `admin` SET pass=null WHERE user = 'admin'. (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_update.doTransaction
+      BEFORE.Trigger_Default_saveData
+        tNG_update.saveData
+      BEFORE.Trigger_Default_FormValidation
+      tNG_update.prepareSQL
+      tNG_update.executeTransaction - execute sql*
+  tNG_update.getRecordset
+  tNG_update.getFakeRsArr
+  tNG_update.getLocalRecordset
+  tNG_update.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  5.122.84.110
+
+Host:
+  212.16.95.18
+
+Requested URI:
+  http://212.16.95.18/portal/plugins/savaneh/savaneh_edit.php?id=!!!!Qtcd@@jm7MxfSJhIAfzlwlv
+
+Date:
+  2017-12-07 17:13:00
+
+Error:
+  SQL error: Column 'shahr' cannot be null.
+
+Developer Details:
+  SQL error: UPDATE savaneh SET category='1001', name='ستاد معین اردبیل', ostan='05', shahr=null, tedadrosta='61', htype='1', tozihat=null, tarikh='1396/08/21', user='support', sdate='1396/09/16', regstatus='1', active='1' WHERE id = 12. (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_update.doTransaction
+      BEFORE.Trigger_Default_saveData
+        tNG_update.saveData
+      BEFORE.Trigger_Default_FormValidation
+      tNG_update.prepareSQL
+      tNG_update.executeTransaction - execute sql*
+  tNG_update.getRecordset
+  tNG_update.getFakeRsArr
+  tNG_update.getLocalRecordset
+  tNG_update.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  5.122.84.110
+
+Host:
+  212.16.95.18
+
+Requested URI:
+  http://212.16.95.18/portal/plugins/savaneh/savaneh_edit.php?id=!!!!ATZW856KJrFjspjS@@2w5Rj
+
+Date:
+  2017-12-07 17:13:03
+
+Error:
+  SQL error: Column 'shahr' cannot be null.
+
+Developer Details:
+  SQL error: UPDATE savaneh SET category='1001', name='ستاد معین کرمانشاه-جوانرود', ostan='05', shahr=null, tedadrosta='429', htype='1', tozihat=null, tarikh='1396/08/21', user='support', sdate='1396/09/16', regstatus='1', active='1' WHERE id = 9. (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_update.doTransaction
+      BEFORE.Trigger_Default_saveData
+        tNG_update.saveData
+      BEFORE.Trigger_Default_FormValidation
+      tNG_update.prepareSQL
+      tNG_update.executeTransaction - execute sql*
+  tNG_update.getRecordset
+  tNG_update.getFakeRsArr
+  tNG_update.getLocalRecordset
+  tNG_update.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  5.122.84.110
+
+Host:
+  212.16.95.18
+
+Requested URI:
+  http://212.16.95.18/portal/plugins/savaneh/savaneh_edit.php?id=!!!!gc4SuavYRLVhoif$$yo@@r2p
+
+Date:
+  2017-12-07 17:13:06
+
+Error:
+  SQL error: Column 'shahr' cannot be null.
+
+Developer Details:
+  SQL error: UPDATE savaneh SET category='1001', name='ستاد معین آذربایجان غربی', ostan='05', shahr=null, tedadrosta='143', htype='1', tozihat=null, tarikh='1396/08/21', user='support', sdate='1396/09/16', regstatus='1', active='1' WHERE id = 8. (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_update.doTransaction
+      BEFORE.Trigger_Default_saveData
+        tNG_update.saveData
+      BEFORE.Trigger_Default_FormValidation
+      tNG_update.prepareSQL
+      tNG_update.executeTransaction - execute sql*
+  tNG_update.getRecordset
+  tNG_update.getFakeRsArr
+  tNG_update.getLocalRecordset
+  tNG_update.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  5.122.84.110
+
+Host:
+  212.16.95.18
+
+Requested URI:
+  http://212.16.95.18/portal/plugins/savaneh/savaneh_edit.php?id=!!!!gqrOoPC1JTm3CQ8bhMEbP2
+
+Date:
+  2017-12-07 17:13:10
+
+Error:
+  SQL error: Column 'shahr' cannot be null.
+
+Developer Details:
+  SQL error: UPDATE savaneh SET category='1001', name='ستاد معین لرستان', ostan='05', shahr=null, tedadrosta='103', htype='1', tozihat=null, tarikh='1396/08/21', user='support', sdate='1396/09/16', regstatus='1', active='1' WHERE id = 7. (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_update.doTransaction
+      BEFORE.Trigger_Default_saveData
+        tNG_update.saveData
+      BEFORE.Trigger_Default_FormValidation
+      tNG_update.prepareSQL
+      tNG_update.executeTransaction - execute sql*
+  tNG_update.getRecordset
+  tNG_update.getFakeRsArr
+  tNG_update.getLocalRecordset
+  tNG_update.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  5.122.84.110
+
+Host:
+  212.16.95.18
+
+Requested URI:
+  http://212.16.95.18/portal/plugins/savaneh/savaneh_edit.php?id=!!!!Q2Ie$$78mEbWHd0SuQqoRjX
+
+Date:
+  2017-12-07 17:13:13
+
+Error:
+  SQL error: Column 'shahr' cannot be null.
+
+Developer Details:
+  SQL error: UPDATE savaneh SET category='1001', name='ستاد معین کردستان', ostan='05', shahr=null, tedadrosta='138', htype='1', tozihat=null, tarikh='1396/08/21', user='support', sdate='1396/09/16', regstatus='1', active='1' WHERE id = 6. (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_update.doTransaction
+      BEFORE.Trigger_Default_saveData
+        tNG_update.saveData
+      BEFORE.Trigger_Default_FormValidation
+      tNG_update.prepareSQL
+      tNG_update.executeTransaction - execute sql*
+  tNG_update.getRecordset
+  tNG_update.getFakeRsArr
+  tNG_update.getLocalRecordset
+  tNG_update.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  5.122.84.110
+
+Host:
+  212.16.95.18
+
+Requested URI:
+  http://212.16.95.18/portal/plugins/savaneh/savaneh_edit.php?id=!!!!wWPBVwl$$4zL$$IdCXBLD6Jl
+
+Date:
+  2017-12-07 17:13:16
+
+Error:
+  SQL error: Column 'shahr' cannot be null.
+
+Developer Details:
+  SQL error: UPDATE savaneh SET category='1001', name='ستاد معین تهران', ostan='05', shahr=null, tedadrosta='34', htype='1', tozihat=null, tarikh='1396/08/21', user='support', sdate='1396/09/16', regstatus='1', active='1' WHERE id = 5. (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_update.doTransaction
+      BEFORE.Trigger_Default_saveData
+        tNG_update.saveData
+      BEFORE.Trigger_Default_FormValidation
+      tNG_update.prepareSQL
+      tNG_update.executeTransaction - execute sql*
+  tNG_update.getRecordset
+  tNG_update.getFakeRsArr
+  tNG_update.getLocalRecordset
+  tNG_update.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  5.122.84.110
+
+Host:
+  212.16.95.18
+
+Requested URI:
+  http://212.16.95.18/portal/plugins/savaneh/savaneh_edit.php?id=!!!!AQHE$$cQtQPLXOMajwoJJTD
+
+Date:
+  2017-12-07 17:13:19
+
+Error:
+  SQL error: Column 'shahr' cannot be null.
+
+Developer Details:
+  SQL error: UPDATE savaneh SET category='1001', name='ستاد معین قزوین', ostan='05', shahr=null, tedadrosta='110', htype='1', tozihat=null, tarikh='1396/08/21', user='support', sdate='1396/09/16', regstatus='1', active='1' WHERE id = 4. (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_update.doTransaction
+      BEFORE.Trigger_Default_saveData
+        tNG_update.saveData
+      BEFORE.Trigger_Default_FormValidation
+      tNG_update.prepareSQL
+      tNG_update.executeTransaction - execute sql*
+  tNG_update.getRecordset
+  tNG_update.getFakeRsArr
+  tNG_update.getLocalRecordset
+  tNG_update.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  5.122.84.110
+
+Host:
+  212.16.95.18
+
+Requested URI:
+  http://212.16.95.18/portal/plugins/savaneh/savaneh_edit.php?id=!!!!g$$qgmqz0RSiXwCLDAPw7Kj
+
+Date:
+  2017-12-07 17:13:22
+
+Error:
+  SQL error: Column 'shahr' cannot be null.
+
+Developer Details:
+  SQL error: UPDATE savaneh SET category='1001', name='ستاد معین استان مرکزی', ostan='05', shahr=null, tedadrosta='39', htype='1', tozihat=null, tarikh='1396/08/21', user='support', sdate='1396/09/16', regstatus='1', active='1' WHERE id = 3. (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_update.doTransaction
+      BEFORE.Trigger_Default_saveData
+        tNG_update.saveData
+      BEFORE.Trigger_Default_FormValidation
+      tNG_update.prepareSQL
+      tNG_update.executeTransaction - execute sql*
+  tNG_update.getRecordset
+  tNG_update.getFakeRsArr
+  tNG_update.getLocalRecordset
+  tNG_update.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  5.122.84.110
+
+Host:
+  212.16.95.18
+
+Requested URI:
+  http://212.16.95.18/portal/plugins/savaneh/savaneh_edit.php?id=!!!!QVZP$$xTYo@@M7Xh0GB6wHtM
+
+Date:
+  2017-12-07 17:13:24
+
+Error:
+  SQL error: Column 'shahr' cannot be null.
+
+Developer Details:
+  SQL error: UPDATE savaneh SET category='1001', name='ستاد معین همدان', ostan='05', shahr=null, tedadrosta='851', htype='1', tozihat='&lt;p&gt;111&lt;/p&gt;
+', tarikh='1396/08/20', user='support', sdate='1396/09/16', regstatus='1', active='1' WHERE id = 2. (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_update.doTransaction
+      BEFORE.Trigger_Default_saveData
+        tNG_update.saveData
+      BEFORE.Trigger_Default_FormValidation
+      tNG_update.prepareSQL
+      tNG_update.executeTransaction - execute sql*
+  tNG_update.getRecordset
+  tNG_update.getFakeRsArr
+  tNG_update.getLocalRecordset
+  tNG_update.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  5.122.84.110
+
+Host:
+  212.16.95.18
+
+Requested URI:
+  http://212.16.95.18/portal/plugins/savaneh/savaneh_edit.php?id=!!!!Qxrz2w54hV@@7Vlx6G21bsG
+
+Date:
+  2017-12-07 17:13:27
+
+Error:
+  SQL error: Column 'shahr' cannot be null.
+
+Developer Details:
+  SQL error: UPDATE savaneh SET category='1001', name='ستاد معین اصفهان', ostan='05', shahr=null, tedadrosta='0', htype='1', tozihat=null, tarikh='1396/08/21', user='support', sdate='1396/09/16', regstatus='1', active='1' WHERE id = 1. (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_update.doTransaction
+      BEFORE.Trigger_Default_saveData
+        tNG_update.saveData
+      BEFORE.Trigger_Default_FormValidation
+      tNG_update.prepareSQL
+      tNG_update.executeTransaction - execute sql*
+  tNG_update.getRecordset
+  tNG_update.getFakeRsArr
+  tNG_update.getLocalRecordset
+  tNG_update.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  162.217.27.187
+
+Host:
+  212.16.95.18
+
+Requested URI:
+  http://212.16.95.18/portal/plugins/reportvam/reportvam_add.php
+
+Date:
+  2017-12-09 19:02:26
+
+Error:
+  SQL error: Column 'pardakhtivel1' cannot be null.
+
+Developer Details:
+  SQL error: INSERT INTO reportvam (hid, moarefibe, moarefibt, parkhatibe, pardakhtibt, moarefive, moarefivt, gharardadve, gharardadvt, pardakhtivel1, pardakhtivtl1, pardakhtivel2, pardakhtivtl2, pardakhtivel3, pardakhtivel4, moarefibero, moarefibtro, parkhatibero, pardakhtibtro, moarefivero, moarefivtro, gharardadvero, gharardadvtro, pardakhtivel1ro, pardakhtivtl1ro, pardakhtivel2ro, pardakhtivtl2ro, pardakhtivel3ro, pardakhtivel4ro, tashkilesh, tashkilero, tashkiltsh, tashkiltro, file, user, ip, setdate, repdate, status) values ('7', 0, 0, 0, 0, 0, 0, 0, 0, null, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 55, 10, '', 'k10010501 ', '162.217.27.187', '1396/09/18 19:02:26', '1396/09/18', '0'). (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  5.223.98.145
+
+Host:
+  212.16.95.18
+
+Requested URI:
+  http://212.16.95.18/portal/plugins/reportvam/reportvam_add.php
+
+Date:
+  2017-12-16 22:18:17
+
+Error:
+  SQL error: Column 'moarefibt' cannot be null.
+
+Developer Details:
+  SQL error: INSERT INTO reportvam (hid, moarefibe, moarefibt, parkhatibe, pardakhtibt, moarefive, moarefivt, gharardadve, gharardadvt, pardakhtivel1, pardakhtivtl1, pardakhtivel2, pardakhtivtl2, pardakhtivel3, pardakhtivel4, moarefibero, moarefibtro, parkhatibero, pardakhtibtro, moarefivero, moarefivtro, gharardadvero, gharardadvtro, pardakhtivel1ro, pardakhtivtl1ro, pardakhtivel2ro, pardakhtivtl2ro, pardakhtivel3ro, pardakhtivel4ro, tashkilesh, tashkilero, tashkiltsh, tashkiltro, file, user, ip, setdate, repdate, status) values ('1', 0, null, 0, 0, 0, 255, 0, 97, 0, 3165, 0, 234, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 245, 0, 381, 0, '', 'k10010101', '5.223.98.145', '1396/09/25 22:18:17', '1396/09/25', '0'). (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  5.115.210.103
+
+Host:
+  212.16.95.18
+
+Requested URI:
+  http://212.16.95.18/portal/plugins/reportpishraft/reportpishraft_add.php
+
+Date:
+  2017-12-17 19:51:47
+
+Error:
+  SQL error: Column 'level1' cannot be null.
+
+Developer Details:
+  SQL error: INSERT INTO reportpishraft (hid, level1, level2, level3, level4, level5, level6, level7, level8, level9, level10, level11, level1ro, level2ro, level3ro, level4ro, level5ro, level6ro, level7ro, level8ro, level9ro, level10ro, level11ro, startopsh, endopsh, startopro, endopro, rostaavar, file, user, ip, setdate, repdate, status) values ('7', null, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, '', 'k10010501', '5.115.210.103', '1396/09/26 19:51:47', '1396/09/26', '0'). (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  5.122.152.7
+
+Host:
+  212.16.95.18
+
+Requested URI:
+  http://212.16.95.18/portal/plugins/rosta/rosta_add.php
+
+Date:
+  2017-12-20 10:57:13
+
+Error:
+  SQL error: Duplicate entry '0514020001001051691' for key 'code'.
+
+Developer Details:
+  SQL error: INSERT INTO rosta (ostancode, shahrestancode, bakhshcode, shahrcode, code, oldcode, name, active) values ('05', '0514', '051402', '0514020001', '0514020001001051691', '0514020001001051691', 'مسكين ابادسفلي', '1'). (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  5.122.152.7
+
+Host:
+  212.16.95.18
+
+Requested URI:
+  http://212.16.95.18/portal/plugins/rosta/rosta_add.php
+
+Date:
+  2017-12-20 11:31:22
+
+Error:
+  SQL error: Duplicate entry '0513020001005046596' for key 'code'.
+
+Developer Details:
+  SQL error: INSERT INTO rosta (ostancode, shahrestancode, bakhshcode, shahrcode, code, oldcode, name, active) values ('05', '0513', '051302', '0513020001', '0513020001005046596', '0513020001005046596', 'دره لر ريجاب	', '1'). (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  5.122.242.13
+
+Host:
+  212.16.95.18
+
+Requested URI:
+  http://212.16.95.18/portal/plugins/rosta/rosta_add.php
+
+Date:
+  2017-12-20 13:47:31
+
+Error:
+  SQL error: Column 'active' cannot be null.
+
+Developer Details:
+  SQL error: INSERT INTO rosta (ostancode, shahrestancode, bakhshcode, shahrcode, code, oldcode, name, active) values ('05', '0502', '050203', '0502030001', '0502030001004049047', '0502030001004049047', 'سولاب', null). (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  5.122.242.13
+
+Host:
+  212.16.95.18
+
+Requested URI:
+  http://212.16.95.18/portal/plugins/rosta/rosta_add.php
+
+Date:
+  2017-12-20 14:24:35
+
+Error:
+  SQL error: Duplicate entry '0514020002005051689' for key 'code'.
+
+Developer Details:
+  SQL error: INSERT INTO rosta (ostancode, shahrestancode, bakhshcode, shahrcode, code, oldcode, name, active) values ('05', '0514', '051402', '0514020002', '0514020002005051689', '0514020002005051689', 'مزرعه كلاه اباد', '1'). (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  5.122.242.13
+
+Host:
+  212.16.95.18
+
+Requested URI:
+  http://212.16.95.18/portal/plugins/rosta/rosta_add.php
+
+Date:
+  2017-12-20 14:27:19
+
+Error:
+  SQL error: Duplicate entry '0514020002005051689' for key 'code'.
+
+Developer Details:
+  SQL error: INSERT INTO rosta (ostancode, shahrestancode, bakhshcode, shahrcode, code, oldcode, name, active) values ('05', '0514', '051402', '0514020002', '0514020002005051689', '0514020002005051689', 'مزرعه كلاه اباد', '1'). (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  5.223.223.151
+
+Host:
+  212.16.95.18
+
+Requested URI:
+  http://212.16.95.18/portal/plugins/reportvam/reportvam_add.php
+
+Date:
+  2017-12-20 20:58:50
+
+Error:
+  SQL error: Column 'parkhatibero' cannot be null.
+
+Developer Details:
+  SQL error: INSERT INTO reportvam (hid, moarefibe, moarefibt, parkhatibe, pardakhtibt, moarefive, moarefivt, gharardadve, gharardadvt, pardakhtivel1, pardakhtivtl1, pardakhtivel2, pardakhtivtl2, pardakhtivel3, pardakhtivel4, moarefibero, moarefibtro, parkhatibero, pardakhtibtro, moarefivero, moarefivtro, gharardadvero, gharardadvtro, pardakhtivel1ro, pardakhtivtl1ro, pardakhtivel2ro, pardakhtivtl2ro, pardakhtivel3ro, pardakhtivel4ro, tashkilesh, tashkilero, tashkiltsh, tashkiltro, file, user, ip, setdate, repdate, status) values ('3', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, null, 0, 24, 9, 0, 10, 0, 0, 0, 0, 0, 0, 0, 60, 0, 19, '', 'k10010301', '5.223.223.151', '1396/09/29 20:58:50', '1396/09/29', '0'). (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  5.121.224.140
+
+Host:
+  212.16.95.18
+
+Requested URI:
+  http://212.16.95.18/portal/plugins/rosta/rosta_add.php
+
+Date:
+  2017-12-21 13:38:44
+
+Error:
+  SQL error: Duplicate entry '0502030002011049573' for key 'code'.
+
+Developer Details:
+  SQL error: INSERT INTO rosta (ostancode, shahrestancode, bakhshcode, shahrcode, code, oldcode, name, active) values ('05', '0502', '050203', '0502030002', '0502030002011049573', '0502030002011049573', 'خرگ اب سفلي', '1'). (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  5.121.224.140
+
+Host:
+  212.16.95.18
+
+Requested URI:
+  http://212.16.95.18/portal/plugins/rosta/rosta_add.php
+
+Date:
+  2017-12-21 13:43:24
+
+Error:
+  SQL error: Duplicate entry '0512020003017351902' for key 'code'.
+
+Developer Details:
+  SQL error: INSERT INTO rosta (ostancode, shahrestancode, bakhshcode, shahrcode, code, oldcode, name, active) values ('05', '0512', '051202', '0512020003', '0512020003017351902', '0512020003017351902', 'تازه ابادسلمانه', '1'). (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  5.121.224.140
+
+Host:
+  212.16.95.18
+
+Requested URI:
+  http://212.16.95.18/portal/plugins/rosta/rosta_add.php
+
+Date:
+  2017-12-21 13:48:46
+
+Error:
+  SQL error: Column 'active' cannot be null.
+
+Developer Details:
+  SQL error: INSERT INTO rosta (ostancode, shahrestancode, bakhshcode, shahrcode, code, oldcode, name, active) values ('05', '0502', '050203', '0502030003', 'مزرعه كيه در	', 'مزرعه كيه در	', '0502030003001049472', null). (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  5.121.224.140
+
+Host:
+  212.16.95.18
+
+Requested URI:
+  http://212.16.95.18/portal/plugins/rosta/rosta_add.php
+
+Date:
+  2017-12-21 13:54:03
+
+Error:
+  SQL error: Column 'active' cannot be null.
+
+Developer Details:
+  SQL error: INSERT INTO rosta (ostancode, shahrestancode, bakhshcode, shahrcode, code, oldcode, name, active) values ('05', '0502', '050203', '0502030003', '0502030003001049472', '0502030003001049472', 'مزرعه كيه در	', null). (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  5.121.224.140
+
+Host:
+  212.16.95.18
+
+Requested URI:
+  http://212.16.95.18/portal/plugins/rosta/rosta_add.php
+
+Date:
+  2017-12-21 14:10:25
+
+Error:
+  SQL error: Column 'active' cannot be null.
+
+Developer Details:
+  SQL error: INSERT INTO rosta (ostancode, shahrestancode, bakhshcode, shahrcode, code, oldcode, name, active) values ('05', '0502', '050204', '0502040003', '0502040003046049310', '0502040003046049310', 'مزرعه چال قنبر	', null). (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  5.121.224.140
+
+Host:
+  212.16.95.18
+
+Requested URI:
+  http://212.16.95.18/portal/plugins/rosta/rosta_add.php
+
+Date:
+  2017-12-21 15:00:25
+
+Error:
+  SQL error: Column 'active' cannot be null.
+
+Developer Details:
+  SQL error: INSERT INTO rosta (ostancode, shahrestancode, bakhshcode, shahrcode, code, oldcode, name, active) values ('05', '0504', '050401', '0504010006', '0504010006017053231', '0504010006017053231', 'مزرعه املاك تلاش گنجوره	', null). (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  5.121.224.140
+
+Host:
+  212.16.95.18
+
+Requested URI:
+  http://212.16.95.18/portal/plugins/rosta/rosta_add.php
+
+Date:
+  2017-12-21 15:02:23
+
+Error:
+  SQL error: Column 'active' cannot be null.
+
+Developer Details:
+  SQL error: INSERT INTO rosta (ostancode, shahrestancode, bakhshcode, shahrcode, code, oldcode, name, active) values ('05', '0504', '050401', '0504010006', '0504010006018352972	', '0504010006018352972	', 'مزرعه كمرزرد	', null). (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  5.234.0.23
+
+Host:
+  212.16.95.18
+
+Requested URI:
+  http://212.16.95.18/portal/plugins/reportpishraft/reportpishraft_add.php
+
+Date:
+  2017-12-21 20:45:35
+
+Error:
+  SQL error: Column 'rostaavar' cannot be null.
+
+Developer Details:
+  SQL error: INSERT INTO reportpishraft (hid, level1, level2, level3, level4, level5, level6, level7, level8, level9, level10, level11, level1ro, level2ro, level3ro, level4ro, level5ro, level6ro, level7ro, level8ro, level9ro, level10ro, level11ro, startopsh, endopsh, startopro, endopro, rostaavar, file, user, ip, setdate, repdate, status) values ('12', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 44, 6, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 156, 21, null, '', 'm10010401', '5.234.0.23', '1396/09/30 20:45:35', '1396/09/30', '0'). (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  5.234.0.23
+
+Host:
+  212.16.95.18
+
+Requested URI:
+  http://212.16.95.18/portal/plugins/reporteskan/reporteskan_add.php
+
+Date:
+  2017-12-22 19:44:46
+
+Error:
+  SQL error: Column 'level2ro' cannot be null.
+
+Developer Details:
+  SQL error: INSERT INTO reporteskan (hid, level1, level2, level3, level4, level5, level6, level7, level8, level9, level10, level11, level1ro, level2ro, level3ro, level4ro, level5ro, level6ro, level7ro, level8ro, level9ro, level10ro, level11ro, file, user, ip, setdate, repdate, status) values ('12', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, null, 6, 1, 1, 0, 0, 0, 0, 0, 0, '', 'm10010401', '5.234.0.23', '1396/10/01 19:44:46', '1396/10/01', '0'). (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  5.121.224.140
+
+Host:
+  212.16.95.18
+
+Requested URI:
+  http://212.16.95.18/portal/plugins/rosta/rosta_add.php
+
+Date:
+  2017-12-23 09:54:55
+
+Error:
+  SQL error: Column 'active' cannot be null.
+
+Developer Details:
+  SQL error: INSERT INTO rosta (ostancode, shahrestancode, bakhshcode, shahrcode, code, oldcode, name, active) values ('05', '0507', '050701', '0507019446', '0507010005018053017', '0507010005018053017', 'مزرعه سرمه كوكان	', null). (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  5.121.224.140
+
+Host:
+  212.16.95.18
+
+Requested URI:
+  http://212.16.95.18/portal/plugins/rosta/rosta_add.php
+
+Date:
+  2017-12-23 11:43:40
+
+Error:
+  SQL error: Duplicate entry '0509040001007051486' for key 'code'.
+
+Developer Details:
+  SQL error: INSERT INTO rosta (ostancode, shahrestancode, bakhshcode, shahrcode, code, oldcode, name, active) values ('05', '0509', '050904', '0509040001', '0509040001007051486', '0509040001007051486', 'مزرعه بالاخاني	', '1'). (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  5.121.87.103
+
+Host:
+  212.16.95.18
+
+Requested URI:
+  http://212.16.95.18/portal/plugins/rosta/rosta_add.php
+
+Date:
+  2017-12-23 12:38:31
+
+Error:
+  SQL error: Duplicate entry '0505010003004052402' for key 'code'.
+
+Developer Details:
+  SQL error: INSERT INTO rosta (ostancode, shahrestancode, bakhshcode, shahrcode, code, oldcode, name, active) values ('05', '0505', '050501', '0505010003', '0505010003004052402', '0505010003004052402', 'جوب آسياب	', '1'). (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  5.121.87.103
+
+Host:
+  212.16.95.18
+
+Requested URI:
+  http://212.16.95.18/portal/plugins/rosta/rosta_add.php
+
+Date:
+  2017-12-23 12:58:51
+
+Error:
+  SQL error: Duplicate entry '0503030002002051849' for key 'code'.
+
+Developer Details:
+  SQL error: INSERT INTO rosta (ostancode, shahrestancode, bakhshcode, shahrcode, code, oldcode, name, active) values ('05', '0503', '050303', '0503030002', '0503030002002051849', '0503030002002051849', 'مزرعه هاني دشت	', '1'). (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  5.115.238.208
+
+Host:
+  212.16.95.18
+
+Requested URI:
+  http://212.16.95.18/portal/plugins/reportvam/reportvam_add.php
+
+Date:
+  2017-12-25 18:04:31
+
+Error:
+  SQL error: Column 'pardakhtivtl1' cannot be null.
+
+Developer Details:
+  SQL error: INSERT INTO reportvam (hid, moarefibe, moarefibt, parkhatibe, pardakhtibt, moarefive, moarefivt, gharardadve, gharardadvt, pardakhtivel1, pardakhtivtl1, pardakhtivel2, pardakhtivtl2, pardakhtivel3, pardakhtivel4, moarefibero, moarefibtro, parkhatibero, pardakhtibtro, moarefivero, moarefivtro, gharardadvero, gharardadvtro, pardakhtivel1ro, pardakhtivtl1ro, pardakhtivel2ro, pardakhtivtl2ro, pardakhtivel3ro, pardakhtivel4ro, tashkilesh, tashkilero, tashkiltsh, tashkiltro, moarefiejaremal, moarefiejaremos, pardakhtiejaremal, pardakhtiejaremos, file, user, ip, setdate, repdate, status) values ('5', 0, 0, 0, 0, 0, 0, 0, 0, 0, null, 0, 0, 0, 0, 0, 0, 0, 0, 8, 15, 0, 0, 0, 6, 0, 0, 0, 0, 0, 0, 23, 5, 0, 0, 0, 0, '', 'm10010901', '5.115.238.208', '1396/10/04 18:04:31', '1396/10/04', '0'). (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  5.115.94.183
+
+Host:
+  212.16.95.18
+
+Requested URI:
+  http://212.16.95.18/portal/plugins/shoab/shoab_add.php
+
+Date:
+  2017-12-27 17:38:53
+
+Error:
+  SQL error: Field 'id' doesn't have a default value.
+
+Developer Details:
+  SQL error: INSERT INTO shoab (code, name, ostan, shahr, mob, bank, active) values ('100101', 'ستاد معین استان اصفهان', '05', '0504', null, '18', '1'). (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  5.115.94.183
+
+Host:
+  212.16.95.18
+
+Requested URI:
+  http://212.16.95.18/portal/plugins/tashilatcondition/tashilatcondition_add.php?id=!!!!QQ0FMajZswHg6mondKfNkh
+
+Date:
+  2017-12-28 12:00:42
+
+Error:
+  SQL error: Field 'id' doesn't have a default value.
+
+Developer Details:
+  SQL error: INSERT INTO tashilat_condition (scode, frommetr, tometr, khesarat, noekarbari, noekhesarat, noetashilat, mablagh, khesaratlevel, user, lastupdate, loctype) values (1, 0, 1000, '9', 0, '0', '9', '50000000', '0', 'support', '1396/10/07', '2'). (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  5.115.94.183
+
+Host:
+  212.16.95.18
+
+Requested URI:
+  http://212.16.95.18/portal/plugins/admingroup/admingroup_add.php
+
+Date:
+  2017-12-28 16:44:56
+
+Error:
+  SQL error: Data too long for column 'name' at row 1.
+
+Developer Details:
+  SQL error: INSERT INTO admingroup (name, status) values ('کارشناس ثبت پیشرفت فیزیکی ستاد معین', '1'). (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  83.120.225.59
+
+Host:
+  212.16.95.18
+
+Requested URI:
+  http://212.16.95.18/portal/plugins/reporteskan/reporteskan_add.php
+
+Date:
+  2017-12-29 21:34:25
+
+Error:
+  SQL error: Column 'level2ro' cannot be null.
+
+Developer Details:
+  SQL error: INSERT INTO reporteskan (hid, level1, level2, level3, level4, level5, level6, level7, level8, level9, level10, level11, level1ro, level2ro, level3ro, level4ro, level5ro, level6ro, level7ro, level8ro, level9ro, level10ro, level11ro, file, user, ip, setdate, repdate, status) values ('8', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, null, 0, 0, 0, 0, 0, 0, 0, 0, 0, '', 'K10010601', '83.120.225.59', '1396/10/08 21:34:25', '1396/10/08', '0'). (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  83.121.71.19
+
+Host:
+  212.16.95.18
+
+Requested URI:
+  http://212.16.95.18/portal/change_pass.php
+
+Date:
+  2017-12-31 15:35:17
+
+Error:
+  SQL error: Column 'pass' cannot be null.
+
+Developer Details:
+  SQL error: UPDATE `admin` SET pass=null WHERE user = 's10010703'. (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_update.doTransaction
+      BEFORE.Trigger_Default_saveData
+        tNG_update.saveData
+      BEFORE.Trigger_Default_FormValidation
+      tNG_update.prepareSQL
+      tNG_update.executeTransaction - execute sql*
+  tNG_update.getRecordset
+  tNG_update.getFakeRsArr
+  tNG_update.getLocalRecordset
+  tNG_update.getFakeRecordset
+=== END MESSAGE ===

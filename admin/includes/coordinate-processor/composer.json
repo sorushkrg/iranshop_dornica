@@ -1,0 +1,25 @@
+{
+    "name": "redcoder/coordinate-processor",
+    "description": "Process Polygon Points from GeoJSON, KML & KMZ Strcutures and Convert them to UTM",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Redcoder\\CoordinateProcessor\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Mahbod Azizkhani",
+            "email": "mzero651@gmail.com"
+        }
+    ],
+    "require": {
+        "ext-json": "*",
+        "ext-zip": "*",
+        "ext-xml": "*",
+        "ext-xmlreader": "*",
+        "ext-simplexml": "*",
+        "ext-dom": "*"
+    }
+}

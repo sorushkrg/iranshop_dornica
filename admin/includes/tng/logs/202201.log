@@ -1,0 +1,4454 @@
+=== BEGIN MESSAGE ===
+Client IP:
+  188.215.202.181
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  https://payesh.bonyadmaskan.ir/portal/plugins/havades/melktakmil_add.php?cod=@@raL$$c0JLtJVyt55yK9Y@@pjO90TU0h0bptEWRVjN51ka0I1Kkx2Z0hlc&mode=edit
+
+Date:
+  2022-01-02 18:22:02
+
+خطا:
+  خطای پایگاه داده. <br><div style="display:none">Column 'tabaghe' cannot be null</div>
+
+Developer Details:
+  خطای پایگاه داده. <br><div style="display:none">INSERT INTO melk_detail (hcode, tabaghe, maskoniv, maskonim, tejariv, tejarim, tejmasv, tejmasm, khadv, khadm, edariv, edarim, mazhabiv, mazhabim, malek, user, sdate, active) values ('16411345835160', null, '1', '120', null, null, null, null, null, null, null, null, null, null, 'رضایوسفی نورالدین وند', 'p140601', '1400/10/12', '1').</div> (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  172.16.90.5
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  https://payesh.bonyadmaskan.ir/portal/plugins/savanehgroup/savaneh_create.php?code=SnicTSTsIRzTuI6iWK$$u8ojO90TQE10VwhmdDhFSiJUVKJ0YQtCU1EEW
+
+Date:
+  2022-01-03 13:34:28
+
+خطا:
+  خطای پایگاه داده. <br><div style="display:none">Field 'sahmieazadtime' doesn't have a default value</div>
+
+Developer Details:
+  خطای پایگاه داده. <br><div style="display:none">INSERT INTO savaneh (category, code, startcode, name, ostan, shahr, htype, sort, tarikh, tedadrosta, user, sdate, invoice, regstatus, typerayvarz, active) values ('1123', '112317', '11231710000', 'ستاد معین ماسال', '01', '0116', '2', '17', '1400/10/13', '0', 'h.abhari', '1400/10/13', '0', '1', '0', '1').</div> (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  172.16.90.5
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  https://payesh.bonyadmaskan.ir/portal/plugins/savanehgroup/savaneh_create.php?code=SnicTSTsIRzTuI6iWK$$u8ojO90TQE10VwhmdDhFSiJUVKJ0YQtCU1EEW
+
+Date:
+  2022-01-03 13:40:05
+
+خطا:
+  خطای پایگاه داده. <br><div style="display:none">Field 'sahmieazadtime' doesn't have a default value</div>
+
+Developer Details:
+  خطای پایگاه داده. <br><div style="display:none">INSERT INTO savaneh (category, code, startcode, name, ostan, shahr, htype, sort, tarikh, tedadrosta, user, sdate, invoice, regstatus, typerayvarz, active) values ('1123', '112317', '11231710000', 'ستاد معین ماسال', '01', '0116', '2', '17', '1400/10/13', '0', 'h.abhari', '1400/10/13', '0', '1', '0', '1').</div> (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  172.16.90.5
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  https://payesh.bonyadmaskan.ir/portal/plugins/savanehgroup/savaneh_create.php?code=SnicTSTsIRzTuI6iWK$$u8ojO90TQE10VwhmdDhFSiJUVKJ0YQtCU1EEW
+
+Date:
+  2022-01-03 13:40:14
+
+خطا:
+  خطای پایگاه داده. <br><div style="display:none">Field 'sahmieazadtime' doesn't have a default value</div>
+
+Developer Details:
+  خطای پایگاه داده. <br><div style="display:none">INSERT INTO savaneh (category, code, startcode, name, ostan, shahr, htype, sort, tarikh, tedadrosta, user, sdate, invoice, regstatus, typerayvarz, active) values ('1123', '112303', '11230310000', 'ستاد معین املش', '01', '0113', '2', '3', '1400/10/13', '0', 'h.abhari', '1400/10/13', '0', '1', '0', '1').</div> (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  172.16.90.5
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  https://payesh.bonyadmaskan.ir/portal/plugins/savanehgroup/savaneh_create.php?code=SnicTSTsIRzTuI6iWK$$u8ojO90TQE10VwhmdDhFSiJUVKJ0YQtCU1EEW
+
+Date:
+  2022-01-03 13:50:24
+
+خطا:
+  خطای پایگاه داده. <br><div style="display:none">Field 'sahmieazadtime' doesn't have a default value</div>
+
+Developer Details:
+  خطای پایگاه داده. <br><div style="display:none">INSERT INTO savaneh (category, code, startcode, name, ostan, shahr, htype, sort, tarikh, tedadrosta, user, sdate, invoice, regstatus, typerayvarz, active) values ('1123', '112302', '11230210000', 'ستاد معین آستانه اشرفیه', '01', '0102', '2', '2', '1400/10/13', '0', 'h.abhari', '1400/10/13', '0', '1', '0', '1').</div> (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.executeTransaction
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  172.16.90.5
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  https://payesh.bonyadmaskan.ir/portal/plugins/admin/admin_city.php?id=rHLwtHQLFaRctYhr4boXOrjO90TUIpGb4AXSxxkaGRGN5MEOp9CUjFlM&mode=edit
+
+Date:
+  2022-01-04 09:10:53
+
+خطا:
+  خطای پایگاه داده. <br><div style="display:none">Data too long for column 'shahr' at row 1</div>
+
+Developer Details:
+  خطای پایگاه داده. <br><div style="display:none">UPDATE `admin` SET ostan='14', shahrestan='1405,1401,1409,1410,1408,1402,1403,1406,1407,1404', bakhsh='140501,140502,140104,140102,140103,140902,140901,141002,141001,140802,140801,140206,140205,140202,140303,140304,140302,140601,140603,140602,140701,140702,140403,140405,140401,140402,140404', shahr='1405011476,1405010001,1405012808,1405010003,1405012807,1405022809,1405020002,1405020001,1401040001,1401041477,1401040002,1401020003,1401020002,1401022152,1401031478,1401030001,1401032306,1401031479,1401032706,1409020002,1409020001,1409011480,1409010001,1409010002,1409012732,1410020001,1410020002,1410010002,1410010001,1408020002,1408020001,1408010002,1408010001,1408011481,1402060002,1402061483,1402060001,1402052614,1402052113,1402050001,1402050002,1402052838,1402020001,1402021482,1402020003,1402022359,1402022123,1402022471,1402021484,1403032124,1403030002,1403030001,1403042730,1403040001,1403041485,1403042806,1403040002,1403021486,1403022805,1403020002,1406012841,1406010001,1406010003,1406030001,1406030002,1406032839,1406022360,1406020002,1406020001,1406020003,1407012729,1407012153,1407010001,1407010002,1407012358,1407020002,1407020001,1407022154,1404032473,1404030003,1404030002,1404050002,1404052840,1404050001,1404010003,1404010002,1404012472,1404020008,1404020004,1404021487,1404020007,1404040001,1404040002,1404042731', rosta=null WHERE id = 744.</div> (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_update.doTransaction
+      BEFORE.Trigger_Default_saveData
+        tNG_update.saveData
+      BEFORE.Trigger_Default_FormValidation
+      tNG_update.prepareSQL
+      tNG_update.executeTransaction - execute sql*
+  tNG_update.executeTransaction
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+  tNG_update.getRecordset
+  tNG_update.getFakeRsArr
+  tNG_update.getLocalRecordset
+  tNG_update.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  5.234.62.12
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  https://payesh.bonyadmaskan.ir/portal/plugins/havades/melktakmil_add.php?cod=ehDB$$nQFvIfIIMOgLtYi6pjO90TUDFzVNpWQvhzTxQWQ0lmM5J3K18yQ&mode=edit
+
+Date:
+  2022-01-04 16:17:55
+
+خطا:
+  خطای پایگاه داده. <br><div style="display:none">Column 'tabaghe' cannot be null</div>
+
+Developer Details:
+  خطای پایگاه داده. <br><div style="display:none">INSERT INTO melk_detail (hcode, tabaghe, maskoniv, maskonim, tejariv, tejarim, tejmasv, tejmasm, khadv, khadm, edariv, edarim, mazhabiv, mazhabim, malek, user, sdate, active) values ('16349988627782', null, null, null, null, null, null, null, null, null, null, null, null, null, 'سوخته رو انصاری', 'a140605', '1400/10/14', '1').</div> (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  5.234.62.12
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  https://payesh.bonyadmaskan.ir/portal/plugins/havades/moteghazi_edit.php?cod=3BEhT3ab3@@bl46aXSRxAUrjO90zZmVFcnJlbClzT0RWQ0UDS2pldtt0M&id=NdGJsk959$$8blIi7YwcDBojO90TQRBFa2NTTBJUdSh3QsB3d0gjVP9iW
+
+Date:
+  2022-01-04 17:40:24
+
+خطا:
+  خطای پایگاه داده. <br><div style="display:none">Data too long for column 'mobile' at row 1</div>
+
+Developer Details:
+  خطای پایگاه داده. <br><div style="display:none">UPDATE khanevar SET nesbat='2', vamgirande=0, name='گل زاده', lname='عیدی شیخ رباط', pedar='علی رضا', shsh='182', mahalsodor=null, codemeli='197-070892-1', mahaltavalod='کوهرنگ', birthday='1111/11/11', job=null, tel=null, mobile='1111111111111111111111111', tabeiat='0', job_duration=null, jobplace=null, madrak=null, modat_sokonat=null, user='a140605', takafol=null, noesokonat='1', jensiat='1', taahol='1', status=0 WHERE id = 1100137.</div> (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_update.doTransaction
+      BEFORE.Trigger_Default_saveData
+        tNG_update.saveData
+      BEFORE.Trigger_Default_FormValidation
+      tNG_update.prepareSQL
+      tNG_update.executeTransaction - execute sql*
+  tNG_update.getRecordset
+  tNG_update.getFakeRsArr
+  tNG_update.getLocalRecordset
+  tNG_update.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  46.225.206.40
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  https://payesh.bonyadmaskan.ir/portal/plugins/havades/melktakmil_edit.php?id=0evrzVduzv5AnszropOMHrjO90zZxkGNsl1S4IXSnhmUMpXMTlXbxVVe
+
+Date:
+  2022-01-05 08:43:56
+
+خطا:
+  خطای پایگاه داده. <br><div style="display:none">Column 'tabaghe' cannot be null</div>
+
+Developer Details:
+  خطای پایگاه داده. <br><div style="display:none">UPDATE melk_detail SET tabaghe=null, maskoniv='1', maskonim='16', tejariv=null, tejarim=null, tejmasv=null, tejmasm=null, khadv=null, khadm=null, edariv=null, edarim=null, malek='ریزان راهوند' WHERE id = 43131.</div> (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_update.doTransaction
+      BEFORE.Trigger_Default_saveData
+        tNG_update.saveData
+      BEFORE.Trigger_Default_FormValidation
+      tNG_update.prepareSQL
+      tNG_update.executeTransaction - execute sql*
+  tNG_update.getRecordset
+  tNG_update.getFakeRsArr
+  tNG_update.getLocalRecordset
+  tNG_update.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  46.225.206.40
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  https://payesh.bonyadmaskan.ir/portal/plugins/havades/melktakmil_edit.php?id=0evrzVduzv5AnszropOMHrjO90zZxkGNsl1S4IXSnhmUMpXMTlXbxVVe
+
+Date:
+  2022-01-05 08:44:07
+
+خطا:
+  خطای پایگاه داده. <br><div style="display:none">Column 'tabaghe' cannot be null</div>
+
+Developer Details:
+  خطای پایگاه داده. <br><div style="display:none">UPDATE melk_detail SET tabaghe=null, maskoniv=null, maskonim=null, tejariv=null, tejarim=null, tejmasv=null, tejmasm=null, khadv=null, khadm=null, edariv=null, edarim=null, malek='ریزان راهوند' WHERE id = 43131.</div> (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_update.doTransaction
+      BEFORE.Trigger_Default_saveData
+        tNG_update.saveData
+      BEFORE.Trigger_Default_FormValidation
+      tNG_update.prepareSQL
+      tNG_update.executeTransaction - execute sql*
+  tNG_update.getRecordset
+  tNG_update.getFakeRsArr
+  tNG_update.getLocalRecordset
+  tNG_update.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  46.225.206.40
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  https://payesh.bonyadmaskan.ir/portal/plugins/havades/melktakmil_edit.php?id=5n@@QlPiB6yL8DMBXKy08QqjO90zdqd3cxElVnNEMaB1NiF3cVtUUwl1Y
+
+Date:
+  2022-01-05 08:44:49
+
+خطا:
+  خطای پایگاه داده. <br><div style="display:none">Column 'tabaghe' cannot be null</div>
+
+Developer Details:
+  خطای پایگاه داده. <br><div style="display:none">UPDATE melk_detail SET tabaghe=null, maskoniv=null, maskonim=null, tejariv=null, tejarim=null, tejmasv=null, tejmasm=null, khadv=null, khadm=null, edariv=null, edarim=null, malek='ریزان راهوند' WHERE id = 43131.</div> (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_update.doTransaction
+      BEFORE.Trigger_Default_saveData
+        tNG_update.saveData
+      BEFORE.Trigger_Default_FormValidation
+      tNG_update.prepareSQL
+      tNG_update.executeTransaction - execute sql*
+  tNG_update.getRecordset
+  tNG_update.getFakeRsArr
+  tNG_update.getLocalRecordset
+  tNG_update.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  46.225.206.40
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  https://payesh.bonyadmaskan.ir/portal/plugins/havades/melktakmil_edit.php?id=e70ZuVGIs0kPzre$$PW9dOojO90zZGtGTJZlTMRDUhFnchpXV4tSdBFUY
+
+Date:
+  2022-01-05 08:47:15
+
+خطا:
+  خطای پایگاه داده. <br><div style="display:none">Column 'tabaghe' cannot be null</div>
+
+Developer Details:
+  خطای پایگاه داده. <br><div style="display:none">UPDATE melk_detail SET tabaghe=null, maskoniv=null, maskonim=null, tejariv=null, tejarim=null, tejmasv=null, tejmasm=null, khadv=null, khadm=null, edariv=null, edarim=null, malek='0' WHERE id = 43131.</div> (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_update.doTransaction
+      BEFORE.Trigger_Default_saveData
+        tNG_update.saveData
+      BEFORE.Trigger_Default_FormValidation
+      tNG_update.prepareSQL
+      tNG_update.executeTransaction - execute sql*
+  tNG_update.getRecordset
+  tNG_update.getFakeRsArr
+  tNG_update.getLocalRecordset
+  tNG_update.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  46.225.206.40
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  https://payesh.bonyadmaskan.ir/portal/plugins/havades/melktakmil_edit.php?id=e70ZuVGIs0kPzre$$PW9dOojO90zZGtGTJZlTMRDUhFnchpXV4tSdBFUY
+
+Date:
+  2022-01-05 08:47:24
+
+خطا:
+  خطای پایگاه داده. <br><div style="display:none">Column 'tabaghe' cannot be null</div>
+
+Developer Details:
+  خطای پایگاه داده. <br><div style="display:none">UPDATE melk_detail SET tabaghe=null, maskoniv=null, maskonim=null, tejariv=null, tejarim=null, tejmasv=null, tejmasm=null, khadv=null, khadm=null, edariv=null, edarim=null, malek='0' WHERE id = 43131.</div> (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_update.doTransaction
+      BEFORE.Trigger_Default_saveData
+        tNG_update.saveData
+      BEFORE.Trigger_Default_FormValidation
+      tNG_update.prepareSQL
+      tNG_update.executeTransaction - execute sql*
+  tNG_update.getRecordset
+  tNG_update.getFakeRsArr
+  tNG_update.getLocalRecordset
+  tNG_update.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  46.225.206.40
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  https://payesh.bonyadmaskan.ir/portal/plugins/havades/melktakmil_edit.php?id=e70ZuVGIs0kPzre$$PW9dOojO90zZGtGTJZlTMRDUhFnchpXV4tSdBFUY
+
+Date:
+  2022-01-05 08:47:27
+
+خطا:
+  خطای پایگاه داده. <br><div style="display:none">Column 'tabaghe' cannot be null</div>
+
+Developer Details:
+  خطای پایگاه داده. <br><div style="display:none">UPDATE melk_detail SET tabaghe=null, maskoniv=null, maskonim=null, tejariv=null, tejarim=null, tejmasv=null, tejmasm=null, khadv=null, khadm=null, edariv=null, edarim=null, malek='0' WHERE id = 43131.</div> (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_update.doTransaction
+      BEFORE.Trigger_Default_saveData
+        tNG_update.saveData
+      BEFORE.Trigger_Default_FormValidation
+      tNG_update.prepareSQL
+      tNG_update.executeTransaction - execute sql*
+  tNG_update.getRecordset
+  tNG_update.getFakeRsArr
+  tNG_update.getLocalRecordset
+  tNG_update.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  172.16.90.5
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  https://payesh.bonyadmaskan.ir/portal/plugins/savanehgroup/savaneh_create.php?code=3@@jXZLXFyo2VuFcoG$$jH2qjO90TUUh0R5onbkBzLZNjaLFVOMhnMthWZ
+
+Date:
+  2022-01-05 11:48:04
+
+خطا:
+  خطای پایگاه داده. <br><div style="display:none">Field 'sahmieazadtime' doesn't have a default value</div>
+
+Developer Details:
+  خطای پایگاه داده. <br><div style="display:none">INSERT INTO savaneh (category, code, startcode, name, ostan, shahr, htype, sort, tarikh, tedadrosta, user, sdate, invoice, regstatus, typerayvarz, active) values ('1123', '112317', '11231710000', 'ستاد معین ماسال', '01', '0116', '2', '17', '1400/10/15', '0', 'h.abhari', '1400/10/15', '0', '1', '0', '1').</div> (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  2.181.30.10
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  https://payesh.bonyadmaskan.ir/portal/plugins/savanehgroup/savaneh_create.php?code=qSIJrX6zM8m0RZ$$s55a$$3pjO90zZHdTaKt0Yy4EN3FmW5l3cvJnNiFUN
+
+Date:
+  2022-01-05 12:03:16
+
+خطا:
+  خطای پایگاه داده. <br><div style="display:none">Field 'sahmieazadtime' doesn't have a default value</div>
+
+Developer Details:
+  خطای پایگاه داده. <br><div style="display:none">INSERT INTO savaneh (category, code, startcode, name, ostan, shahr, htype, sort, tarikh, tedadrosta, user, sdate, invoice, regstatus, typerayvarz, active) values ('1123', '112317', '11231710000', 'ستاد معین ماسال', '01', '0116', '2', '17', '1400/10/15', '0', 'support2', '1400/10/15', '0', '1', '0', '1').</div> (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+  tNG_insert.executeTransaction
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  5.233.12.139
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  https://payesh.bonyadmaskan.ir/portal/plugins/havale/havale_pay_edit.php?id=ZpLkM@@t1NJq1kJUCHF@@RhqjO90zZZdEWmlXTZV2QMtiR1VXOylFM4oUc&hcode=7628rwAf3k3$$hbkDKdprkpjO90TQGFnY1UWY2EjVRhWb6ZGMwJ1a0pmR&havaleid=beVwIUVrNsLb$$2Ro$$llVZpjO90zdo9STFh2LV9kUm9Sc4c1NSBFN1YDV&code=!!EqJD76qUO1t8lMYbRl6QQlO60TTBJ0KjRHVwY1c6FVShV3Rv4mUrV3NvJEOZNXOxMnWvM3U2kkcDR1VwFUa
+
+Date:
+  2022-01-07 19:43:21
+
+خطا:
+  خطای پایگاه داده. <br><div style="display:none">Data too long for column 'fishcode' at row 1</div>
+
+Developer Details:
+  خطای پایگاه داده. <br><div style="display:none">UPDATE havalat_pay SET paytype='0', mablagh='31305477', shhesab='6', bank=18, fishcode='844610313093/3292	99/11/13	 31,305,477 ریال ', fishdate='1399/11/13', shobe=null, description=null, status='1' WHERE id = 63975.</div> (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_update.doTransaction
+      BEFORE.Trigger_Default_saveData
+        tNG_update.saveData
+      BEFORE.Trigger_Default_FormValidation
+      tNG_update.prepareSQL
+      tNG_update.executeTransaction - execute sql*
+  tNG_update.getRecordset
+  tNG_update.getFakeRsArr
+  tNG_update.getLocalRecordset
+  tNG_update.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  172.16.90.5
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  https://payesh.bonyadmaskan.ir/portal/plugins/admin/admin_add.php
+
+Date:
+  2022-01-08 10:11:14
+
+خطا:
+  کاربر با این نام کاربری قبلا درج شده است
+
+Developer Details:
+  %s
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      BEFORE.Trigger_CheckUnique*
+      ERROR.Trigger_Default_Insert_RollBack
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  172.16.90.5
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  https://payesh.bonyadmaskan.ir/portal/plugins/admin/admin_add.php
+
+Date:
+  2022-01-08 10:11:15
+
+خطا:
+  کاربر با این نام کاربری قبلا درج شده است
+
+Developer Details:
+  %s
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      BEFORE.Trigger_CheckUnique*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  5.127.93.80
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  https://payesh.bonyadmaskan.ir/portal/plugins/savaneh/ghete_edit.php?id=CEztGysIJ9R0P55E@@V9GurjO90zdrkzNr80S4FnYa90UlVTUwFHSroWZ&sid=onOr1$$o5WWEG7aLiUGJWtrjO90TQNFTeQVVZGFDUzpmQK10TFZFa1Rnd&sgcode=M7JByZSQ$$HuLXapG8D55QojO90zd3QkTJdTNYFjM2g0YKNzT0UDVtZ0S
+
+Date:
+  2022-01-08 10:25:06
+
+خطا:
+  خطای پایگاه داده. <br><div style="display:none">Column 'ghetenum' cannot be null</div>
+
+Developer Details:
+  خطای پایگاه داده. <br><div style="display:none">UPDATE ghete SET ghetenum=null, address='شهرک صباغان 50010079', mahale='14', pelaksabti='40', farei='0', masahat='132', shomal='50010065', junub='10', shargh='50010064', gharb='50010066', had_shomali='2', had_jonubi='1', had_sharghi='2', had_gharbi='2', kroki=kroki, kroki_mahale=kroki_mahale WHERE id = 3032.</div> (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_update.doTransaction
+      BEFORE.Trigger_Default_saveData
+        tNG_update.saveData
+      BEFORE.Trigger_Default_FormValidation
+      tNG_update.prepareSQL
+      tNG_update.executeTransaction - execute sql*
+  tNG_update.getRecordset
+  tNG_update.getFakeRsArr
+  tNG_update.getLocalRecordset
+  tNG_update.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  5.122.10.98
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  https://payesh.bonyadmaskan.ir/portal/plugins/havades/file_add.php?cod=6YblnOYJNPrmYr6J3$$v8HrjO90TUyRjdrQmaysmZHl2cWNWeuBzd5IUe&cod=6YblnOYJNPrmYr6J3$$v8HrjO90TUyRjdrQmaysmZHl2cWNWeuBzd5IUe&mode=edit
+
+Date:
+  2022-01-09 10:27:59
+
+خطا:
+  خطای بارگذاری فایل. <br><div style="display:none">File size must be less than 200 kB.</div>
+
+Developer Details:
+  خطای بارگذاری فایل. <br><div style="display:none">File size must be less than 200 kB.</div> (FILE_UPLOAD_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql
+      tNG_insert.postExecuteSql
+      AFTER.Trigger_ImageUpload*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  5.122.10.98
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  https://payesh.bonyadmaskan.ir/portal/plugins/havades/file_add.php?cod=6YblnOYJNPrmYr6J3$$v8HrjO90TUyRjdrQmaysmZHl2cWNWeuBzd5IUe&cod=6YblnOYJNPrmYr6J3$$v8HrjO90TUyRjdrQmaysmZHl2cWNWeuBzd5IUe&mode=edit
+
+Date:
+  2022-01-09 10:56:10
+
+خطا:
+  خطای بارگذاری فایل. <br><div style="display:none">File size must be less than 200 kB.</div>
+
+Developer Details:
+  خطای بارگذاری فایل. <br><div style="display:none">File size must be less than 200 kB.</div> (FILE_UPLOAD_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql
+      tNG_insert.postExecuteSql
+      AFTER.Trigger_ImageUpload*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  5.122.10.98
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  https://payesh.bonyadmaskan.ir/portal/plugins/havades/file_add.php?cod=6YblnOYJNPrmYr6J3$$v8HrjO90TUyRjdrQmaysmZHl2cWNWeuBzd5IUe&cod=6YblnOYJNPrmYr6J3$$v8HrjO90TUyRjdrQmaysmZHl2cWNWeuBzd5IUe&mode=edit
+
+Date:
+  2022-01-09 11:25:37
+
+خطا:
+  خطای بارگذاری فایل. <br><div style="display:none">File size must be less than 200 kB.</div>
+
+Developer Details:
+  خطای بارگذاری فایل. <br><div style="display:none">File size must be less than 200 kB.</div> (FILE_UPLOAD_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql
+      tNG_insert.postExecuteSql
+      AFTER.Trigger_ImageUpload*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  5.75.55.16
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  https://payesh.bonyadmaskan.ir/portal/plugins/havades/file_add.php?cod=!!ETiT3RERbH5ZZBV2zd9FDgO60zZMZ1Z5d0b2FTYoZjUjd3dsh2aPB1c1NDS1AHetdjVWJzcV9EOzVDds9Gc&cod=!!ETiT3RERbH5ZZBV2zd9FDgO60zZMZ1Z5d0b2FTYoZjUjd3dsh2aPB1c1NDS1AHetdjVWJzcV9EOzVDds9Gc&mode=edit
+
+Date:
+  2022-01-09 12:20:25
+
+خطا:
+  خطای پایگاه داده. <br><div style="display:none">Data too long for column 'name' at row 1</div>
+
+Developer Details:
+  خطای پایگاه داده. <br><div style="display:none">INSERT INTO hadese_file (hcode, type, name, file, active, user, sdate) values ('15574090163546  ', '2', 'تسویه تسهیلات پایش و معرفی تسهیلات 1000میلیاردی مسکن روستایی', '', '1', 'a102402', '1400/10/19').</div> (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  176.12.75.197
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  https://payesh.bonyadmaskan.ir/portal/plugins/havades/melktakmil_add.php?cod=KMHu2xhp7Nijg2NqflbmgojO90TQlpnVuZWM0lWWTZDViV0VvwmYwknc&mode=edit
+
+Date:
+  2022-01-09 15:58:38
+
+خطا:
+  خطای پایگاه داده. <br><div style="display:none">Column 'tabaghe' cannot be null</div>
+
+Developer Details:
+  خطای پایگاه داده. <br><div style="display:none">INSERT INTO melk_detail (hcode, tabaghe, maskoniv, maskonim, tejariv, tejarim, tejmasv, tejmasm, khadv, khadm, edariv, edarim, mazhabiv, mazhabim, malek, user, sdate, active) values ('16417305047988', null, '1', '40', null, null, null, null, null, null, null, null, null, null, 'احمد پورحسن', 'p010801', '1400/10/19', '1').</div> (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  176.12.75.197
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  https://payesh.bonyadmaskan.ir/portal/plugins/havades/file_add.php?cod=ks3z@@SXNbaVtR4oZhaJYJojO90TQhdVUKp1Z4dmSXJmZlNmV3Z2LjVkV&mode=edit
+
+Date:
+  2022-01-09 19:29:32
+
+خطا:
+  خطای بارگذاری فایل. <br><div style="display:none">File size must be less than 200 kB.</div>
+
+Developer Details:
+  خطای بارگذاری فایل. <br><div style="display:none">File size must be less than 200 kB.</div> (FILE_UPLOAD_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql
+      tNG_insert.postExecuteSql
+      AFTER.Trigger_ImageUpload*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  2.180.28.92
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  https://payesh.bonyadmaskan.ir/portal/plugins/havades/file_add.php?cod=igjLftoNCxO$$gM$$Ej$$JsIqjO90zdspVZMdzR3EDRj1kSwo2M3IFemJmY&cod=igjLftoNCxO$$gM$$Ej$$JsIqjO90zdspVZMdzR3EDRj1kSwo2M3IFemJmY&mode=edit
+
+Date:
+  2022-01-10 07:55:05
+
+خطا:
+  خطای بارگذاری فایل. <br><div style="display:none">File size must be less than 200 kB.</div>
+
+Developer Details:
+  خطای بارگذاری فایل. <br><div style="display:none">File size must be less than 200 kB.</div> (FILE_UPLOAD_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql
+      tNG_insert.postExecuteSql
+      AFTER.Trigger_ImageUpload*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  176.12.75.197
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  https://payesh.bonyadmaskan.ir/portal/plugins/havades/melktakmil_add.php?cod=O0KNnOcHYMH2dIn6EfOuUqjO90TUiRUYpNUNRREVul1UWREd6JXQQNUZ&mode=edit
+
+Date:
+  2022-01-10 13:46:37
+
+خطا:
+  خطای پایگاه داده. <br><div style="display:none">Column 'tabaghe' cannot be null</div>
+
+Developer Details:
+  خطای پایگاه داده. <br><div style="display:none">INSERT INTO melk_detail (hcode, tabaghe, maskoniv, maskonim, tejariv, tejarim, tejmasv, tejmasm, khadv, khadm, edariv, edarim, mazhabiv, mazhabim, malek, user, sdate, active) values ('16418092547699', null, '1', '85', null, null, null, null, null, null, null, null, null, null, 'میثم قاسمی مهویزانی', 'p010801', '1400/10/20', '1').</div> (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  86.57.69.208
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  https://payesh.bonyadmaskan.ir/portal/plugins/havades/file_add.php?cod=JgABoEHwDUqzWS4rFrCmqpjO90zZ1MjeStiVMBXcDpXRzRzRHVzY0UGe&mode=edit
+
+Date:
+  2022-01-11 11:11:08
+
+خطا:
+  خطای بارگذاری فایل. <br><div style="display:none">File size must be less than 200 kB.<br />File extension not allowed for upload.</div>
+
+Developer Details:
+  خطای بارگذاری فایل. <br><div style="display:none">File size must be less than 200 kB.<br />File extension "dwg" is not allowed for upload.</div> (FILE_UPLOAD_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql
+      tNG_insert.postExecuteSql
+      AFTER.Trigger_ImageUpload*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  185.111.139.14
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  https://payesh.bonyadmaskan.ir/portal/plugins/havades/file_add.php?cod=GaScP2DzgXKf07$$caU4supjO90zZkZ3K6VGdNVTaalmSUVjZSB3dVl0d&cod=GaScP2DzgXKf07$$caU4supjO90zZkZ3K6VGdNVTaalmSUVjZSB3dVl0d&mode=edit
+
+Date:
+  2022-01-11 11:52:44
+
+خطا:
+  خطای بارگذاری فایل. <br><div style="display:none">File size must be less than 200 kB.</div>
+
+Developer Details:
+  خطای بارگذاری فایل. <br><div style="display:none">File size must be less than 200 kB.</div> (FILE_UPLOAD_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql
+      tNG_insert.postExecuteSql
+      AFTER.Trigger_ImageUpload*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  2.184.155.201
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  https://payesh.bonyadmaskan.ir/portal/plugins/havades/havades_edit.php?cod=HI1UNrWSUn4klHL3sPSHlqjO90zdvEWa3tidLFzLygGeXhnQtNWNBVkY&mode=edit
+
+Date:
+  2022-01-11 12:35:03
+
+خطا:
+  خطای پایگاه داده. <br><div style="display:none">Column 'karbari' cannot be null</div>
+
+Developer Details:
+  خطای پایگاه داده. <br><div style="display:none">UPDATE hadese SET sgcode='1119', scode='1225', ostan='14', shahr='1406010001', shahrestan='1406', bakhsh='140601', rosta='1406010001814016', mahale=null, mojtama=null, loctype='2', tozihat=null, formserial='1111', vagozari_zamin=0, codeposti=null, khanevarfarei='1', tedadfoti=null, tedadzakhmi=null, sokonat='1', karbari=null, nahad='4', eskan='1', mastercode=null, parvandetype='1', relcode=null, mojavez='0', adres=null, active=null, sal=1400, type='1', khesaratlevel=null, khesaratmlevel='0' WHERE code = '16344758237604'.</div> (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_update.doTransaction
+      BEFORE.Trigger_Default_saveData
+        tNG_update.saveData
+      BEFORE.Trigger_Default_FormValidation
+      tNG_update.prepareSQL
+      tNG_update.executeTransaction - execute sql*
+  tNG_update.getRecordset
+  tNG_update.getFakeRsArr
+  tNG_update.getLocalRecordset
+  tNG_update.getFakeRecordset
+  tNG_update.executeTransaction
+  tNG_update.getRecordset
+  tNG_update.getFakeRsArr
+  tNG_update.getLocalRecordset
+  tNG_update.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  78.38.116.74
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  https://payesh.bonyadmaskan.ir/portal/plugins/admin/admin_add.php
+
+Date:
+  2022-01-11 19:08:46
+
+خطا:
+  کاربر با این نام کاربری قبلا درج شده است
+
+Developer Details:
+  %s
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      BEFORE.Trigger_CheckUnique*
+      ERROR.Trigger_Default_Insert_RollBack
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  78.38.116.74
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  https://payesh.bonyadmaskan.ir/portal/plugins/admin/admin_add.php
+
+Date:
+  2022-01-11 19:08:47
+
+خطا:
+  کاربر با این نام کاربری قبلا درج شده است
+
+Developer Details:
+  %s
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      BEFORE.Trigger_CheckUnique*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  5.210.81.68
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  https://payesh.bonyadmaskan.ir/portal/plugins/havades/gheteold_add.php?cod=o63b@@merfPww7ti9AGRG2ojO90zdwonVuJHZkVnTy42UK9ichR2bqJ1T&mode=edit
+
+Date:
+  2022-01-12 18:49:07
+
+خطا:
+  خطای بارگذاری فایل. <br><div style="display:none">File extension not allowed for upload.</div>
+
+Developer Details:
+  خطای بارگذاری فایل. <br><div style="display:none">File extension "docx" is not allowed for upload.</div> (FILE_UPLOAD_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql
+      tNG_insert.postExecuteSql
+      AFTER.Trigger_ImageUpload*
+      ERROR.Trigger_Default_Insert_RollBack
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  5.210.81.68
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  https://payesh.bonyadmaskan.ir/portal/plugins/havades/gheteold_add.php?cod=o63b@@merfPww7ti9AGRG2ojO90zdwonVuJHZkVnTy42UK9ichR2bqJ1T&mode=edit
+
+Date:
+  2022-01-12 18:49:07
+
+خطا:
+  خطای بارگذاری فایل. <br><div style="display:none">File extension not allowed for upload.</div>
+
+Developer Details:
+  خطای بارگذاری فایل. <br><div style="display:none">File extension "docx" is not allowed for upload.</div> (FILE_UPLOAD_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql
+      tNG_insert.postExecuteSql
+      AFTER.Trigger_ImageUpload*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  5.210.81.68
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  https://payesh.bonyadmaskan.ir/portal/plugins/havades/gheteold_add.php?cod=o63b@@merfPww7ti9AGRG2ojO90zdwonVuJHZkVnTy42UK9ichR2bqJ1T&mode=edit
+
+Date:
+  2022-01-12 18:49:07
+
+خطا:
+  خطای بارگذاری فایل. <br><div style="display:none">File extension not allowed for upload.</div>
+
+Developer Details:
+  خطای بارگذاری فایل. <br><div style="display:none">File extension "docx" is not allowed for upload.</div> (FILE_UPLOAD_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql
+      tNG_insert.postExecuteSql
+      AFTER.Trigger_ImageUpload*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  5.210.81.68
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  https://payesh.bonyadmaskan.ir/portal/plugins/havades/gheteold_add.php?cod=o63b@@merfPww7ti9AGRG2ojO90zdwonVuJHZkVnTy42UK9ichR2bqJ1T&mode=edit
+
+Date:
+  2022-01-12 18:53:35
+
+خطا:
+  خطای بارگذاری فایل. <br><div style="display:none">File extension not allowed for upload.</div>
+
+Developer Details:
+  خطای بارگذاری فایل. <br><div style="display:none">File extension "docx" is not allowed for upload.</div> (FILE_UPLOAD_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql
+      tNG_insert.postExecuteSql
+      AFTER.Trigger_ImageUpload*
+      ERROR.Trigger_Default_Insert_RollBack
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  5.210.81.68
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  https://payesh.bonyadmaskan.ir/portal/plugins/havades/gheteold_add.php?cod=o63b@@merfPww7ti9AGRG2ojO90zdwonVuJHZkVnTy42UK9ichR2bqJ1T&mode=edit
+
+Date:
+  2022-01-12 18:53:35
+
+خطا:
+  خطای بارگذاری فایل. <br><div style="display:none">File extension not allowed for upload.</div>
+
+Developer Details:
+  خطای بارگذاری فایل. <br><div style="display:none">File extension "docx" is not allowed for upload.</div> (FILE_UPLOAD_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql
+      tNG_insert.postExecuteSql
+      AFTER.Trigger_ImageUpload*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  5.210.81.68
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  https://payesh.bonyadmaskan.ir/portal/plugins/havades/gheteold_add.php?cod=o63b@@merfPww7ti9AGRG2ojO90zdwonVuJHZkVnTy42UK9ichR2bqJ1T&mode=edit
+
+Date:
+  2022-01-12 18:53:35
+
+خطا:
+  خطای بارگذاری فایل. <br><div style="display:none">File extension not allowed for upload.</div>
+
+Developer Details:
+  خطای بارگذاری فایل. <br><div style="display:none">File extension "docx" is not allowed for upload.</div> (FILE_UPLOAD_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql
+      tNG_insert.postExecuteSql
+      AFTER.Trigger_ImageUpload*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  151.235.94.195
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  https://payesh.bonyadmaskan.ir/portal/plugins/havades/payankar_add.php?cod=TieW0zFCB08@@Q1Ftr0WWYqjO90zdsZVRYB3TOp0N2gDO2VFV4BTc5Zjc&mode=edit
+
+Date:
+  2022-01-13 07:53:59
+
+خطا:
+  خطای پایگاه داده. <br><div style="display:none">Column 'shahr' cannot be null</div>
+
+Developer Details:
+  خطای پایگاه داده. <br><div style="display:none">UPDATE hadese SET payankarstatus='1', payankardate=null, pelaksabti=null, adres=null, karbari='1', ostan='08', shahrestan='0809', bakhsh='080904', shahr=null, rosta='0809041347' WHERE code = '15838275174729'.</div> (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_update.doTransaction
+      BEFORE.Trigger_Default_saveData
+        tNG_update.saveData
+      BEFORE.Trigger_Default_FormValidation
+      tNG_update.prepareSQL
+      tNG_update.executeTransaction - execute sql*
+  tNG_update.getRecordset
+  tNG_update.getFakeRsArr
+  tNG_update.getLocalRecordset
+  tNG_update.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  151.235.94.195
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  https://payesh.bonyadmaskan.ir/portal/plugins/havades/payankar_add.php?cod=TieW0zFCB08@@Q1Ftr0WWYqjO90zdsZVRYB3TOp0N2gDO2VFV4BTc5Zjc&mode=edit
+
+Date:
+  2022-01-13 07:54:04
+
+خطا:
+  خطای پایگاه داده. <br><div style="display:none">Column 'karbari' cannot be null</div>
+
+Developer Details:
+  خطای پایگاه داده. <br><div style="display:none">UPDATE hadese SET payankarstatus='1', payankardate=null, pelaksabti=null, adres=null, karbari=null, ostan=null, shahrestan=null, bakhsh=null, shahr=null, rosta=null WHERE code = '15838275174729'.</div> (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_update.doTransaction
+      BEFORE.Trigger_Default_saveData
+        tNG_update.saveData
+      BEFORE.Trigger_Default_FormValidation
+      tNG_update.prepareSQL
+      tNG_update.executeTransaction - execute sql*
+  tNG_update.getRecordset
+  tNG_update.getFakeRsArr
+  tNG_update.getLocalRecordset
+  tNG_update.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  5.127.111.70
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  https://payesh.bonyadmaskan.ir/portal/plugins/havades/makan_add.php?mode=edit&&cod=zpLRBmazdj@@z5pYSi3cXQpjO90zdEdXaGJTN3xUd1R2VDBjejlHOTpUc
+
+Date:
+  2022-01-13 08:25:57
+
+خطا:
+  خطای بارگذاری فایل. <br><div style="display:none">File size must be less than 300 kB.</div>
+
+Developer Details:
+  خطای بارگذاری فایل. <br><div style="display:none">File size must be less than 300 kB.</div> (FILE_UPLOAD_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_update.doTransaction
+      BEFORE.Trigger_Default_saveData
+        tNG_update.saveData
+      BEFORE.Trigger_Default_FormValidation
+      tNG_update.prepareSQL
+      tNG_update.executeTransaction - execute sql
+      AFTER.Trigger_ImageUpload*
+  tNG_insert.getRecordset
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_update.getRecordset
+  tNG_update.getFakeRsArr
+  tNG_update.getLocalRecordset
+  tNG_update.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  185.141.39.215
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  https://payesh.bonyadmaskan.ir/portal/plugins/havades/file_add.php?cod=FzxIsaES@@Youj0DeMYxuHrjO90TUFNzbERzVwRzdDd1cxF3VBR3VNJkY&mode=edit
+
+Date:
+  2022-01-13 11:43:11
+
+خطا:
+  خطای بارگذاری فایل. <br><div style="display:none">File size must be less than 200 kB.</div>
+
+Developer Details:
+  خطای بارگذاری فایل. <br><div style="display:none">File size must be less than 200 kB.</div> (FILE_UPLOAD_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql
+      tNG_insert.postExecuteSql
+      AFTER.Trigger_ImageUpload*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  93.115.144.100
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  https://payesh.bonyadmaskan.ir/portal/plugins/havades/file_add.php?cod=POPmJJ7cerHqQ9ZoPgQ5SrjO90zZjZFUvJXb3YkVX9kcqZGZBBzaNl3N&cod=POPmJJ7cerHqQ9ZoPgQ5SrjO90zZjZFUvJXb3YkVX9kcqZGZBBzaNl3N&mode=edit
+
+Date:
+  2022-01-13 12:34:11
+
+خطا:
+  خطای بارگذاری فایل. <br><div style="display:none">File size must be less than 200 kB.</div>
+
+Developer Details:
+  خطای بارگذاری فایل. <br><div style="display:none">File size must be less than 200 kB.</div> (FILE_UPLOAD_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql
+      tNG_insert.postExecuteSql
+      AFTER.Trigger_ImageUpload*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  95.81.114.185
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  https://payesh.bonyadmaskan.ir/portal/plugins/havades/dastresy_add.php?cod=oVrAAV8rt1c6Z2ybWVImRrjO90TQ2ZkNIhkWPNUbrpkdpllSPBXawQGU&mode=edit
+
+Date:
+  2022-01-13 16:09:40
+
+خطا:
+  خطای پایگاه داده. <br><div style="display:none">Data too long for column 'codeposti' at row 1</div>
+
+Developer Details:
+  خطای پایگاه داده. <br><div style="display:none">UPDATE hadese SET codeposti='صومعه سرا - دهستان طاهرگوراب - روستای خانی کنار', xpos=null, ypos=null, xyzutm=null, adres='صومعه سرا - دهستان طاهرگوراب - روستای خانی کنار', tel=null, mob='09019639263', pelaksabti=null, mojnahr=0, mojrod=0, mojbargh=0, mojgaz=0, mojrah=0, malekdastresi='1', mojsayer=0, tozihat=null, rahnamanesbat=null, rahnamaname=null, karshcode=null, karshdate='1400/10/05', ehdasstatus=null, peymanid=null, moshaverid=null, contracttype=null, contractcode=null, contractdate=null WHERE code = '16420757966258'.</div> (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_update.doTransaction
+      BEFORE.Trigger_Default_saveData
+        tNG_update.saveData
+      BEFORE.Trigger_Default_FormValidation
+      tNG_update.prepareSQL
+      tNG_update.executeTransaction - execute sql*
+  tNG_update.getRecordset
+  tNG_update.getFakeRsArr
+  tNG_update.getLocalRecordset
+  tNG_update.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  95.81.114.185
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  https://payesh.bonyadmaskan.ir/portal/plugins/havades/dastresy_add.php?cod=jUwtSoSXkxRFLLdAqydk7rjO90TQaNXZ3cEeJNXTHBXOyg3NZNDd2M3Q&mode=edit
+
+Date:
+  2022-01-15 08:51:28
+
+خطا:
+  خطای پایگاه داده. <br><div style="display:none">Data too long for column 'codeposti' at row 1</div>
+
+Developer Details:
+  خطای پایگاه داده. <br><div style="display:none">UPDATE hadese SET codeposti='صومعه سرا-بخش طاهرگوراب-روستای خانی کنار', xpos=null, ypos=null, xyzutm=null, adres='صومعه سرا-بخش طاهرگوراب-روستای خانی کنار', tel='09336292928', mob='09336192928', pelaksabti=null, mojnahr=0, mojrod=0, mojbargh=0, mojgaz=0, mojrah=0, malekdastresi='1', mojsayer=0, tozihat=null, rahnamanesbat=null, rahnamaname=null, karshcode=null, karshdate='1400/10/05', ehdasstatus='2', peymanid=null, moshaverid=null, contracttype=null, contractcode=null, contractdate=null WHERE code = '16422228906340'.</div> (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_update.doTransaction
+      BEFORE.Trigger_Default_saveData
+        tNG_update.saveData
+      BEFORE.Trigger_Default_FormValidation
+      tNG_update.prepareSQL
+      tNG_update.executeTransaction - execute sql*
+  tNG_update.getRecordset
+  tNG_update.getFakeRsArr
+  tNG_update.getLocalRecordset
+  tNG_update.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  172.16.90.5
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  https://payesh.bonyadmaskan.ir/portal/plugins/tashilatcat/tashilatcat_add.php
+
+Date:
+  2022-01-15 09:52:08
+
+خطا:
+  خطای پایگاه داده. <br><div style="display:none">Field 'etebartype' doesn't have a default value</div>
+
+Developer Details:
+  خطای پایگاه داده. <br><div style="display:none">INSERT INTO tashilatcat (code, name, tashilatkind, khesaratlevel, type, editamountoffer, azadsaziaghsat, sort, marahel, status) values ('20', 'احداثی دامی', '0', '1,2', '1', null, 0, '20', '2', '1').</div> (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  172.16.90.5
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  https://payesh.bonyadmaskan.ir/portal/plugins/tashilatcat/tashilatcat_add.php
+
+Date:
+  2022-01-15 10:25:10
+
+خطا:
+  خطای پایگاه داده. <br><div style="display:none">Field 'etebartype' doesn't have a default value</div>
+
+Developer Details:
+  خطای پایگاه داده. <br><div style="display:none">INSERT INTO tashilatcat (code, name, tashilatkind, khesaratlevel, type, editamountoffer, azadsaziaghsat, sort, marahel, status) values ('20', 'احداثی دامی', '0', '1,2', '1', null, 0, '20', '2', '1').</div> (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  2.181.30.10
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  https://payesh.bonyadmaskan.ir/portal/plugins/tashilatcat/tashilatcat_edit.php?id=$$biR01uQvc00MzJi@@MtssqjO90TUmZ3SUNGVwIkYHVTT10GMVFjbYFFW
+
+Date:
+  2022-01-15 10:44:04
+
+خطا:
+  خطای داخلی.
+
+Developer Details:
+  tNG_update.getLocalRecordset:خطا.<br /><br><div style="display:none"><strong>پیغام خطا:</strong><br />Unknown column 'includes_groupsend' in 'field list'<br /><strong>دستور پایگاه داده:</strong><br />SELECT code,name,tashilatkind,khesaratlevel,type,editamountoffer,azadsaziaghsat,kaneksrelated,tashilatrelated,codemelirelated,includes_groupsend,marahel,sort,etebarnoekh,etebartype,status,id, id as kt_pk_tashilatcat FROM tashilatcat WHERE id =19</div> (UPD_RS)
+
+tNG Execution Trace:
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+  tNG_update.getRecordset
+  tNG_update.getLocalRecordset*
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  2.181.30.10
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  https://payesh.bonyadmaskan.ir/portal/plugins/tashilatcat/tashilatcat_edit.php?id=cBQiqhtfZ78fMU1sfTJXRpjO90zZPZUTxJkbzkkT1p3M0cXSvFTeTlHT
+
+Date:
+  2022-01-15 10:44:23
+
+خطا:
+  خطای داخلی.
+
+Developer Details:
+  tNG_update.getLocalRecordset:خطا.<br /><br><div style="display:none"><strong>پیغام خطا:</strong><br />Unknown column 'includes_groupsend' in 'field list'<br /><strong>دستور پایگاه داده:</strong><br />SELECT code,name,tashilatkind,khesaratlevel,type,editamountoffer,azadsaziaghsat,kaneksrelated,tashilatrelated,codemelirelated,includes_groupsend,marahel,sort,etebarnoekh,etebartype,status,id, id as kt_pk_tashilatcat FROM tashilatcat WHERE id =19</div> (UPD_RS)
+
+tNG Execution Trace:
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+  tNG_update.getRecordset
+  tNG_update.getLocalRecordset*
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  172.16.90.5
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  https://payesh.bonyadmaskan.ir/portal/plugins/admin/admin_add.php
+
+Date:
+  2022-01-16 09:23:25
+
+خطا:
+  کاربر با این نام کاربری قبلا درج شده است
+
+Developer Details:
+  %s
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      BEFORE.Trigger_CheckUnique*
+      ERROR.Trigger_Default_Insert_RollBack
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  172.16.90.5
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  https://payesh.bonyadmaskan.ir/portal/plugins/admin/admin_add.php
+
+Date:
+  2022-01-16 09:23:25
+
+خطا:
+  کاربر با این نام کاربری قبلا درج شده است
+
+Developer Details:
+  %s
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      BEFORE.Trigger_CheckUnique*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  151.234.5.102
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  https://payesh.bonyadmaskan.ir/portal/plugins/havades/melktakmil_edit.php?id=CjtFJydYUO25HGzi3gaGkqjO90TQndXZiF3brp1cSBVVT9yYhJ2UEBnN
+
+Date:
+  2022-01-16 09:48:45
+
+خطا:
+  خطای پایگاه داده. <br><div style="display:none">Column 'tabaghe' cannot be null</div>
+
+Developer Details:
+  خطای پایگاه داده. <br><div style="display:none">UPDATE melk_detail SET tabaghe=null, maskoniv='0', maskonim=null, tejariv=null, tejarim=null, tejmasv=null, tejmasm=null, khadv=null, khadm=null, edariv=null, edarim=null, malek='اعظم لونی' WHERE id = 44819.</div> (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_update.doTransaction
+      BEFORE.Trigger_Default_saveData
+        tNG_update.saveData
+      BEFORE.Trigger_Default_FormValidation
+      tNG_update.prepareSQL
+      tNG_update.executeTransaction - execute sql*
+  tNG_update.getRecordset
+  tNG_update.getFakeRsArr
+  tNG_update.getLocalRecordset
+  tNG_update.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  151.234.5.102
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  https://payesh.bonyadmaskan.ir/portal/plugins/havades/melktakmil_edit.php?id=rSMUrQQ2pnslvCCKOqqZmqjO90zdXBnMX1mZxZUcuVES3ZkcpZ0RFFHa
+
+Date:
+  2022-01-16 09:49:48
+
+خطا:
+  خطای پایگاه داده. <br><div style="display:none">Column 'tabaghe' cannot be null</div>
+
+Developer Details:
+  خطای پایگاه داده. <br><div style="display:none">UPDATE melk_detail SET tabaghe=null, maskoniv='0', maskonim='0', tejariv=null, tejarim=null, tejmasv=null, tejmasm=null, khadv=null, khadm=null, edariv=null, edarim=null, malek='اعظم لونی' WHERE id = 42724.</div> (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_update.doTransaction
+      BEFORE.Trigger_Default_saveData
+        tNG_update.saveData
+      BEFORE.Trigger_Default_FormValidation
+      tNG_update.prepareSQL
+      tNG_update.executeTransaction - execute sql*
+  tNG_update.getRecordset
+  tNG_update.getFakeRsArr
+  tNG_update.getLocalRecordset
+  tNG_update.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  78.38.116.74
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  https://payesh.bonyadmaskan.ir/portal/plugins/etebarat/etebarat_edit.php?id=chrMnGnHwrnGM9wjyd3a0pjO90zdNhHUmlDOyJHcVZleUR0ZM10byNTW
+
+Date:
+  2022-01-16 10:55:46
+
+خطا:
+  خطای پایگاه داده. <br><div style="display:none">Data too long for column 'tazmincode' at row 1</div>
+
+Developer Details:
+  خطای پایگاه داده. <br><div style="display:none">UPDATE etebarat SET bankcode=14, sgcode=1065, scode=729, tashilatkind='1', ostan='11', shahrcode='1102', shobecode='3521', tarikh='1400/10/26', mablagh='84000000000', user='ostank1101', type='2', tozihat=null, mosavabecode='58724/ت11869', mosavabedate='1400/02/16', tazmincode='00000000000', moarefiname_show=1, active='1', sal=1398, sahmie=210, noekh='9', noekarbari='1', loctype='2', khesaratlevel='2,1' WHERE id = 14919.</div> (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_update.doTransaction
+      BEFORE.Trigger_Default_saveData
+        tNG_update.saveData
+      BEFORE.Trigger_Default_FormValidation
+      tNG_update.prepareSQL
+      tNG_update.executeTransaction - execute sql*
+  tNG_update.getRecordset
+  tNG_update.getFakeRsArr
+  tNG_update.getLocalRecordset
+  tNG_update.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  91.133.244.176
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  https://payesh.bonyadmaskan.ir/portal/plugins/havades/file_add.php?cod=@@S1bNQVSXM99ak8sVL4O8ojO90zZKFzSHJUY4QHTN5GTipXcklXY1JGa&mode=edit
+
+Date:
+  2022-01-16 11:12:46
+
+خطا:
+  خطای بارگذاری فایل. <br><div style="display:none">File size must be less than 200 kB.</div>
+
+Developer Details:
+  خطای بارگذاری فایل. <br><div style="display:none">File size must be less than 200 kB.</div> (FILE_UPLOAD_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql
+      tNG_insert.postExecuteSql
+      AFTER.Trigger_ImageUpload*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  91.133.244.176
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  https://payesh.bonyadmaskan.ir/portal/plugins/havades/makan_add.php?cod=AX7W4ud3ZOOj$$e4dfieYWpjO90zZylkb1kmbwlUaGFTUXNnejBzSzdnU&mode=edit
+
+Date:
+  2022-01-16 16:27:11
+
+خطا:
+  خطای بارگذاری فایل. <br><div style="display:none">File size must be less than 300 kB.</div>
+
+Developer Details:
+  خطای بارگذاری فایل. <br><div style="display:none">File size must be less than 300 kB.</div> (FILE_UPLOAD_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_update.doTransaction
+      BEFORE.Trigger_Default_saveData
+        tNG_update.saveData
+      BEFORE.Trigger_Default_FormValidation
+      tNG_update.prepareSQL
+      tNG_update.executeTransaction - execute sql
+      AFTER.Trigger_ImageUpload*
+  tNG_insert.getRecordset
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_update.getRecordset
+  tNG_update.getFakeRsArr
+  tNG_update.getLocalRecordset
+  tNG_update.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  91.133.244.176
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  https://payesh.bonyadmaskan.ir/portal/plugins/havades/makan_add.php?cod=AX7W4ud3ZOOj$$e4dfieYWpjO90zZylkb1kmbwlUaGFTUXNnejBzSzdnU&mode=edit
+
+Date:
+  2022-01-16 16:29:41
+
+خطا:
+  خطای بارگذاری فایل. <br><div style="display:none">File size must be less than 300 kB.</div>
+
+Developer Details:
+  خطای بارگذاری فایل. <br><div style="display:none">File size must be less than 300 kB.</div> (FILE_UPLOAD_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_update.doTransaction
+      BEFORE.Trigger_Default_saveData
+        tNG_update.saveData
+      BEFORE.Trigger_Default_FormValidation
+      tNG_update.prepareSQL
+      tNG_update.executeTransaction - execute sql
+      AFTER.Trigger_ImageUpload*
+  tNG_insert.getRecordset
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_update.getRecordset
+  tNG_update.getFakeRsArr
+  tNG_update.getLocalRecordset
+  tNG_update.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  91.133.244.176
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  https://payesh.bonyadmaskan.ir/portal/plugins/havades/makan_add.php?mode=edit&&cod=AX7W4ud3ZOOj$$e4dfieYWpjO90zZylkb1kmbwlUaGFTUXNnejBzSzdnU
+
+Date:
+  2022-01-16 16:37:46
+
+خطا:
+  خطای بارگذاری فایل. <br><div style="display:none">File size must be less than 300 kB.</div>
+
+Developer Details:
+  خطای بارگذاری فایل. <br><div style="display:none">File size must be less than 300 kB.</div> (FILE_UPLOAD_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_update.doTransaction
+      BEFORE.Trigger_Default_saveData
+        tNG_update.saveData
+      BEFORE.Trigger_Default_FormValidation
+      tNG_update.prepareSQL
+      tNG_update.executeTransaction - execute sql
+      AFTER.Trigger_ImageUpload*
+  tNG_insert.getRecordset
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_update.getRecordset
+  tNG_update.getFakeRsArr
+  tNG_update.getLocalRecordset
+  tNG_update.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  91.133.244.176
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  https://payesh.bonyadmaskan.ir/portal/plugins/havades/makan_add.php?mode=edit&&cod=AX7W4ud3ZOOj$$e4dfieYWpjO90zZylkb1kmbwlUaGFTUXNnejBzSzdnU
+
+Date:
+  2022-01-16 16:38:28
+
+خطا:
+  خطای بارگذاری فایل. <br><div style="display:none">File size must be less than 300 kB.</div>
+
+Developer Details:
+  خطای بارگذاری فایل. <br><div style="display:none">File size must be less than 300 kB.</div> (FILE_UPLOAD_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_update.doTransaction
+      BEFORE.Trigger_Default_saveData
+        tNG_update.saveData
+      BEFORE.Trigger_Default_FormValidation
+      tNG_update.prepareSQL
+      tNG_update.executeTransaction - execute sql
+      AFTER.Trigger_ImageUpload*
+  tNG_insert.getRecordset
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_update.getRecordset
+  tNG_update.getFakeRsArr
+  tNG_update.getLocalRecordset
+  tNG_update.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  91.133.244.176
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  https://payesh.bonyadmaskan.ir/portal/plugins/havades/makan_add.php?mode=edit&&cod=AX7W4ud3ZOOj$$e4dfieYWpjO90zZylkb1kmbwlUaGFTUXNnejBzSzdnU
+
+Date:
+  2022-01-16 16:41:58
+
+خطا:
+  خطای بارگذاری فایل. <br><div style="display:none">File size must be less than 300 kB.</div>
+
+Developer Details:
+  خطای بارگذاری فایل. <br><div style="display:none">File size must be less than 300 kB.</div> (FILE_UPLOAD_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_update.doTransaction
+      BEFORE.Trigger_Default_saveData
+        tNG_update.saveData
+      BEFORE.Trigger_Default_FormValidation
+      tNG_update.prepareSQL
+      tNG_update.executeTransaction - execute sql
+      AFTER.Trigger_ImageUpload*
+  tNG_insert.getRecordset
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_update.getRecordset
+  tNG_update.getFakeRsArr
+  tNG_update.getLocalRecordset
+  tNG_update.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  79.127.82.27
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  https://payesh.bonyadmaskan.ir/portal/plugins/havades/havades_edit.php?cod=bqMxfEtvws0uv@@vHryP7gojO90zdFRmcsZEOvZma2wGSxZFc4cXWrMGZ&mode=edit
+
+Date:
+  2022-01-17 09:16:31
+
+خطا:
+  خطای پایگاه داده. <br><div style="display:none">Column 'shahr' cannot be null</div>
+
+Developer Details:
+  خطای پایگاه داده. <br><div style="display:none">UPDATE hadese SET sgcode='1033', scode='370', ostan='15', shahr=null, shahrestan=null, bakhsh=null, rosta=null, mahale=null, mojtama=null, loctype='2', tozihat=null, formserial=null, vagozari_zamin=0, codeposti=null, khanevarfarei='0', tedadfoti=null, tedadzakhmi=null, sokonat='1', nahad='4', eskan='0', mastercode='1', parvandetype='1', relcode=null, mojavez='0', adres=null, active='1', sal=null, type='1' WHERE code = '15557623661521'.</div> (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_update.doTransaction
+      BEFORE.Trigger_Default_saveData
+        tNG_update.saveData
+      BEFORE.Trigger_Default_FormValidation
+      tNG_update.prepareSQL
+      tNG_update.executeTransaction - execute sql*
+  tNG_update.getRecordset
+  tNG_update.getFakeRsArr
+  tNG_update.getLocalRecordset
+  tNG_update.getFakeRecordset
+  tNG_update.executeTransaction
+  tNG_update.getRecordset
+  tNG_update.getFakeRsArr
+  tNG_update.getLocalRecordset
+  tNG_update.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  172.16.90.5
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  https://payesh.bonyadmaskan.ir/portal/plugins/admin/admin_add.php
+
+Date:
+  2022-01-17 10:08:24
+
+خطا:
+  کاربر با این نام کاربری قبلا درج شده است
+
+Developer Details:
+  %s
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      BEFORE.Trigger_CheckUnique*
+      ERROR.Trigger_Default_Insert_RollBack
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  172.16.90.5
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  https://payesh.bonyadmaskan.ir/portal/plugins/admin/admin_add.php
+
+Date:
+  2022-01-17 10:08:24
+
+خطا:
+  کاربر با این نام کاربری قبلا درج شده است
+
+Developer Details:
+  %s
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      BEFORE.Trigger_CheckUnique*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  91.133.211.120
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  https://payesh.bonyadmaskan.ir/portal/plugins/havades/gheteold_add.php?cod=DQJMkbKWjjufcWmjydjBapjO90TQx42c5M2QY5GVhZ1c4omb4Y1KrUjT&mode=edit
+
+Date:
+  2022-01-17 18:01:23
+
+خطا:
+  خطای بارگذاری فایل. <br><div style="display:none">File size must be less than 300 kB.</div>
+
+Developer Details:
+  خطای بارگذاری فایل. <br><div style="display:none">File size must be less than 300 kB.</div> (FILE_UPLOAD_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql
+      tNG_insert.postExecuteSql
+      AFTER.Trigger_ImageUpload*
+      ERROR.Trigger_Default_Insert_RollBack
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  91.133.211.120
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  https://payesh.bonyadmaskan.ir/portal/plugins/havades/gheteold_add.php?cod=DQJMkbKWjjufcWmjydjBapjO90TQx42c5M2QY5GVhZ1c4omb4Y1KrUjT&mode=edit
+
+Date:
+  2022-01-17 18:01:23
+
+خطا:
+  خطای بارگذاری فایل. <br><div style="display:none">File size must be less than 300 kB.</div>
+
+Developer Details:
+  خطای بارگذاری فایل. <br><div style="display:none">File size must be less than 300 kB.</div> (FILE_UPLOAD_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql
+      tNG_insert.postExecuteSql
+      AFTER.Trigger_ImageUpload*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  91.133.211.120
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  https://payesh.bonyadmaskan.ir/portal/plugins/havades/gheteold_add.php?cod=DQJMkbKWjjufcWmjydjBapjO90TQx42c5M2QY5GVhZ1c4omb4Y1KrUjT&mode=edit
+
+Date:
+  2022-01-17 18:01:23
+
+خطا:
+  خطای بارگذاری فایل. <br><div style="display:none">File size must be less than 300 kB.</div>
+
+Developer Details:
+  خطای بارگذاری فایل. <br><div style="display:none">File size must be less than 300 kB.</div> (FILE_UPLOAD_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql
+      tNG_insert.postExecuteSql
+      AFTER.Trigger_ImageUpload*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  172.16.90.5
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  https://payesh.bonyadmaskan.ir/portal/plugins/admin/admin_add.php
+
+Date:
+  2022-01-18 15:29:54
+
+خطا:
+  کاربر با این نام کاربری قبلا درج شده است
+
+Developer Details:
+  %s
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      BEFORE.Trigger_CheckUnique*
+      ERROR.Trigger_Default_Insert_RollBack
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  172.16.90.5
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  https://payesh.bonyadmaskan.ir/portal/plugins/admin/admin_add.php
+
+Date:
+  2022-01-18 15:29:54
+
+خطا:
+  کاربر با این نام کاربری قبلا درج شده است
+
+Developer Details:
+  %s
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      BEFORE.Trigger_CheckUnique*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  2.180.12.33
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  https://payesh.bonyadmaskan.ir/portal/plugins/havades/file_add.php?cod=RX05La6cJdy7ZVS39GHJtqjO90zZrdzcJJVeMhXd2ZEZwRkV6FDbOlWZ&cod=RX05La6cJdy7ZVS39GHJtqjO90zZrdzcJJVeMhXd2ZEZwRkV6FDbOlWZ&mode=edit
+
+Date:
+  2022-01-19 10:07:56
+
+خطا:
+  خطای بارگذاری فایل. <br><div style="display:none">File size must be less than 200 kB.</div>
+
+Developer Details:
+  خطای بارگذاری فایل. <br><div style="display:none">File size must be less than 200 kB.</div> (FILE_UPLOAD_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql
+      tNG_insert.postExecuteSql
+      AFTER.Trigger_ImageUpload*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  78.38.106.242
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  https://payesh.bonyadmaskan.ir/portal/plugins/havades/melktakmil_add.php?cod=@@ReQZswptLzQGvXCJDMxqojO90zdW1GRQRmNrYmVPpGOKpHSwQnRpx2Q&mode=edit
+
+Date:
+  2022-01-19 11:23:42
+
+خطا:
+  خطای پایگاه داده. <br><div style="display:none">Column 'tabaghe' cannot be null</div>
+
+Developer Details:
+  خطای پایگاه داده. <br><div style="display:none">INSERT INTO melk_detail (hcode, tabaghe, maskoniv, maskonim, tejariv, tejarim, tejmasv, tejmasm, khadv, khadm, edariv, edarim, mazhabiv, mazhabim, malek, user, sdate, active) values ('15402784159204', null, null, null, null, null, null, null, null, null, null, null, null, null, 'هادی حسن زاد آبدوغی', 'a280602', '1400/10/29', '1').</div> (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  5.120.108.101
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  https://payesh.bonyadmaskan.ir/portal/plugins/havades/moteghazi_edit.php?cod=IrVRWYgOJmKx26g5ZFNZRojO90zdElEUwBjVGJ1NWd0bGRle2l0ZjFWN&id=ZD0hnNJIeaLurZ8slnRFPqjO90TQ5JGeulmcC1mRi12V2sSVpdXW2R1d
+
+Date:
+  2022-01-20 09:12:29
+
+خطا:
+  خطای پایگاه داده. <br><div style="display:none">Data too long for column 'mobile' at row 1</div>
+
+Developer Details:
+  خطای پایگاه داده. <br><div style="display:none">UPDATE khanevar SET nesbat='2', vamgirande=0, name='سلمه', lname='زاوش', pedar='شنبه', shsh='1502', mahalsodor='فین', codemeli='537-963205-1', mahaltavalod='بندرعباس', birthday='1349/01/01', job=null, tel=null, mobile='09171670574-09397292432', tabeiat='0', job_duration=null, jobplace=null, madrak=null, modat_sokonat=null, user='a220202', takafol=null, noesokonat='1', jensiat='1', taahol='0', status=1 WHERE id = 1085276.</div> (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_update.doTransaction
+      BEFORE.Trigger_Default_saveData
+        tNG_update.saveData
+      BEFORE.Trigger_Default_FormValidation
+      tNG_update.prepareSQL
+      tNG_update.executeTransaction - execute sql*
+  tNG_update.getRecordset
+  tNG_update.getFakeRsArr
+  tNG_update.getLocalRecordset
+  tNG_update.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  185.141.39.215
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  https://payesh.bonyadmaskan.ir/portal/plugins/havades/file_add.php?cod=PnV5bCx2Z0Mx2uf4wx4BoojO90TU4NVM0kWQvh0N1oWZGdlMMdkW2ATe&cod=PnV5bCx2Z0Mx2uf4wx4BoojO90TU4NVM0kWQvh0N1oWZGdlMMdkW2ATe&mode=edit
+
+Date:
+  2022-01-20 10:33:25
+
+خطا:
+  خطای بارگذاری فایل. <br><div style="display:none">File size must be less than 200 kB.</div>
+
+Developer Details:
+  خطای بارگذاری فایل. <br><div style="display:none">File size must be less than 200 kB.</div> (FILE_UPLOAD_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql
+      tNG_insert.postExecuteSql
+      AFTER.Trigger_ImageUpload*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  78.39.32.229
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  https://payesh.bonyadmaskan.ir/portal/plugins/havades/hesab_add.php?cod=Wcs0LB8YkLaLDV6Hyit8JpjO90TUqZ2b21WZDFTRvIWdBpHWZZmWK5mc&mode=edit
+
+Date:
+  2022-01-22 09:10:57
+
+خطا:
+  خطای پایگاه داده. <br><div style="display:none">Data too long for column 'shhesab' at row 1</div>
+
+Developer Details:
+  خطای پایگاه داده. <br><div style="display:none">UPDATE hadese SET bank=17, shobe=null, shhesab='نامه از طریق سامانه دولت فرستاده شدe', shabanumber='IR29 0150 0000 0310 1017 9188 23', cartnumber=null, malicode=null WHERE code = '16414595897332'.</div> (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_update.doTransaction
+      BEFORE.Trigger_Default_saveData
+        tNG_update.saveData
+      BEFORE.Trigger_Default_FormValidation
+      tNG_update.prepareSQL
+      tNG_update.executeTransaction - execute sql*
+  tNG_update.getRecordset
+  tNG_update.getFakeRsArr
+  tNG_update.getLocalRecordset
+  tNG_update.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  172.16.90.5
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  https://payesh.bonyadmaskan.ir/portal/plugins/admin/admin_add.php
+
+Date:
+  2022-01-23 10:56:54
+
+خطا:
+  کاربر با این نام کاربری قبلا درج شده است
+
+Developer Details:
+  %s
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      BEFORE.Trigger_CheckUnique*
+      ERROR.Trigger_Default_Insert_RollBack
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  172.16.90.5
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  https://payesh.bonyadmaskan.ir/portal/plugins/admin/admin_add.php
+
+Date:
+  2022-01-23 10:56:55
+
+خطا:
+  کاربر با این نام کاربری قبلا درج شده است
+
+Developer Details:
+  %s
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      BEFORE.Trigger_CheckUnique*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  37.129.16.211
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  https://payesh.bonyadmaskan.ir/portal/plugins/havades/moteghazi_add.php?cod=KeVE4yYmZ2Msdw5eS2ClwrjO90zdqdVelVVQRdWQTJlW2kkd0gnTUp3U&mode=edit
+
+Date:
+  2022-01-24 07:54:53
+
+خطا:
+  خطای پایگاه داده. <br><div style="display:none">Data too long for column 'modat_sokonat' at row 1</div>
+
+Developer Details:
+  خطای پایگاه داده. <br><div style="display:none">INSERT INTO khanevar (hcode, nesbat, vamgirande, name, lname, pedar, shsh, mahalsodor, codemeli, mahaltavalod, birthday, job, job_duration, jobplace, madrak, modat_sokonat, tel, mobile, tabeiat, user, sdate, takafol, jensiat, taahol, noesokonat, status) values ('16426027242107', '1', 1, 'مرادحاتون', 'بلوچ', 'دادرحمن', '26', null, '365-159376-2', 'چابهار', '1364/08/10', null, null, null, null, 'جغران وارو', '09178358753', '09178358753', '0', 'a111801', '1400/11/04', '4', '1', '1', '1', 1).</div> (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  93.115.144.100
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  https://payesh.bonyadmaskan.ir/portal/plugins/tashilat/tashilat_changepaystatus.php?id=URWMPMWuUI5vudrh4wGrSrjO90TUzcXT39kY1N1LiNzQz0mM4pXYG9yL&rahgiri=PuRAadQ9GloGKToI6zAC1pjO90TQs92TkFWRilUaI50QyFzKxUURHNHU
+
+Date:
+  2022-01-25 09:17:33
+
+خطا:
+  خطای پایگاه داده. <br><div style="display:none">Data too long for column 'namehcode' at row 1</div>
+
+Developer Details:
+  خطای پایگاه داده. <br><div style="display:none">UPDATE tashilat SET namehdate=null, namehcode='طی نامه شماره 60/13160/1206مورخه1400/11/02 (تصویر در فیلد پیوست) بانک تجارت شعبه پارس آباد تسویه شد.', paystatus='0' WHERE id = 100060146.</div> (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_update.doTransaction
+      BEFORE.Trigger_Default_saveData
+        tNG_update.saveData
+      BEFORE.Trigger_Default_FormValidation
+      tNG_update.prepareSQL
+      tNG_update.executeTransaction - execute sql*
+  tNG_update.getRecordset
+  tNG_update.getFakeRsArr
+  tNG_update.getLocalRecordset
+  tNG_update.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  94.183.24.123
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  https://payesh.bonyadmaskan.ir/portal/plugins/tashilat/tashilat_changepaystatus.php?id=URWMPMWuUI5vudrh4wGrSrjO90TUzcXT39kY1N1LiNzQz0mM4pXYG9yL&rahgiri=PuRAadQ9GloGKToI6zAC1pjO90TQs92TkFWRilUaI50QyFzKxUURHNHU
+
+Date:
+  2022-01-25 09:21:39
+
+خطا:
+  خطای پایگاه داده. <br><div style="display:none">Data too long for column 'namehcode' at row 1</div>
+
+Developer Details:
+  خطای پایگاه داده. <br><div style="display:none">UPDATE tashilat SET namehdate=null, namehcode='طی نامه بانک تجارا(تصویر در فیلدپیوست)تسویه شد', paystatus='0' WHERE id = 100060146.</div> (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_update.doTransaction
+      BEFORE.Trigger_Default_saveData
+        tNG_update.saveData
+      BEFORE.Trigger_Default_FormValidation
+      tNG_update.prepareSQL
+      tNG_update.executeTransaction - execute sql*
+  tNG_update.getRecordset
+  tNG_update.getFakeRsArr
+  tNG_update.getLocalRecordset
+  tNG_update.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  172.16.90.5
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  https://payesh.bonyadmaskan.ir/portal/plugins/admin/admin_add.php
+
+Date:
+  2022-01-25 12:52:53
+
+خطا:
+  کاربر با این نام کاربری قبلا درج شده است
+
+Developer Details:
+  %s
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      BEFORE.Trigger_CheckUnique*
+      ERROR.Trigger_Default_Insert_RollBack
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  172.16.90.5
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  https://payesh.bonyadmaskan.ir/portal/plugins/admin/admin_add.php
+
+Date:
+  2022-01-25 12:52:54
+
+خطا:
+  کاربر با این نام کاربری قبلا درج شده است
+
+Developer Details:
+  %s
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      BEFORE.Trigger_CheckUnique*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  188.215.215.192
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  https://payesh.bonyadmaskan.ir/portal/plugins/havades/moteghazi_add.php?cod=LfcLN7mZkOhnTkliNkmmWojO90zdHFUR5RTb5ZUVxlHV4Nna6VWTMFHU&mode=edit
+
+Date:
+  2022-01-26 12:18:44
+
+خطا:
+  خطای پایگاه داده. <br><div style="display:none">Data too long for column 'job_duration' at row 1</div>
+
+Developer Details:
+  خطای پایگاه داده. <br><div style="display:none">INSERT INTO khanevar (hcode, nesbat, vamgirande, name, lname, pedar, shsh, mahalsodor, codemeli, mahaltavalod, birthday, job, job_duration, jobplace, madrak, modat_sokonat, tel, mobile, tabeiat, user, sdate, takafol, jensiat, taahol, noesokonat, status) values ('16367797069742', '2', 0, 'فاطمه', 'دربالائی', 'احمد', '0', 'دزفول', '692-000594-8', 'دزفول', '1377/10/11', 'خانه دار', '09137221281', null, null, '20', null, null, '0', 'a140605', '1400/11/06', '4', '1', '1', '1', 1).</div> (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  94.101.246.9
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  https://payesh.bonyadmaskan.ir/portal/plugins/havades/makan_add.php?cod=Nos4BFuOWe9K@@Zg$$Y7TwbojO90TQ4dFT4Z2Lk1mMUVkdxsGMMlEUzEWa&mode=edit
+
+Date:
+  2022-01-27 14:28:38
+
+خطا:
+  خطای بارگذاری فایل. <br><div style="display:none">File extension not allowed for upload.</div>
+
+Developer Details:
+  خطای بارگذاری فایل. <br><div style="display:none">File extension "docx" is not allowed for upload.</div> (FILE_UPLOAD_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_update.doTransaction
+      BEFORE.Trigger_Default_saveData
+        tNG_update.saveData
+      BEFORE.Trigger_Default_FormValidation
+      tNG_update.prepareSQL
+      tNG_update.executeTransaction - execute sql
+      AFTER.Trigger_ImageUpload*
+  tNG_insert.getRecordset
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_update.getRecordset
+  tNG_update.getFakeRsArr
+  tNG_update.getLocalRecordset
+  tNG_update.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  94.101.246.9
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  https://payesh.bonyadmaskan.ir/portal/plugins/havades/makan_add.php?cod=Nos4BFuOWe9K@@Zg$$Y7TwbojO90TQ4dFT4Z2Lk1mMUVkdxsGMMlEUzEWa&mode=edit
+
+Date:
+  2022-01-27 14:29:12
+
+خطا:
+  خطای بارگذاری فایل. <br><div style="display:none">File extension not allowed for upload.</div>
+
+Developer Details:
+  خطای بارگذاری فایل. <br><div style="display:none">File extension "docx" is not allowed for upload.</div> (FILE_UPLOAD_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_update.doTransaction
+      BEFORE.Trigger_Default_saveData
+        tNG_update.saveData
+      BEFORE.Trigger_Default_FormValidation
+      tNG_update.prepareSQL
+      tNG_update.executeTransaction - execute sql
+      AFTER.Trigger_ImageUpload*
+  tNG_insert.getRecordset
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_update.getRecordset
+  tNG_update.getFakeRsArr
+  tNG_update.getLocalRecordset
+  tNG_update.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  5.218.227.3
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  https://payesh.bonyadmaskan.ir/portal/plugins/savanehgroup/savanehgroup_add.php
+
+Date:
+  2022-01-28 11:24:37
+
+خطا:
+  این کد قبلا به ثبت رسیده است
+
+Developer Details:
+  %s
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      BEFORE.Trigger_CheckUnique1*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  5.218.227.3
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  https://payesh.bonyadmaskan.ir/portal/plugins/savanehgroup/savanehgroup_add.php
+
+Date:
+  2022-01-28 11:24:38
+
+خطا:
+  این کد قبلا به ثبت رسیده است
+
+Developer Details:
+  %s
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      BEFORE.Trigger_CheckUnique1*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  5.218.227.3
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  https://payesh.bonyadmaskan.ir/portal/plugins/savanehgroup/savanehgroup_add.php
+
+Date:
+  2022-01-28 11:24:38
+
+خطا:
+  این کد قبلا به ثبت رسیده است
+
+Developer Details:
+  %s
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      BEFORE.Trigger_CheckUnique1*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  5.218.227.3
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  https://payesh.bonyadmaskan.ir/portal/plugins/savanehgroup/savanehgroup_add.php
+
+Date:
+  2022-01-28 11:24:38
+
+خطا:
+  این کد قبلا به ثبت رسیده است
+
+Developer Details:
+  %s
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      BEFORE.Trigger_CheckUnique1*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  5.218.227.3
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  https://payesh.bonyadmaskan.ir/portal/plugins/savanehgroup/savanehgroup_add.php
+
+Date:
+  2022-01-28 11:24:38
+
+خطا:
+  این کد قبلا به ثبت رسیده است
+
+Developer Details:
+  %s
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      BEFORE.Trigger_CheckUnique1*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  5.218.227.3
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  https://payesh.bonyadmaskan.ir/portal/plugins/savanehgroup/savanehgroup_add.php
+
+Date:
+  2022-01-28 11:24:38
+
+خطا:
+  این کد قبلا به ثبت رسیده است
+
+Developer Details:
+  %s
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      BEFORE.Trigger_CheckUnique1*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  5.218.227.3
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  https://payesh.bonyadmaskan.ir/portal/plugins/savanehgroup/savanehgroup_add.php
+
+Date:
+  2022-01-28 11:24:38
+
+خطا:
+  این کد قبلا به ثبت رسیده است
+
+Developer Details:
+  %s
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      BEFORE.Trigger_CheckUnique1*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  5.218.227.3
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  https://payesh.bonyadmaskan.ir/portal/plugins/savanehgroup/savanehgroup_add.php
+
+Date:
+  2022-01-28 11:24:38
+
+خطا:
+  این کد قبلا به ثبت رسیده است
+
+Developer Details:
+  %s
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      BEFORE.Trigger_CheckUnique1*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  5.218.227.3
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  https://payesh.bonyadmaskan.ir/portal/plugins/savanehgroup/savanehgroup_add.php
+
+Date:
+  2022-01-28 11:32:48
+
+خطا:
+  این کد قبلا به ثبت رسیده است
+
+Developer Details:
+  %s
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      BEFORE.Trigger_CheckUnique1*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  5.218.227.3
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  https://payesh.bonyadmaskan.ir/portal/plugins/savanehgroup/savanehgroup_add.php
+
+Date:
+  2022-01-28 11:32:49
+
+خطا:
+  این کد قبلا به ثبت رسیده است
+
+Developer Details:
+  %s
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      BEFORE.Trigger_CheckUnique1*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  5.218.227.3
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  https://payesh.bonyadmaskan.ir/portal/plugins/savanehgroup/savanehgroup_add.php
+
+Date:
+  2022-01-28 11:32:49
+
+خطا:
+  این کد قبلا به ثبت رسیده است
+
+Developer Details:
+  %s
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      BEFORE.Trigger_CheckUnique1*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  5.218.227.3
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  https://payesh.bonyadmaskan.ir/portal/plugins/savanehgroup/savanehgroup_add.php
+
+Date:
+  2022-01-28 11:32:49
+
+خطا:
+  این کد قبلا به ثبت رسیده است
+
+Developer Details:
+  %s
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      BEFORE.Trigger_CheckUnique1*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  5.218.227.3
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  https://payesh.bonyadmaskan.ir/portal/plugins/savanehgroup/savanehgroup_add.php
+
+Date:
+  2022-01-28 11:32:49
+
+خطا:
+  این کد قبلا به ثبت رسیده است
+
+Developer Details:
+  %s
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      BEFORE.Trigger_CheckUnique1*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  5.218.227.3
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  https://payesh.bonyadmaskan.ir/portal/plugins/savanehgroup/savanehgroup_add.php
+
+Date:
+  2022-01-28 11:32:49
+
+خطا:
+  این کد قبلا به ثبت رسیده است
+
+Developer Details:
+  %s
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      BEFORE.Trigger_CheckUnique1*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  5.218.227.3
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  https://payesh.bonyadmaskan.ir/portal/plugins/savanehgroup/savanehgroup_add.php
+
+Date:
+  2022-01-28 11:32:49
+
+خطا:
+  این کد قبلا به ثبت رسیده است
+
+Developer Details:
+  %s
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      BEFORE.Trigger_CheckUnique1*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  5.218.227.3
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  https://payesh.bonyadmaskan.ir/portal/plugins/savanehgroup/savanehgroup_add.php
+
+Date:
+  2022-01-28 11:32:49
+
+خطا:
+  این کد قبلا به ثبت رسیده است
+
+Developer Details:
+  %s
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      BEFORE.Trigger_CheckUnique1*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  83.123.5.188
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  https://payesh.bonyadmaskan.ir/portal/plugins/havades/file_add.php?cod=eC0gFEFQ0B0mg@@Qk2aOICrjO90TQ00kTO9CbVJmaN90LmhjQ2RjNphnV&mode=edit
+
+Date:
+  2022-01-30 08:06:21
+
+خطا:
+  خطای بارگذاری فایل. <br><div style="display:none">File extension not allowed for upload.</div>
+
+Developer Details:
+  خطای بارگذاری فایل. <br><div style="display:none">File extension "pdf" is not allowed for upload.</div> (FILE_UPLOAD_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql
+      tNG_insert.postExecuteSql
+      AFTER.Trigger_ImageUpload*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  151.235.238.45
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  https://payesh.bonyadmaskan.ir/portal/plugins/havades/melktakmil_add.php?cod=X@@EisTw44zsBBzATBmhegrjO90TQy1EU480RMJ1U40kZp5WUmR0QaRTO&mode=edit
+
+Date:
+  2022-01-31 11:32:32
+
+خطا:
+  خطای پایگاه داده. <br><div style="display:none">Data truncated for column 'maskonim' at row 1</div>
+
+Developer Details:
+  خطای پایگاه داده. <br><div style="display:none">INSERT INTO melk_detail (hcode, tabaghe, maskoniv, maskonim, tejariv, tejarim, tejmasv, tejmasm, khadv, khadm, edariv, edarim, mazhabiv, mazhabim, malek, user, sdate, active) values ('16436145693657', 0, '1', '322/7', null, null, null, null, null, null, null, null, null, null, 'یداله آلالی', 'p010101', '1400/11/11', '1').</div> (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  151.235.238.45
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  https://payesh.bonyadmaskan.ir/portal/plugins/havades/melktakmil_add.php?cod=X@@EisTw44zsBBzATBmhegrjO90TQy1EU480RMJ1U40kZp5WUmR0QaRTO&mode=edit
+
+Date:
+  2022-01-31 11:33:03
+
+خطا:
+  خطای پایگاه داده. <br><div style="display:none">Data truncated for column 'maskonim' at row 1</div>
+
+Developer Details:
+  خطای پایگاه داده. <br><div style="display:none">INSERT INTO melk_detail (hcode, tabaghe, maskoniv, maskonim, tejariv, tejarim, tejmasv, tejmasm, khadv, khadm, edariv, edarim, mazhabiv, mazhabim, malek, user, sdate, active) values ('16436145693657', 0, '1', '322/7', null, null, null, null, null, null, null, null, null, null, 'یداله آلالی', 'p010101', '1400/11/11', '1').</div> (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  172.16.90.5
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  https://payesh.bonyadmaskan.ir/portal/plugins/admin/admin_add.php
+
+Date:
+  2022-01-31 16:20:46
+
+خطا:
+  کاربر با این نام کاربری قبلا درج شده است
+
+Developer Details:
+  %s
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      BEFORE.Trigger_CheckUnique*
+      ERROR.Trigger_Default_Insert_RollBack
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  172.16.90.5
+
+Host:
+  payesh.bonyadmaskan.ir
+
+Requested URI:
+  https://payesh.bonyadmaskan.ir/portal/plugins/admin/admin_add.php
+
+Date:
+  2022-01-31 16:20:46
+
+خطا:
+  کاربر با این نام کاربری قبلا درج شده است
+
+Developer Details:
+  %s
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      BEFORE.Trigger_CheckUnique*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===

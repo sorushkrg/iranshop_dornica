@@ -1,0 +1,281 @@
+=== BEGIN MESSAGE ===
+Client IP:
+  ::1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/nezam/admin/plugins/admin/admin_add.php
+
+Date:
+  2017-11-04 20:57:46
+
+Error:
+  SQL error: Duplicate entry 'admin' for key 'user'.
+
+Developer Details:
+  SQL error: INSERT INTO `admin` (name, image, portalid, mobile, ostan, shahrestan, bakhsh, shahr, rosta, user, pass, status) values ('sari', '', 0, null, '02', '0207', null, null, null, 'admin', '0937afa17f4dc08f3c0e5dc908158370ce64df86', '1'). (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  ::1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/setadbazsazi/admin/plugins/reportdata/reportdata_add.php
+
+Date:
+  2017-11-25 19:40:03
+
+Error:
+  SQL error: Field 'hid' doesn't have a default value.
+
+Developer Details:
+  SQL error: INSERT INTO reportdata (ostan, shahrestan, bakhsh, shahr, rosta, karsh, karrs, ehdasi1sh, ehdasi1rs, ehdasi2sh, ehdasi2rs, tamiri1sh, tamiri1rs, tamiri2sh, tamiri2rs, tamiri3sh, tamiri3rs, divarsh, divarrs, tejarish, tejarirs, salemsh, salemrs, rostaarzyabi, rostaavar, vahedavar, file, ip, setdate, repdate, status) values ('11', '1168', '116867', '1168670002', '1106020002041198329', '1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13', '14', '15', '16', '17', '18', '19', '20', '21', '', '::1', '1396/09/04 19:40:03', '1396/09/04', '1'). (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  ::1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/setadbazsazi/admin/plugins/reportdata/reportdata_add.php
+
+Date:
+  2017-11-25 19:40:20
+
+Error:
+  SQL error: Field 'user' doesn't have a default value.
+
+Developer Details:
+  SQL error: INSERT INTO reportdata (ostan, shahrestan, bakhsh, shahr, rosta, karsh, karrs, ehdasi1sh, ehdasi1rs, ehdasi2sh, ehdasi2rs, tamiri1sh, tamiri1rs, tamiri2sh, tamiri2rs, tamiri3sh, tamiri3rs, divarsh, divarrs, tejarish, tejarirs, salemsh, salemrs, rostaarzyabi, rostaavar, vahedavar, file, ip, setdate, repdate, status) values ('11', '1168', '116867', '1168670002', '1106020002041198329', '1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13', '14', '15', '16', '17', '18', '19', '20', '21', '', '::1', '1396/09/04 19:40:20', '1396/09/04', '1'). (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  ::1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/setadbazsazi/admin/plugins/reportdata/reportdata_edit.php?id=!!!!gU1rhbYY9WrpaaNIf5Vtus
+
+Date:
+  2017-11-26 20:34:00
+
+Error:
+  SQL error: Column 'ostan' cannot be null.
+
+Developer Details:
+  SQL error: UPDATE reportdata SET hid='2', ostan=null, shahrestan=null, bakhsh=null, shahr=null, rosta=null, karsh='111', karrs='12', ehdasi1sh='13', ehdasi1rs='14', ehdasi2sh='15', ehdasi2rs='16', tamiri1sh='17', tamiri1rs='18', tamiri2sh='19', tamiri2rs='20', tamiri3sh='21', tamiri3rs='22', divarsh='23', divarrs='24', tejarish='25', tejarirs='26', salemsh='275', salemrs='28', rostaarzyabi='29', rostaavar='30', vahedavar='311', file=file, user='admin', ip='::1', repdate='1396/09/05', status='0' WHERE id = 2. (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_update.doTransaction
+      BEFORE.Trigger_Default_saveData
+        tNG_update.saveData
+      BEFORE.Trigger_Default_FormValidation
+      tNG_update.prepareSQL
+      tNG_update.executeTransaction - execute sql*
+  tNG_update.getRecordset
+  tNG_update.getFakeRsArr
+  tNG_update.getLocalRecordset
+  tNG_update.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  ::1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/setadbazsazi/admin/plugins/reportdata/reportdata_edit.php?id=!!!!gU1rhbYY9WrpaaNIf5Vtus
+
+Date:
+  2017-11-26 20:38:24
+
+Error:
+  SQL error: Column 'ostan' cannot be null.
+
+Developer Details:
+  SQL error: UPDATE reportdata SET hid='2', ostan=null, shahrestan=null, bakhsh=null, shahr=null, rosta=null, karsh='111', karrs='12', ehdasi1sh='13', ehdasi1rs='14', ehdasi2sh='15', ehdasi2rs='16', tamiri1sh='17', tamiri1rs='18', tamiri2sh='19', tamiri2rs='20', tamiri3sh='21', tamiri3rs='22', divarsh='23', divarrs='24', tejarish='25', tejarirs='26', salemsh='275', salemrs='28', rostaarzyabi='299', rostaavar='306', vahedavar='311', file=file, user='admin', ip='::1', repdate='1396/09/05', status='0' WHERE id = 2. (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_update.doTransaction
+      BEFORE.Trigger_Default_saveData
+        tNG_update.saveData
+      BEFORE.Trigger_Default_FormValidation
+      tNG_update.prepareSQL
+      tNG_update.executeTransaction - execute sql*
+  tNG_update.getRecordset
+  tNG_update.getFakeRsArr
+  tNG_update.getLocalRecordset
+  tNG_update.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  ::1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/setadbazsazi/admin/plugins/reportdata/reportdata_edit.php?id=!!!!gU1rhbYY9WrpaaNIf5Vtus
+
+Date:
+  2017-11-26 20:41:25
+
+Error:
+  SQL error: Column 'ostan' cannot be null.
+
+Developer Details:
+  SQL error: UPDATE reportdata SET hid='2', ostan=null, shahrestan=null, bakhsh=null, shahr=null, rosta=null, karsh='111', karrs='12', ehdasi1sh='13', ehdasi1rs='14', ehdasi2sh='15', ehdasi2rs='16', tamiri1sh='17', tamiri1rs='18', tamiri2sh='19', tamiri2rs='20', tamiri3sh='21', tamiri3rs='226622', divarsh='23', divarrs='24', tejarish='25', tejarirs='26', salemsh='275', salemrs='28', rostaarzyabi='299', rostaavar='306', vahedavar='311', file=file, user='admin', ip='::1', repdate='1396/09/05', status='0' WHERE id = 2. (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_update.doTransaction
+      BEFORE.Trigger_Default_saveData
+        tNG_update.saveData
+      BEFORE.Trigger_Default_FormValidation
+      tNG_update.prepareSQL
+      tNG_update.executeTransaction - execute sql*
+  tNG_update.getRecordset
+  tNG_update.getFakeRsArr
+  tNG_update.getLocalRecordset
+  tNG_update.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  127.0.0.1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/setadbazsazi/admin/plugins/reportpishraft/reportpishraft_add.php
+
+Date:
+  2017-11-29 22:53:35
+
+Error:
+  SQL error: Unknown column 'level1' in 'field list'.
+
+Developer Details:
+  SQL error: INSERT INTO reportdata (hid, level1, level2, level3, level4, level5, level6, level7, level8, level9, level10, level11, rostaavar, file, user, ip, setdate, repdate, status) values ('8', 20, 25, 30, 35, 40, 45, 50, 60, 70, 75, 80, 90, '', 'admin', '127.0.0.1', '1396/09/08 22:53:35', '1396/09/08', '1'). (SQL_ERROR)
+
+tNG Execution Trace:
+  tNG_insert.executeTransaction
+    STARTER.Trigger_Default_Starter
+    tNG_insert.doTransaction
+      BEFORE.Trigger_Default_FormValidation
+      tNG_insert.prepareSQL
+      tNG_insert.executeTransaction - execute sql*
+      ERROR.Trigger_Default_Insert_RollBack
+  tNG_insert.getRecordset
+  tNG_insert.getFakeRsArr
+  tNG_insert.getLocalRecordset
+  tNG_insert.getFakeRecordset
+  tNG_insert.getFakeRecordset
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  127.0.0.1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/setadbazsazi/admin/plugins/reportpishraft/reportpishraft_edit.php?id=!!!!w1aMXmECPPZ4owrdl8z8t7
+
+Date:
+  2017-11-29 23:53:42
+
+Error:
+  Internal error.
+
+Developer Details:
+  tNG_update.getLocalRecordset:<br /><strong>Error message:</strong><br />Unknown column 'level1' in 'field list'<br /><strong>SQL statement:</strong><br />SELECT hid,level1,level2,level3,level4,level5,level6,level7,level8,level9,level10,level11,tamiri3rs,divarsh,divarrs,tejarish,tejarirs,salemsh,salemrs,rostaavar,file,user,ip,repdate,status,id, id as kt_pk_reportdata FROM reportdata WHERE id =2 (UPD_RS)
+
+tNG Execution Trace:
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+  tNG_update.getRecordset
+  tNG_update.getLocalRecordset*
+=== END MESSAGE ===
+=== BEGIN MESSAGE ===
+Client IP:
+  127.0.0.1
+
+Host:
+  localhost
+
+Requested URI:
+  http://localhost/setadbazsazi/admin/plugins/reportpishraft/reportpishraft_edit.php?id=!!!!QapWUJM72qSNp@@3d3g2TRj
+
+Date:
+  2017-11-30 00:32:45
+
+Error:
+  Internal error.
+
+Developer Details:
+  tNG_update.getLocalRecordset:<br /><strong>Error message:</strong><br />Unknown column 'level1' in 'field list'<br /><strong>SQL statement:</strong><br />SELECT hid,level1,level2,level3,level4,level5,level6,level7,level8,level9,level10,level11,tamiri3rs,divarsh,divarrs,tejarish,tejarirs,salemsh,salemrs,rostaavar,file,user,ip,repdate,status,id, id as kt_pk_reportdata FROM reportdata WHERE id =1 (UPD_RS)
+
+tNG Execution Trace:
+  tNG_update.executeTransaction
+    STARTER.Trigger_Default_Starter
+  tNG_update.getRecordset
+  tNG_update.getLocalRecordset*
+=== END MESSAGE ===
