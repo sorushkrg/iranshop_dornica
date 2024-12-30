@@ -16,5 +16,7 @@ if (!function_exists("sql_error_handler")) {
     }
 }
 
-require_once( $nav_path .'dbConncet/connect.php');
+require_once($nav_path . 'dbConncet/connect.php');
 require_once($nav_path . 'includes/common/KT_common.php');
+require_once($nav_path .'includes/file/function.php');
+require_once($nav_path .'includes/file/function2.php');
