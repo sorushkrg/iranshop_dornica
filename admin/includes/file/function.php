@@ -1,5 +1,5 @@
 <?php
-require_once($nav_path . '../connection/config.php');
+require_once($nav_path . 'dbConncet/connect.php');
 if (!function_exists("getSpecificArrayKey")) {
     function getSpecificArrayKey($array, $arrayKey)
     {
