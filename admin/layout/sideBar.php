@@ -61,6 +61,17 @@
                 </ul>
             </li>
 
+            <li>
+                <a href="javascript: void(0);" class="has-arrow waves-effect">
+                    <i class="ion ion-md-copy"></i>
+                    <span> بلاگ-نویسنده</span>
+                </a>
+                <ul class="sub-menu" aria-expanded="false">
+                    <li><a href="<?= $nav_path ?>plugins/authors/authors_add.php">درج</a></li>
+                    <li><a href="<?= $nav_path ?>plugins/authors/authors_list.php">لیست</a></li>
+                </ul>
+            </li>
+
         </ul>
     </div>
     <!-- Sidebar -->
