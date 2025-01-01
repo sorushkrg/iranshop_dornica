@@ -11,6 +11,7 @@ $conn_cn = new KT_connection($cn, $database_cn);
 $formValidation = new tNG_FormValidation();
 $formValidation->addField("firstName", true, "text", "", "", "", "لطفا نام را وارد نمایید.");
 $formValidation->addField("lastName", true, "text", "", "", "", "لطفا نام خانوادگی را وارد نمایید.");
+$formValidation->addField("rules", true, "text", "", "", "", "لطفا قوانین را تایید نمایید.");
 $tNGs->prepareValidation($formValidation);
 // End trigger
 
@@ -26,6 +27,7 @@ $ins_ctg->registerTrigger("END", "Trigger_Default_Redirect", 99, "authors_list.p
 $ins_ctg->setTable("authors_blog");
 $ins_ctg->addColumn("firstName", "STRING_TYPE", "POST", "firstName");
 $ins_ctg->addColumn("lastName", "STRING_TYPE", "POST", "lastName");
+$ins_ctg->addColumn("rules", "STRING_TYPE", "POST", "rules");
 $ins_ctg->addColumn("status", "STRING_TYPE", "POST", "status");
 $ins_ctg->setPrimaryKey("id", "NUMERIC_TYPE");
 
@@ -142,6 +144,14 @@ if ($authorDuplicate) {
                                                             <input class="form-check-input" type="radio" name="status" id="status2" value="0">
                                                             <label class="form-check-label" for="status2">غیرفعال</label>
                                                         </div>
+                                                    </div>
+                                                </div>
+                                                <div class="mb-3">
+                                                    <div class="checkbox text-danger">
+                                                        <label for="tashilat" class="text-dark">
+                                                            قوانین سایت
+                                                        </label>
+                                                        <input name="rules" id="rules" type="checkbox" class="styled" value="1" tabindex="67" />
                                                     </div>
                                                 </div>
                                             </div>
