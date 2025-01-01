@@ -28,7 +28,7 @@ function Trigger_ImageUpload(&$tNG)
     $uploadObj = new tNG_ImageUpload($tNG);
     $uploadObj->setFormFieldName("image");
     $uploadObj->setDbFieldName("image");
-    $uploadObj->setFolder("../../attachment/image/blogHTML/");
+    $uploadObj->setFolder("../../../attachment/image/blogPage/");
     // $uploadObj->setResize("true", 600, 600);
     $uploadObj->setMaxSize($ImgMaxSize);
     $uploadObj->setAllowedExtensions($ImgAllowedExtensions);
@@ -59,7 +59,15 @@ $ins_ctg->addColumn("status", "STRING_TYPE", "POST", "status");
 $ins_ctg->setPrimaryKey("id", "NUMERIC_TYPE");
 
 // Execute all the registered transactions
-$tNGs->executeTransactions();
+$db->where("category_id", _ktx($_POST["category_id"]));
+$blogDuplicate = $db->getValue("blog_page", "category_id");
+$errorDup = "";
+
+if ($blogDuplicate) {
+    $errorDup = "عنوان تکراری است";
+} else {
+    $tNGs->executeTransactions();
+}
 
 
 
@@ -128,12 +136,16 @@ $tNGs->executeTransactions();
                                     <?php
                                     echo $tNGs->getErrorMsg();
                                     ?>
-                                    <form class="needs-validation" method="post" enctype="multipart/form-data">
+                                    <form action="<?= _ktx(KT_getFullUri()); ?>" class="needs-validation" method="post" enctype="multipart/form-data">
                                         <div class="row">
                                             <div class="col-md-6">
                                                 <div class="mb-3">
                                                     <label for="image" class="form-label">آپلود فایل</label>
                                                     <input type="file" class="form-control" id="image" name="image">
+                                                    <div id="image_error_element" class="validation-error-label text-danger"></div>
+                                                </div>
+                                                <div>
+                                                    <span class="help-block m-3">فرمتهای مجاز: <?= _ktx($ImgAllowedExtensions) ?>. حداکثر اندازه فایل: <?= _ktx($ImgMaxSize) ?>KB</span>
                                                 </div>
                                             </div>
                                             <div class="col-md-6">
@@ -141,6 +153,7 @@ $tNGs->executeTransactions();
                                                     <label class="form-label">ناحیه متنی</label>
                                                     <div>
                                                         <textarea class="form-control" placeholder="اینجا تایپ کنید" name="content" rows="2"></textarea>
+                                                        <div id="content_error_element" class="validation-error-label text-danger"></div>
                                                     </div>
                                                 </div>
                                             </div>
@@ -151,6 +164,7 @@ $tNGs->executeTransactions();
                                                 <div class="mb-3">
                                                     <label class="col-md-2 col-form-label">زمان انتشار</label>
                                                     <input class="form-control" type="date" name="published_date">
+                                                    <div id="published_date_error_element" class="validation-error-label text-danger"></div>
                                                 </div>
                                             </div>
                                         </div>
@@ -167,7 +181,7 @@ $tNGs->executeTransactions();
                                                     <label class="form-label" for="validationCustom01">نویسنده</label>
                                                     <select name="author_id" id="author_id">
                                                         <?php foreach ($authors as $value) { ?>
-                                                            <option value="<?= $value["id"] ?>"> <?= $value["firstName"] . " " . $value["lastName"]  ?></option>
+                                                            <option value="<?= _ktx($value["id"]) ?>"> <?= _ktx($value["firstName"]) . " " . _ktx($value["lastName"])  ?></option>
                                                         <?php
                                                         }
                                                         ?>
@@ -185,11 +199,12 @@ $tNGs->executeTransactions();
                                                     <label class="form-label" for="validationCustom02">دسته بندی بلاگ</label>
                                                     <select name="category_id" id="category">
                                                         <?php foreach ($category as $value) { ?>
-                                                            <option value="<?= $value["id"] ?>"> <?= $value["category_title"] ?></option>
+                                                            <option value="<?= _ktx($value["id"]) ?>"> <?= _ktx($value["category_title"]) ?></option>
                                                         <?php
                                                         }
                                                         ?>
                                                     </select>
+                                                    <p class="text-danger"><?= _ktx($errorDup) ?></p>
                                                 </div>
                                             </div>
                                             <!-- end col -->
