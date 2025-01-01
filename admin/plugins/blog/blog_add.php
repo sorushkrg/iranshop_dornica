@@ -55,6 +55,7 @@ $ins_ctg->addColumn("content", "STRING_TYPE", "POST", "content");
 $ins_ctg->addColumn("image", "FILE_TYPE", "FILES", "image");
 $ins_ctg->addColumn("published_date", "DATE_TYPE", "POST", "published_date");
 $ins_ctg->addColumn("created_at", "DATE_TYPE", "VALUE", date("Y-m-d H:i:s"));
+$ins_ctg->addColumn("updated_at", "DATE_TYPE", "VALUE", date("Y-m-d H:i:s"));
 $ins_ctg->addColumn("status", "STRING_TYPE", "POST", "status");
 $ins_ctg->setPrimaryKey("id", "NUMERIC_TYPE");
 
