@@ -30,7 +30,16 @@ $ins_ctg->addColumn("status", "STRING_TYPE", "POST", "status");
 $ins_ctg->setPrimaryKey("id", "NUMERIC_TYPE");
 
 // Execute all the registered transactions
-$tNGs->executeTransactions();
+$db->where("firstName", _ktx($_POST["firstName"]));
+$db->where("lastName", _ktx($_POST["lastName"]));
+$authorDuplicate = $db->getOne("authors_blog");
+$errorDup = "";
+
+if ($authorDuplicate) {
+    $errorDup = "این فرد تکراری است";
+} else {
+    $tNGs->executeTransactions();
+}
 
 
 
@@ -99,12 +108,14 @@ $tNGs->executeTransactions();
                                     <?php
                                     echo $tNGs->getErrorMsg();
                                     ?>
-                                    <form class="needs-validation" method="post">
+                                    <form action="<?= _ktx(KT_getFullUri()); ?> " class="needs-validation" method="post">
                                         <div class="row">
                                             <div class="col-md-6">
                                                 <div class="mb-3">
                                                     <label class="form-label" for="validationCustom01">نام کوچک</label>
                                                     <input type="text" class="form-control" id="validationCustom01" placeholder="نام کوچک" name="firstName">
+                                                    <div id="firstName_error_element" class="validation-error-label text-danger"></div>
+                                                    <p class="text-danger"> <?= $errorDup ?></p>
                                                 </div>
                                             </div>
                                             <!-- end col -->
@@ -112,6 +123,7 @@ $tNGs->executeTransactions();
                                                 <div class="mb-3">
                                                     <label class="form-label" for="validationCustom02">نام خانوادگی</label>
                                                     <input type="text" class="form-control" id="validationCustom02" placeholder="نام خانوادگی" name="lastName">
+                                                    <div id="lastName_error_element" class="validation-error-label text-danger"></div>
                                                 </div>
                                             </div>
                                             <!-- end col -->
