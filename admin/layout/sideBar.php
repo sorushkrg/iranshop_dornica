@@ -43,8 +43,6 @@
                 </a>
                 <ul class="sub-menu" aria-expanded="false">
                     <li><a href="<?= $nav_path ?>plugins/blog/blog_add.php">درج</a></li>
-                    <li><a href="<?= $nav_path ?>plugins/blog/blog_edit.php">ویرایش</a></li>
-                    <li><a href="<?= $nav_path ?>plugins/blog/blog_delete.php">حذف</a></li>
                     <li><a href="<?= $nav_path ?>plugins/blog/blog_list.php">لیست</a></li>
                 </ul>
 
@@ -55,8 +53,6 @@
                 </a>
                 <ul class="sub-menu" aria-expanded="false">
                     <li><a href="<?= $nav_path ?>plugins/blogCategori/blogCategori_add.php">درج</a></li>
-                    <li><a href="<?= $nav_path ?>plugins/blogCategori/blogCategori_edit.php">ویرایش</a></li>
-                    <li><a href="<?= $nav_path ?>plugins/blogCategori/blogCategori_delete.php">حذف</a></li>
                     <li><a href="<?= $nav_path ?>plugins/blogCategori/blogCategori_list.php">لیست</a></li>
                 </ul>
             </li>
