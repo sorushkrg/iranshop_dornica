@@ -55,7 +55,16 @@ $ins_ctg->addColumn("status", "STRING_TYPE", "POST", "status");
 $ins_ctg->setPrimaryKey("id", "NUMERIC_TYPE");
 
 // Execute all the registered transactions
-$tNGs->executeTransactions();
+
+$db->where("category_title", _ktx($_POST["category_title"]));
+$categoryDuplicate = $db->getValue("category_blog", "category_title");
+$errorDup = "";
+
+if ($categoryDuplicate) {
+    $errorDup = "عنوان تکراری است";
+} else {
+    $tNGs->executeTransactions();
+}
 
 ?>
 
@@ -132,10 +141,13 @@ $tNGs->executeTransactions();
                                         <div class="mb-3">
                                             <label for="title" class="form-label">عنوان</label>
                                             <input type="text" class="form-control" id="title" name="category_title">
+                                            <div id="category_title_error_element" class="validation-error-label text-danger"></div>
+                                            <p class="text-danger"> <?= _ktx($errorDup) ?></p>
                                         </div>
                                         <div class="mb-3">
                                             <label for="image" class="form-label">آپلود فایل</label>
                                             <input type="file" class="form-control" id="image" name="image">
+                                            <div id="image_error_element" class="validation-error-label text-danger"></div>
                                         </div>
                                         <div class="mb-3">
                                             <span class="help-block m-3">فرمتهای مجاز: <?= _ktx($ImgAllowedExtensions) ?>. حداکثر اندازه فایل: <?= _ktx($ImgMaxSize) ?>KB</span>
