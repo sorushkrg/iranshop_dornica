@@ -27,7 +27,7 @@ function Trigger_ImageUpload(&$tNG)
     $uploadObj = new tNG_ImageUpload($tNG);
     $uploadObj->setFormFieldName("image");
     $uploadObj->setDbFieldName("image");
-    $uploadObj->setFolder("../../attachment/image/blogHTML/");
+    $uploadObj->setFolder("../../../attachment/image/blogHTML/");
     // $uploadObj->setResize("true", 600, 600);
     $uploadObj->setMaxSize($ImgMaxSize);
     $uploadObj->setAllowedExtensions($ImgAllowedExtensions);
