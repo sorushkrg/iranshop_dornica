@@ -12,6 +12,7 @@ $formValidation = new tNG_FormValidation();
 $formValidation->addField("image", true, "text", "", "", "", "لطفا عکس را وارد نمایید.");
 $formValidation->addField("content", true, "text", "", "", "", "لطفا توضیحات را وارد نمایید.");
 $formValidation->addField("published_date", true, "text", "", "", "", "لطفا زمان انتشار را وارد نمایید.");
+$formValidation->addField("rules", true, "text", "", "", "", "لطفا قوانین را تایید نمایید.");
 $tNGs->prepareValidation($formValidation);
 // End trigger
 
@@ -56,6 +57,7 @@ $ins_ctg->addColumn("image", "FILE_TYPE", "FILES", "image");
 $ins_ctg->addColumn("published_date", "DATE_TYPE", "POST", "published_date");
 $ins_ctg->addColumn("created_at", "DATE_TYPE", "VALUE", date("Y-m-d H:i:s"));
 $ins_ctg->addColumn("updated_at", "DATE_TYPE", "VALUE", date("Y-m-d H:i:s"));
+$ins_ctg->addColumn("rules", "STRING_TYPE", "POST", "rules");
 $ins_ctg->addColumn("status", "STRING_TYPE", "POST", "status");
 $ins_ctg->setPrimaryKey("id", "NUMERIC_TYPE");
 
@@ -161,8 +163,8 @@ if ($blogDuplicate) {
                                         </div>
 
                                         <div class="row">
-                                            <div class="col-md-12">
-                                                <div class="mb-3">
+                                            <div class="col-md-6">
+                                                <div class="mb-4">
                                                     <label class="col-md-2 col-form-label">زمان انتشار</label>
                                                     <input class="form-control" type="date" name="published_date">
                                                     <div id="published_date_error_element" class="validation-error-label text-danger"></div>
@@ -227,6 +229,14 @@ if ($blogDuplicate) {
                                                             <label class="form-check-label" for="status2">غیرفعال</label>
                                                         </div>
                                                     </div>
+                                                </div>
+                                            </div>
+                                            <div class="mb-3">
+                                                <div class="checkbox text-danger">
+                                                    <label for="tashilat" class="text-dark">
+                                                        قوانین سایت
+                                                    </label>
+                                                    <input name="rules" id="rules" type="checkbox" class="styled" value="1" tabindex="67" />
                                                 </div>
                                             </div>
                                         </div>
