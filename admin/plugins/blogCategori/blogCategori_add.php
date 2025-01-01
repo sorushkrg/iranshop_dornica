@@ -11,6 +11,7 @@ $conn_cn = new KT_connection($cn, $database_cn);
 $formValidation = new tNG_FormValidation();
 $formValidation->addField("category_title", true, "text", "", "", "", "لطفا موضوع را وارد نمایید.");
 $formValidation->addField("image", true, "text", "", "", "", "لطفا عکس را وارد نمایید.");
+$formValidation->addField("rules", true, "text", "", "", "", "لطفا قوانین را تایید نمایید.");
 $tNGs->prepareValidation($formValidation);
 // End trigger
 
@@ -52,6 +53,7 @@ $ins_ctg->setTable("category_blog");
 $ins_ctg->addColumn("category_title", "STRING_TYPE", "POST", "category_title");
 $ins_ctg->addColumn("image", "FILE_TYPE", "FILES", "image");
 $ins_ctg->addColumn("status", "STRING_TYPE", "POST", "status");
+$ins_ctg->addColumn("rules", "STRING_TYPE", "POST", "rules");
 $ins_ctg->setPrimaryKey("id", "NUMERIC_TYPE");
 
 // Execute all the registered transactions
@@ -163,6 +165,14 @@ if ($categoryDuplicate) {
                                                     <input class="form-check-input" type="radio" name="status" id="status2" value="0">
                                                     <label class="form-check-label" for="status2">غیرفعال</label>
                                                 </div>
+                                            </div>
+                                        </div>
+                                        <div class="mb-3">
+                                            <div class="checkbox text-danger">
+                                                <label for="tashilat" class="text-dark">
+                                                    قوانین سایت
+                                                </label>
+                                                <input name="rules" id="rules" type="checkbox" class="styled" value="1" tabindex="67" />
                                             </div>
                                         </div>
                                         <button type="submit" class="btn btn-primary" name="send">ارسال</button>
