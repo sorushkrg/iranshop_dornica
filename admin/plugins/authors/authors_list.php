@@ -266,8 +266,8 @@ else
                                                                 </td>
                                                                 <td>
                                                                     <div>
-                                                                        <a href="bank_edit.php?id=<?php echo ($row_rs1['id']); ?>"><i class="mdi mdi-update"></i></a>
-                                                                        <a href="bank_delete.php?id=<?php echo ($row_rs1['id']); ?>" title="حذف"><i class="mdi mdi-delete"></i></a>
+                                                                        <a href="authors_edit.php?id=<?php echo ($row_rs1['id']); ?>"><i class="mdi mdi-update"></i></a>
+                                                                        <a href="authors_delete.php?id=<?php echo ($row_rs1['id']); ?>" title="حذف"><i class="mdi mdi-delete"></i></a>
 
                                                                     </div>
                                                                 </td>
