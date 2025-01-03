@@ -15,15 +15,12 @@
 */
 
 class TSO_TableSorter {
-	var $columns = array();
-	var $rsName;
+	var $columns = [];
 	var $sorterName;
 	var $defaultColumn = "";
 
-	function TSO_TableSorter($rsName, $sorterName) {
-		$this->rsName = _ktx($rsName);
+	public function __construct($sorterName) {
 		$this->sorterName = _ktx($sorterName);
-		
 		KT_SessionKtBack(KT_getFullUri());
 		$_SESSION['KT_lastUsedList'] = substr($sorterName,4);
 	}
