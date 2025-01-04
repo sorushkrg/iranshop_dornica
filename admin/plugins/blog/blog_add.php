@@ -12,6 +12,8 @@ $formValidation = new tNG_FormValidation();
 $formValidation->addField("image", true, "text", "", "", "", "لطفا عکس را وارد نمایید.");
 $formValidation->addField("content", true, "text", "", "", "", "لطفا توضیحات را وارد نمایید.");
 $formValidation->addField("published_date", true, "text", "", "", "", "لطفا زمان انتشار را وارد نمایید.");
+$formValidation->addField("author_id", true, "text", "", "", "", "لطفا نام نویسنده  را انتخاب نمایید.");
+$formValidation->addField("category_id", true, "text", "", "", "", "لطفا نام دسته بندی  را انتخاب نمایید.");
 $formValidation->addField("rules", true, "text", "", "", "", "لطفا قوانین را تایید نمایید.");
 $tNGs->prepareValidation($formValidation);
 // End trigger
@@ -147,25 +149,13 @@ if ($blogDuplicate) {
                                                     <input type="file" class="form-control" id="image" name="image">
                                                     <div id="image_error_element" class="validation-error-label text-danger"></div>
                                                 </div>
-                                                <div>
+                                                <div class="mb-5">
                                                     <span class="help-block m-3">فرمتهای مجاز: <?= _ktx($ImgAllowedExtensions) ?>. حداکثر اندازه فایل: <?= _ktx($ImgMaxSize) ?>KB</span>
                                                 </div>
                                             </div>
                                             <div class="col-md-6">
                                                 <div class="mb-3">
-                                                    <label class="form-label">ناحیه متنی</label>
-                                                    <div>
-                                                        <textarea class="form-control" placeholder="اینجا تایپ کنید" name="content" rows="2"></textarea>
-                                                        <div id="content_error_element" class="validation-error-label text-danger"></div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                        <div class="row">
-                                            <div class="col-md-6">
-                                                <div class="mb-4">
-                                                    <label class="col-md-2 col-form-label">زمان انتشار</label>
+                                                    <label class="form-label">زمان انتشار</label>
                                                     <input class="form-control" type="date" name="published_date">
                                                     <div id="published_date_error_element" class="validation-error-label text-danger"></div>
                                                 </div>
@@ -182,13 +172,15 @@ if ($blogDuplicate) {
                                             <div class="col-md-6">
                                                 <div class="mb-3">
                                                     <label class="form-label" for="validationCustom01">نویسنده</label>
-                                                    <select name="author_id" id="author_id">
+                                                    <select name="author_id" id="author_id" class="form-select">
+                                                        <option value=""></option>
                                                         <?php foreach ($authors as $value) { ?>
                                                             <option value="<?= _ktx($value["id"]) ?>"> <?= _ktx($value["firstName"]) . " " . _ktx($value["lastName"])  ?></option>
                                                         <?php
                                                         }
                                                         ?>
                                                     </select>
+                                                    <div id="author_id_error_element" class="validation-error-label text-danger"></div>
                                                 </div>
                                             </div>
 
@@ -200,13 +192,15 @@ if ($blogDuplicate) {
                                             <div class="col-md-6">
                                                 <div class="mb-3">
                                                     <label class="form-label" for="validationCustom02">دسته بندی بلاگ</label>
-                                                    <select name="category_id" id="category">
+                                                    <select name="category_id" id="category" class="form-select">
+                                                        <option value=""></option>
                                                         <?php foreach ($category as $value) { ?>
                                                             <option value="<?= _ktx($value["id"]) ?>"> <?= _ktx($value["category_title"]) ?></option>
                                                         <?php
                                                         }
                                                         ?>
                                                     </select>
+                                                    <div id="category_id_error_element" class="validation-error-label text-danger"></div>
                                                     <p class="text-danger"><?= _ktx($errorDup) ?></p>
                                                 </div>
                                             </div>
@@ -214,8 +208,25 @@ if ($blogDuplicate) {
 
 
                                         </div>
+
+
+
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <div class="mb-3">
+                                                    <label class="form-label">توضیحات</label>
+                                                    <div>
+                                                        <textarea class="form-control" placeholder="اینجا تایپ کنید" name="content" rows="4"></textarea>
+                                                        <div id="content_error_element" class="validation-error-label text-danger"></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
                                         <!-- end row -->
                                         <div class="row">
+
+
                                             <div class="col-md-4">
                                                 <div class="mb-3">
                                                     <label class="form-label">وضعیت</label>
