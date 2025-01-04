@@ -131,11 +131,11 @@ else
                     <div class="row">
                         <div class="col-sm-6">
                             <div class="page-title-box">
-                                <h4> بلاگ - نویسنده  - لیست</h4>
+                                <h4> بلاگ - نویسنده - لیست</h4>
                                 <ol class="breadcrumb m-0">
                                     <li class="breadcrumb-item"><a href="javascript: void(0);">لکسا</a></li>
                                     <li class="breadcrumb-item"><a href="javascript: void(0);">صفحات</a></li>
-                                    <li class="breadcrumb-item active"> بلاگ -  نویسنده - لیست</li>
+                                    <li class="breadcrumb-item active"> بلاگ - نویسنده - لیست</li>
                                 </ol>
                             </div>
                         </div>
@@ -279,6 +279,11 @@ else
                                             </table>
                                         </div>
                                     </form>
+                                    <div class="text-center d-flex justify-content-center mt-5">
+                                        <?php include("../../layout/paging.php");
+                                        echo pg('pageNum_rs1', $pageNum_rs1, $currentPage, $queryString_rs1, $totalPages_rs1);
+                                        ?>
+                                    </div>
                                 </div>
                             </div>
                         </div>
