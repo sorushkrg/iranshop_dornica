@@ -262,7 +262,7 @@ else
 
                                                             <td></td>
                                                             <td>
-                                                                <select name="tfi_listrsBlg_status" id="tfi_listrsBlg_status" class="form-control" tabindex="3">
+                                                                <select name="tfi_listrsBlg_status" id="tfi_listrsBlg_status" class="form-select" tabindex="3">
                                                                     <option value="" <?php if (!(strcmp("", _ktx(@$_SESSION['tfi_listrsBlg_status'])))) {
                                                                                             echo "selected=\"selected\"";
                                                                                         } ?>></option>

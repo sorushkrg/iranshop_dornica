@@ -168,7 +168,7 @@ else
                                         <label class="col-lg-4 col-form-label text-center" style="padding-top:8px">تعداد نمایش</label>
                                         <div class="col-lg-8">
                                             <form name="formpgnum" id="formpgnum" action="<?php echo $_SERVER['PHP_SELF']; ?>" method="post">
-                                                <select name="tfi_listrsCat_pgnum" id="tfi_listrsCat_pgnum" class="form-control" onchange="submit();" tabindex="1">
+                                                <select name="tfi_listrsCat_pgnum" id="tfi_listrsCat_pgnum" class="form-select" onchange="submit();" tabindex="1">
                                                     <option value="10" <?php if (!(strcmp('10', _ktx(@$_SESSION['tfi_listrsCat_pgnum'])))) {
                                                                             echo "selected=\"selected\"";
                                                                         } ?>>10</option>
@@ -224,14 +224,14 @@ else
                                                             <td>
                                                             </td>
                                                             <td>
-                                                                <select name="tfi_listrsCat_status" id="tfi_listrsCat_status" class="form-control" tabindex="3">
-                                                                    <option value="" <?php if (!(strcmp("", _ktx(@$_SESSION['tfi_listrsCat_status'])))) {
+                                                                <select name="tfi_listrsBlg_status" id="tfi_listrsBlg_status" class="form-select" tabindex="3">
+                                                                    <option value="" <?php if (!(strcmp("", _ktx(@$_SESSION['tfi_listrsBlg_status'])))) {
                                                                                             echo "selected=\"selected\"";
                                                                                         } ?>></option>
-                                                                    <option value="1" <?php if (!(strcmp(1, _ktx(@$_SESSION['tfi_listrsCat_status'])))) {
+                                                                    <option value="1" <?php if (!(strcmp(1, _ktx(@$_SESSION['tfi_listrsBlg_status'])))) {
                                                                                             echo "selected=\"selected\"";
                                                                                         } ?>>فعال</option>
-                                                                    <option value="0" <?php if (!(strcmp(0, _ktx(@$_SESSION['tfi_listrsCat_status'])))) {
+                                                                    <option value="0" <?php if (!(strcmp(0, _ktx(@$_SESSION['tfi_listrsBlg_status'])))) {
                                                                                             echo "selected=\"selected\"";
                                                                                         } ?>>غیرفعال</option>
                                                                 </select>

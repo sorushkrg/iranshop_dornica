@@ -170,7 +170,7 @@ else
                                         <label class="col-lg-4 col-form-label text-center" style="padding-top:8px">تعداد نمایش</label>
                                         <div class="col-lg-8">
                                             <form name="formpgnum" id="formpgnum" action="<?php echo $_SERVER['PHP_SELF']; ?>" method="post">
-                                                <select name="tfi_listrsAuth_pgnum" id="tfi_listrsAuth_pgnum" class="form-control" onchange="submit();" tabindex="1">
+                                                <select name="tfi_listrsAuth_pgnum" id="tfi_listrsAuth_pgnum" class="form-select" onchange="submit();" tabindex="1">
                                                     <option value="10" <?php if (!(strcmp('10', _ktx(@$_SESSION['tfi_listrsAuth_pgnum'])))) {
                                                                             echo "selected=\"selected\"";
                                                                         } ?>>10</option>
@@ -227,7 +227,7 @@ else
                                                                 <input type="text" name="tfi_listrsAuth_lastName" id="tfi_listrsAuth_lastName" class="form-control" value="<?php echo _ktx(@$_SESSION['tfi_listrsAuth_lastName']); ?>" autocomplete="off" tabindex="2" />
                                                             </td>
                                                             <td>
-                                                                <select name="tfi_listrsAuth_status" id="tfi_listrsAuth_status" class="form-control" tabindex="3">
+                                                                <select name="tfi_listrsAuth_status" id="tfi_listrsAuth_status" class="form-select" tabindex="3">
                                                                     <option value="" <?php if (!(strcmp("", _ktx(@$_SESSION['tfi_listrsAuth_status'])))) {
                                                                                             echo "selected=\"selected\"";
                                                                                         } ?>></option>
