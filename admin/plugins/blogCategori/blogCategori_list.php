@@ -283,6 +283,13 @@ else
                                             </table>
                                         </div>
                                     </form>
+
+                                    <div class="text-center d-flex justify-content-center mt-5">
+                                        <?php include("../../layout/paging.php");
+                                        echo pg('pageNum_rs1', $pageNum_rs1, $currentPage, $queryString_rs1, $totalPages_rs1);
+                                        ?>
+                                    </div>
+
                                 </div>
                             </div>
                         </div>
