@@ -132,38 +132,47 @@ if ($categoryDuplicate) {
                     <!-- end page title -->
 
                     <div class="row justify-content-center">
-                        <div class="col-md-12">
+                        <div class="col-md-10">
                             <div class="card">
                                 <div class="card-body">
-                                    <h4 class="card-title">فرم درج بلاگ</h4>
                                     <?php
                                     echo $tNGs->getErrorMsg();
                                     ?>
                                     <form method="post" action="<?= _ktx(KT_getFullUri()); ?>" enctype="multipart/form-data">
-                                        <div class="mb-3">
-                                            <label for="title" class="form-label">عنوان</label>
-                                            <input type="text" class="form-control" id="title" name="category_title">
-                                            <div id="category_title_error_element" class="validation-error-label text-danger"></div>
-                                            <p class="text-danger"> <?= _ktx($errorDup) ?></p>
-                                        </div>
-                                        <div class="mb-3">
-                                            <label for="image" class="form-label">آپلود فایل</label>
-                                            <input type="file" class="form-control" id="image" name="image">
-                                            <div id="image_error_element" class="validation-error-label text-danger"></div>
-                                        </div>
-                                        <div class="mb-3">
-                                            <span class="help-block m-3">فرمتهای مجاز: <?= _ktx($ImgAllowedExtensions) ?>. حداکثر اندازه فایل: <?= _ktx($ImgMaxSize) ?>KB</span>
-                                        </div>
-                                        <div class="mb-3">
-                                            <label class="form-label">وضعیت</label>
-                                            <div>
-                                                <div class="form-check form-check-inline">
-                                                    <input class="form-check-input" type="radio" name="status" id="status1" value="1" checked>
-                                                    <label class="form-check-label" for="status1">فعال</label>
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <div class="mb-3">
+                                                    <label for="title" class="form-label">نام دسته بندی</label>
+                                                    <input type="text" class="form-control" id="title" name="category_title" placeholder="نام دسته بندی">
+                                                    <div id="category_title_error_element" class="validation-error-label text-danger"></div>
+                                                    <p class="text-danger"> <?= _ktx($errorDup) ?></p>
                                                 </div>
-                                                <div class="form-check form-check-inline">
-                                                    <input class="form-check-input" type="radio" name="status" id="status2" value="0">
-                                                    <label class="form-check-label" for="status2">غیرفعال</label>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="mb-3">
+                                                    <label for="image" class="form-label">آپلود فایل</label>
+                                                    <input type="file" class="form-control" id="image" name="image">
+                                                    <div id="image_error_element" class="validation-error-label text-danger"></div>
+                                                </div>
+                                                <div>
+                                                    <span class="help-block m-3">فرمتهای مجاز: <?= _ktx($ImgAllowedExtensions) ?>. حداکثر اندازه فایل: <?= _ktx($ImgMaxSize) ?>KB</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <div class="mb-3">
+                                                    <label class="form-label">وضعیت</label>
+                                                    <div>
+                                                        <div class="form-check form-check-inline">
+                                                            <input class="form-check-input" type="radio" name="status" id="status1" value="1" checked>
+                                                            <label class="form-check-label" for="status1">فعال</label>
+                                                        </div>
+                                                        <div class="form-check form-check-inline">
+                                                            <input class="form-check-input" type="radio" name="status" id="status2" value="0">
+                                                            <label class="form-check-label" for="status2">غیرفعال</label>
+                                                        </div>
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
