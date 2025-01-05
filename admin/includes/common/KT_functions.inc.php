@@ -98,13 +98,7 @@ if (!function_exists("GetSQLValueString")) {
         return $theValue;
     }
 }
-function insert_triger($logtype, $loguser, $logdate, $logip, $logtable, $logtitle, $logid, $logtext)
-{
-    global $lcn;
 
-    $insertSQL = "INSERT INTO log (type, `user`, tarikh,ip, jadval, page_title, refer, tozihat) VALUES ('$logtype', '$loguser' , '$logdate','$logip', '$logtable', '$logtitle', '$logid', '$logtext')";
-    mysqli_query($lcn, $insertSQL) or die(sql_error_handler($lcn));
-}
 
 
 

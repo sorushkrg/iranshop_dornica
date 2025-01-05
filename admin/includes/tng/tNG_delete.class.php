@@ -81,7 +81,7 @@ class tNG_delete extends tNG_fields {
 		$logtable=$this->table;
 		$logtitle=$_SESSION['cur_pagename'];
 
-		insert_triger($logtype, $loguser, $logdate, $logip, $logtable, $logtitle, $logid, $logtext);
+		//insert_triger($logtype, $loguser, $logdate, $logip, $logtable, $logtitle, $logid, $logtext);
 		
 		tNG_log::log('tNG_delete', 'prepareSQL', 'end');
 		return $ret;

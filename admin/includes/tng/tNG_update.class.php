@@ -135,7 +135,7 @@ class tNG_update extends tNG_fields {
 		$logip = $ip;
 		$logtable=$this->table;
 		$logtitle=$_SESSION['cur_pagename'];
-		insert_triger($logtype, $loguser, $logdate, $logip, $logtable, $logtitle, $logid, $logtext);
+		//insert_triger($logtype, $loguser, $logdate, $logip, $logtable, $logtitle, $logid, $logtext);
 		new tNG_log('tNG_update', 'prepareSQL', 'end');
 		return null;
 	}
