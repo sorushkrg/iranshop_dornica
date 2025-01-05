@@ -57,7 +57,7 @@
       $db->pageLimit = $articlesPerPage;
       $db->join("category_blog c", "c.ID=b.category_id", "LEFT");
       $db->join("authors_blog a", "a.ID=b.author_id ", "LEFT");
-      $db->where("c.status", 1);
+      $db->where("b.status", 1);
       $db->orderBy("b.sort" , "desc");
       $blogProduct = $db->arraybuilder()->paginate("blog_page b", $page , "b.id , b.image , c.category_title , b.content , a.firstName  , a.lastName ,  b.created_at" );
       $totalPages = $db->totalPages;
