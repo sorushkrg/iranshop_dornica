@@ -227,14 +227,13 @@ else
                                                             ?>
 
                                                             <td>
-                                                                <select name="tfi_listrsBlg_author_id" id="tfi_listrsBlg_author_id" class="form-select" value="<?php echo _ktx(@$_SESSION['tfi_listrsBlg_author_id']); ?>">
+                                                                <select name="tfi_listrsBlg_author_id" id="tfi_listrsBlg_author_id" class="form-select">
                                                                     <option value=""></option>
-                                                                    <?php foreach ($authorsSelect as  $value) { ?>
-                                                                        <option value="<?= $value["id"] ?>"> <?= $value["firstName"] . " " .  $value["lastName"] ?> </option>
-                                                                    <?php
-                                                                    }
-                                                                    ?>
-
+                                                                    <?php foreach ($authorsSelect as $value) { ?>
+                                                                        <option value="<?= $value["id"] ?>" <?php if ($value['id'] == @$_SESSION['tfi_listrsBlg_author_id']) echo "selected"; ?>>
+                                                                            <?= $value["firstName"] . " " . $value["lastName"] ?>
+                                                                        </option>
+                                                                    <?php } ?>
                                                                 </select>
                                                             </td>
 
@@ -249,7 +248,7 @@ else
                                                                 <select name="tfi_listrsBlg_category_id" id="tfi_listrsBlg_category_id" class="form-select" value="<?php echo _ktx(@$_SESSION['tfi_listrsBlg_category_id']); ?>">
                                                                     <option value=""></option>
                                                                     <?php foreach ($categorySelect as  $value) { ?>
-                                                                        <option value="<?= $value["id"] ?>"> <?= $value["category_title"] ?> </option>
+                                                                        <option value="<?= $value["id"] ?>" <?php if ($value['id'] == @$_SESSION['tfi_listrsBlg_category_id']) echo "selected"; ?>> <?= $value["category_title"] ?> </option>
                                                                     <?php
                                                                     }
                                                                     ?>
