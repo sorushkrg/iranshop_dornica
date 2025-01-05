@@ -211,7 +211,9 @@ else
                                                         <th><a href="<?php echo $tso_listrsBlg->getSortLink("author_id") ?>">نام کامل</a></th>
                                                         <th id="category_title"><a href="">نام دسته بندی </a></th>
                                                         <th id="image"><a href="#">عکس</a></th>
+                                                        <th><a href="">زمان انتشار</a></th>
                                                         <th><a href="">زمان ساخت</a></th>
+                                                        <th><a href="">زمان بروزرسانی</a></th>
                                                         <th><a href="<?php echo $tso_listrsBlg->getSortLink('status'); ?>">وضعیت</a></th>
                                                         <th></th>
                                                     </tr>
@@ -221,11 +223,10 @@ else
                                                     ?>
                                                         <tr>
                                                             <td></td>
-
+                                                            <!-- query athors -->
                                                             <?php
                                                             $authorsSelect = $db->get("authors_blog");
                                                             ?>
-
                                                             <td>
                                                                 <select name="tfi_listrsBlg_author_id" id="tfi_listrsBlg_author_id" class="form-select">
                                                                     <option value=""></option>
@@ -237,12 +238,10 @@ else
                                                                 </select>
                                                             </td>
 
-
-
+                                                            <!-- query category -->
                                                             <?php
                                                             $categorySelect = $db->get("category_blog");
                                                             ?>
-
                                                             <td>
 
                                                                 <select name="tfi_listrsBlg_category_id" id="tfi_listrsBlg_category_id" class="form-select" value="<?php echo _ktx(@$_SESSION['tfi_listrsBlg_category_id']); ?>">
@@ -258,8 +257,11 @@ else
                                                             </td>
 
                                                             <td></td>
+                                                            <td></td>
+                                                            <td></td>
 
                                                             <td></td>
+
                                                             <td>
                                                                 <select name="tfi_listrsBlg_status" id="tfi_listrsBlg_status" class="form-select" tabindex="3">
                                                                     <option value="" <?php if (!(strcmp("", _ktx(@$_SESSION['tfi_listrsBlg_status'])))) {
@@ -319,8 +321,9 @@ else
                                                                     </div>
                                                                 </td>
 
-
+                                                                <td><?= jdate('Y/m/d', strtotime($row_rs1["published_date"])) ?></td>
                                                                 <td><?= jdate('Y/m/d', strtotime($row_rs1["created_at"])) ?></td>
+                                                                <td><?= jdate('Y/m/d', strtotime($row_rs1["updated_at"])) ?></td>
 
 
                                                                 <td>
