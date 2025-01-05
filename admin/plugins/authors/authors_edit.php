@@ -162,13 +162,14 @@ $totalRows_rsbnk = mysqli_num_rows($rsbnk);
                                                         <label for="tashilat" class="text-dark">
                                                             قوانین سایت
                                                         </label>
-                                                        <input name="rules" id="rules" type="checkbox" class="styled" value="1" tabindex="67" />
+                                                        <input name="rules" id="rules" type="checkbox" class="styled" value="1" tabindex="67" <?php if (!(strcmp(1, KT_escapeAttribute($row_rsbnk['rules'])))) {echo 'checked="checked"';} ?> />
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
                                         <!-- end row -->
                                         <button class="btn btn-primary" type="submit" name="send">ارسال فرم</button>
+                                        <a class="btn btn-danger" href="authors_list.php" name="cancel">لغو</a>
                                     </form>
                                     <!-- end form -->
                                 </div>
