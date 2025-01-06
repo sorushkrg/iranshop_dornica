@@ -20,20 +20,20 @@ $tNGs->prepareValidation($formValidation);
 // End trigger
 
 // Make an insert transaction instance
-$ins_ctg = new tNG_update($conn_cn);
-$tNGs->addTransaction($ins_ctg);
+$ins_auth = new tNG_update($conn_cn);
+$tNGs->addTransaction($ins_auth);
 // Register triggers
-$ins_ctg->registerTrigger("STARTER", "Trigger_Default_Starter", 1, "POST", "send");
-$ins_ctg->registerTrigger("BEFORE", "Trigger_Default_FormValidation", 10, $formValidation);
-$ins_ctg->registerTrigger("END", "Trigger_Default_Redirect", 99, "authors_list.php?edit=1");
+$ins_auth->registerTrigger("STARTER", "Trigger_Default_Starter", 1, "POST", "send");
+$ins_auth->registerTrigger("BEFORE", "Trigger_Default_FormValidation", 10, $formValidation);
+$ins_auth->registerTrigger("END", "Trigger_Default_Redirect", 99, "authors_list.php?edit=1");
 
 // Add columns
-$ins_ctg->setTable("authors_blog");
-$ins_ctg->addColumn("firstName", "STRING_TYPE", "POST", "firstName");
-$ins_ctg->addColumn("lastName", "STRING_TYPE", "POST", "lastName");
-$ins_ctg->addColumn("rules", "STRING_TYPE", "POST", "rules");
-$ins_ctg->addColumn("status", "STRING_TYPE", "POST", "status");
-$ins_ctg->setPrimaryKey("id", "NUMERIC_TYPE", "VALUE", $id);
+$ins_auth->setTable("authors_blog");
+$ins_auth->addColumn("firstName", "STRING_TYPE", "POST", "firstName");
+$ins_auth->addColumn("lastName", "STRING_TYPE", "POST", "lastName");
+$ins_auth->addColumn("rules", "STRING_TYPE", "POST", "rules");
+$ins_auth->addColumn("status", "STRING_TYPE", "POST", "status");
+$ins_auth->setPrimaryKey("id", "NUMERIC_TYPE", "VALUE", $id);
 
 // Execute all the registered transactions
 $db->where("firstName", _ktx($_POST["firstName"]));
