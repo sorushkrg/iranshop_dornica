@@ -123,6 +123,16 @@ if ($blogDuplicate) {
 
                     <!-- start page title -->
                     <div class="row">
+                        <?php
+                        if ($errorDup) {
+                        ?>
+                            <div class="alert alert-danger alert-dismissible fade show" role="alert">
+                                <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close">
+                                </button>
+                                <?= $errorDup ?>
+                            </div>
+                        <?php
+                        } ?>
                         <div class="col-md-6">
                             <div class="page-title-box">
                                 <h4>بلاگ - درج</h4>
@@ -201,7 +211,7 @@ if ($blogDuplicate) {
                                                         ?>
                                                     </select>
                                                     <div id="category_id_error_element" class="validation-error-label text-danger"></div>
-                                                    <p class="text-danger"><?= _ktx($errorDup) ?></p>
+
                                                 </div>
                                             </div>
                                             <!-- end col -->
