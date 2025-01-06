@@ -129,6 +129,26 @@ else
 
                     <!-- start page title -->
                     <div class="row">
+                        <?php
+                        if (GetSQLValueString($_GET['add'], "int") == 1) {
+                        ?>
+                            <div class="alert alert-success alert-dismissible fade show" role="alert">
+                                <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close">
+                                </button>
+                                <strong>درج</strong> با موفقیت انجام شد
+                            </div>
+                        <?php
+                        } ?>
+                        <?php
+                        if (GetSQLValueString($_GET['edit'], "int") == 1) {
+                        ?>
+                            <div class="alert alert-success alert-dismissible fade show" role="alert">
+                                <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close">
+                                </button>
+                                <strong>ویرایش</strong> با موفقیت انجام شد
+                            </div>
+                        <?php
+                        } ?>
                         <div class="col-sm-6">
                             <div class="page-title-box">
                                 <h4> بلاگ - نویسنده - لیست</h4>
