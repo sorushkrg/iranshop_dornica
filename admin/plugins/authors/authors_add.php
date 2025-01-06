@@ -92,6 +92,16 @@ if ($authorDuplicate) {
 
                     <!-- start page title -->
                     <div class="row">
+                        <?php
+                        if ($errorDup) {
+                        ?>
+                            <div class="alert alert-danger alert-dismissible fade show" role="alert">
+                                <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close">
+                                </button>
+                                <?= $errorDup ?>
+                            </div>
+                        <?php
+                        } ?>
                         <div class="col-md-6">
                             <div class="page-title-box">
                                 <h4>نویسنده - درج</h4>
@@ -117,7 +127,6 @@ if ($authorDuplicate) {
                                                     <label class="form-label" for="validationCustom01">نام کوچک</label>
                                                     <input type="text" class="form-control" id="validationCustom01" placeholder="نام کوچک" name="firstName">
                                                     <div id="firstName_error_element" class="validation-error-label text-danger"></div>
-                                                    <p class="text-danger"> <?= $errorDup ?></p>
                                                 </div>
                                             </div>
                                             <!-- end col -->
