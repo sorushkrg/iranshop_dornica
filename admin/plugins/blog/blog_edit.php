@@ -128,6 +128,16 @@ $totalRows_rsbnk = mysqli_num_rows($rsbnk);
 
                     <!-- start page title -->
                     <div class="row">
+                        <?php
+                        if ($errorDup) {
+                        ?>
+                            <div class="alert alert-danger alert-dismissible fade show" role="alert">
+                                <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close">
+                                </button>
+                                <?= $errorDup ?>
+                            </div>
+                        <?php
+                        } ?>
                         <div class="col-md-6">
                             <div class="page-title-box">
                                 <h4>بلاگ - درج</h4>
@@ -214,7 +224,6 @@ $totalRows_rsbnk = mysqli_num_rows($rsbnk);
                                                         ?>
                                                     </select>
                                                     <div id="category_id_error_element" class="validation-error-label text-danger"></div>
-                                                    <p class="text-danger"><?= _ktx($errorDup) ?></p>
                                                 </div>
                                             </div>
                                             <!-- end col -->
@@ -245,11 +254,15 @@ $totalRows_rsbnk = mysqli_num_rows($rsbnk);
                                                     <label class="form-label">وضعیت</label>
                                                     <div>
                                                         <div class="form-check form-check-inline">
-                                                            <input class="form-check-input" type="radio" name="status" id="status1" value="1" <?php if (!(strcmp(1, KT_escapeAttribute($row_rsbnk['status'])))) {echo 'checked="checked"';} ?>>
+                                                            <input class="form-check-input" type="radio" name="status" id="status1" value="1" <?php if (!(strcmp(1, KT_escapeAttribute($row_rsbnk['status'])))) {
+                                                                                                                                                    echo 'checked="checked"';
+                                                                                                                                                } ?>>
                                                             <label class="form-check-label" for="status1">فعال</label>
                                                         </div>
                                                         <div class="form-check form-check-inline">
-                                                            <input class="form-check-input" type="radio" name="status" id="status2" value="0" <?php if (!(strcmp(0, KT_escapeAttribute($row_rsbnk['status'])))) {echo 'checked="checked"';} ?>>
+                                                            <input class="form-check-input" type="radio" name="status" id="status2" value="0" <?php if (!(strcmp(0, KT_escapeAttribute($row_rsbnk['status'])))) {
+                                                                                                                                                    echo 'checked="checked"';
+                                                                                                                                                } ?>>
                                                             <label class="form-check-label" for="status2">غیرفعال</label>
                                                         </div>
                                                     </div>
@@ -260,7 +273,9 @@ $totalRows_rsbnk = mysqli_num_rows($rsbnk);
                                                     <label for="tashilat" class="text-dark">
                                                         قوانین سایت
                                                     </label>
-                                                    <input name="rules" id="rules" type="checkbox" class="styled" value="1" tabindex="67" <?php if (!(strcmp(1, KT_escapeAttribute($row_rsbnk['rules'])))) {echo 'checked="checked"';} ?> />
+                                                    <input name="rules" id="rules" type="checkbox" class="styled" value="1" tabindex="67" <?php if (!(strcmp(1, KT_escapeAttribute($row_rsbnk['rules'])))) {
+                                                                                                                                                echo 'checked="checked"';
+                                                                                                                                            } ?> />
                                                 </div>
                                             </div>
                                         </div>
