@@ -152,11 +152,11 @@ $totalRows_rsBlg = mysqli_num_rows($rsBlg);
                     <div class="row justify-content-center align-items-center">
                         <div class="col-xl-10">
                             <div class="card">
-                                <div class="card-body">
+                                <div class="card-body KT_tngtable">
                                     <?php
                                     echo $tNGs->getErrorMsg();
                                     ?>
-                                    <form action="<?= _ktx(KT_getFullUri()); ?>" class="needs-validation" method="post" enctype="multipart/form-data">
+                                    <form action="<?= _ktx(KT_getFullUri()); ?>" method="post" enctype="multipart/form-data">
                                         <div class="row">
                                             <div class="col-md-6">
                                                 <div class="mb-3">

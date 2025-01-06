@@ -155,7 +155,7 @@ $totalRows_rsbnk = mysqli_num_rows($rsbnk);
                     <div class="row justify-content-center">
                         <div class="col-md-10">
                             <div class="card">
-                                <div class="card-body">
+                                <div class="card-body KT_tngtable">
                                     <?php
                                     echo $tNGs->getErrorMsg();
                                     ?>

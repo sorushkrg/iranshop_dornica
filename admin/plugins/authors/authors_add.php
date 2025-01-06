@@ -116,7 +116,7 @@ if ($authorDuplicate) {
                     <div class="row justify-content-center align-items-center">
                         <div class="col-xl-10">
                             <div class="card">
-                                <div class="card-body">
+                                <div class="card-body KT_tngtable">
                                     <?php
                                     echo $tNGs->getErrorMsg();
                                     ?>
