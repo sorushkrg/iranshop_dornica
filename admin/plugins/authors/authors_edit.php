@@ -51,9 +51,9 @@ if ($authorDuplicate) {
 
 
 // Get the transaction recordset
-$rsbnk = $tNGs->getRecordset("authors_blog");
-$row_rsbnk = mysqli_fetch_assoc($rsbnk);
-$totalRows_rsbnk = mysqli_num_rows($rsbnk);
+$rsAuth = $tNGs->getRecordset("authors_blog");
+$row_rsAuth = mysqli_fetch_assoc($rsAuth);
+$totalRows_rsAuth = mysqli_num_rows($rsAuth);
 
 
 ?>
@@ -136,16 +136,16 @@ $totalRows_rsbnk = mysqli_num_rows($rsbnk);
                                             <div class="col-md-6">
                                                 <div class="mb-3">
                                                     <label class="form-label" for="validationCustom01">نام کوچک</label>
-                                                    <input type="text" class="form-control" id="validationCustom01" name="firstName" value="<?= _ktx($row_rsbnk['firstName']) ?>">
+                                                    <input type="text" class="form-control" id="validationCustom01" name="firstName" value="<?= _ktx($row_rsAuth['firstName']) ?>">
                                                     <div id="firstName_error_element" class="validation-error-label text-danger"></div>
-                                                   
+
                                                 </div>
                                             </div>
                                             <!-- end col -->
                                             <div class="col-md-6">
                                                 <div class="mb-3">
                                                     <label class="form-label" for="validationCustom02">نام خانوادگی</label>
-                                                    <input type="text" class="form-control" id="validationCustom02" placeholder="نام خانوادگی" name="lastName" value="<?= _ktx($row_rsbnk['lastName']) ?>">
+                                                    <input type="text" class="form-control" id="validationCustom02" placeholder="نام خانوادگی" name="lastName" value="<?= _ktx($row_rsAuth['lastName']) ?>">
                                                     <div id="lastName_error_element" class="validation-error-label text-danger"></div>
                                                 </div>
                                             </div>
@@ -158,13 +158,13 @@ $totalRows_rsbnk = mysqli_num_rows($rsbnk);
                                                     <label class="form-label">وضعیت</label>
                                                     <div>
                                                         <div class="form-check form-check-inline">
-                                                            <input class="form-check-input" type="radio" name="status" id="status1" value="1" <?php if (!(strcmp(1, KT_escapeAttribute($row_rsbnk['status'])))) {
+                                                            <input class="form-check-input" type="radio" name="status" id="status1" value="1" <?php if (!(strcmp(1, KT_escapeAttribute($row_rsAuth['status'])))) {
                                                                                                                                                     echo 'checked="checked"';
                                                                                                                                                 } ?>>
                                                             <label class="form-check-label" for="status1">فعال</label>
                                                         </div>
                                                         <div class="form-check form-check-inline">
-                                                            <input class="form-check-input" type="radio" name="status" id="status2" value="0" <?php if (!(strcmp(0, KT_escapeAttribute($row_rsbnk['status'])))) {
+                                                            <input class="form-check-input" type="radio" name="status" id="status2" value="0" <?php if (!(strcmp(0, KT_escapeAttribute($row_rsAuth['status'])))) {
                                                                                                                                                     echo 'checked="checked"';
                                                                                                                                                 } ?>>
                                                             <label class="form-check-label" for="status2">غیرفعال</label>
@@ -176,7 +176,7 @@ $totalRows_rsbnk = mysqli_num_rows($rsbnk);
                                                         <label for="tashilat" class="text-dark">
                                                             قوانین سایت
                                                         </label>
-                                                        <input name="rules" id="rules" type="checkbox" class="styled" value="1" tabindex="67" <?php if (!(strcmp(1, KT_escapeAttribute($row_rsbnk['rules'])))) {
+                                                        <input name="rules" id="rules" type="checkbox" class="styled" value="1" tabindex="67" <?php if (!(strcmp(1, KT_escapeAttribute($row_rsAuth['rules'])))) {
                                                                                                                                                     echo 'checked="checked"';
                                                                                                                                                 } ?> />
                                                     </div>
