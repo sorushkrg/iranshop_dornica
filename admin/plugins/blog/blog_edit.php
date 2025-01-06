@@ -43,25 +43,25 @@ function Trigger_ImageUpload(&$tNG)
 //end Trigger_ImageUpload trigger
 
 // Make an insert transaction instance
-$ins_ctg = new tNG_update($conn_cn);
-$tNGs->addTransaction($ins_ctg);
+$ins_blg = new tNG_update($conn_cn);
+$tNGs->addTransaction($ins_blg);
 // Register triggers
-$ins_ctg->registerTrigger("STARTER", "Trigger_Default_Starter", 1, "POST", "send");
-$ins_ctg->registerTrigger("BEFORE", "Trigger_Default_FormValidation", 10, $formValidation);
-$ins_ctg->registerTrigger("END", "Trigger_Default_Redirect", 99, "blog_list.php?edit=1");
-$ins_ctg->registerTrigger("AFTER", "Trigger_ImageUpload", 97);
+$ins_blg->registerTrigger("STARTER", "Trigger_Default_Starter", 1, "POST", "send");
+$ins_blg->registerTrigger("BEFORE", "Trigger_Default_FormValidation", 10, $formValidation);
+$ins_blg->registerTrigger("END", "Trigger_Default_Redirect", 99, "blog_list.php?edit=1");
+$ins_blg->registerTrigger("AFTER", "Trigger_ImageUpload", 97);
 
 // Add columns
-$ins_ctg->setTable("blog_page");
-$ins_ctg->addColumn("author_id", "STRING_TYPE", "POST", "author_id");
-$ins_ctg->addColumn("category_id", "STRING_TYPE", "POST", "category_id");
-$ins_ctg->addColumn("content", "STRING_TYPE", "POST", "content");
-$ins_ctg->addColumn("image", "FILE_TYPE", "FILES", "image");
-$ins_ctg->addColumn("published_date", "DATE_TYPE", "POST", "published_date");
-$ins_ctg->addColumn("updated_at", "DATE_TYPE", "VALUE", date("Y-m-d H:i:s"));
-$ins_ctg->addColumn("rules", "STRING_TYPE", "POST", "rules");
-$ins_ctg->addColumn("status", "STRING_TYPE", "POST", "status");
-$ins_ctg->setPrimaryKey("id", "NUMERIC_TYPE", "VALUE", $id);
+$ins_blg->setTable("blog_page");
+$ins_blg->addColumn("author_id", "STRING_TYPE", "POST", "author_id");
+$ins_blg->addColumn("category_id", "STRING_TYPE", "POST", "category_id");
+$ins_blg->addColumn("content", "STRING_TYPE", "POST", "content");
+$ins_blg->addColumn("image", "FILE_TYPE", "FILES", "image");
+$ins_blg->addColumn("published_date", "DATE_TYPE", "POST", "published_date");
+$ins_blg->addColumn("updated_at", "DATE_TYPE", "VALUE", date("Y-m-d H:i:s"));
+$ins_blg->addColumn("rules", "STRING_TYPE", "POST", "rules");
+$ins_blg->addColumn("status", "STRING_TYPE", "POST", "status");
+$ins_blg->setPrimaryKey("id", "NUMERIC_TYPE", "VALUE", $id);
 
 // Execute all the registered transactions
 $db->where("category_id", _ktx($_POST["category_id"]));
@@ -75,9 +75,9 @@ if ($blogDuplicate) {
     $tNGs->executeTransactions();
 }
 
-$rsbnk = $tNGs->getRecordset("blog_page");
-$row_rsbnk = mysqli_fetch_assoc($rsbnk);
-$totalRows_rsbnk = mysqli_num_rows($rsbnk);
+$rsBlg = $tNGs->getRecordset("blog_page");
+$row_rsBlg = mysqli_fetch_assoc($rsBlg);
+$totalRows_rsBlg = mysqli_num_rows($rsBlg);
 
 
 
@@ -168,9 +168,9 @@ $totalRows_rsbnk = mysqli_num_rows($rsbnk);
                                                     <span class="help-block m-3">فرمتهای مجاز: <?= _ktx($ImgAllowedExtensions) ?>. حداکثر اندازه فایل: <?= _ktx($ImgMaxSize) ?>KB</span>
                                                 </div>
                                                 <div class="mb-3">
-                                                    <a href="../<?php if (file_exists("../../../attachment/image/blogHTML/" . $row_rsbnk['image']) && ($row_rsbnk['image'])) echo '../../attachment/image/blogHTML/' . KT_escapeAttribute($row_rsbnk['image']);
+                                                    <a href="../<?php if (file_exists("../../../attachment/image/blogHTML/" . $row_rsBlg['image']) && ($row_rsBlg['image'])) echo '../../attachment/image/blogHTML/' . KT_escapeAttribute($row_rsBlg['image']);
                                                                 else echo 'assets/images/placeholder.jpg'; ?>" data-popup="lightbox">
-                                                        <img src="../<?php if (file_exists("../../../attachment/image/blogHTML/" . $row_rsbnk['image']) && ($row_rsbnk['image'])) echo '../../attachment/image/blogHTML/' . KT_escapeAttribute($row_rsbnk['image']);
+                                                        <img src="../<?php if (file_exists("../../../attachment/image/blogHTML/" . $row_rsBlg['image']) && ($row_rsBlg['image'])) echo '../../attachment/image/blogHTML/' . KT_escapeAttribute($row_rsBlg['image']);
                                                                         else echo 'assets/images/placeholder.jpg'; ?>" style="width: 80px; border-radius: 2px;" alt="">
                                                     </a>
                                                 </div>
@@ -178,7 +178,7 @@ $totalRows_rsbnk = mysqli_num_rows($rsbnk);
                                             <div class="col-md-6">
                                                 <div class="mb-3">
                                                     <label class="form-label">زمان انتشار قبلی: </label>
-                                                    <label for=""><?= jdate('Y/m/d', strtotime($row_rsbnk["published_date"])) ?></label>
+                                                    <label for=""><?= jdate('Y/m/d', strtotime($row_rsBlg["published_date"])) ?></label>
                                                     <input class="form-control" type="date" name="published_date">
                                                     <div id="published_date_error_element" class="validation-error-label text-danger"></div>
                                                 </div>
@@ -198,7 +198,7 @@ $totalRows_rsbnk = mysqli_num_rows($rsbnk);
                                                     <select name="author_id" id="author_id" class="form-select">
                                                         <option value=""></option>
                                                         <?php foreach ($authors as $value) { ?>
-                                                            <option value="<?= _ktx($value["id"]) ?>" <?php if ($value['id'] == $row_rsbnk["author_id"]) echo "selected"; ?>> <?= _ktx($value["firstName"]) . " " . _ktx($value["lastName"])  ?></option>
+                                                            <option value="<?= _ktx($value["id"]) ?>" <?php if ($value['id'] == $row_rsBlg["author_id"]) echo "selected"; ?>> <?= _ktx($value["firstName"]) . " " . _ktx($value["lastName"])  ?></option>
                                                         <?php
                                                         }
                                                         ?>
@@ -218,7 +218,7 @@ $totalRows_rsbnk = mysqli_num_rows($rsbnk);
                                                     <select name="category_id" id="category" class="form-select">
                                                         <option value=""></option>
                                                         <?php foreach ($category as $value) { ?>
-                                                            <option value="<?= _ktx($value["id"]) ?>" <?php if ($value['id'] == $row_rsbnk["category_id"]) echo "selected"; ?>> <?= _ktx($value["category_title"]) ?></option>
+                                                            <option value="<?= _ktx($value["id"]) ?>" <?php if ($value['id'] == $row_rsBlg["category_id"]) echo "selected"; ?>> <?= _ktx($value["category_title"]) ?></option>
                                                         <?php
                                                         }
                                                         ?>
@@ -254,13 +254,13 @@ $totalRows_rsbnk = mysqli_num_rows($rsbnk);
                                                     <label class="form-label">وضعیت</label>
                                                     <div>
                                                         <div class="form-check form-check-inline">
-                                                            <input class="form-check-input" type="radio" name="status" id="status1" value="1" <?php if (!(strcmp(1, KT_escapeAttribute($row_rsbnk['status'])))) {
+                                                            <input class="form-check-input" type="radio" name="status" id="status1" value="1" <?php if (!(strcmp(1, KT_escapeAttribute($row_rsBlg['status'])))) {
                                                                                                                                                     echo 'checked="checked"';
                                                                                                                                                 } ?>>
                                                             <label class="form-check-label" for="status1">فعال</label>
                                                         </div>
                                                         <div class="form-check form-check-inline">
-                                                            <input class="form-check-input" type="radio" name="status" id="status2" value="0" <?php if (!(strcmp(0, KT_escapeAttribute($row_rsbnk['status'])))) {
+                                                            <input class="form-check-input" type="radio" name="status" id="status2" value="0" <?php if (!(strcmp(0, KT_escapeAttribute($row_rsBlg['status'])))) {
                                                                                                                                                     echo 'checked="checked"';
                                                                                                                                                 } ?>>
                                                             <label class="form-check-label" for="status2">غیرفعال</label>
@@ -273,7 +273,7 @@ $totalRows_rsbnk = mysqli_num_rows($rsbnk);
                                                     <label for="tashilat" class="text-dark">
                                                         قوانین سایت
                                                     </label>
-                                                    <input name="rules" id="rules" type="checkbox" class="styled" value="1" tabindex="67" <?php if (!(strcmp(1, KT_escapeAttribute($row_rsbnk['rules'])))) {
+                                                    <input name="rules" id="rules" type="checkbox" class="styled" value="1" tabindex="67" <?php if (!(strcmp(1, KT_escapeAttribute($row_rsBlg['rules'])))) {
                                                                                                                                                 echo 'checked="checked"';
                                                                                                                                             } ?> />
                                                 </div>

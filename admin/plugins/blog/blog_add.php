@@ -42,26 +42,26 @@ function Trigger_ImageUpload(&$tNG)
 //end Trigger_ImageUpload trigger
 
 // Make an insert transaction instance
-$ins_ctg = new tNG_insert($conn_cn);
-$tNGs->addTransaction($ins_ctg);
+$ins_blg = new tNG_insert($conn_cn);
+$tNGs->addTransaction($ins_blg);
 // Register triggers
-$ins_ctg->registerTrigger("STARTER", "Trigger_Default_Starter", 1, "POST", "send");
-$ins_ctg->registerTrigger("BEFORE", "Trigger_Default_FormValidation", 10, $formValidation);
-$ins_ctg->registerTrigger("END", "Trigger_Default_Redirect", 99, "blog_list.php?add=1");
-$ins_ctg->registerTrigger("AFTER", "Trigger_ImageUpload", 97);
+$ins_blg->registerTrigger("STARTER", "Trigger_Default_Starter", 1, "POST", "send");
+$ins_blg->registerTrigger("BEFORE", "Trigger_Default_FormValidation", 10, $formValidation);
+$ins_blg->registerTrigger("END", "Trigger_Default_Redirect", 99, "blog_list.php?add=1");
+$ins_blg->registerTrigger("AFTER", "Trigger_ImageUpload", 97);
 
 // Add columns
-$ins_ctg->setTable("blog_page");
-$ins_ctg->addColumn("author_id", "STRING_TYPE", "POST", "author_id");
-$ins_ctg->addColumn("category_id", "STRING_TYPE", "POST", "category_id");
-$ins_ctg->addColumn("content", "STRING_TYPE", "POST", "content");
-$ins_ctg->addColumn("image", "FILE_TYPE", "FILES", "image");
-$ins_ctg->addColumn("published_date", "DATE_TYPE", "POST", "published_date");
-$ins_ctg->addColumn("created_at", "DATE_TYPE", "VALUE", date("Y-m-d H:i:s"));
-$ins_ctg->addColumn("updated_at", "DATE_TYPE", "VALUE", date("Y-m-d H:i:s"));
-$ins_ctg->addColumn("rules", "STRING_TYPE", "POST", "rules");
-$ins_ctg->addColumn("status", "STRING_TYPE", "POST", "status");
-$ins_ctg->setPrimaryKey("id", "NUMERIC_TYPE");
+$ins_blg->setTable("blog_page");
+$ins_blg->addColumn("author_id", "STRING_TYPE", "POST", "author_id");
+$ins_blg->addColumn("category_id", "STRING_TYPE", "POST", "category_id");
+$ins_blg->addColumn("content", "STRING_TYPE", "POST", "content");
+$ins_blg->addColumn("image", "FILE_TYPE", "FILES", "image");
+$ins_blg->addColumn("published_date", "DATE_TYPE", "POST", "published_date");
+$ins_blg->addColumn("created_at", "DATE_TYPE", "VALUE", date("Y-m-d H:i:s"));
+$ins_blg->addColumn("updated_at", "DATE_TYPE", "VALUE", date("Y-m-d H:i:s"));
+$ins_blg->addColumn("rules", "STRING_TYPE", "POST", "rules");
+$ins_blg->addColumn("status", "STRING_TYPE", "POST", "status");
+$ins_blg->setPrimaryKey("id", "NUMERIC_TYPE");
 
 // Execute all the registered transactions
 $db->where("category_id", _ktx($_POST["category_id"]));
