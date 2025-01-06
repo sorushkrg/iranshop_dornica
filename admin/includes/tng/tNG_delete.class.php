@@ -26,18 +26,14 @@ class tNG_delete extends tNG_fields {
 	 * @param object KT_Connection &$connection the connection object
 	 * @access public
 	 */
-	function tNG_delete(&$connection) {
-		parent::tNG_fields($connection);
-		$this->transactionType = '_delete';
-		$this->registerTrigger("BEFORE", "Trigger_Default_saveData", -1);
-	}
+	
 	
 	/**
 	 * Prepares the delete SQL query to be executed
 	 * @access protected
 	 */
 	function prepareSQL() {
-		tNG_log::log('tNG_delete', 'prepareSQL', 'begin');
+		new tNG_log('tNG_delete', 'prepareSQL', 'begin');
 		parent::prepareSQL();
 		// check if we have a valid primaryKey
 		if (!$this->primaryKey) {
@@ -59,31 +55,7 @@ class tNG_delete extends tNG_fields {
 		
 		@session_start();
 		  
-		// Get client's IP address
-		if (isset($_SERVER['HTTP_CLIENT_IP']) && array_key_exists('HTTP_CLIENT_IP', $_SERVER)) {
-			$ip = $_SERVER['HTTP_CLIENT_IP'];
-		} elseif (isset($_SERVER['HTTP_X_FORWARDED_FOR']) && array_key_exists('HTTP_X_FORWARDED_FOR', $_SERVER)) {
-			$ips = explode(',', $_SERVER['HTTP_X_FORWARDED_FOR']);
-			$ips = array_map('trim', $ips);
-			$ip = $ips[0];
-		} else 
-			$ip = $_SERVER['REMOTE_ADDR'];
-
-		$ip = (is_null($ip)) ? '' : $ip;
-		
-		$logtype=3; 
- 		$loguser =$_SESSION['auser_id'];
-		$logdate = jdate("YmdHis");
-		$logid = $this->primaryKeyColumn['value'];
-		
-		$logtext=select_triger(encrypt($this->table,session_id()."dltr"), KT_escapeFieldName($this->primaryKey), KT_escapeForSql($this->primaryKeyColumn['value'], $this->primaryKeyColumn['type']),$this->connection->connection);;
-		$logip = $ip;
-		$logtable=$this->table;
-		$logtitle=$_SESSION['cur_pagename'];
-
-		//insert_triger($logtype, $loguser, $logdate, $logip, $logtable, $logtitle, $logid, $logtext);
-		
-		tNG_log::log('tNG_delete', 'prepareSQL', 'end');
+		new tNG_log('tNG_delete', 'prepareSQL', 'end');
 		return $ret;
 	}
 
@@ -95,4 +67,3 @@ class tNG_delete extends tNG_fields {
 		$this->setError(new tNG_error('DEL_NO_RS', array(), array()));
 	}
 }
-?>

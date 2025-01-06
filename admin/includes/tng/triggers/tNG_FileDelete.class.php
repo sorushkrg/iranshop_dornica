@@ -74,7 +74,7 @@ class tNG_FileDelete {
 	 * @param object tNG 
 	 * @access public
 	 */
-	function tNG_FileDelete(&$tNG) {
+	public function __construct(&$tNG) {
 		$this->tNG = &$tNG;
 	}
 	
@@ -95,7 +95,7 @@ class tNG_FileDelete {
 	function setFolder($folder) {
 		if($this->uploadType="tng")
 		{
-			$folder = KT_TransformToUrlPath($folder, true);
+			$folder = (string)KT_TransformToUrlPath($folder, true);
 			$pos = strpos($folder, '{');
 			if ($pos !== false) {
 				$this->folder = substr($folder, $pos);
