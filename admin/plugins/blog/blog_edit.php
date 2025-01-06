@@ -177,9 +177,8 @@ $totalRows_rsBlg = mysqli_num_rows($rsBlg);
                                             </div>
                                             <div class="col-md-6">
                                                 <div class="mb-3">
-                                                    <label class="form-label">زمان انتشار قبلی: </label>
-                                                    <label for=""><?= jdate('Y/m/d', strtotime($row_rsBlg["published_date"])) ?></label>
-                                                    <input class="form-control" type="date" name="published_date">
+                                                    <label class="form-label">زمان انتشار: </label>
+                                                    <input class="form-control" type="date" name="published_date" value="<?= date('Y-m-d', strtotime($row_rsBlg["published_date"])) ?>">
                                                     <div id="published_date_error_element" class="validation-error-label text-danger"></div>
                                                 </div>
                                             </div>
@@ -238,7 +237,7 @@ $totalRows_rsBlg = mysqli_num_rows($rsBlg);
                                                 <div class="mb-3">
                                                     <label class="form-label">توضیحات</label>
                                                     <div>
-                                                        <textarea class="form-control" placeholder="متن جدید را اینجا تایپ کنید" name="content" rows="4"></textarea>
+                                                        <textarea class="form-control" placeholder="متن جدید را اینجا تایپ کنید" name="content" rows="4"><?= _ktx($row_rsBlg["content"]) ?></textarea>
                                                         <div id="content_error_element" class="validation-error-label text-danger"></div>
                                                     </div>
                                                 </div>
