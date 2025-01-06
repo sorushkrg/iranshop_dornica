@@ -117,6 +117,16 @@ if ($categoryDuplicate) {
 
                     <!-- start page title -->
                     <div class="row">
+                        <?php
+                        if ($errorDup) {
+                        ?>
+                            <div class="alert alert-danger alert-dismissible fade show" role="alert">
+                                <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close">
+                                </button>
+                                <?= $errorDup ?>
+                            </div>
+                        <?php
+                        } ?>
                         <div class="col-sm-6">
                             <div class="page-title-box">
                                 <h4> دسته بندی - بلاگ - درج</h4>
@@ -145,7 +155,6 @@ if ($categoryDuplicate) {
                                                     <label for="title" class="form-label">نام دسته بندی</label>
                                                     <input type="text" class="form-control" id="title" name="category_title" placeholder="نام دسته بندی">
                                                     <div id="category_title_error_element" class="validation-error-label text-danger"></div>
-                                                    <p class="text-danger"> <?= _ktx($errorDup) ?></p>
                                                 </div>
                                             </div>
                                             <div class="col-md-6">
