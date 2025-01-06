@@ -48,7 +48,7 @@ $tNGs->addTransaction($ins_ctg);
 // Register triggers
 $ins_ctg->registerTrigger("STARTER", "Trigger_Default_Starter", 1, "POST", "send");
 $ins_ctg->registerTrigger("BEFORE", "Trigger_Default_FormValidation", 10, $formValidation);
-$ins_ctg->registerTrigger("END", "Trigger_Default_Redirect", 99, "blogCategori_list.php?add=1");
+$ins_ctg->registerTrigger("END", "Trigger_Default_Redirect", 99, "blogCategori_list.php?edit=1");
 $ins_ctg->registerTrigger("AFTER", "Trigger_ImageUpload", 97);
 
 // Add columns
