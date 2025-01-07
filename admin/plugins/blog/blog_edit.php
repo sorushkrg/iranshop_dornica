@@ -92,6 +92,8 @@ $totalRows_rsBlg = mysqli_num_rows($rsBlg);
 <head>
 
     <?php require_once "../../layout/head.php" ?>
+    <link rel="stylesheet" type="text/css" href="../../assets/css/persian-datepicker.css">
+    <link rel="stylesheet" type="text/css" href="../../assets/css/persian-datepicker-cheerup.min.css">
     <link href="../../includes/skins/mxkollection3.css" rel="stylesheet" type="text/css" media="all" />
     <script src="../../includes/common/js/base.js" type="text/javascript"></script>
     <script src="../../includes/common/js/utility.js" type="text/javascript"></script>
@@ -178,7 +180,7 @@ $totalRows_rsBlg = mysqli_num_rows($rsBlg);
                                             <div class="col-md-6">
                                                 <div class="mb-3">
                                                     <label class="form-label">زمان انتشار: </label>
-                                                    <input class="form-control" type="date" name="published_date" value="<?= date('Y-m-d', strtotime($row_rsBlg["published_date"])) ?>">
+                                                    <input type="text" name="published_date" id="todate" value="" class="form-control" autocomplete="off" tabindex="9" style="text-align: left;" />
                                                     <div id="published_date_error_element" class="validation-error-label text-danger"></div>
                                                 </div>
                                             </div>
@@ -310,8 +312,11 @@ $totalRows_rsBlg = mysqli_num_rows($rsBlg);
     <script src="../../assets/libs/simplebar/simplebar.min.js"></script>
     <script src="../../assets/libs/node-waves/waves.min.js"></script>
     <script src="../../assets/libs/jquery-sparkline/jquery.sparkline.min.js"></script>
-
     <script src="../../assets/js/app.js"></script>
+    <script type="text/javascript" src="../../assets/plugins/jquery.inputmask.bundle.min.js"></script>
+    <script type="text/javascript" src="assets/js/date.js"></script>
+    <script src="../../assets/persian-date.js"></script>
+    <script src="../../assets/persian-datepicker.js"></script>
 
 </body>
 
