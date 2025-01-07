@@ -148,6 +148,16 @@ else
                             </div>
                         <?php
                         } ?>
+                        <?php
+                        if (GetSQLValueString($_GET['delete'], "int") == 1) {
+                        ?>
+                            <div class="alert alert-danger alert-dismissible fade show" role="alert">
+                                <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close">
+                                </button>
+                                <strong>حذف</strong> با موفقیت انجام شد
+                            </div>
+                        <?php
+                        } ?>
                         <div class="col-sm-6">
                             <div class="page-title-box">
                                 <h4>بلاگ - دسته بندی - لیست </h4>
