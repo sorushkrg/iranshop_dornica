@@ -298,7 +298,7 @@ if ($blogDuplicate) {
     <script src="../../assets/libs/jquery-sparkline/jquery.sparkline.min.js"></script>
     <script src="../../assets/js/app.js"></script>
     <script type="text/javascript" src="../../assets/plugins/jquery.inputmask.bundle.min.js"></script>
-    <script type="text/javascript" src="assets/js/date.js"></script>
+    <script type="text/javascript" src="../assets/js/date.js"></script>
     <script src="../../assets/persian-date.js"></script>
     <script src="../../assets/persian-datepicker.js"></script>
 
