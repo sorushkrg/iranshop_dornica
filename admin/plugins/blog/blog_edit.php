@@ -180,7 +180,7 @@ $totalRows_rsBlg = mysqli_num_rows($rsBlg);
                                             <div class="col-md-6">
                                                 <div class="mb-3">
                                                     <label class="form-label">زمان انتشار: </label>
-                                                    <input type="text" name="published_date" id="todate" value="" class="form-control" autocomplete="off" tabindex="9" style="text-align: left;" />
+                                                    <input type="text" name="published_date" id="todate" value="<?= $row_rsBlg["published_date"] ?>" class="form-control" autocomplete="off" tabindex="9" style="text-align: left;" />
                                                     <div id="published_date_error_element" class="validation-error-label text-danger"></div>
                                                 </div>
                                             </div>
