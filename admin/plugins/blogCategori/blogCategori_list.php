@@ -87,9 +87,8 @@ else
 <head>
 
     <?php require_once "../../layout/head.php" ?>
-
     <title> بلاگ-دسته بندی-لیست | لکسا - قالب مدیریت و داشبورد</title>
-
+    <link rel="stylesheet" href="assets/css/master.css">
 
 </head>
 
@@ -133,7 +132,7 @@ else
                             <div class="alert alert-success alert-dismissible fade show" role="alert">
                                 <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close">
                                 </button>
-                                <strong>درج</strong> با موفقیت انجام شد 
+                                <strong>درج</strong> با موفقیت انجام شد
                             </div>
                         <?php
                         } ?>
@@ -143,7 +142,7 @@ else
                             <div class="alert alert-success alert-dismissible fade show" role="alert">
                                 <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close">
                                 </button>
-                                <strong>ویرایش</strong> با موفقیت انجام شد 
+                                <strong>ویرایش</strong> با موفقیت انجام شد
                             </div>
                         <?php
                         } ?>
@@ -153,7 +152,7 @@ else
                             <div class="alert alert-danger alert-dismissible fade show" role="alert">
                                 <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close">
                                 </button>
-                                <strong>حذف</strong> با موفقیت انجام شد 
+                                <strong>حذف</strong> با موفقیت انجام شد
                             </div>
                         <?php
                         } ?>
@@ -300,8 +299,8 @@ else
                                                                 </td>
                                                                 <td>
                                                                     <div>
-                                                                        <a href="blogCategori_edit.php?id=<?php echo ($row_rs1['id']); ?>"><i class="mdi mdi-update"></i></a>
-                                                                        <a href="blogCategori_delete.php?id=<?php echo ($row_rs1['id']); ?>" title="حذف"><i class="mdi mdi-delete"></i></a>
+                                                                        <a href="blogCategori_edit.php?id=<?php echo ($row_rs1['id']); ?>"><i class="mdi mdi-square-edit-outline"></i></a>
+                                                                        <a href="blogCategori_delete.php?id=<?php echo ($row_rs1['id']); ?>" title="حذف"><i class="mdi mdi-delete text-danger"></i></a>
 
                                                                     </div>
                                                                 </td>

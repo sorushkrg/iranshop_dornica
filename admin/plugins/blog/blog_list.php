@@ -88,8 +88,8 @@ else
 <head>
 
     <?php require_once "../../layout/head.php" ?>
-
     <title> بلاگ-دسته بندی-لیست | لکسا - قالب مدیریت و داشبورد</title>
+    <link rel="stylesheet" href="assets/css/master.css">
 
 
 </head>
@@ -174,7 +174,7 @@ else
                     <div class="row justify-content-center">
                         <legend>
                             <div class="flex">
-                                <a href="authors_add.php" class="btn btn-primary"> ثبت رکورد جدید</a>
+                                <a href="blog_add.php" class="btn btn-primary"> ثبت رکورد جدید</a>
 
                                 <a href="<?php echo $nav_listrsbnk->getShowAllLink(); ?>" class="btn btn-secondary"><?php echo NXT_getResource("Show"); ?>
                                     <?php
@@ -361,8 +361,8 @@ else
                                                                 </td>
                                                                 <td>
                                                                     <div>
-                                                                        <a href="blog_edit.php?id=<?php echo ($row_rs1['id']); ?>"><i class="mdi mdi-update"></i></a>
-                                                                        <a href="blog_delete.php?id=<?php echo ($row_rs1['id']); ?>" title="حذف"><i class="mdi mdi-delete"></i></a>
+                                                                        <a href="blog_edit.php?id=<?php echo ($row_rs1['id']); ?>"><i class="mdi mdi-square-edit-outline"></i></a>
+                                                                        <a href="blog_delete.php?id=<?php echo ($row_rs1['id']); ?>" title="حذف"><i class="mdi mdi-delete text-danger"></i></a>
 
                                                                     </div>
                                                                 </td>
@@ -373,6 +373,7 @@ else
                                                 </tbody>
                                             </table>
                                         </div>
+
                                     </form>
 
                                     <div class="text-center d-flex justify-content-center mt-5">

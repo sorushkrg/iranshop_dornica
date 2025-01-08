@@ -89,8 +89,8 @@ else
 <head>
 
     <?php require_once "../../layout/head.php" ?>
-
     <title> بلاگ-نویسنده-لیست | لکسا - قالب مدیریت و داشبورد</title>
+    <link rel="stylesheet" href="../blog/assets/css/master.css">
 
 
 </head>
@@ -296,8 +296,8 @@ else
                                                                 </td>
                                                                 <td>
                                                                     <div>
-                                                                        <a href="authors_edit.php?id=<?php echo ($row_rs1['id']); ?>"><i class="mdi mdi-update"></i></a>
-                                                                        <a href="authors_delete.php?id=<?php echo ($row_rs1['id']); ?>" title="حذف"><i class="mdi mdi-delete"></i></a>
+                                                                        <a href="authors_edit.php?id=<?php echo ($row_rs1['id']); ?>"><i class="mdi mdi-square-edit-outline"></i></a>
+                                                                        <a href="authors_delete.php?id=<?php echo ($row_rs1['id']); ?>" title="حذف"><i class="mdi mdi-delete text-danger"></i></a>
 
                                                                     </div>
                                                                 </td>
