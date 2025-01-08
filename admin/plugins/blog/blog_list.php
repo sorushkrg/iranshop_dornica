@@ -89,7 +89,7 @@ else
 
     <?php require_once "../../layout/head.php" ?>
     <title> بلاگ-دسته بندی-لیست | لکسا - قالب مدیریت و داشبورد</title>
-    <link rel="stylesheet" href="assets/css/master.css">
+    <link rel="stylesheet" href="../assets/css/master.css">
 
 
 </head>
@@ -351,7 +351,7 @@ else
                                                                     </div>
                                                                 </td>
 
-                                                                <td><?= jdate('Y/m/d', strtotime($row_rs1["published_date"])) ?></td>
+                                                                <td><?= $row_rs1["published_date"] ?></td>
                                                                 <td><?= jdate('Y/m/d', strtotime($row_rs1["created_at"])) ?></td>
                                                                 <td><?= jdate('Y/m/d', strtotime($row_rs1["updated_at"])) ?></td>
 
@@ -362,7 +362,9 @@ else
                                                                 <td>
                                                                     <div>
                                                                         <a href="blog_edit.php?id=<?php echo ($row_rs1['id']); ?>"><i class="mdi mdi-square-edit-outline"></i></a>
-                                                                        <a href="blog_delete.php?id=<?php echo ($row_rs1['id']); ?>" title="حذف"><i class="mdi mdi-delete text-danger"></i></a>
+                                                                        <a href="javascript:void(0);" class="delete-btn" data-id="<?php echo ($row_rs1['id']); ?>" title="حذف">
+                                                                            <i class="mdi mdi-delete text-danger"></i>
+                                                                        </a>
 
                                                                     </div>
                                                                 </td>
@@ -411,15 +413,16 @@ else
     <script src="../../assets/libs/simplebar/simplebar.min.js"></script>
     <script src="../../assets/libs/node-waves/waves.min.js"></script>
     <script src="../../assets/libs/jquery-sparkline/jquery.sparkline.min.js"></script>
-
     <script src="../../assets/js/app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="../assets/js/sweetAlert.js"></script>
+
 
 </body>
 
 
 <script src="../../includes/common/js/base.js" type="text/javascript"></script>
 <script src="../../includes/common/js/utility.js" type="text/javascript"></script>
-
 <script src="../../includes/nxt/scripts/list.js" type="text/javascript"></script>
 <script src="../../includes/nxt/scripts/list.js.php" type="text/javascript"></script>
 <script type="text/javascript">
@@ -431,7 +434,6 @@ else
         record_counter: false
     }
 </script>
-
 <!-- Mirrored from theme-script.ir/templates/lexa/Lexa-RTL/RTL-lexa-teal/pages-blank.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 27 Dec 2024 17:20:04 GMT -->
 
 </html>
