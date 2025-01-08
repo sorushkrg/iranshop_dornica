@@ -8,19 +8,31 @@
 
 
 
-  <!-- blog_details Query -->
+
   <?php
-  $id = $_GET['id'];
+  $id = testSecurity($_GET['id']);
+  $category_id = testSecurity($_GET['category']);
+  $author_id = testSecurity($_GET['author']);
+  
+// query blogdetail
   $db->where("blog_page.id", $id);
   $db->where("blog_details.status", 1);
   $db->join("blog_page", "blog_page.ID=blog_details.blog_id", "LEFT");
-  $db->join("category_blog", "category_blog.ID=blog_details.category_id", "LEFT");
-  $db->join("authors_blog", "authors_blog.ID=blog_details.author_id", "LEFT");
   $blog_details =  $db->getOne("blog_details");
-
   ?>
 
-  <title><?= testSecurity($setting["site_name"]) ?>-<?= testSecurity($blog_details["category_title"]) ?>-بلاگ</title>
+
+<?php 
+$db->where("id" , $category_id);
+$category = $db->getValue("category_blog", "category_title");
+?>
+
+<?php 
+$db->where("id" , $author_id);
+$authors = $db->getOne("authors_blog");
+?>
+
+  <title><?= testSecurity($setting["site_name"]) ?>-<?= testSecurity($category) ?>-بلاگ</title>
 </head>
 
 <body class="bg-gray-50">
@@ -43,11 +55,11 @@
                 </div>
                 <div class="flex">
                   <div>نویسنده: </div>
-                  <div><?= testSecurity($blog_details["firstName"]) . " " . testSecurity($blog_details["lastName"]) ?></div>
+                  <div><?= testSecurity($authors["firstName"]) . " " . testSecurity($authors["lastName"]) ?></div>
                 </div>
                 <div class="flex">
                   <div>دسته بندی: </div>
-                  <div><?= testSecurity($blog_details["category_title"]) ?></div>
+                  <div><?= testSecurity($category) ?></div>
                 </div>
                 <div class="flex">
                   <div>امتیاز:</div>
@@ -57,7 +69,7 @@
             </div>
             <img class="rounded-2xl my-3" src="attachment/image/blogHTML/<?= testSecurity($blog_details["image"]) ?>" alt="">
             <div>
-              <div class="text-2xl opacity-95 py-3"><?= testSecurity($blog_details["category_title"]) ?></div>
+              <div class="text-2xl opacity-95 py-3"><?= testSecurity($category) ?></div>
               <div class="opacity-70 pb-3 leading-6 text-sm">
                 <?= testSecurity($blog_details["description"]) ?>
               </div>
