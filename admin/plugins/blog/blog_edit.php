@@ -13,6 +13,7 @@ $conn_cn = new KT_connection($cn, $database_cn);
 $formValidation = new tNG_FormValidation();
 $formValidation->addField("content", true, "text", "", "", "", "لطفا توضیحات را وارد نمایید.");
 $formValidation->addField("published_date", true, "text", "", "", "", "لطفا زمان انتشار را وارد نمایید.");
+$formValidation->addField("published_expire", true, "text", "", "", "", "لطفا زمان انقضای انتشار را وارد نمایید.");
 $formValidation->addField("author_id", true, "text", "", "", "", "لطفا نام نویسنده  را انتخاب نمایید.");
 $formValidation->addField("category_id", true, "text", "", "", "", "لطفا نام دسته بندی  را انتخاب نمایید.");
 $formValidation->addField("rules", true, "text", "", "", "", "لطفا قوانین را تایید نمایید.");
@@ -58,6 +59,7 @@ $ins_blg->addColumn("category_id", "STRING_TYPE", "POST", "category_id");
 $ins_blg->addColumn("content", "STRING_TYPE", "POST", "content");
 $ins_blg->addColumn("image", "FILE_TYPE", "FILES", "image");
 $ins_blg->addColumn("published_date", "DATE_TYPE", "POST", "published_date");
+$ins_blg->addColumn("published_expire", "DATE_TYPE", "POST", "published_expire");
 $ins_blg->addColumn("updated_at", "DATE_TYPE", "VALUE", date("Y-m-d H:i:s"));
 $ins_blg->addColumn("rules", "STRING_TYPE", "POST", "rules");
 $ins_blg->addColumn("status", "STRING_TYPE", "POST", "status");
@@ -71,6 +73,8 @@ $errorDup = "";
 
 if ($blogDuplicate) {
     $errorDup = "عنوان تکراری است";
+} elseif (isset($_POST['published_date']) and isset($_POST['published_expire']) and _ktx($_POST['published_expire']) < _ktx($_POST['published_date'])) {
+    $dateerror = " تاریخ پایان اعتبار نمی تواند قبل از تاریخ شروع اعتبار باشد.";
 } else {
     $tNGs->executeTransactions();
 }
@@ -140,6 +144,16 @@ $totalRows_rsBlg = mysqli_num_rows($rsBlg);
                             </div>
                         <?php
                         } ?>
+                        <?php
+                        if ($dateerror) {
+                        ?>
+                            <div class="alert alert-danger alert-dismissible fade show" role="alert">
+                                <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close">
+                                </button>
+                                <?= $dateerror ?>
+                            </div>
+                        <?php
+                        } ?>
                         <div class="col-md-6">
                             <div class="page-title-box">
                                 <h4>بلاگ - درج</h4>
@@ -160,32 +174,31 @@ $totalRows_rsBlg = mysqli_num_rows($rsBlg);
                                     ?>
                                     <form action="<?= _ktx(KT_getFullUri()); ?>" method="post" enctype="multipart/form-data">
                                         <div class="row">
-                                            <div class="col-md-6">
+                                            <div class="col-md-4">
                                                 <div class="mb-3">
                                                     <label for="image" class="form-label">آپلود فایل</label>
                                                     <input type="file" class="form-control" id="image" name="image">
                                                     <div id="image_error_element" class="validation-error-label text-danger"></div>
                                                 </div>
-                                                <div class="mb-3">
+                                                <div class="mb-5">
                                                     <span class="help-block m-3">فرمتهای مجاز: <?= _ktx($ImgAllowedExtensions) ?>. حداکثر اندازه فایل: <?= _ktx($ImgMaxSize) ?>KB</span>
                                                 </div>
-                                                <div class="mb-3">
-                                                    <a href="../<?php if (file_exists("../../../attachment/image/blogHTML/" . $row_rsBlg['image']) && ($row_rsBlg['image'])) echo '../../attachment/image/blogHTML/' . KT_escapeAttribute($row_rsBlg['image']);
-                                                                else echo 'assets/images/placeholder.jpg'; ?>" data-popup="lightbox">
-                                                        <img src="../<?php if (file_exists("../../../attachment/image/blogHTML/" . $row_rsBlg['image']) && ($row_rsBlg['image'])) echo '../../attachment/image/blogHTML/' . KT_escapeAttribute($row_rsBlg['image']);
-                                                                        else echo 'assets/images/placeholder.jpg'; ?>" style="width: 80px; border-radius: 2px;" alt="">
-                                                    </a>
-                                                </div>
                                             </div>
-                                            <div class="col-md-6">
+                                            <div class="col-md-4">
                                                 <div class="mb-3">
-                                                    <label class="form-label">زمان انتشار: </label>
-                                                    <input type="text" name="published_date" id="todate" value="<?= $row_rsBlg["published_date"] ?>" class="form-control" autocomplete="off" tabindex="9" style="text-align: left;" />
+                                                    <label class="form-label">زمان انتشار</label>
+                                                    <input type="text" name="published_date" id="fromdate" value="<?= $row_rsBlg["published_date"]?>" class="form-control" autocomplete="off" tabindex="9" style="text-align: left;" />
                                                     <div id="published_date_error_element" class="validation-error-label text-danger"></div>
                                                 </div>
                                             </div>
+                                            <div class="col-md-4">
+                                                <div class="mb-3">
+                                                    <label class="form-label">زمان انقضای انتشار</label>
+                                                    <input type="text" name="published_expire" id="todate" value="<?= $row_rsBlg["published_expire"]?>" class="form-control" autocomplete="off" tabindex="9" style="text-align: left;" />
+                                                    <div id="published_expire_error_element" class="validation-error-label text-danger"></div>
+                                                </div>
+                                            </div>
                                         </div>
-
                                         <div class="row">
 
                                             <!-- query athors -->
