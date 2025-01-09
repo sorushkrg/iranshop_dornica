@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1:3306
--- Generation Time: Jan 03, 2025 at 08:23 AM
+-- Generation Time: Jan 09, 2025 at 04:47 PM
 -- Server version: 8.3.0
 -- PHP Version: 8.2.18
 
@@ -60,7 +60,7 @@ CREATE TABLE IF NOT EXISTS `authors_blog` (
   `rules` tinyint(1) NOT NULL COMMENT 'قوانین',
   `status` tinyint(1) NOT NULL DEFAULT '1',
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=13 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_persian_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=7 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_persian_ci;
 
 --
 -- Dumping data for table `authors_blog`
@@ -68,15 +68,11 @@ CREATE TABLE IF NOT EXISTS `authors_blog` (
 
 INSERT INTO `authors_blog` (`id`, `firstName`, `lastName`, `rules`, `status`) VALUES
 (1, 'سروش', 'کارگشا', 1, 1),
-(2, 'سامان ', 'کارگشا', 1, 1),
+(2, 'سامان', 'کارگشا', 1, 1),
 (3, 'علی', 'احمدی', 1, 1),
 (4, 'حسین', 'نوریان', 1, 1),
 (5, 'سامان', ' رضایی', 1, 1),
-(6, 'علی ', 'حاتمی', 1, 1),
-(7, 'نیکان', 'سالیانه', 1, 1),
-(10, 'علی', 'رضویان', 1, 1),
-(11, 'مسعود', 'کارگشا', 1, 1),
-(12, 'ایلیا', 'افرین', 1, 1);
+(6, 'علی ', 'حاتمی', 1, 1);
 
 -- --------------------------------------------------------
 
@@ -116,31 +112,20 @@ DROP TABLE IF EXISTS `blog_details`;
 CREATE TABLE IF NOT EXISTS `blog_details` (
   `id` int NOT NULL AUTO_INCREMENT,
   `blog_id` int NOT NULL,
-  `category_id` int NOT NULL,
-  `author_id` int NOT NULL,
   `description` text CHARACTER SET utf8mb4 COLLATE utf8mb4_persian_ci NOT NULL,
   `rate` varchar(16) COLLATE utf8mb4_persian_ci NOT NULL,
   `status` tinyint(1) NOT NULL DEFAULT '1',
   PRIMARY KEY (`id`),
-  KEY `blog_id` (`blog_id`),
-  KEY `category_id` (`category_id`),
-  KEY `author_id` (`author_id`)
-) ENGINE=InnoDB AUTO_INCREMENT=24 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_persian_ci;
+  KEY `blog_details_ibfk_4` (`blog_id`)
+) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_persian_ci;
 
 --
 -- Dumping data for table `blog_details`
 --
 
-INSERT INTO `blog_details` (`id`, `blog_id`, `category_id`, `author_id`, `description`, `rate`, `status`) VALUES
-(15, 1, 1, 1, 'ساعت هوشمند اپل را می‌توان به عنوان یکی از محبوب‌ترین اسمارت واچ‌های موجود در بازار معرفی کرد که توانسته همانند گوشی‌های آیفون، نظر کاربران زیادی را به خود جلب کند، اما آیا اطلاعات کامل و جامعی پیرامون اپل واچ در اختیار دارید؟ در این مقاله قصد داریم هر آن چه لازم است پیرامون اپل واچ بدانید را مورد بررسی و ارزیابی قرار دهیم. در صورتی که قصد دارید یک راهنمای خرید اپل واچ که نکات گوناگون پیرامون این محصول را پوشش داده باشد مطالعه کنید، با ما در تکنولایف همراه باشید.', '5.0', 1),
-(16, 2, 2, 2, 'مجموعه تلویزیونی Friends که بین سال‌های 1994 تا 2004 پخش شد، پر از لحظات خنده‌دار، احساسی و به‌یادماندنی است که همچنان در دل طرفداران جای دارد. این سیتکام با شخصیت‌های جذاب و شوخی‌های ماندگارش، سکانس‌هایی را به وجود آورد که نه‌تنها بخشی از فرهنگ پاپ شدند', '5.0', 1),
-(17, 3, 3, 3, 'ایرپادها از جمله محبوب‌ترین گجت‌های صوتی در بازار هستند که توسط برندهای مختلف تولید می‌شوند. این محصولات به دلیل راحتی در استفاده، کیفیت صدا، و طراحی بی‌سیم خود محبوبیت زیادی پیدا کرده‌اند. در ادامه به معرفی محبوب‌ترین و بهترین ایرپادها در بازار می‌پردازیم:', '4.3', 1),
-(18, 4, 4, 4, 'شیاومی (Xiaomi) همواره به عنوان یکی از برندهای پیشرو در زمینه تولید گوشی‌های هوشمند و فناوری‌های نوین شناخته می‌شود. این برند چینی که در سال‌های اخیر رشد چشمگیری داشته است، به طور مداوم مدل‌های جدیدی از گوشی‌های هوشمند، تبلت‌ها، گجت‌ها و دستگاه‌های هوشمند را معرفی می‌کند.\r\n\r\nاگر منظورتان از \"نسخه جدید شیاومی\"، جدیدترین مدل‌های گوشی یا محصولات دیگر این برند باشد، در اینجا برخی از جدیدترین نسخه‌ها و محصولات شیاومی که در بازارهای جهانی معرفی شده‌اند، آورده شده است. توجه داشته باشید که برخی از این مدل‌ها ممکن است بسته به منطقه و تاریخ عرضه، متفاوت باشند', '4.0', 1),
-(19, 5, 5, 5, 'کتاب‌های رمانتیک همواره جایگاه ویژه‌ای در دل خوانندگان دارند، چرا که دنیای پر از احساسات و روابط عاشقانه‌ای را به تصویر می‌کشند که هم در دنیای واقعی و هم در دنیای داستانی قابل لمس است. این کتاب‌ها نه تنها به زندگی عاطفی شخصیت‌ها می‌پردازند، بلکه می‌توانند آموزه‌هایی درباره عشق، انتخاب‌های زندگی و پیچیدگی‌های روابط انسانی به خواننده ارائه دهند. در اینجا چند کتاب رمانتیک معروف و محبوب را معرفی می‌کنم که می‌توانند برای علاقه‌مندان به این ژانر جذاب باشند:', '4.6', 1),
-(20, 6, 6, 6, 'تمیزکننده‌های مدرن به محصولات و دستگاه‌هایی اطلاق می‌شود که با استفاده از تکنولوژی‌های پیشرفته برای تمیز کردن و نظافت محیط‌ها و سطوح مختلف طراحی شده‌اند. این تمیزکننده‌ها علاوه بر بهره‌مندی از مواد شوینده جدید و مؤثر، معمولاً از فناوری‌های نوین مانند هوش مصنوعی، رباتیک، و دستگاه‌های خودکار بهره می‌برند. در زیر به برخی از انواع تمیزکننده‌های مدرن اشاره می‌کنیم:', '3.0', 1),
-(21, 9, 11, 6, 'بازی‌های Resident Evil (رزیدنت اویل) به عنوان یکی از محبوب‌ترین فرنچایزهای ترس و بقا، برای پلتفرم‌های متعددی از جمله کنسول‌ها و رایانه‌های شخصی عرضه شده‌اند. با گسترش بازی‌های موبایلی، تعدادی از نسخه‌های این مجموعه یا بازی‌های مرتبط با آن نیز برای آیفون (iOS) منتشر شده‌اند. در ادامه به بررسی بازی‌های مرتبط با Resident Evil برای آیفون می‌پردازیم:', '5.0', 1),
-(22, 10, 12, 1, 'ریش تراش های المانی تیز', '5.0', 1),
-(23, 11, 7, 11, 'دیزاین های بی نظیر و عالی ', '3.0', 1);
+INSERT INTO `blog_details` (`id`, `blog_id`, `description`, `rate`, `status`) VALUES
+(1, 1, 'ساعت های اپل', '5.0', 1),
+(2, 2, 'سکانس های خنده دار این فیلم ', '4.0', 1);
 
 -- --------------------------------------------------------
 
@@ -176,35 +161,30 @@ INSERT INTO `blog_index` (`id`, `name`, `image`, `status`) VALUES
 DROP TABLE IF EXISTS `blog_page`;
 CREATE TABLE IF NOT EXISTS `blog_page` (
   `id` int NOT NULL AUTO_INCREMENT,
-  `author_id` int NOT NULL,
   `category_id` int NOT NULL,
+  `author_id` int NOT NULL,
   `content` text COLLATE utf8mb4_persian_ci NOT NULL,
   `image` varchar(255) COLLATE utf8mb4_persian_ci NOT NULL COMMENT 'عکس',
-  `sort` int NOT NULL COMMENT 'دسته بندی ',
   `rules` tinyint(1) NOT NULL COMMENT 'قوانین',
-  `published_date` timestamp NOT NULL,
+  `locked` tinyint(1) NOT NULL DEFAULT '0',
+  `locked_description` varchar(64) COLLATE utf8mb4_persian_ci NOT NULL,
+  `unlocked_description` varchar(64) COLLATE utf8mb4_persian_ci NOT NULL,
+  `published_date` varchar(10) COLLATE utf8mb4_persian_ci NOT NULL,
   `created_at` timestamp NOT NULL,
   `updated_at` timestamp NOT NULL,
   `status` tinyint(1) NOT NULL DEFAULT '1',
   PRIMARY KEY (`id`),
-  KEY `author_id` (`author_id`),
-  KEY `category_id` (`category_id`)
-) ENGINE=InnoDB AUTO_INCREMENT=12 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_persian_ci;
+  KEY `blog_page_ibfk_1` (`author_id`),
+  KEY `blog_page_ibfk_2` (`category_id`)
+) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_persian_ci;
 
 --
 -- Dumping data for table `blog_page`
 --
 
-INSERT INTO `blog_page` (`id`, `author_id`, `category_id`, `content`, `image`, `sort`, `rules`, `published_date`, `created_at`, `updated_at`, `status`) VALUES
-(1, 1, 1, 'ساعت های مچی هوشمند اپل در رنگ های سفید و مشکی', '1.jpg', 1, 1, '2024-12-13 16:57:05', '2024-12-12 20:30:00', '2024-12-13 16:57:05', 1),
-(2, 2, 2, 'یکی از به‌یادماندنی‌ترین دیالوگ‌ها و لحظات سریال، بحث معروف «ما توی استراحت بودیم» بین راس و ریچل است. این موضوع نه تنها بارها در سریال تکرار می‌شود، بلکه به یکی از نمادهای فرندز تبدیل شد', '2.jpg', 2, 1, '2024-12-13 16:58:19', '2024-12-12 20:30:00', '2024-12-13 16:58:19', 1),
-(3, 3, 3, 'کیفیت صدا: خوب با بیس مناسب، مخصوصاً نسبت به قیمت\r\nعمر باتری: 4-6 ساعت (با کیس تا 20 ساعت).', '3.jpg', 3, 1, '2024-12-13 17:00:48', '2024-12-12 20:30:00', '2024-12-13 17:00:48', 1),
-(4, 4, 4, 'شیائومی 14 اولترا: این پرچمدار با تمرکز بر عکاسی، از حسگر 1 اینچی Sony LYT-900 و لنز لایکا با دیافراگم متغیر بهره می‌برد. همچنین پردازنده Snapdragon 8 Gen 3 و گزینه‌های حافظه تا 1 ترابایت، عملکردی بی‌نظیر ارائه می‌دهند. این مدل دارای پک جانبی مخصوص عکاسی نیز است که گوشی را شبیه یک دوربین حرفه‌ای می‌کند', '4.jpg', 4, 1, '2024-12-13 17:02:06', '2024-12-12 20:30:00', '2024-12-13 17:02:06', 1),
-(5, 5, 5, 'کتاب های رمانتیک و زیبا', '5.jpg', 5, 1, '2024-12-14 18:33:32', '2024-12-14 18:33:32', '2024-12-14 18:33:32', 1),
-(6, 6, 6, 'تمیز کننده های مدرن نانو که هیچوقت کثیف نمی شود', '6.jpg', 6, 1, '2024-12-14 18:42:21', '2024-12-14 18:42:21', '2024-12-14 18:42:21', 1),
-(9, 6, 11, 'رزیدنت اویل', '11.jpg', 7, 1, '2024-12-14 18:42:21', '2024-12-14 18:42:21', '2024-12-14 18:42:21', 1),
-(10, 1, 12, 'ریش تراش های عالی', '12_1.jpg', 8, 1, '2024-12-31 20:30:00', '2025-01-01 14:47:14', '2025-01-01 15:40:53', 1),
-(11, 11, 7, 'خانه زیبا', '7.jpg', 9, 1, '2024-12-31 20:30:00', '2025-01-01 15:39:41', '2025-01-01 15:39:41', 1);
+INSERT INTO `blog_page` (`id`, `category_id`, `author_id`, `content`, `image`, `rules`, `locked`, `locked_description`, `unlocked_description`, `published_date`, `created_at`, `updated_at`, `status`) VALUES
+(1, 1, 1, 'ساعت های خوب', '1.jpg', 1, 0, '', '', '1403/10/20', '2025-01-07 10:40:03', '2025-01-07 10:40:03', 1),
+(2, 2, 2, 'سکانس های به شدت عالی و کمدی', '2.jpg', 1, 0, '', '', '1403/10/21', '2025-01-08 15:48:45', '2025-01-08 15:48:45', 1);
 
 -- --------------------------------------------------------
 
@@ -239,7 +219,7 @@ INSERT INTO `category_blog` (`id`, `category_title`, `image`, `sort`, `rules`, `
 (9, 'پرچمدارهای جدید سامسونگ', '9.jpg', 9, 1, 1),
 (10, 'ایستراگ های بازی دوم', '10.jpg', 10, 1, 1),
 (11, 'معرفی رزیدنت اویل برای آیفون', '11.jpg', 11, 1, 1),
-(12, 'بهترین ریش تراش بازار', '12.jpg', 12, 1, 1);
+(12, 'تمیز کننده های مدرن نانو که هیچو', '12.jpg', 12, 1, 1);
 
 -- --------------------------------------------------------
 
@@ -290,24 +270,25 @@ CREATE TABLE IF NOT EXISTS `comment_blog` (
   `Approveed_by` int DEFAULT NULL COMMENT 'کسی که تایید کرده',
   `status` tinyint(1) NOT NULL DEFAULT '0' COMMENT 'وضعیت',
   PRIMARY KEY (`id`),
-  KEY `blog_id` (`blog_id`),
-  KEY `user_id` (`user_id`)
-) ENGINE=InnoDB AUTO_INCREMENT=21 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_persian_ci COMMENT='کامنت های بلاگ';
+  KEY `user_id` (`user_id`),
+  KEY `comment_blog_ibfk_3` (`blog_id`)
+) ENGINE=InnoDB AUTO_INCREMENT=11 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_persian_ci COMMENT='کامنت های بلاگ';
 
 --
 -- Dumping data for table `comment_blog`
 --
 
 INSERT INTO `comment_blog` (`id`, `blog_id`, `parent_id`, `user_id`, `name`, `subject`, `content`, `email`, `ip`, `created_at`, `Approveed_by`, `status`) VALUES
-(12, 1, 0, NULL, 'علی احمدی', NULL, 'شیک و بادوام', NULL, '::1', '2024-12-23 20:44:17', NULL, 1),
-(13, 1, 12, NULL, 'سامان کارگشا', NULL, 'موافقم', NULL, '::1', '2024-12-23 20:46:11', NULL, 1),
-(14, 1, 0, 1, 'سروش کارگشا', NULL, 'عالی و شیک', NULL, '::1', '2024-12-23 21:29:47', NULL, 1),
-(15, 1, 14, 2, 'سامان کارگشا', NULL, 'موافق نیستم', NULL, '::1', '2024-12-23 21:31:33', NULL, 1),
-(16, 1, 0, NULL, 'طاها قادری', NULL, 'قیمت منااسب', NULL, '::1', '2024-12-24 09:16:23', NULL, 1),
-(17, 1, 0, NULL, 'امیر فلاحتی', NULL, 'موافقم', NULL, '::1', '2024-12-24 09:20:24', NULL, 1),
-(18, 1, 17, NULL, 'علی سالاری', NULL, 'موافق نیستم', NULL, '::1', '2024-12-24 09:24:10', NULL, 1),
-(19, 1, 18, 1, 'سروش کارگشا', NULL, 'اشتباه می کنید', NULL, '::1', '2024-12-25 14:38:50', NULL, 1),
-(20, 11, 0, NULL, 'بارمان خورشیدی', NULL, 'دیزاینی عالی و خوب', NULL, '::1', '2025-01-01 15:45:18', NULL, 1);
+(1, 1, 0, NULL, 'علی احمدی', NULL, 'شیک و بادوام', NULL, '::1', '2024-12-23 20:44:17', NULL, 1),
+(2, 1, 1, NULL, 'سامان کارگشا', NULL, 'موافقم', NULL, '::1', '2024-12-23 20:46:11', NULL, 1),
+(3, 1, 0, 1, 'سروش کارگشا', NULL, 'عالی و شیک', NULL, '::1', '2024-12-23 21:29:47', NULL, 1),
+(4, 1, 3, 2, 'سامان کارگشا', NULL, 'موافق نیستم', NULL, '::1', '2024-12-23 21:31:33', NULL, 1),
+(5, 1, 0, NULL, 'طاها قادری', NULL, 'قیمت منااسب', NULL, '::1', '2024-12-24 09:16:23', NULL, 1),
+(6, 1, 0, NULL, 'امیر فلاحتی', NULL, 'موافقم', NULL, '::1', '2024-12-24 09:20:24', NULL, 1),
+(7, 1, 6, NULL, 'علی سالاری', NULL, 'موافق نیستم', NULL, '::1', '2024-12-24 09:24:10', NULL, 1),
+(8, 1, 7, 1, 'سروش کارگشا', NULL, 'اشتباه می کنید', NULL, '::1', '2024-12-25 14:38:50', NULL, 1),
+(9, 1, 0, NULL, 'بارمان خورشیدی', NULL, 'دیزاینی عالی و خوب', NULL, '::1', '2025-01-01 15:45:18', NULL, 1),
+(10, 1, 0, 1, 'سروش کارگشا', NULL, 'عالی و دیدنی', NULL, '::1', '2025-01-08 15:42:32', NULL, 1);
 
 -- --------------------------------------------------------
 
@@ -701,9 +682,7 @@ INSERT INTO `users` (`id`, `firstName`, `lastName`, `userName`, `password`, `cre
 -- Constraints for table `blog_details`
 --
 ALTER TABLE `blog_details`
-  ADD CONSTRAINT `blog_details_ibfk_1` FOREIGN KEY (`blog_id`) REFERENCES `blog_page` (`id`) ON DELETE RESTRICT ON UPDATE RESTRICT,
-  ADD CONSTRAINT `blog_details_ibfk_2` FOREIGN KEY (`category_id`) REFERENCES `category_blog` (`id`) ON DELETE RESTRICT ON UPDATE RESTRICT,
-  ADD CONSTRAINT `blog_details_ibfk_3` FOREIGN KEY (`author_id`) REFERENCES `authors_blog` (`id`) ON DELETE RESTRICT ON UPDATE RESTRICT;
+  ADD CONSTRAINT `blog_details_ibfk_4` FOREIGN KEY (`blog_id`) REFERENCES `blog_page` (`id`) ON DELETE CASCADE ON UPDATE RESTRICT;
 
 --
 -- Constraints for table `blog_page`
@@ -716,8 +695,8 @@ ALTER TABLE `blog_page`
 -- Constraints for table `comment_blog`
 --
 ALTER TABLE `comment_blog`
-  ADD CONSTRAINT `comment_blog_ibfk_1` FOREIGN KEY (`blog_id`) REFERENCES `blog_page` (`id`) ON DELETE RESTRICT ON UPDATE RESTRICT,
-  ADD CONSTRAINT `comment_blog_ibfk_2` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`) ON DELETE RESTRICT ON UPDATE RESTRICT;
+  ADD CONSTRAINT `comment_blog_ibfk_2` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`) ON DELETE RESTRICT ON UPDATE RESTRICT,
+  ADD CONSTRAINT `comment_blog_ibfk_3` FOREIGN KEY (`blog_id`) REFERENCES `blog_page` (`id`) ON DELETE CASCADE ON UPDATE RESTRICT;
 
 --
 -- Constraints for table `social_media`
