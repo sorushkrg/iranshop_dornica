@@ -368,7 +368,7 @@ else
         record_counter: false
     }
 </script>
-<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script src="../assets/js/sweetalert2@11.js"></script>
 <script src="../assets/js/sweetAlert.js"></script>
 
 <!-- Mirrored from theme-script.ir/templates/lexa/Lexa-RTL/RTL-lexa-teal/pages-blank.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 27 Dec 2024 17:20:04 GMT -->

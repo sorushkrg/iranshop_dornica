@@ -414,7 +414,7 @@ else
     <script src="../../assets/libs/node-waves/waves.min.js"></script>
     <script src="../../assets/libs/jquery-sparkline/jquery.sparkline.min.js"></script>
     <script src="../../assets/js/app.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="../assets/js/sweetalert2@11.js"></script>
     <script src="../assets/js/sweetAlert.js"></script>
 
 
