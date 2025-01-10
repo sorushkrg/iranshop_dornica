@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1:3306
--- Generation Time: Jan 09, 2025 at 04:47 PM
+-- Generation Time: Jan 10, 2025 at 01:19 PM
 -- Server version: 8.3.0
 -- PHP Version: 8.2.18
 
@@ -72,7 +72,7 @@ INSERT INTO `authors_blog` (`id`, `firstName`, `lastName`, `rules`, `status`) VA
 (3, 'علی', 'احمدی', 1, 1),
 (4, 'حسین', 'نوریان', 1, 1),
 (5, 'سامان', ' رضایی', 1, 1),
-(6, 'علی ', 'حاتمی', 1, 1);
+(6, 'علی', 'حاتمی', 1, 0);
 
 -- --------------------------------------------------------
 
@@ -167,24 +167,27 @@ CREATE TABLE IF NOT EXISTS `blog_page` (
   `image` varchar(255) COLLATE utf8mb4_persian_ci NOT NULL COMMENT 'عکس',
   `rules` tinyint(1) NOT NULL COMMENT 'قوانین',
   `locked` tinyint(1) NOT NULL DEFAULT '0',
-  `locked_description` varchar(64) COLLATE utf8mb4_persian_ci NOT NULL,
-  `unlocked_description` varchar(64) COLLATE utf8mb4_persian_ci NOT NULL,
+  `locked_description` varchar(64) CHARACTER SET utf8mb4 COLLATE utf8mb4_persian_ci DEFAULT NULL,
+  `unlocked_description` varchar(64) CHARACTER SET utf8mb4 COLLATE utf8mb4_persian_ci DEFAULT NULL,
   `published_date` varchar(10) COLLATE utf8mb4_persian_ci NOT NULL,
+  `published_expire` varchar(10) COLLATE utf8mb4_persian_ci NOT NULL,
   `created_at` timestamp NOT NULL,
   `updated_at` timestamp NOT NULL,
   `status` tinyint(1) NOT NULL DEFAULT '1',
   PRIMARY KEY (`id`),
   KEY `blog_page_ibfk_1` (`author_id`),
   KEY `blog_page_ibfk_2` (`category_id`)
-) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_persian_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_persian_ci;
 
 --
 -- Dumping data for table `blog_page`
 --
 
-INSERT INTO `blog_page` (`id`, `category_id`, `author_id`, `content`, `image`, `rules`, `locked`, `locked_description`, `unlocked_description`, `published_date`, `created_at`, `updated_at`, `status`) VALUES
-(1, 1, 1, 'ساعت های خوب', '1.jpg', 1, 0, '', '', '1403/10/20', '2025-01-07 10:40:03', '2025-01-07 10:40:03', 1),
-(2, 2, 2, 'سکانس های به شدت عالی و کمدی', '2.jpg', 1, 0, '', '', '1403/10/21', '2025-01-08 15:48:45', '2025-01-08 15:48:45', 1);
+INSERT INTO `blog_page` (`id`, `category_id`, `author_id`, `content`, `image`, `rules`, `locked`, `locked_description`, `unlocked_description`, `published_date`, `published_expire`, `created_at`, `updated_at`, `status`) VALUES
+(1, 1, 1, 'ساعت های خوب', '1.jpg', 1, 0, NULL, 'قفل باز شد', '1403/10/20', '1403/10/30', '2025-01-07 10:40:03', '2025-01-07 10:40:03', 1),
+(2, 2, 2, 'سکانس های به شدت عالی و کمدی', '2.jpg', 1, 1, 'قفل شد', NULL, '1403/10/21', '1403/10/30', '2025-01-08 15:48:45', '2025-01-08 15:48:45', 1),
+(3, 3, 3, 'محبوب ترین ایرپاد های qcy', '3.jpg', 1, 1, 'قفل شد', NULL, '1403/10/21', '1403/10/21', '2025-01-09 20:36:12', '2025-01-09 21:35:02', 1),
+(4, 4, 5, 'miui 18 یکی از بهترین نرم افزار ها', '4.jpg', 1, 1, 'قفل شود', NULL, '1403/10/21', '1403/10/25', '2025-01-10 13:17:44', '2025-01-10 13:17:44', 1);
 
 -- --------------------------------------------------------
 
@@ -664,7 +667,7 @@ CREATE TABLE IF NOT EXISTS `users` (
   `status` tinyint(1) NOT NULL DEFAULT '1' COMMENT 'وضعیت',
   PRIMARY KEY (`id`),
   UNIQUE KEY `userName` (`userName`)
-) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_persian_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_persian_ci;
 
 --
 -- Dumping data for table `users`
@@ -672,7 +675,8 @@ CREATE TABLE IF NOT EXISTS `users` (
 
 INSERT INTO `users` (`id`, `firstName`, `lastName`, `userName`, `password`, `created_at`, `status`) VALUES
 (1, 'سروش', 'کارگشا', 'sorushkg', '$2y$10$KM5Wymk4byGgmPSFb/gr/ehPPZFIhnQn9vHyPTrShvOalQeD76U2u', '2024-12-23 21:26:58', 1),
-(2, 'سامان', 'کارگشا', 'samankg', '$2y$10$R4RSZEUmEyn4XMW0Xz6fQ.SZzM5OLFSZT06SKH3r5Dcut1J.oxryG', '2024-12-23 21:27:30', 1);
+(2, 'سامان', 'کارگشا', 'samankg', '$2y$10$R4RSZEUmEyn4XMW0Xz6fQ.SZzM5OLFSZT06SKH3r5Dcut1J.oxryG', '2024-12-23 21:27:30', 1),
+(4, 'حمید', 'کارگشا', 'hamidkg', '$2y$10$m0pJbq0438OPmF8xG6siY.eyMCqG3kGO3oeOeXiBnD6NuJ7dgCGCm', '2025-01-09 21:38:25', 1);
 
 --
 -- Constraints for dumped tables
