@@ -17,7 +17,7 @@ $locked = $db->getValue("blog_page", "locked");
 
             <div class="modal-header">
                 <h5 class="modal-title" id="staticBackdropLabel">
-                   توضیحات
+                    توضیحات
                 </h5>
                 <button type="button" class="btn-close" data-bs-dismiss="modal"
                     aria-label="Close"></button>
@@ -41,11 +41,19 @@ $locked = $db->getValue("blog_page", "locked");
     $("#send-des").on("click", function(e) {
         e.preventDefault();
 
+        const content = $("#content").val().trim();
+
+        if (content == "") {
+            $("#errorN").text("فیلد توضیحات را پر کن ").css("color", "red");
+            return;
+        }
 
         const formData = {
             modal_id: <?= $id ?>,
-            content: $("#content").val(),
+            content: content,
         };
+
+
 
         $.ajax({
             type: "POST",
