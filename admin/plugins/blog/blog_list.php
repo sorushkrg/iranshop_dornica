@@ -245,7 +245,7 @@ else
                                                         <th><a href="">زمان ساخت</a></th>
                                                         <th><a href="">زمان بروزرسانی</a></th>
                                                         <th><a href="<?php echo $tso_listrsBlg->getSortLink('status'); ?>">وضعیت</a></th>
-                                                        <th></th>
+                                                        <th class="text-primary">اقدامات</th>
                                                     </tr>
                                                     <?php
                                                     // Show IF Conditional region3
@@ -323,6 +323,7 @@ else
                                                     <?php if ($totalRows_rs1 > 0) { // Show if recordset not empty 
                                                     ?>
                                                         <?php do { ?>
+
                                                             <tr>
                                                                 <td><?= _ktx($row_rs1["id"]) ?> </td>
 
@@ -365,6 +366,13 @@ else
                                                                         <a href="javascript:void(0);" class="delete-btn" data-id="<?php echo ($row_rs1['id']); ?>" title="حذف">
                                                                             <i class="mdi mdi-delete text-danger"></i>
                                                                         </a>
+                                                                        <a type="button"
+                                                                            data-bs-toggle="modal" data-bs-target="#staticBackdrop" onclick="setId(<?= $row_rs1['id'] ?>)">
+                                                                            <?= ($row_rs1["locked"] == 1) ? "<i class='mdi ion ion-md-lock'></i>" : "<i class='mdi ion ion-md-unlock'></i>"  ; ?>
+                                                                        </a>
+
+
+
 
                                                                     </div>
                                                                 </td>
@@ -375,7 +383,6 @@ else
                                                 </tbody>
                                             </table>
                                         </div>
-
                                     </form>
 
                                     <div class="text-center d-flex justify-content-center mt-5">
@@ -386,12 +393,16 @@ else
 
                                 </div>
                             </div>
+
+
+                            <!-- Modal -->
+                            <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static"
+                                data-bs-keyboard="false" tabindex="-1" role="dialog"
+                                aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                            </div>
+
                         </div>
                     </div>
-
-
-
-
                 </div> <!-- container-fluid -->
             </div>
             <!-- End Page-content -->
@@ -416,8 +427,6 @@ else
     <script src="../../assets/js/app.js"></script>
     <script src="../assets/js/sweetalert2@11.js"></script>
     <script src="../assets/js/sweetAlert.js"></script>
-
-
 </body>
 
 
@@ -434,7 +443,14 @@ else
         record_counter: false
     }
 </script>
-<!-- Mirrored from theme-script.ir/templates/lexa/Lexa-RTL/RTL-lexa-teal/pages-blank.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 27 Dec 2024 17:20:04 GMT -->
+
+<script>
+    function setId(id) {
+      return  $("#staticBackdrop").load("modal.php?id=" + id);
+    }
+    setId();
+</script>
+
 
 </html>
 
