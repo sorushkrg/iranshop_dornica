@@ -74,7 +74,7 @@ $errorDup = "";
 if ($blogDuplicate) {
     $errorDup = "عنوان تکراری است";
 } elseif (isset($_POST['published_date']) and isset($_POST['published_expire']) and _ktx($_POST['published_expire']) < _ktx($_POST['published_date'])) {
-    $dateerror = " تاریخ پایان اعتبار نمی تواند قبل از تاریخ شروع اعتبار باشد.";
+    $dateerror = " تاریخ پایان انتشار نمی تواند قبل از تاریخ شروع انتشار باشد.";
 } else {
     $tNGs->executeTransactions();
 }
