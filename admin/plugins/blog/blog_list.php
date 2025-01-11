@@ -239,10 +239,10 @@ else
                                                     <tr>
                                                         <th><a href="<?php echo $tso_listrsBlg->getSortLink("id") ?>">ردیف</a></th>
                                                         <th><a href="<?php echo $tso_listrsBlg->getSortLink("author_id") ?>">نام کامل</a></th>
+                                                        <th><a href="#">موضوع</a></th>
                                                         <th id="category_title"><a href="">نام دسته بندی </a></th>
                                                         <th id="image"><a href="#">عکس</a></th>
                                                         <th><a href="">زمان انتشار</a></th>
-                                                        <th><a href="">زمان ساخت</a></th>
                                                         <th><a href="">زمان بروزرسانی</a></th>
                                                         <th><a href="<?php echo $tso_listrsBlg->getSortLink('status'); ?>">وضعیت</a></th>
                                                         <th class="text-primary">اقدامات</th>
@@ -268,6 +268,10 @@ else
                                                                 </select>
                                                             </td>
 
+                                                            <!-- title filter -->
+
+                                                            <td></td>
+
                                                             <!-- query category -->
                                                             <?php
                                                             $categorySelect = $db->get("category_blog");
@@ -289,8 +293,7 @@ else
                                                             <td></td>
                                                             <td></td>
                                                             <td></td>
-
-                                                            <td></td>
+                                                            
 
                                                             <td>
                                                                 <select name="tfi_listrsBlg_status" id="tfi_listrsBlg_status" class="form-select" tabindex="3">
@@ -334,6 +337,8 @@ else
 
                                                                 <td><?= $authors["firstName"] . " " . $authors["lastName"] ?></td>
 
+                                                                <td><?= $row_rs1["title"] ?></td>
+
                                                                 <!-- ******************* -->
                                                                 <?php
                                                                 $db->where("id", $row_rs1['category_id']);
@@ -353,7 +358,6 @@ else
                                                                 </td>
 
                                                                 <td><?= $row_rs1["published_date"] ?></td>
-                                                                <td><?= jdate('Y/m/d', strtotime($row_rs1["created_at"])) ?></td>
                                                                 <td><?= jdate('Y/m/d', strtotime($row_rs1["updated_at"])) ?></td>
 
 
@@ -368,7 +372,7 @@ else
                                                                         </a>
                                                                         <a type="button"
                                                                             data-bs-toggle="modal" data-bs-target="#staticBackdrop" onclick="setId(<?= $row_rs1['id'] ?>)">
-                                                                            <?= ($row_rs1["locked"] == 1) ? "<i class='mdi ion ion-md-lock'></i>" : "<i class='mdi ion ion-md-unlock'></i>"  ; ?>
+                                                                            <?= ($row_rs1["locked"] == 1) ? "<i class='mdi ion ion-md-lock'></i>" : "<i class='mdi ion ion-md-unlock'></i>"; ?>
                                                                         </a>
 
 
@@ -446,7 +450,7 @@ else
 
 <script>
     function setId(id) {
-      return  $("#staticBackdrop").load("modal.php?id=" + id);
+        return $("#staticBackdrop").load("modal.php?id=" + id);
     }
     setId();
 </script>

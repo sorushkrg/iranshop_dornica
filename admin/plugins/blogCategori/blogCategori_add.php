@@ -154,14 +154,12 @@ if ($categoryDuplicate) {
                                                 <div class="mb-3">
                                                     <label for="title" class="form-label">نام دسته بندی</label>
                                                     <input type="text" class="form-control" id="title" name="category_title" placeholder="نام دسته بندی">
-                                                    <div id="category_title_error_element" class="validation-error-label text-danger"></div>
                                                 </div>
                                             </div>
                                             <div class="col-md-6">
                                                 <div class="mb-3">
                                                     <label for="image" class="form-label">آپلود فایل</label>
                                                     <input type="file" class="form-control" id="image" name="image">
-                                                    <div id="image_error_element" class="validation-error-label text-danger"></div>
                                                 </div>
                                                 <div>
                                                     <span class="help-block m-3">فرمتهای مجاز: <?= _ktx($ImgAllowedExtensions) ?>. حداکثر اندازه فایل: <?= _ktx($ImgMaxSize) ?>KB</span>
@@ -186,7 +184,7 @@ if ($categoryDuplicate) {
                                             </div>
                                         </div>
                                         <div class="mb-3">
-                                            <div class="checkbox text-danger">
+                                            <div class="checkbox">
                                                 <label for="tashilat" class="text-dark">
                                                     قوانین سایت
                                                 </label>

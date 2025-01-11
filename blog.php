@@ -58,7 +58,7 @@
       $db->join("category_blog c", "c.ID=b.category_id", "LEFT");
       $db->join("authors_blog a", "a.ID=b.author_id ", "LEFT");
       $db->where("b.status", 1);
-      $blogProduct = $db->arraybuilder()->paginate("blog_page b", $page , "b.id , b.category_id , b.author_id  , b.image , c.category_title , b.content , a.firstName  , a.lastName ,  b.created_at" );
+      $blogProduct = $db->arraybuilder()->paginate("blog_page b", $page , "b.id , b.title , b.category_id , b.author_id  , b.image , c.category_title , b.content , a.firstName  , a.lastName ,  b.created_at" );
       $totalPages = $db->totalPages;
       ?>
       <?php
@@ -79,7 +79,10 @@
                 <img class="hover:scale-105 transition rounded-xl w-full md:w-auto mx-auto max-h-56" src="attachment/image/blogPage/<?= testSecurity( $value["image"]) ?>" alt="<?= testSecurity($value['category_title']) ?>" />
               </div>
               <div class="grid gap-y-5 w-full">
-                <div class="text-lg opacity-80 mx-auto md:mx-0 md:h-10 pt-3 flex justify-start items-center"><?= testSecurity($value['category_title']) ?></div>
+                <div class=" flex-column items-center gap-4 ">
+                <div class="text-lg opacity-80 mx-auto md:mx-0 md:h-10 pt-3 "><?= testSecurity($value['category_title'])?></div>
+                <div class="text-lg opacity-80 mx-auto md:mx-0 md:h-10 pt-3 ">موضوع:<?=  " " . testSecurity($value['title'])?></div>
+                </div>
                 <div class="text-sm opacity-80 md:h-16 flex justify-start items-start"><?= testSecurity($value['content']) ?></div>
                 <div class="flex justify-end text-xs opacity-75 md:gap-x-2 mx-auto md:mx-0">
                   <div><?= testSecurity($value['firstName']) ?> <?= testSecurity($value['lastName']) ?></div>

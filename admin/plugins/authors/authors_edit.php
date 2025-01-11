@@ -137,7 +137,7 @@ $totalRows_rsAuth = mysqli_num_rows($rsAuth);
                                                 <div class="mb-3">
                                                     <label class="form-label" for="validationCustom01">نام کوچک</label>
                                                     <input type="text" class="form-control" id="validationCustom01" name="firstName" value="<?= _ktx($row_rsAuth['firstName']) ?>">
-                                                    <div id="firstName_error_element" class="validation-error-label text-danger"></div>
+                                                    
 
                                                 </div>
                                             </div>
@@ -146,7 +146,7 @@ $totalRows_rsAuth = mysqli_num_rows($rsAuth);
                                                 <div class="mb-3">
                                                     <label class="form-label" for="validationCustom02">نام خانوادگی</label>
                                                     <input type="text" class="form-control" id="validationCustom02" placeholder="نام خانوادگی" name="lastName" value="<?= _ktx($row_rsAuth['lastName']) ?>">
-                                                    <div id="lastName_error_element" class="validation-error-label text-danger"></div>
+                                                    
                                                 </div>
                                             </div>
                                             <!-- end col -->
@@ -172,7 +172,7 @@ $totalRows_rsAuth = mysqli_num_rows($rsAuth);
                                                     </div>
                                                 </div>
                                                 <div class="mb-3">
-                                                    <div class="checkbox text-danger">
+                                                    <div class="checkbox">
                                                         <label for="tashilat" class="text-dark">
                                                             قوانین سایت
                                                         </label>

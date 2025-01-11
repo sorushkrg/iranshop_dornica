@@ -13,6 +13,7 @@ $formValidation->addField("image", true, "text", "", "", "", "لطفا عکس ر
 $formValidation->addField("content", true, "text", "", "", "", "لطفا توضیحات را وارد نمایید.");
 $formValidation->addField("published_date", true, "text", "", "", "", "لطفا زمان انتشار را وارد نمایید.");
 $formValidation->addField("published_expire", true, "text", "", "", "", "لطفا زمان انقضای انتشار را وارد نمایید.");
+$formValidation->addField("title", true, "text", "", "", "", "لطفا موضوع را وارد نمایید.");
 $formValidation->addField("author_id", true, "text", "", "", "", "لطفا نام نویسنده  را انتخاب نمایید.");
 $formValidation->addField("category_id", true, "text", "", "", "", "لطفا نام دسته بندی  را انتخاب نمایید.");
 $formValidation->addField("rules", true, "text", "", "", "", "لطفا قوانین را تایید نمایید.");
@@ -53,6 +54,7 @@ $ins_blg->registerTrigger("AFTER", "Trigger_ImageUpload", 97);
 
 // Add columns
 $ins_blg->setTable("blog_page");
+$ins_blg->addColumn("title", "STRING_TYPE", "POST", "title");
 $ins_blg->addColumn("author_id", "STRING_TYPE", "POST", "author_id");
 $ins_blg->addColumn("category_id", "STRING_TYPE", "POST", "category_id");
 $ins_blg->addColumn("content", "STRING_TYPE", "POST", "content");
@@ -72,9 +74,9 @@ $errorDup = "";
 
 if ($blogDuplicate) {
     $errorDup = "عنوان تکراری است";
-}elseif(isset($_POST['published_date']) and isset($_POST['published_expire']) and _ktx($_POST['published_expire']) < _ktx($_POST['published_date'])){
+} elseif (isset($_POST['published_date']) and isset($_POST['published_expire']) and _ktx($_POST['published_expire']) < _ktx($_POST['published_date'])) {
     $dateerror = " تاریخ پایان انتشار نمی تواند قبل از تاریخ شروع انتشار باشد.";
-}else {
+} else {
     $tNGs->executeTransactions();
 }
 
@@ -176,7 +178,6 @@ if ($blogDuplicate) {
                                                 <div class="mb-3">
                                                     <label for="image" class="form-label">آپلود فایل</label>
                                                     <input type="file" class="form-control" id="image" name="image">
-                                                    <div id="image_error_element" class="validation-error-label text-danger"></div>
                                                 </div>
                                                 <div class="mb-5">
                                                     <span class="help-block m-3">فرمتهای مجاز: <?= _ktx($ImgAllowedExtensions) ?>. حداکثر اندازه فایل: <?= _ktx($ImgMaxSize) ?>KB</span>
@@ -186,26 +187,32 @@ if ($blogDuplicate) {
                                                 <div class="mb-3">
                                                     <label class="form-label">زمان انتشار</label>
                                                     <input type="text" name="published_date" id="fromdate" value="" class="form-control" autocomplete="off" tabindex="9" style="text-align: left;" />
-                                                    <div id="published_date_error_element" class="validation-error-label text-danger"></div>
+                                                    
                                                 </div>
                                             </div>
                                             <div class="col-md-4">
                                                 <div class="mb-3">
                                                     <label class="form-label">زمان انقضای انتشار</label>
                                                     <input type="text" name="published_expire" id="todate" value="" class="form-control" autocomplete="off" tabindex="9" style="text-align: left;" />
-                                                    <div id="published_expire_error_element" class="validation-error-label text-danger"></div>
-                                                </div>
+                                               </div>
                                             </div>
                                         </div>
 
                                         <div class="row">
+
+                                            <div class="col-md-4">
+                                                <div class="mb-3">
+                                                    <label class="form-label" for="validationCustom01">موضوع</label>
+                                                    <input type="text" class="form-control"  placeholder="موضوع" name="title">
+                                                </div>
+                                            </div>
 
                                             <!-- query athors -->
                                             <?php
                                             $db->where("status", 1);
                                             $authors = $db->get("authors_blog");
                                             ?>
-                                            <div class="col-md-6">
+                                            <div class="col-md-4">
                                                 <div class="mb-3">
                                                     <label class="form-label" for="validationCustom01">نویسنده</label>
                                                     <select name="author_id" id="author_id" class="form-select">
@@ -216,7 +223,7 @@ if ($blogDuplicate) {
                                                         }
                                                         ?>
                                                     </select>
-                                                    <div id="author_id_error_element" class="validation-error-label text-danger"></div>
+                                   
                                                 </div>
                                             </div>
 
@@ -225,7 +232,7 @@ if ($blogDuplicate) {
                                             $category = $db->get("category_blog");
                                             ?>
                                             <!-- end col -->
-                                            <div class="col-md-6">
+                                            <div class="col-md-4">
                                                 <div class="mb-3">
                                                     <label class="form-label" for="validationCustom02">دسته بندی بلاگ</label>
                                                     <select name="category_id" id="category" class="form-select">
@@ -236,7 +243,7 @@ if ($blogDuplicate) {
                                                         }
                                                         ?>
                                                     </select>
-                                                    <div id="category_id_error_element" class="validation-error-label text-danger"></div>
+                                        
 
                                                 </div>
                                             </div>
@@ -253,7 +260,7 @@ if ($blogDuplicate) {
                                                     <label class="form-label">توضیحات</label>
                                                     <div>
                                                         <textarea class="form-control" placeholder="اینجا تایپ کنید" name="content" rows="4"></textarea>
-                                                        <div id="content_error_element" class="validation-error-label text-danger"></div>
+                                                       
                                                     </div>
                                                 </div>
                                             </div>
@@ -279,7 +286,7 @@ if ($blogDuplicate) {
                                                 </div>
                                             </div>
                                             <div class="mb-3">
-                                                <div class="checkbox text-danger">
+                                                <div class="checkbox">
                                                     <label for="tashilat" class="text-dark">
                                                         قوانین سایت
                                                     </label>

@@ -14,6 +14,7 @@ $formValidation = new tNG_FormValidation();
 $formValidation->addField("content", true, "text", "", "", "", "لطفا توضیحات را وارد نمایید.");
 $formValidation->addField("published_date", true, "text", "", "", "", "لطفا زمان انتشار را وارد نمایید.");
 $formValidation->addField("published_expire", true, "text", "", "", "", "لطفا زمان انقضای انتشار را وارد نمایید.");
+$formValidation->addField("title", true, "text", "", "", "", "لطفا موضوع را وارد نمایید.");
 $formValidation->addField("author_id", true, "text", "", "", "", "لطفا نام نویسنده  را انتخاب نمایید.");
 $formValidation->addField("category_id", true, "text", "", "", "", "لطفا نام دسته بندی  را انتخاب نمایید.");
 $formValidation->addField("rules", true, "text", "", "", "", "لطفا قوانین را تایید نمایید.");
@@ -54,6 +55,7 @@ $ins_blg->registerTrigger("AFTER", "Trigger_ImageUpload", 97);
 
 // Add columns
 $ins_blg->setTable("blog_page");
+$ins_blg->addColumn("title", "STRING_TYPE", "POST", "title");
 $ins_blg->addColumn("author_id", "STRING_TYPE", "POST", "author_id");
 $ins_blg->addColumn("category_id", "STRING_TYPE", "POST", "category_id");
 $ins_blg->addColumn("content", "STRING_TYPE", "POST", "content");
@@ -178,7 +180,6 @@ $totalRows_rsBlg = mysqli_num_rows($rsBlg);
                                                 <div class="mb-3">
                                                     <label for="image" class="form-label">آپلود فایل</label>
                                                     <input type="file" class="form-control" id="image" name="image">
-                                                    <div id="image_error_element" class="validation-error-label text-danger"></div>
                                                 </div>
                                                 <div class="mb-5">
                                                     <span class="help-block m-3">فرمتهای مجاز: <?= _ktx($ImgAllowedExtensions) ?>. حداکثر اندازه فایل: <?= _ktx($ImgMaxSize) ?>KB</span>
@@ -187,26 +188,32 @@ $totalRows_rsBlg = mysqli_num_rows($rsBlg);
                                             <div class="col-md-4">
                                                 <div class="mb-3">
                                                     <label class="form-label">زمان انتشار</label>
-                                                    <input type="text" name="published_date" id="fromdate" value="<?= $row_rsBlg["published_date"]?>" class="form-control" autocomplete="off" tabindex="9" style="text-align: left;" />
-                                                    <div id="published_date_error_element" class="validation-error-label text-danger"></div>
+                                                    <input type="text" name="published_date" id="fromdate" value="<?= $row_rsBlg["published_date"] ?>" class="form-control" autocomplete="off" tabindex="9" style="text-align: left;" />
                                                 </div>
                                             </div>
                                             <div class="col-md-4">
                                                 <div class="mb-3">
                                                     <label class="form-label">زمان انقضای انتشار</label>
-                                                    <input type="text" name="published_expire" id="todate" value="<?= $row_rsBlg["published_expire"]?>" class="form-control" autocomplete="off" tabindex="9" style="text-align: left;" />
-                                                    <div id="published_expire_error_element" class="validation-error-label text-danger"></div>
+                                                    <input type="text" name="published_expire" id="todate" value="<?= $row_rsBlg["published_expire"] ?>" class="form-control" autocomplete="off" tabindex="9" style="text-align: left;" />
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="row">
+
+
+                                            <div class="col-md-4">
+                                                <div class="mb-3">
+                                                    <label class="form-label" for="validationCustom01">موضوع</label>
+                                                    <input type="text" class="form-control" placeholder="موضوع" name="title" value="<?= $row_rsBlg["title"] ?>">
+                                                </div>
+                                            </div>
 
                                             <!-- query athors -->
                                             <?php
                                             $db->where("status", 1);
                                             $authors = $db->get("authors_blog");
                                             ?>
-                                            <div class="col-md-6">
+                                            <div class="col-md-4">
                                                 <div class="mb-3">
                                                     <label class="form-label" for="validationCustom01">نویسنده</label>
                                                     <select name="author_id" id="author_id" class="form-select">
@@ -217,7 +224,6 @@ $totalRows_rsBlg = mysqli_num_rows($rsBlg);
                                                         }
                                                         ?>
                                                     </select>
-                                                    <div id="author_id_error_element" class="validation-error-label text-danger"></div>
                                                 </div>
                                             </div>
 
@@ -226,7 +232,7 @@ $totalRows_rsBlg = mysqli_num_rows($rsBlg);
                                             $category = $db->get("category_blog");
                                             ?>
                                             <!-- end col -->
-                                            <div class="col-md-6">
+                                            <div class="col-md-4">
                                                 <div class="mb-3">
                                                     <label class="form-label" for="validationCustom02">دسته بندی بلاگ</label>
                                                     <select name="category_id" id="category" class="form-select">
@@ -237,7 +243,6 @@ $totalRows_rsBlg = mysqli_num_rows($rsBlg);
                                                         }
                                                         ?>
                                                     </select>
-                                                    <div id="category_id_error_element" class="validation-error-label text-danger"></div>
                                                 </div>
                                             </div>
                                             <!-- end col -->
@@ -283,7 +288,7 @@ $totalRows_rsBlg = mysqli_num_rows($rsBlg);
                                                 </div>
                                             </div>
                                             <div class="mb-3">
-                                                <div class="checkbox text-danger">
+                                                <div class="checkbox">
                                                     <label for="tashilat" class="text-dark">
                                                         قوانین سایت
                                                     </label>

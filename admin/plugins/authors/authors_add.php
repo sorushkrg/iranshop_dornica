@@ -126,7 +126,7 @@ if ($authorDuplicate) {
                                                 <div class="mb-3">
                                                     <label class="form-label" for="validationCustom01">نام کوچک</label>
                                                     <input type="text" class="form-control" id="validationCustom01" placeholder="نام کوچک" name="firstName">
-                                                    <div id="firstName_error_element" class="validation-error-label text-danger"></div>
+                                                    
                                                 </div>
                                             </div>
                                             <!-- end col -->
@@ -134,7 +134,6 @@ if ($authorDuplicate) {
                                                 <div class="mb-3">
                                                     <label class="form-label" for="validationCustom02">نام خانوادگی</label>
                                                     <input type="text" class="form-control" id="validationCustom02" placeholder="نام خانوادگی" name="lastName">
-                                                    <div id="lastName_error_element" class="validation-error-label text-danger"></div>
                                                 </div>
                                             </div>
                                             <!-- end col -->
@@ -156,7 +155,7 @@ if ($authorDuplicate) {
                                                     </div>
                                                 </div>
                                                 <div class="mb-3">
-                                                    <div class="checkbox text-danger">
+                                                    <div class="checkbox">
                                                         <label for="tashilat" class="text-dark">
                                                             قوانین سایت
                                                         </label>
