@@ -372,7 +372,7 @@ else
                                                                         </a>
                                                                         <a type="button"
                                                                             data-bs-toggle="modal" data-bs-target="#staticBackdrop" onclick="setId(<?= $row_rs1['id'] ?>)">
-                                                                            <?= ($row_rs1["locked"] == 1) ? "<i class='mdi ion ion-md-lock'></i>" : "<i class='mdi ion ion-md-unlock'></i>"; ?>
+                                                                            <?= ($row_rs1["locked"] == 1) ? "<i class='mdi ion ion-md-lock text-warning'></i>" : "<i class='mdi ion ion-md-unlock text-primary'></i>"; ?>
                                                                         </a>
 
 

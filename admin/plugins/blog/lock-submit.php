@@ -37,12 +37,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     if ($locked == 1) {
         $data['locked'] = 0;
         $data['unlocked_description'] = $content;
-        $data['locked_description'] = null;
     } else {
         
         $data['locked'] = 1;
         $data['locked_description'] = $content;
-        $data['unlocked_description'] = null;
     }
 
     $db->where('id', $modal_id);
