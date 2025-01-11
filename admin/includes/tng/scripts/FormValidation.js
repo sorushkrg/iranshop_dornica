@@ -29,7 +29,7 @@ $UNI_FORM_SUBMIT_PRIORITY = 10;
 $UNI_CLASSNAME_ERROR_LABEL = 'form_validation_field_error_label';
 $UNI_CLASSNAME_ERROR_CONTAINER = 'form_validation_field_error_container';
 $UNI_CLASSNAME_ERROR_ELEMENT = 'form_validation_field_error_text';
-$UNI_CLASSNAME_ERROR_ERROR_ELEMENT = 'validation-error-label';
+$UNI_CLASSNAME_ERROR_ERROR_ELEMENT = 'validation-error-label text-danger';
 $UNI_CLASSNAME_ERROR_SS = 'KT_field_error';
 $UNI_CLASSNAME_ERROR_FORM = 'form_validation_form_error';
 
