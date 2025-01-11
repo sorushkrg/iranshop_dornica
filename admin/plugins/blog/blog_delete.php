@@ -13,7 +13,7 @@ $conn_cn = new KT_connection($cn, $database_cn);
 	//remove this line if you want to edit the code by hand 
 function Trigger_FileDelete(&$tNG) {
   $deleteObj = new tNG_FileDelete($tNG);
-  $deleteObj->setFolder("../../../attachment/ /blogPage/");
+  $deleteObj->setFolder("../../../attachment/image/blogPage/");
   $deleteObj->setDbFieldName("image");
   return $deleteObj->Execute();
 }
