@@ -243,7 +243,7 @@
                         <a class="dropdown-item d-flex align-items-center" href="#"><i class="mdi mdi-cog font-size-17 text-muted align-middle me-1"></i> تنظیمات<span class="badge bg-success ms-auto">11</span></a>
                         <a class="dropdown-item" href="#"><i class="mdi mdi-lock-open-outline font-size-17 text-muted align-middle me-1"></i> صفحه قفل</a>
                         <div class="dropdown-divider"></div>
-                        <a class="dropdown-item text-danger" href="#"><i class="mdi mdi-power font-size-17 text-muted align-middle me-1 text-danger"></i> خروج</a>
+                        <a class="dropdown-item text-danger" href="<?= $nav_path?>logOutAdmin.php"><i class="mdi mdi-power font-size-17 text-muted align-middle me-1 text-danger"></i> خروج</a>
                     </div>
                 </div>
 
