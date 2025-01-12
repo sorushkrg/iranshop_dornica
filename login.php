@@ -65,48 +65,70 @@
   $(document).ready(function() {
     $("#login_submit").on("click", function(e) {
       e.preventDefault();
+
+      const userName = $("#username").val().trim()
+      const password = $("#password").val().trim()
+      let isValid = true
+
       $("#errorA").text("");
       $("#errorB").text("");
 
+      if (userName === "") {
+        $("#errorA").text("نام کاربری نمی‌تواند خالی باشد").css("color", "red");
+        isValid = false;
+      } else if (userName.length < 4) {
+        $("#errorA").text("نام کاربری باید حداقل 4 کاراکتر باشد").css("color", "red");
+        isValid = false;
+      }
 
-      const formData = {
-        username: $("#username").val(),
-        password: $("#password").val(),
-      };
-      console.log(formData);
-      
+      if (password === "") {
+        $("#errorB").text("رمز عبور نمی‌تواند خالی باشد").css("color", "red");
+        isValid = false;
+      } else if (password.length < 8) {
+        $("#errorB").text("رمز عبور باید حداقل 8 کاراکتر باشد").css("color", "red");
+        isValid = false;
+      }
 
-      $.ajax({
-        type: "POST",
-        url: "login-submit.php",
-        data: formData,
 
-        success: function(response) {
-          try {
-            const result = JSON.parse(response);
 
-            if (result.success) {
-              $("#massage").text(result.message).css("color", "green");
-              setTimeout(function() {
-                window.location.href = "index%20.php";
-              }, 2000);
+      if (isValid) {
+        const formData = {
+          username: userName,
+          password: password
+        };
 
-            } else {
-              if (result.errorA) {
-                $("#errorA").text(result.errorA).css("color", "red");
+        $.ajax({
+          type: "POST",
+          url: "login-submit.php",
+          data: formData,
+
+          success: function(response) {
+            try {
+              const result = JSON.parse(response);
+
+              if (result.success) {
+                $("#massage").text(result.message).css("color", "green");
+                setTimeout(function() {
+                  window.location.href = "index%20.php";
+                }, 2000);
+
+              } else {
+                if (result.errorA) {
+                  $("#errorA").text(result.errorA).css("color", "red");
+                }
+                if (result.errorB) {
+                  $("#errorB").text(result.errorB).css("color", "red");
+                }
               }
-              if (result.errorB) {
-                $("#errorB").text(result.errorB).css("color", "red");
-              }
+            } catch (e) {
+              $("#errorA").html("پاسخ نامعتبر است").css("color", "red");
             }
-          } catch (e) {
-            $("#errorA").html("پاسخ نامعتبر است").css("color", "red");
+          },
+          error: function() {
+            $("#errorA").html("خطایی رخ داده است. لطفا دوباره تلاش کنید").css("color", "red");
           }
-        },
-        error: function() {
-          $("#errorA").html("خطایی رخ داده است. لطفا دوباره تلاش کنید").css("color", "red");
-        }
-      });
+        });
+      }
     });
   });
 </script>

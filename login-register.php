@@ -99,66 +99,96 @@
 
 <script>
   $("#submit_user").click(function(e) {
-
     e.preventDefault();
 
-    const errorFields = ['errorA', 'errorB', 'errorC', 'errorD', 'errorE'];
+    
+    const firstName = $("#name").val().trim();
+    const lastName = $("#lastname").val().trim();
+    const userName = $("#username").val().trim();
+    const password = $("#password").val().trim();
+    const confirmPassword = $("#confirmPassword").val().trim();
 
-    errorFields.forEach(function(field) {
-      $("#" + field).text("");
-    });
+    let isValid = true;
 
+   
+    $("#errorA, #errorB, #errorC, #errorD, #errorE").text("");
 
+    
+    if (firstName === "") {
+      $("#errorA").text("نام نمی‌تواند خالی باشد").css("color", "red");
+      isValid = false;
+    }
 
+    if (lastName === "") {
+      $("#errorB").text("نام خانوادگی نمی‌تواند خالی باشد").css("color", "red");
+      isValid = false;
+    }
 
+    if (userName === "") {
+      $("#errorC").text("نام کاربری نمی‌تواند خالی باشد").css("color", "red");
+      isValid = false;
+    } else if (userName.length < 4) {
+      $("#errorC").text("نام کاربری باید حداقل 4 کاراکتر باشد").css("color", "red");
+      isValid = false;
+    }
 
-    const formData = {
-      firstName: $("#name").val(),
-      lastName: $("#lastname").val(),
-      userName: $("#username").val(),
-      password: $("#password").val(),
-      confirm_password: $("#confirmPassword").val(),
-    };
+    if (password === "") {
+      $("#errorD").text("رمز عبور نمی‌تواند خالی باشد").css("color", "red");
+      isValid = false;
+    } else if (password.length < 8) {
+      $("#errorD").text("رمز عبور باید حداقل 8 کاراکتر باشد").css("color", "red");
+      isValid = false;
+    }
 
-    console.log(formData);
+    if (confirmPassword === "") {
+      $("#errorE").text("تکرار رمز عبور نمی‌تواند خالی باشد").css("color", "red");
+      isValid = false;
+    } else if (password !== confirmPassword) {
+      $("#errorE").text("رمز عبور و تکرار آن مطابقت ندارند").css("color", "red");
+      isValid = false;
+    }
 
-    $.ajax({
-      type: "POST",
-      url: "register-submit.php",
-      data: formData,
-      success: function(response) {
-        try {
-          const jsonResponse = JSON.parse(response);
-          if (jsonResponse.success) {
-            $("#succes").text(jsonResponse.message).css("color", "green");
-            $("#name").val(""),
-             $("#lastname").val("")
-            $("#username").val("")
-            $("#password").val("")
-            $("#confirmPassword").val("")
+    
+    if (isValid) {
+      const formData = {
+        firstName: firstName,
+        lastName: lastName,
+        userName: userName,
+        password: password,
+        confirm_password: confirmPassword,
+      };
 
-            setTimeout(function() {
-              window.location.href = "login.php"; 
-            }, 2000);
+      $.ajax({
+        type: "POST",
+        url: "register-submit.php",
+        data: formData,
+        success: function(response) {
+          try {
+            const jsonResponse = JSON.parse(response);
+            if (jsonResponse.success) {
+              $("#succes").text(jsonResponse.message).css("color", "green");
+              $("#name, #lastname, #username, #password, #confirmPassword").val("");
 
-          } else {
-            const errorFields = ['errorA', 'errorB', 'errorC', 'errorD', 'errorE'];
-            errorFields.forEach(function(field) {
-              if (jsonResponse[field]) {
-                $("#" + field).text(jsonResponse[field]).css("color", "red");
-              }
-            });
+              setTimeout(function() {
+                window.location.href = "login.php";
+              }, 2000);
+            } else {
+              const errorFields = ["errorA", "errorB", "errorC", "errorD", "errorE"];
+              errorFields.forEach(function(field) {
+                if (jsonResponse[field]) {
+                  $("#" + field).text(jsonResponse[field]).css("color", "red");
+                }
+              });
+            }
+          } catch (e) {
+            $("#succes").html("پاسخ نامعتبر است").css("color", "red");
           }
-        } catch (e) {
-          $("#succes").html("پاسخ نامعتبر است").css("color", "red");
-        }
-      },
-
-      error: function() {
-        $("#errorN").html("خطایی رخ داده است. لطفا دوباره تلاش کنید").css("color", "red");
-      }
-    })
-
+        },
+        error: function() {
+          $("#errorN").html("خطایی رخ داده است. لطفا دوباره تلاش کنید").css("color", "red");
+        },
+      });
+    }
   });
 </script>
 

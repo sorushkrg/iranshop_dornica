@@ -39,7 +39,7 @@
                                     </div>
                                     <div class="mb-3">
                                         <label for="userpassword">کلمه عبور</label>
-                                        <input  id="password" type="password" class="form-control" id="userpassword" placeholder="رمز عبور را وارد کنید">
+                                        <input id="password" type="password" class="form-control" id="userpassword" placeholder="رمز عبور را وارد کنید">
                                         <p id="errorB"></p>
                                     </div>
                                     <div class="mb-3 row mt-4">
@@ -90,52 +90,73 @@
     $(document).ready(function() {
         $("#login_submit").on("click", function(e) {
             e.preventDefault();
+
+            const userName = $("#username").val().trim()
+            const password = $("#password").val().trim()
+            let isValid = true
+
             $("#errorA").text("");
             $("#errorB").text("");
 
+            if (userName === "") {
+                $("#errorA").text("نام کاربری نمی‌تواند خالی باشد").css("color", "red");
+                isValid = false;
+            } else if (userName.length < 4) {
+                $("#errorA").text("نام کاربری باید حداقل 4 کاراکتر باشد").css("color", "red");
+                isValid = false;
+            }
 
-            const formData = {
-                username: $("#username").val(),
-                password: $("#password").val(),
-            };
-          
-
-
-            $.ajax({
-                type: "POST",
-                url: "login_submit.php",
-                data: formData,
-
-                success: function(response) {
-                    console.log(response);
-                    try {
-                        const result = JSON.parse(response);
+            if (password === "") {
+                $("#errorB").text("رمز عبور نمی‌تواند خالی باشد").css("color", "red");
+                isValid = false;
+            } else if (password.length < 8) {
+                $("#errorB").text("رمز عبور باید حداقل 8 کاراکتر باشد").css("color", "red");
+                isValid = false;
+            }
 
 
-                        if (result.success) {
-                            $("#massage").text(result.message).css("color", "green");
-                            
-                            setTimeout(function() {
+            if (isValid) {
+                const formData = {
+                    username: userName,
+                    password: password
+                };
 
-                                window.location.href = "index.php";
-                            }, 2000);
+                $.ajax({
+                    type: "POST",
+                    url: "login_submit.php",
+                    data: formData,
 
-                        } else {
-                            if (result.errorA) {
-                                $("#errorA").text(result.errorA).css("color", "red");
+                    success: function(response) {
+                        console.log(response);
+                        try {
+                            const result = JSON.parse(response);
+
+
+                            if (result.success) {
+                                $("#massage").text(result.message).css("color", "green");
+
+                                setTimeout(function() {
+
+                                    window.location.href = "index.php";
+                                }, 2000);
+
+                            } else {
+                                if (result.errorA) {
+                                    $("#errorA").text(result.errorA).css("color", "red");
+                                }
+                                if (result.errorB) {
+                                    $("#errorB").text(result.errorB).css("color", "red");
+                                }
                             }
-                            if (result.errorB) {
-                                $("#errorB").text(result.errorB).css("color", "red");
-                            }
+                        } catch (e) {
+                            $("#errorA").html("پاسخ نامعتبر است").css("color", "red");
                         }
-                    } catch (e) {
-                        $("#errorA").html("پاسخ نامعتبر است").css("color", "red");
+                    },
+                    error: function() {
+                        $("#errorA").html("خطایی رخ داده است. لطفا دوباره تلاش کنید").css("color", "red");
                     }
-                },
-                error: function() {
-                    $("#errorA").html("خطایی رخ داده است. لطفا دوباره تلاش کنید").css("color", "red");
-                }
-            });
+                });
+            }
         });
     });
 </script>
