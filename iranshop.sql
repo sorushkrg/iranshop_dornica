@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1:3306
--- Generation Time: Jan 10, 2025 at 01:19 PM
+-- Generation Time: Jan 12, 2025 at 11:02 AM
 -- Server version: 8.3.0
 -- PHP Version: 8.2.18
 
@@ -117,7 +117,7 @@ CREATE TABLE IF NOT EXISTS `blog_details` (
   `status` tinyint(1) NOT NULL DEFAULT '1',
   PRIMARY KEY (`id`),
   KEY `blog_details_ibfk_4` (`blog_id`)
-) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_persian_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_persian_ci;
 
 --
 -- Dumping data for table `blog_details`
@@ -125,7 +125,7 @@ CREATE TABLE IF NOT EXISTS `blog_details` (
 
 INSERT INTO `blog_details` (`id`, `blog_id`, `description`, `rate`, `status`) VALUES
 (1, 1, 'ساعت های اپل', '5.0', 1),
-(2, 2, 'سکانس های خنده دار این فیلم ', '4.0', 1);
+(3, 2, 'این سریال یکی از خنده دار ترین سریال ها است', '4.3', 1);
 
 -- --------------------------------------------------------
 
@@ -163,6 +163,7 @@ CREATE TABLE IF NOT EXISTS `blog_page` (
   `id` int NOT NULL AUTO_INCREMENT,
   `category_id` int NOT NULL,
   `author_id` int NOT NULL,
+  `title` varchar(64) COLLATE utf8mb4_persian_ci NOT NULL COMMENT 'موضوع',
   `content` text COLLATE utf8mb4_persian_ci NOT NULL,
   `image` varchar(255) COLLATE utf8mb4_persian_ci NOT NULL COMMENT 'عکس',
   `rules` tinyint(1) NOT NULL COMMENT 'قوانین',
@@ -183,11 +184,9 @@ CREATE TABLE IF NOT EXISTS `blog_page` (
 -- Dumping data for table `blog_page`
 --
 
-INSERT INTO `blog_page` (`id`, `category_id`, `author_id`, `content`, `image`, `rules`, `locked`, `locked_description`, `unlocked_description`, `published_date`, `published_expire`, `created_at`, `updated_at`, `status`) VALUES
-(1, 1, 1, 'ساعت های خوب', '1.jpg', 1, 0, NULL, 'قفل باز شد', '1403/10/20', '1403/10/30', '2025-01-07 10:40:03', '2025-01-07 10:40:03', 1),
-(2, 2, 2, 'سکانس های به شدت عالی و کمدی', '2.jpg', 1, 1, 'قفل شد', NULL, '1403/10/21', '1403/10/30', '2025-01-08 15:48:45', '2025-01-08 15:48:45', 1),
-(3, 3, 3, 'محبوب ترین ایرپاد های qcy', '3.jpg', 1, 1, 'قفل شد', NULL, '1403/10/21', '1403/10/21', '2025-01-09 20:36:12', '2025-01-09 21:35:02', 1),
-(4, 4, 5, 'miui 18 یکی از بهترین نرم افزار ها', '4.jpg', 1, 1, 'قفل شود', NULL, '1403/10/21', '1403/10/25', '2025-01-10 13:17:44', '2025-01-10 13:17:44', 1);
+INSERT INTO `blog_page` (`id`, `category_id`, `author_id`, `title`, `content`, `image`, `rules`, `locked`, `locked_description`, `unlocked_description`, `published_date`, `published_expire`, `created_at`, `updated_at`, `status`) VALUES
+(1, 1, 1, 'ساعت های هوشمند شیک', 'ساعت های خوب', '1.jpg', 1, 1, 'تغیرات انجام شد', 'باز شه واسه تغیرات در این بلاگ', '1403/10/20', '1403/10/30', '2025-01-07 10:40:03', '2025-01-11 20:31:59', 1),
+(2, 2, 2, 'سریال فرندز', 'از بهترین سریال های کمدی', '2.jpg', 1, 0, 'قفل شد', 'باز شو', '1403/10/20', '1403/10/22', '2025-01-11 19:59:31', '2025-01-11 20:34:43', 1);
 
 -- --------------------------------------------------------
 
@@ -275,7 +274,7 @@ CREATE TABLE IF NOT EXISTS `comment_blog` (
   PRIMARY KEY (`id`),
   KEY `user_id` (`user_id`),
   KEY `comment_blog_ibfk_3` (`blog_id`)
-) ENGINE=InnoDB AUTO_INCREMENT=11 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_persian_ci COMMENT='کامنت های بلاگ';
+) ENGINE=InnoDB AUTO_INCREMENT=12 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_persian_ci COMMENT='کامنت های بلاگ';
 
 --
 -- Dumping data for table `comment_blog`
@@ -291,7 +290,8 @@ INSERT INTO `comment_blog` (`id`, `blog_id`, `parent_id`, `user_id`, `name`, `su
 (7, 1, 6, NULL, 'علی سالاری', NULL, 'موافق نیستم', NULL, '::1', '2024-12-24 09:24:10', NULL, 1),
 (8, 1, 7, 1, 'سروش کارگشا', NULL, 'اشتباه می کنید', NULL, '::1', '2024-12-25 14:38:50', NULL, 1),
 (9, 1, 0, NULL, 'بارمان خورشیدی', NULL, 'دیزاینی عالی و خوب', NULL, '::1', '2025-01-01 15:45:18', NULL, 1),
-(10, 1, 0, 1, 'سروش کارگشا', NULL, 'عالی و دیدنی', NULL, '::1', '2025-01-08 15:42:32', NULL, 1);
+(10, 1, 0, 1, 'سروش کارگشا', NULL, 'عالی و دیدنی', NULL, '::1', '2025-01-08 15:42:32', NULL, 1),
+(11, 2, 0, 5, 'ilia afarin', NULL, 'سریال عالی', NULL, '::1', '2025-01-12 10:59:24', NULL, 1);
 
 -- --------------------------------------------------------
 
@@ -331,25 +331,22 @@ INSERT INTO `digital_product` (`id`, `name`, `image`, `discount_price`, `real_pr
 DROP TABLE IF EXISTS `discounts_index`;
 CREATE TABLE IF NOT EXISTS `discounts_index` (
   `id` int NOT NULL AUTO_INCREMENT COMMENT 'ردیف',
-  `model_name` varchar(32) COLLATE utf8mb4_persian_ci NOT NULL COMMENT 'نام کالا',
-  `real_price` varchar(355) COLLATE utf8mb4_persian_ci NOT NULL COMMENT 'قیمت اصلی',
+  `product_id` int NOT NULL COMMENT 'ردیف محصول',
   `discount_price` varchar(355) COLLATE utf8mb4_persian_ci NOT NULL COMMENT 'قیمت با تخفیف',
-  `image` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_persian_ci NOT NULL COMMENT 'ادرس عکس',
   `status` tinyint(1) NOT NULL DEFAULT '1' COMMENT 'وضعیت',
-  PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=7 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_persian_ci;
+  PRIMARY KEY (`id`),
+  KEY `product_id` (`product_id`)
+) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_persian_ci;
 
 --
 -- Dumping data for table `discounts_index`
 --
 
-INSERT INTO `discounts_index` (`id`, `model_name`, `real_price`, `discount_price`, `image`, `status`) VALUES
-(1, 'گوشی شیائومی m11', '1.350.000', '1.100.000', '1.jpg', 1),
-(2, 'apple watch model m32', '1.550.000', '1.300.000', '2.jpg', 1),
-(3, ' ریش تراش دایاک', '1.250.000', '1.000.000', '3.jpg', 1),
-(4, 'تلویزیون 40 اینچ', '1.950.000', '1.250.000', '4.jpg', 1),
-(5, ' کاپشن زمستانه', '150.000', '100.000', '5.jpg', 1),
-(6, 'هنذفری بلوتوثی شیائومی', '700.000', '600.000', '6.jpg', 1);
+INSERT INTO `discounts_index` (`id`, `product_id`, `discount_price`, `status`) VALUES
+(1, 3, '1250000', 1),
+(2, 4, '1350000', 1),
+(3, 5, '1150000', 1),
+(4, 6, '2300000', 1);
 
 -- --------------------------------------------------------
 
@@ -437,22 +434,21 @@ INSERT INTO `index_adds` (`id`, `name`, `image`, `status`) VALUES
 DROP TABLE IF EXISTS `last_offers`;
 CREATE TABLE IF NOT EXISTS `last_offers` (
   `id` int NOT NULL AUTO_INCREMENT COMMENT 'ردیف',
-  `product_name_english` varchar(64) COLLATE utf8mb4_persian_ci NOT NULL COMMENT 'نام محصول انگلیسی',
-  `product_name_farsi` varchar(64) COLLATE utf8mb4_persian_ci NOT NULL COMMENT 'نام محصول فارسی',
-  `image` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_persian_ci NOT NULL COMMENT 'لینک عکس',
-  `discount_price` varchar(555) COLLATE utf8mb4_persian_ci NOT NULL COMMENT 'قیمت با تخفیف',
-  `real_price` varchar(555) COLLATE utf8mb4_persian_ci NOT NULL COMMENT 'قیمت بدون تخفیف',
+  `product_id` int NOT NULL COMMENT 'ردیف محصول',
+  `product_name_farsi` varchar(64) CHARACTER SET utf8mb4 COLLATE utf8mb4_persian_ci NOT NULL COMMENT 'نام محصول ',
+  `discount_price` int NOT NULL COMMENT 'قیمت با تخفیف',
   `status` tinyint(1) NOT NULL DEFAULT '1' COMMENT 'وضعیت',
-  PRIMARY KEY (`id`)
+  PRIMARY KEY (`id`),
+  KEY `product_id` (`product_id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_persian_ci;
 
 --
 -- Dumping data for table `last_offers`
 --
 
-INSERT INTO `last_offers` (`id`, `product_name_english`, `product_name_farsi`, `image`, `discount_price`, `real_price`, `status`) VALUES
-(1, 'Lenovo Le740 s plus gaming', 'لپ تاپ لنوو مدل Le740 s plus مخصوص گیم', '1.webp', '24,400,000', '27,600,000', 1),
-(2, 'asus tuf 5', 'لپ تاپ ایسوس مدل Le740 s plus مخصوص گیم', '7.jpg', '29,400,000', '37,600,000', 1);
+INSERT INTO `last_offers` (`id`, `product_id`, `product_name_farsi`, `discount_price`, `status`) VALUES
+(1, 1, 'لپ تاپ لنوو مدل Le740 s plus مخصوص گیم', 21000000, 1),
+(2, 2, 'ایسوس تاف 5', 31000000, 1);
 
 -- --------------------------------------------------------
 
@@ -501,9 +497,9 @@ CREATE TABLE IF NOT EXISTS `product` (
 --
 
 INSERT INTO `product` (`id`, `name`, `image`, `price`, `sort`, `status`) VALUES
-(1, 'لپ تاپ لنوو مدل Le740 s plus مخص', '7.jpg', 27600000, 1, 1),
-(2, 'ایسوس تاف 5', '1.webp', 37600000, 2, 1),
-(3, 'گوشی شیائومی m11', '1.jpg', 1350000, 3, 1),
+(1, 'Lenovo Le740 s plus gaming', '7.jpg', 27600000, 1, 1),
+(2, 'asus tuf 5', '1.webp', 37600000, 2, 1),
+(3, 'xiomy m11', '1.jpg', 1350000, 3, 1),
 (4, 'apple watch model m32', '2.jpg', 1550000, 4, 1),
 (5, 'ریش تراش دایاک', '3.jpg', 1250000, 5, 1),
 (6, 'تلویزیون 40 اینچ', '4.jpg', 23000000, 6, 1),
@@ -667,7 +663,7 @@ CREATE TABLE IF NOT EXISTS `users` (
   `status` tinyint(1) NOT NULL DEFAULT '1' COMMENT 'وضعیت',
   PRIMARY KEY (`id`),
   UNIQUE KEY `userName` (`userName`)
-) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_persian_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=6 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_persian_ci;
 
 --
 -- Dumping data for table `users`
@@ -676,7 +672,8 @@ CREATE TABLE IF NOT EXISTS `users` (
 INSERT INTO `users` (`id`, `firstName`, `lastName`, `userName`, `password`, `created_at`, `status`) VALUES
 (1, 'سروش', 'کارگشا', 'sorushkg', '$2y$10$KM5Wymk4byGgmPSFb/gr/ehPPZFIhnQn9vHyPTrShvOalQeD76U2u', '2024-12-23 21:26:58', 1),
 (2, 'سامان', 'کارگشا', 'samankg', '$2y$10$R4RSZEUmEyn4XMW0Xz6fQ.SZzM5OLFSZT06SKH3r5Dcut1J.oxryG', '2024-12-23 21:27:30', 1),
-(4, 'حمید', 'کارگشا', 'hamidkg', '$2y$10$m0pJbq0438OPmF8xG6siY.eyMCqG3kGO3oeOeXiBnD6NuJ7dgCGCm', '2025-01-09 21:38:25', 1);
+(4, 'حمید', 'کارگشا', 'hamidkg', '$2y$10$m0pJbq0438OPmF8xG6siY.eyMCqG3kGO3oeOeXiBnD6NuJ7dgCGCm', '2025-01-09 21:38:25', 1),
+(5, 'ilia', 'afarin', 'iliaAf', '$2y$10$AL7Ltg8ZhGg/jAyFTaviseii7gbHC6U3dDLRXm4cgDC6ikvOWHinG', '2025-01-12 10:56:33', 1);
 
 --
 -- Constraints for dumped tables
@@ -701,6 +698,18 @@ ALTER TABLE `blog_page`
 ALTER TABLE `comment_blog`
   ADD CONSTRAINT `comment_blog_ibfk_2` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`) ON DELETE RESTRICT ON UPDATE RESTRICT,
   ADD CONSTRAINT `comment_blog_ibfk_3` FOREIGN KEY (`blog_id`) REFERENCES `blog_page` (`id`) ON DELETE CASCADE ON UPDATE RESTRICT;
+
+--
+-- Constraints for table `discounts_index`
+--
+ALTER TABLE `discounts_index`
+  ADD CONSTRAINT `discounts_index_ibfk_1` FOREIGN KEY (`product_id`) REFERENCES `product` (`id`) ON DELETE RESTRICT ON UPDATE RESTRICT;
+
+--
+-- Constraints for table `last_offers`
+--
+ALTER TABLE `last_offers`
+  ADD CONSTRAINT `last_offers_ibfk_1` FOREIGN KEY (`product_id`) REFERENCES `product` (`id`) ON DELETE RESTRICT ON UPDATE RESTRICT;
 
 --
 -- Constraints for table `social_media`

@@ -37,7 +37,7 @@
             نام شما :
           </div>
           <div class="mb-2">
-            <input id="name" class="w-full drop-shadow-lg outline-none rounded-2xl py-2 text-center" type="text">
+            <input id="name" class="w-full drop-shadow-lg outline-none rounded-2xl py-2 text-center" placeholder="نام" type="text">
             <p id="errorA"></p>
           </div>
 
@@ -45,7 +45,7 @@
             نام خانوادگی :
           </div>
           <div class="mb-2">
-            <input id="lastname" class="w-full drop-shadow-lg outline-none rounded-2xl py-2 text-center" type="text">
+            <input id="lastname" class="w-full drop-shadow-lg outline-none rounded-2xl py-2 text-center" placeholder="نام خانوادگی" type="text">
             <p id="errorB"></p>
           </div>
 
@@ -53,7 +53,7 @@
             نام کاربری
           </div>
           <div class="mb-2">
-            <input id="username" class="w-full drop-shadow-lg outline-none rounded-2xl py-2 text-center" type="text">
+            <input id="username" class="w-full drop-shadow-lg outline-none rounded-2xl py-2 text-center" placeholder="نام کاربری" type="text">
             <p id="errorC"></p>
           </div>
 
@@ -62,7 +62,7 @@
             رمز عبور:
           </div>
           <div class="mb-2">
-            <input id="password" class="w-full drop-shadow-lg outline-none rounded-2xl py-2 text-center" type="password">
+            <input id="password" class="w-full drop-shadow-lg outline-none rounded-2xl py-2 text-center" placeholder="رمز عبور" type="password">
             <p id="errorD"></p>
           </div>
 
@@ -70,7 +70,7 @@
             تکرار رمز عبور :
           </div>
           <div class="mb-2">
-            <input id="confirmPassword" class="w-full drop-shadow-lg outline-none rounded-2xl py-2 text-center" type="password">
+            <input id="confirmPassword" class="w-full drop-shadow-lg outline-none rounded-2xl py-2 text-center" placeholder="تکرار رمز عبور" type="password">
             <p id="errorE"></p>
           </div>
 

@@ -11,13 +11,7 @@ $latest_articles = queryTemplate("latest_articles",1);
 
 $slider_index = queryTemplate("slider_index", 1);
 
-
 $image_single = queryTemplate("image_single", 1);
-
-$last_offer = queryTemplate("last_offers", 1);
-
-$discount_index = queryTemplate("discounts_index", 1);
-
 
 $best_suggest = queryTemplate("best_suggest", 1);
 

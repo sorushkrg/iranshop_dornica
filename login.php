@@ -33,14 +33,14 @@
           نام کاربری
         </div>
         <div class="mb-2">
-          <input id="username" class="w-full drop-shadow-lg outline-none rounded-2xl py-2 text-center" type="text">
+          <input id="username" class="w-full drop-shadow-lg outline-none rounded-2xl py-2 text-center" placeholder="نام کاریری" type="text">
         </div>
         <p id="errorA"></p>
         <div class="text-xs opacity-70 mb-2">
           رمز عبور
         </div>
         <div class="mb-2">
-          <input id="password" class="w-full drop-shadow-lg outline-none rounded-2xl py-2 text-center" type="password">
+          <input id="password" class="w-full drop-shadow-lg outline-none rounded-2xl py-2 text-center" placeholder="رمز عبور" type="password">
         </div>
         <p id="errorB"></p>
         <div class="text-center mt-5 mb-3">

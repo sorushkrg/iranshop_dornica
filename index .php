@@ -137,10 +137,10 @@
     <!-- SECTION IMAGE -->
     <div>
       <a href="../../../iranshop_dornica/search.php">
-        <img class="rounded-2xl hidden md:block" src="attachment/image/sectionImage/<?= testSecurity($image_single[0]["image"]) ?>"  alt="<?= testSecurity($image_single[0]["name"]) ?>">
+        <img class="rounded-2xl hidden md:block" src="attachment/image/sectionImage/<?= testSecurity($image_single[0]["image"]) ?>" alt="<?= testSecurity($image_single[0]["name"]) ?>">
       </a>
       <a href="../../../iranshop_dornica/search.php"></a>
-      <img class="rounded-2xl md:hidden" src="attachment/image/sectionImage/<?= testSecurity($image_single[1]["image"]) ?>"    alt="<?= testSecurity($image_single[1]["name"]) ?>">
+      <img class="rounded-2xl md:hidden" src="attachment/image/sectionImage/<?= testSecurity($image_single[1]["image"]) ?>" alt="<?= testSecurity($image_single[1]["name"]) ?>">
       </a>
     </div>
 
@@ -166,10 +166,18 @@
         <div class="swiper timerProduct border rounded-xl">
           <div class="swiper-wrapper bg-white">
 
+
+            <?php
+            $db->where("last_offers.status", 1);
+            $db->join("product", "product.ID=last_offers.product_id ", "LEFT");
+            $last_offer = $db->get("last_offers");
+
+            ?>
+
             <?php foreach ($last_offer as $value) { ?>
               <a href="#" class="swiper-slide md:flex bg-white" style="display: flex;">
                 <div class="md:w-1/3">
-                  <img class="max-w-80 w-auto mx-auto rounded-xl" src="attachment/image/productSlider/<?= testSecurity($value["image"]) ?>" alt="<?= testSecurity($value["product_name_english"]) ?>">
+                  <img class="max-w-80 w-auto mx-auto rounded-xl" src="attachment/image/productSlider/<?= testSecurity($value["image"]) ?>" alt="<?= testSecurity($value["name"]) ?>">
                 </div>
                 <div class="md:w-2/3 flex flex-col justify-center py-5">
                   <div class="mx-auto">
@@ -177,7 +185,7 @@
                       <?= testSecurity($value["product_name_farsi"]) ?>
                     </div>
                     <div class="text-zinc-400 text-sm mt-1">
-                      <?= testSecurity($value["product_name_english"]) ?>
+                      <?= testSecurity($value["name"]) ?>
                     </div>
                   </div>
                   <div class="mt-7 mx-auto">
@@ -185,7 +193,7 @@
                       <?= testSecurity($value["discount_price"]) ?>
                     </div>
                     <div class="text-zinc-400 text-sm mt-1 line-through">
-                      <?= testSecurity($value["real_price"]) ?>
+                      <?= testSecurity($value["price"]) ?>
                     </div>
                   </div>
                   <div class="flex w-96 mt-5 mx-auto">
@@ -239,21 +247,27 @@
         <div class="slide-container1 px-2">
           <div class="card-wrapper swiper-wrapper py-4">
 
+
             <?php
-            foreach ($discount_index as $value) {
+            $db->where("discounts_index.status", 1);
+            $db->join("product", "product.ID=discounts_index.product_id ", "LEFT");
+            $discounts_index = $db->get("discounts_index");
+            ?>
+            <?php
+            foreach ($discounts_index as $value) {
             ?>
               <a href="../../../iranshop_dornica/single-product.php" class="card swiper-slide my-2 p-2 md:p-3">
                 <div class="image-box mb-6">
                   <div>
-                    <img class="hover:scale-105 transition rounded-3xl w-full mx-auto" src="attachment/image/productSlider/<?= testSecurity($value['image']) ?>" alt="<?= testSecurity($value['model_name']) ?>" />
+                    <img class="hover:scale-105 transition rounded-3xl w-full mx-auto" src="attachment/image/productSlider/<?= testSecurity($value['image']) ?>" alt="<?= testSecurity($value['name']) ?>" />
                   </div>
                 </div>
                 <div class="space-y-3 text-center">
                   <span class="text-sm opacity-80 mb-2 h-8 md:h-10">
-                    <div><?= testSecurity($value['model_name']) ?></div>
+                    <div><?= testSecurity($value['name']) ?></div>
                   </span>
                   <div class="flex justify-center text-xs opacity-75">
-                    <div class="line-through"><?= testSecurity($value['real_price']) ?></div>
+                    <div class="line-through"><?= testSecurity($value['price']) ?></div>
                     <div class="line-through">تومان</div>
                   </div>
                   <div class="flex justify-center mt-1 mb-2 text-sm">
@@ -421,7 +435,7 @@
         ?>
           <a href="../../../iranshop_dornica/blog(single).php" class="shadow-lg rounded-3xl p-4 hover:text-red-600 transition">
             <div>
-              <img class="rounded-xl hover:scale-105 transition" src="attachment/image/blog/<?= testSecurity($value['image']) ?>" alt="<?= testSecurity($value['name'])?>">
+              <img class="rounded-xl hover:scale-105 transition" src="attachment/image/blog/<?= testSecurity($value['image']) ?>" alt="<?= testSecurity($value['name']) ?>">
             </div>
             <div class="text-sm opacity-90 py-5"><?= testSecurity($value['name']) ?></div>
           </a>
